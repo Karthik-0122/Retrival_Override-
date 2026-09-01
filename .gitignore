@@ -1,0 +1,6 @@
+data/raw/
+data/artifacts/
+.env
+*.pem
+__pycache__/
+*.pyc
