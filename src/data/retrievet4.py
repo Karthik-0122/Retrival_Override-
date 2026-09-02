@@ -57,16 +57,26 @@ def token_f1(pred: str, gold: str) -> float:
     return 2 * precision * recall / (precision + recall)
 
 
-def get_gold_answer_text(record) -> str:
+def get_gold_answer_aliases(record) -> list:
+    """Returns ALL valid answer strings (primary value + aliases), so
+    verbatim/soft matching checks against any of them, not just the first.
+    Falls back to a single-item list if no aliases structure is present."""
     ga = record.get("gold_answers")
-    if isinstance(ga, list):
-        return str(ga[0]) if ga else ""
     if isinstance(ga, dict):
-        v = ga.get("value") or ga.get("aliases")
-        if isinstance(v, list):
-            return str(v[0]) if v else ""
-        return str(v) if v else ""
-    return str(ga) if ga else ""
+        aliases = ga.get("aliases") or []
+        value = ga.get("value")
+        all_answers = ([value] if value else []) + list(aliases)
+        return [a for a in all_answers if a]
+    if isinstance(ga, list):
+        return [str(a) for a in ga if a]
+    return [str(ga)] if ga else []
+
+
+def get_gold_answer_text(record) -> str:
+    """Primary answer only -- kept for cases needing a single string
+    (e.g. display). Prefer get_gold_answer_aliases() for matching."""
+    aliases = get_gold_answer_aliases(record)
+    return aliases[0] if aliases else ""
 
 
 def load_records():
@@ -78,26 +88,29 @@ def load_records():
     return records
 
 
-def compute_retrieval_success(gold_answer: str, passages: list, embedder) -> str:
-    gold_norm = normalize_text(gold_answer)
-    if not gold_norm:
+def compute_retrieval_success(gold_aliases: list, passages: list, embedder) -> str:
+    if not gold_aliases:
         return "none"
 
-    # Tier 1: Verbatim -- exact substring match, normalized
+    # Tier 1: Verbatim -- exact substring match against ANY alias, normalized
     for p in passages:
-        if gold_norm in normalize_text(p):
-            return "verbatim"
+        p_norm = normalize_text(p)
+        for alias in gold_aliases:
+            if normalize_text(alias) in p_norm:
+                return "verbatim"
 
-    # Tier 2: Soft -- token F1 or embedding cosine similarity
-    gold_emb = embedder.encode(gold_answer, convert_to_tensor=True)
+    # Tier 2: Soft -- token F1 or embedding cosine similarity, against
+    # the BEST-matching alias per passage (take the max across aliases)
+    alias_embs = [embedder.encode(a, convert_to_tensor=True) for a in gold_aliases]
     for p in passages:
-        f1 = token_f1(p, gold_answer)
-        if f1 > SOFT_F1_THRESHOLD:
-            return "soft"
         p_emb = embedder.encode(p[:500], convert_to_tensor=True)  # truncate for speed
-        cosine = util.cos_sim(gold_emb, p_emb).item()
-        if cosine > SOFT_COSINE_THRESHOLD:
-            return "soft"
+        for alias, alias_emb in zip(gold_aliases, alias_embs):
+            f1 = token_f1(p, alias)
+            if f1 > SOFT_F1_THRESHOLD:
+                return "soft"
+            cosine = util.cos_sim(alias_emb, p_emb).item()
+            if cosine > SOFT_COSINE_THRESHOLD:
+                return "soft"
 
     return "none"
 
@@ -111,7 +124,7 @@ def main():
         passage_metadata = json.load(f)
 
     print("Loading embedder for soft-match tier (all-MiniLM-L6-v2)...")
-    embedder = SentenceTransformer("all-MiniLM-L6-v2", device = 'CUDA')
+    embedder = SentenceTransformer("all-MiniLM-L6-v2", device = 'CUDA' )
     print(f"Embedder device: {embedder.device}")
 
     records = load_records()
@@ -131,8 +144,8 @@ def main():
             passage_texts.append(text)
             bm25_scores.append(hit.score)
 
-        gold_answer = get_gold_answer_text(r)
-        success = compute_retrieval_success(gold_answer, passage_texts, embedder)
+        gold_aliases = get_gold_answer_aliases(r)
+        success = compute_retrieval_success(gold_aliases, passage_texts, embedder)
         tier_counts[success] += 1
 
         results.append({
