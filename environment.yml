@@ -1,0 +1,9 @@
+name: Retrieval_Override
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - datasets
+prefix: /home/karthik/miniconda3/envs/Retrieval_Override
