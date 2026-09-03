@@ -1,0 +1,86 @@
+{
+  "gemma": {
+    "pooled": {
+      "mean_faithful": 4.803707777860817,
+      "mean_override": 4.77712650367865,
+      "t_stat": -4.245240668302569,
+      "p_value": 2.418748840006512e-05,
+      "n_faithful": 416,
+      "n_override": 459,
+      "significant": "True",
+      "confirms_hypothesis": "True"
+    },
+    "natural_rag_other": {
+      "mean_faithful": 4.805756603968456,
+      "mean_override": 4.807187563910639,
+      "t_stat": 0.15662121234996476,
+      "p_value": 0.8756599094115952,
+      "n_faithful": 298,
+      "n_override": 141,
+      "significant": "False",
+      "confirms_hypothesis": "False"
+    },
+    "popqa": {
+      "mean_faithful": 4.827703249633332,
+      "mean_override": 4.807900980528571,
+      "t_stat": -1.1384027507165724,
+      "p_value": 0.25771098686061605,
+      "n_faithful": 66,
+      "n_override": 42,
+      "significant": "False",
+      "confirms_hypothesis": "True"
+    },
+    "confiqa": {
+      "mean_faithful": 4.761510637148077,
+      "mean_override": 4.75708615034384,
+      "t_stat": -0.3358721107188098,
+      "p_value": 0.7379059389127789,
+      "n_faithful": 52,
+      "n_override": 276,
+      "significant": "False",
+      "confirms_hypothesis": "True"
+    }
+  },
+  "llama": {
+    "pooled": {
+      "mean_faithful": 4.858061639263081,
+      "mean_override": 4.819772999103578,
+      "t_stat": -4.100770105626512,
+      "p_value": 4.550393925863344e-05,
+      "n_faithful": 344,
+      "n_override": 531,
+      "significant": "True",
+      "confirms_hypothesis": "True"
+    },
+    "natural_rag_other": {
+      "mean_faithful": 4.886140385442791,
+      "mean_override": 4.866131228410268,
+      "t_stat": -1.6400753068206957,
+      "p_value": 0.10171223618564093,
+      "n_faithful": 215,
+      "n_override": 224,
+      "significant": "False",
+      "confirms_hypothesis": "True"
+    },
+    "popqa": {
+      "mean_faithful": 4.862861998716,
+      "mean_override": 4.883003811565517,
+      "t_stat": 0.7884119791258207,
+      "p_value": 0.43229568793043893,
+      "n_faithful": 50,
+      "n_override": 58,
+      "significant": "False",
+      "confirms_hypothesis": "False"
+    },
+    "confiqa": {
+      "mean_faithful": 4.77860659620886,
+      "mean_override": 4.763340748149799,
+      "t_stat": -0.9774128247907347,
+      "p_value": 0.3299969890219964,
+      "n_faithful": 79,
+      "n_override": 249,
+      "significant": "False",
+      "confirms_hypothesis": "True"
+    }
+  }
+}

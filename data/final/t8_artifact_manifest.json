@@ -1,0 +1,113 @@
+[
+  {
+    "name": "Lucene index (bm25_index.pkl equivalent)",
+    "path": "data/artifacts/lucene_index",
+    "type": "directory",
+    "note": "Pyserini/Lucene index -- replaces rank_bm25's pickle for scale (see T2). Reload with: LuceneSearcher('data/artifacts/lucene_index')",
+    "exists": true,
+    "size": "63.1MB",
+    "file_count": 16
+  },
+  {
+    "name": "Passage metadata (passage_map.json equivalent)",
+    "path": "data/artifacts/passage_metadata.json",
+    "type": "json",
+    "note": "docid -> {text, title, source, type[, query_id]}",
+    "exists": true,
+    "size": "241.4MB"
+  },
+  {
+    "name": "Wikipedia collection (raw passages, Pyserini input format)",
+    "path": "data/artifacts/collection/passages.jsonl",
+    "type": "jsonl",
+    "note": "id + contents per line -- input to the Lucene index build",
+    "exists": true,
+    "size": "208.0MB",
+    "row_count": 325585
+  },
+  {
+    "name": "PCS scores (T3)",
+    "path": "data/final/pcs_scores.jsonl",
+    "type": "jsonl",
+    "note": "query_id, pcs_gemma, pcs_llama",
+    "exists": true,
+    "size": "124.6KB",
+    "row_count": 1500
+  },
+  {
+    "name": "Retrieval results (T4)",
+    "path": "data/final/retrieval_results.jsonl",
+    "type": "jsonl",
+    "note": "query_id, retrieved_passages, bm25_scores, retrieval_success",
+    "exists": true,
+    "size": "4.9MB",
+    "row_count": 1500
+  },
+  {
+    "name": "Generation results (T5)",
+    "path": "data/final/generation_results.jsonl",
+    "type": "jsonl",
+    "note": "query_id, {model}_answer, {model}_attn_entropy_on_passage",
+    "exists": true,
+    "size": "377.1KB",
+    "row_count": 1500
+  },
+  {
+    "name": "Full eval results (T6, unfiltered)",
+    "path": "data/final/eval_results.jsonl",
+    "type": "jsonl",
+    "note": "ALL rows including retrieval_failed -- per your T8 spec 02",
+    "exists": true,
+    "size": "923.7KB",
+    "row_count": 1500
+  },
+  {
+    "name": "Analysis dataset (T6, faithful+override subset)",
+    "path": "data/final/analysis_dataset.jsonl",
+    "type": "jsonl",
+    "note": "Used for Phase 3 circuit analysis, per your T8 spec 03",
+    "exists": true,
+    "size": "533.6KB",
+    "row_count": 875
+  },
+  {
+    "name": "Primary results table (T7)",
+    "path": "data/final/primary_results_table.csv",
+    "type": "csv",
+    "note": "EM, override rate, mean PCS -- per model x source_category",
+    "exists": true,
+    "size": "819.0B"
+  },
+  {
+    "name": "Spearman correlation results (T7)",
+    "path": "data/final/spearman_results.json",
+    "type": "json",
+    "note": "PCS vs override probability, pooled + per source_category",
+    "exists": true,
+    "size": "1008.0B"
+  },
+  {
+    "name": "PCS distribution figure (T7)",
+    "path": "data/final/figures/pcs_distribution_by_category.png",
+    "type": "png",
+    "note": "Paper figure",
+    "exists": true,
+    "size": "138.0KB"
+  },
+  {
+    "name": "Override rate vs popularity figure (T7, EXPLORATORY)",
+    "path": "data/final/figures/override_rate_vs_popularity_EXPLORATORY.png",
+    "type": "png",
+    "note": "Underpowered -- caption as exploratory in the paper, not a confirmed trend",
+    "exists": true,
+    "size": "74.3KB"
+  },
+  {
+    "name": "Attention entropy comparison figure (T7)",
+    "path": "data/final/figures/attention_entropy_comparison.png",
+    "type": "png",
+    "note": "Paper figure",
+    "exists": true,
+    "size": "48.8KB"
+  }
+]
