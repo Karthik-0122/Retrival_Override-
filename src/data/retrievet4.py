@@ -31,8 +31,8 @@ INDEX_DIR = "data/artifacts/lucene_index"
 METADATA_FILE = "data/artifacts/passage_metadata.json"
 OUTPUT_FILE = "data/final/retrieval_results.jsonl"
 TOP_K = 5
-SOFT_F1_THRESHOLD = 0.5
-SOFT_COSINE_THRESHOLD = 0.85
+SOFT_RECALL_THRESHOLD = 0.7  # fraction of gold answer's tokens found in the passage
+SOFT_COSINE_THRESHOLD = 0.5  # calibrated from calibrate_soft_threshold.py's percentile data
 
 
 def normalize_text(s: str) -> str:
@@ -43,18 +43,20 @@ def normalize_text(s: str) -> str:
     return " ".join(s.split())
 
 
-def token_f1(pred: str, gold: str) -> float:
-    pred_tokens = normalize_text(pred).split()
+def token_recall(passage: str, gold: str) -> float:
+    """Fraction of the GOLD answer's tokens found in the passage. Unlike
+    F1, this has no passage-length penalty -- appropriate for checking
+    'does this ~100-word passage contain the answer's words', not for
+    comparing two short spans of similar length (which is what F1 is
+    actually designed for, and why it was unusable here: precision's
+    denominator is the full passage token count, so F1 stays near zero
+    almost regardless of match quality)."""
+    passage_tokens = set(normalize_text(passage).split())
     gold_tokens = normalize_text(gold).split()
-    if not pred_tokens or not gold_tokens:
+    if not gold_tokens:
         return 0.0
-    common = set(pred_tokens) & set(gold_tokens)
-    if not common:
-        return 0.0
-    num_common = sum(min(pred_tokens.count(t), gold_tokens.count(t)) for t in common)
-    precision = num_common / len(pred_tokens)
-    recall = num_common / len(gold_tokens)
-    return 2 * precision * recall / (precision + recall)
+    matched = sum(1 for t in gold_tokens if t in passage_tokens)
+    return matched / len(gold_tokens)
 
 
 def get_gold_answer_aliases(record) -> list:
@@ -99,14 +101,14 @@ def compute_retrieval_success(gold_aliases: list, passages: list, embedder) -> s
             if normalize_text(alias) in p_norm:
                 return "verbatim"
 
-    # Tier 2: Soft -- token F1 or embedding cosine similarity, against
+    # Tier 2: Soft -- token recall or embedding cosine similarity, against
     # the BEST-matching alias per passage (take the max across aliases)
     alias_embs = [embedder.encode(a, convert_to_tensor=True) for a in gold_aliases]
     for p in passages:
         p_emb = embedder.encode(p[:500], convert_to_tensor=True)  # truncate for speed
         for alias, alias_emb in zip(gold_aliases, alias_embs):
-            f1 = token_f1(p, alias)
-            if f1 > SOFT_F1_THRESHOLD:
+            recall = token_recall(p, alias)
+            if recall > SOFT_RECALL_THRESHOLD:
                 return "soft"
             cosine = util.cos_sim(alias_emb, p_emb).item()
             if cosine > SOFT_COSINE_THRESHOLD:
@@ -124,8 +126,7 @@ def main():
         passage_metadata = json.load(f)
 
     print("Loading embedder for soft-match tier (all-MiniLM-L6-v2)...")
-    embedder = SentenceTransformer("all-MiniLM-L6-v2", device = 'CUDA' )
-    print(f"Embedder device: {embedder.device}")
+    embedder = SentenceTransformer("all-MiniLM-L6-v2")
 
     records = load_records()
     print(f"Loaded {len(records)} records")
