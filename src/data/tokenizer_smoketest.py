@@ -17,8 +17,8 @@ RETRIEVAL_FILE = "data/final/retrieval_results.jsonl"
 N_TEST_QUERIES = 3
 
 MODEL_CONFIGS = {
-    "gemma": "google/gemma-2-9b",
-    "llama": "meta-llama/Llama-3.1-8B",
+    "gemma": "/root/models/gemma-2-9b",
+    "llama": "/root/models/Llama-3.1-8B",
 }
 
 QUANT_CONFIG = BitsAndBytesConfig(
