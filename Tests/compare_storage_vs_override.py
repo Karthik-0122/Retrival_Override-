@@ -9,7 +9,7 @@ Run from repo root:
 
 Requires:
     data/final/causal_tracing_results.jsonl   (from extract_causal_tracing.py)
-    data/final/Phase_03/phase3_length_controlled.json  (already exists)
+    data/final/phase3_length_controlled.json  (already exists)
 
 Writes:
     figures/storage_vs_override_gemma.png
