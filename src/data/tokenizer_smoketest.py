@@ -17,8 +17,8 @@ RETRIEVAL_FILE = "data/final/retrieval_results.jsonl"
 N_TEST_QUERIES = 3
 
 MODEL_CONFIGS = {
-    "gemma": "/root/models/gemma-2-9b",
-    "llama": "/root/models/Llama-3.1-8B",
+    "gemma": "google/gemma-2-9b",
+    "llama": "meta-llama/Llama-3.1-8B",
 }
 
 QUANT_CONFIG = BitsAndBytesConfig(
@@ -35,17 +35,10 @@ def find_question_span(full_prompt, question_text, tokenizer):
 
     encoding = tokenizer(full_prompt, return_tensors="pt", return_offsets_mapping=True,
                           truncation=True, max_length=4096)
-    offsets = encoding["offset_mapping"][0].tolist()
 
-    token_start = None
-    token_end = None
-    for i, (s, e) in enumerate(offsets):
-        if s == e:
-            continue
-        if token_start is None and e > char_start:
-            token_start = i
-        if s < char_end:
-            token_end = i + 1
+    token_start = encoding.char_to_token(char_start)
+    token_end_char = encoding.char_to_token(char_end - 1)
+    token_end = (token_end_char + 1) if token_end_char is not None else None
 
     return token_start, token_end, encoding["input_ids"]
 
