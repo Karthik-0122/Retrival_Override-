@@ -25,7 +25,7 @@ from pathlib import Path
 DATASET_PATH = "data/final/Phase_02/analysis_dataset.jsonl"
 OUT_PATH = "data/final/Phase_04/ablation_test_sample.json"
 
-N_PER_GROUP = 40  # override cases and faithful-control cases, per model
+N_PER_GROUP = 100  # override cases and faithful-control cases, per model
 SEED = 42
 
 

@@ -1,32 +1,35 @@
 """
-Phase 4, T22: Real ablation run.
+Phase 4, T22: Real ablation run (SEQUENTIAL -- batching reverted).
 
-SCOPE DECISION: ablates all target heads for a model TOGETHER (block-level),
-not one at a time. This answers the primary causal question -- "does
-ablating the flagged block flip override cases toward correct answers,
-without breaking faithful cases" -- at a fraction of the compute cost of
-testing every head individually. Per-head attribution (which single head
-matters most) is a natural follow-up ONCE the block-level effect is
-confirmed to exist -- no point paying for that granularity first.
+Batching was attempted for speed, but a smoke test (Tests/smoke_test_batching.py)
+found that batched generation produced different results than sequential
+generation on 2/4 test queries -- specifically only on the ABLATED
+condition, never on baseline. Root cause: floating-point non-determinism
+in batched GPU matmul kernels, landing differently on cases already
+pushed to a marginal decision by the large logit shift ablation causes.
+This means results could depend on BATCH_SIZE, which is not a real
+scientific variable -- reverted to sequential (one query at a time) for
+reproducible, trustworthy numbers.
 
-For each query (override + faithful-control), per model:
-  1. Generate normally (no ablation) -- this is the baseline.
+Ablates all target heads for a model TOGETHER (block-level). For each
+query (override + faithful-control), per model:
+  1. Generate normally (no ablation) -- baseline.
   2. Generate with ALL target heads ablated (mean-patched to their
-     faithful-case values, computed in T22a) -- this is the ablated run.
-  3. Score correctness of both generations against gold answers.
+     faithful-case values, computed in T22a) -- ablated run.
+  3. Score correctness of both against gold_answer_text.
 
 Run from repo root:
     python Tests/run_ablation.py
 
 Requires:
-    data/final/Phase_04/ablation_targets.json
+    data/final/Phase_04/ablation_targets_escalated.json
     data/final/Phase_04/ablation_test_sample.json
-    data/final/Phase_04/faithful_means.pt
+    data/final/Phase_04/faithful_means_escalated.pt
     data/final/Phase_02/analysis_dataset.jsonl
     data/final/Phase_02/retrieval_results.jsonl
 
 Writes:
-    data/final/Phase_04/ablation_results.jsonl
+    data/final/Phase_04/ablation_results_escalated.jsonl
 """
 
 import json
@@ -54,7 +57,7 @@ MODEL_CONFIGS = {
     "llama": "/home/models/Llama-3.1-8B",
 }
 HEAD_DIMS = {"gemma": 256, "llama": 128}
-MAX_NEW_TOKENS = 24  # generous for short factual answers, matches typical answer length seen in this dataset
+MAX_NEW_TOKENS = 24
 
 QUANT_CONFIG = BitsAndBytesConfig(
     load_in_4bit=True,
@@ -75,22 +78,10 @@ def normalize_text(s):
     return s
 
 
-def get_gold_candidates(gold_answer_text):
-    """This dataset version stores the gold answer as a plain string in
-    'gold_answer_text', not the more complex dict/list structure seen in
-    an earlier dataset version. Simple wrapper for a single candidate."""
-    if not gold_answer_text:
-        return []
-    return [gold_answer_text]
-
-
 def is_correct(generated_text, gold_answer_text):
-    candidates = get_gold_candidates(gold_answer_text)
-    norm_gen = normalize_text(generated_text)
-    for c in candidates:
-        if normalize_text(c) in norm_gen:
-            return True
-    return False
+    if not gold_answer_text:
+        return False
+    return normalize_text(gold_answer_text) in normalize_text(generated_text)
 
 
 def merge_passages_and_gold(records, retrieval_records, dataset_records):
@@ -118,23 +109,17 @@ def generate_text(model, tokenizer, prompt, device):
         output_ids = model.generate(
             input_ids,
             max_new_tokens=MAX_NEW_TOKENS,
-            do_sample=False,  # greedy -- deterministic, reproducible
+            do_sample=False,
             pad_token_id=tokenizer.eos_token_id,
         )
     generated = output_ids[0, input_ids.shape[1]:]
     text = tokenizer.decode(generated, skip_special_tokens=True)
 
-    # Generation frequently ran past the actual answer into a hallucinated
-    # continuation of a fake follow-up "Question:...Answer:..." turn,
-    # confirmed by inspecting raw output on this dataset. Truncate at the
-    # first sign of that runaway continuation so correctness scoring sees
-    # a clean answer, not answer-plus-fabricated-next-turn.
     for stop_str in ["\nQuestion:", "\nquestion:", "\n\n"]:
         idx = text.find(stop_str)
         if idx != -1:
             text = text[:idx]
-    text = text.split("\n")[0].strip()  # also cut at first plain newline as a final guard
-
+    text = text.split("\n")[0].strip()
     return text
 
 
@@ -148,7 +133,6 @@ def run_model(model_key, model_path, targets, test_sample, means, device):
     model.eval()
     head_dim = HEAD_DIMS[model_key]
 
-    # set up one AblationHook per target, all initially disarmed
     hooks = []
     handles = []
     for t in targets:
