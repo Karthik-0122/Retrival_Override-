@@ -1,0 +1,654 @@
+{
+  "gemma": {
+    "override_cases": [
+      {
+        "query_id": "confiqa_01266",
+        "question": "What award did Emmerson Mnangagwa receive?"
+      },
+      {
+        "query_id": "confiqa_01461",
+        "question": "What is the native language of Cillian Murphy?"
+      },
+      {
+        "query_id": "confiqa_00614",
+        "question": "What is the religion of Tom Parker Bowles?"
+      },
+      {
+        "query_id": "confiqa_01163",
+        "question": "What country did Subrahmanyan Chandrasekhar hold citizenship in?"
+      },
+      {
+        "query_id": "nq_02413",
+        "question": "when did the broncos win the super bowl"
+      },
+      {
+        "query_id": "confiqa_00145",
+        "question": "Who performed in Star Wars: The Rise of Skywalker?"
+      },
+      {
+        "query_id": "triviaqa_09606",
+        "question": "Who famously described England as \u201ca nation of shopkeepers\u201d?"
+      },
+      {
+        "query_id": "confiqa_01103",
+        "question": "Who is the spouse of Vanessa Hudgens?"
+      },
+      {
+        "query_id": "confiqa_00638",
+        "question": "Who is the founder of A Tribe Called Quest?"
+      },
+      {
+        "query_id": "nq_00328",
+        "question": "when was the canadian pacific railway started and finished"
+      },
+      {
+        "query_id": "confiqa_01209",
+        "question": "Who was Richard Blumenthal's employer?"
+      },
+      {
+        "query_id": "nq_01563",
+        "question": "where does the river irk start and finish"
+      },
+      {
+        "query_id": "confiqa_00676",
+        "question": "What is the official language of India?"
+      },
+      {
+        "query_id": "confiqa_00601",
+        "question": "Who is the spouse of Mary Steenburgen?"
+      },
+      {
+        "query_id": "confiqa_01316",
+        "question": "What ethnic group does Michael Lang (producer) belong to?"
+      },
+      {
+        "query_id": "nq_03565",
+        "question": "when does the sa node begin electrical signaling"
+      },
+      {
+        "query_id": "nq_00008",
+        "question": "what is the hot coffee mod in san andreas"
+      },
+      {
+        "query_id": "nq_01292",
+        "question": "where does the us launch space shuttles from"
+      },
+      {
+        "query_id": "confiqa_00778",
+        "question": "Who composed the music for the film \"Heaven Can Wait\"?"
+      },
+      {
+        "query_id": "popqa_13970",
+        "question": "What is the capital of Mexico?"
+      },
+      {
+        "query_id": "popqa_06209",
+        "question": "Who was the director of Crossing the Bridge?"
+      },
+      {
+        "query_id": "nq_00290",
+        "question": "how many breeds of pigs are there in the uk"
+      },
+      {
+        "query_id": "confiqa_01149",
+        "question": "What is the native language of Michael Carrick?"
+      },
+      {
+        "query_id": "triviaqa_06222",
+        "question": "What product is obtained from the tree Hevea Braziliensis' (amongst others)?"
+      },
+      {
+        "query_id": "confiqa_00683",
+        "question": "What award did Diana Ross receive related to the Michigan Women's Hall of Fame?"
+      },
+      {
+        "query_id": "confiqa_01010",
+        "question": "Who is the spouse of David Beckham?"
+      },
+      {
+        "query_id": "confiqa_01059",
+        "question": "What band was Ric Ocasek a member of?"
+      },
+      {
+        "query_id": "confiqa_00514",
+        "question": "What sport does Andre Ingram play?"
+      },
+      {
+        "query_id": "confiqa_00859",
+        "question": "What is the official language of Kharkiv?"
+      },
+      {
+        "query_id": "confiqa_01166",
+        "question": "What position did Archie Manning play?"
+      },
+      {
+        "query_id": "nq_00731",
+        "question": "what are the functions of the human skeleton"
+      },
+      {
+        "query_id": "nq_02671",
+        "question": "who won the battle of britain in ww2"
+      },
+      {
+        "query_id": "popqa_05168",
+        "question": "Who was the producer of Saw II?"
+      },
+      {
+        "query_id": "nq_03211",
+        "question": "when did the new day win the tag team titles"
+      },
+      {
+        "query_id": "nq_01952",
+        "question": "who devised the fingerprint classification still used today in europe and the us"
+      },
+      {
+        "query_id": "confiqa_00313",
+        "question": "What country does Karim Benzema have citizenship in?"
+      },
+      {
+        "query_id": "confiqa_00030",
+        "question": "What is the official language of Niger?"
+      },
+      {
+        "query_id": "confiqa_01135",
+        "question": "What is the religion of Lal Bahadur Shastri?"
+      },
+      {
+        "query_id": "confiqa_01197",
+        "question": "What band was Freddie Mercury a member of?"
+      },
+      {
+        "query_id": "confiqa_00928",
+        "question": "What country is Colton Underwood a citizen of?"
+      }
+    ],
+    "faithful_control_cases": [
+      {
+        "query_id": "triviaqa_10295",
+        "question": "In Harry Potter And The Goblet Of Fire, which dragon did Harry have to defeat?"
+      },
+      {
+        "query_id": "nq_02254",
+        "question": "delhi is on the banks of which river"
+      },
+      {
+        "query_id": "popqa_06735",
+        "question": "Who was the director of Like Crazy?"
+      },
+      {
+        "query_id": "triviaqa_03039",
+        "question": "The German company Recaro famously produces what high-performance product?"
+      },
+      {
+        "query_id": "nq_02392",
+        "question": "when does the implantation of the embryo occur"
+      },
+      {
+        "query_id": "nq_01327",
+        "question": "what does it mean to fuse the spine"
+      },
+      {
+        "query_id": "confiqa_00924",
+        "question": "What is Manmohan Singh's employer?"
+      },
+      {
+        "query_id": "nq_01002",
+        "question": "who was the person who escaped from alcatraz"
+      },
+      {
+        "query_id": "popqa_14112",
+        "question": "What is the capital of Gulf Province?"
+      },
+      {
+        "query_id": "nq_02298",
+        "question": "when did colour tv come out in uk"
+      },
+      {
+        "query_id": "nq_00938",
+        "question": "who designed the earth day flag in 1969"
+      },
+      {
+        "query_id": "nq_00060",
+        "question": "what's the dog's name on tom and jerry"
+      },
+      {
+        "query_id": "nq_02175",
+        "question": "who wrote song what a friend we have in jesus"
+      },
+      {
+        "query_id": "triviaqa_06012",
+        "question": "Who has been Archbishop of York since 2005?"
+      },
+      {
+        "query_id": "triviaqa_08690",
+        "question": "In which US state is Denali National Park?"
+      },
+      {
+        "query_id": "nq_03063",
+        "question": "who plays lady talisa in game of thrones"
+      },
+      {
+        "query_id": "triviaqa_14700",
+        "question": "Which car manufacturer produces models called Concerto, Inspire, Legend, Torneo, etc?"
+      },
+      {
+        "query_id": "triviaqa_06089",
+        "question": "In the Sudanese wars, which British general won the Battle of Omdurman?"
+      },
+      {
+        "query_id": "triviaqa_16358",
+        "question": "Which singer's real name is Elaine Bookbinder?"
+      },
+      {
+        "query_id": "popqa_05804",
+        "question": "Who was the director of The Designated Mourner?"
+      },
+      {
+        "query_id": "triviaqa_04340",
+        "question": "\"What English model, with her short-haired androgynous look, born Lesley Hornby, was discovered in 1966 by Nigel Davies when she was 16 and weighed 6 stone (41 kg, 91 lbs), and became \"\"The Face of '66\"\" with her high fashion mod look created by Mary Quant?\""
+      },
+      {
+        "query_id": "triviaqa_10311",
+        "question": "Which notorious murderer lived at 10 Rillington Place?"
+      },
+      {
+        "query_id": "nq_01734",
+        "question": "who plays ser davos in game of thrones"
+      },
+      {
+        "query_id": "nq_01550",
+        "question": "the first line of http request message is called ____"
+      },
+      {
+        "query_id": "confiqa_00543",
+        "question": "What award did Colleen Ballinger receive?"
+      },
+      {
+        "query_id": "triviaqa_09482",
+        "question": "At which film festival could you be awarded the 'Palm d'Or'?"
+      },
+      {
+        "query_id": "confiqa_00104",
+        "question": "What organization is Ulysses S. Grant a member of?"
+      },
+      {
+        "query_id": "triviaqa_10076",
+        "question": "In which North African country was Mohammed Al-Fayed, owner of Harrods department store in London, born?"
+      },
+      {
+        "query_id": "nq_01936",
+        "question": "who sang the song tell me something good"
+      },
+      {
+        "query_id": "triviaqa_12449",
+        "question": "The first (joint-)winner of the Nobel Peace Prize, Swiss Jean Henri Dunant, in 1901, founded which international organization?"
+      },
+      {
+        "query_id": "triviaqa_17573",
+        "question": "What was Grace Darling's father's job?"
+      },
+      {
+        "query_id": "triviaqa_16477",
+        "question": "At a height of over 3,000 feet, the Tugela Falls are the second highest in the world. In which country are the Tugela Falls?"
+      },
+      {
+        "query_id": "triviaqa_03276",
+        "question": "Eamon de Valera founded which Irish political party in 1926?"
+      },
+      {
+        "query_id": "nq_02792",
+        "question": "when did australia 2 win the america's cup"
+      },
+      {
+        "query_id": "confiqa_00484",
+        "question": "What is the country of origin of The BFG (2016 film)?"
+      },
+      {
+        "query_id": "nq_02261",
+        "question": "what type of energy do satellites generally use to communicate with earth"
+      },
+      {
+        "query_id": "nq_02268",
+        "question": "what state does rick and morty take place in"
+      },
+      {
+        "query_id": "triviaqa_15054",
+        "question": "The Melrose Cup is awarded in which ball sport?"
+      },
+      {
+        "query_id": "confiqa_01083",
+        "question": "Who is the chairperson of 21st Century Fox?"
+      },
+      {
+        "query_id": "triviaqa_07467",
+        "question": "The infamous drug cartel run by Pablo Escobar through the 1970s and 1980s takes its name from which Columbian city?"
+      }
+    ]
+  },
+  "llama": {
+    "override_cases": [
+      {
+        "query_id": "triviaqa_10366",
+        "question": "What is the name of the company that owned the spaceship Red Dwarf?"
+      },
+      {
+        "query_id": "popqa_11991",
+        "question": "Who is the author of Endpeace?"
+      },
+      {
+        "query_id": "confiqa_00255",
+        "question": "What country is Giorgio Chiellini a citizen of?"
+      },
+      {
+        "query_id": "nq_02360",
+        "question": "who owns the delano hotel in las vegas"
+      },
+      {
+        "query_id": "confiqa_00826",
+        "question": "What field of work is Timothy Leary associated with?"
+      },
+      {
+        "query_id": "nq_01023",
+        "question": "where does trick or treat for unicef money go"
+      },
+      {
+        "query_id": "confiqa_01312",
+        "question": "What country was Herbert Hoover a citizen of?"
+      },
+      {
+        "query_id": "confiqa_01052",
+        "question": "What is the religion of Mohamed Al-Fayed?"
+      },
+      {
+        "query_id": "triviaqa_17573",
+        "question": "What was Grace Darling's father's job?"
+      },
+      {
+        "query_id": "confiqa_01149",
+        "question": "What is the native language of Michael Carrick?"
+      },
+      {
+        "query_id": "nq_00456",
+        "question": "what is the meaning of the harp in ireland"
+      },
+      {
+        "query_id": "popqa_03006",
+        "question": "Who is the father of Harry Augustus Garfield?"
+      },
+      {
+        "query_id": "nq_01002",
+        "question": "who was the person who escaped from alcatraz"
+      },
+      {
+        "query_id": "confiqa_01093",
+        "question": "Who is the author of the novel Allegiant?"
+      },
+      {
+        "query_id": "nq_00029",
+        "question": "when was the south asian association for regional co-operation (saarc) formed"
+      },
+      {
+        "query_id": "confiqa_01220",
+        "question": "Where did Rudolf Weigl work?"
+      },
+      {
+        "query_id": "nq_03215",
+        "question": "new movie of ajay devgan and sonakshi sinha"
+      },
+      {
+        "query_id": "triviaqa_11146",
+        "question": "How many \u2018Triangles\u2019 are there on the logo of car manufacturer BMW?"
+      },
+      {
+        "query_id": "confiqa_01086",
+        "question": "Where is the headquarters of Inter Miami CF located?"
+      },
+      {
+        "query_id": "confiqa_00776",
+        "question": "What record label is Kiss (band) signed to?"
+      },
+      {
+        "query_id": "confiqa_00004",
+        "question": "What sport does Wyatt Russell play?"
+      },
+      {
+        "query_id": "confiqa_00714",
+        "question": "What genre is associated with Stephen King?"
+      },
+      {
+        "query_id": "nq_00418",
+        "question": "criminal minds what episode does jj find out she pregnant"
+      },
+      {
+        "query_id": "confiqa_01417",
+        "question": "What society is Fridtjof Nansen a member of?"
+      },
+      {
+        "query_id": "triviaqa_09012",
+        "question": "Of which tribe of Red Indians was Geronimo a chief"
+      },
+      {
+        "query_id": "confiqa_01457",
+        "question": "What position did Ray Emery play?"
+      },
+      {
+        "query_id": "confiqa_00924",
+        "question": "What is Manmohan Singh's employer?"
+      },
+      {
+        "query_id": "confiqa_00145",
+        "question": "Who performed in Star Wars: The Rise of Skywalker?"
+      },
+      {
+        "query_id": "confiqa_00365",
+        "question": "What band is Zooey Deschanel a member of?"
+      },
+      {
+        "query_id": "popqa_13464",
+        "question": "Who is the mother of Helena Wayne?"
+      },
+      {
+        "query_id": "popqa_11216",
+        "question": "What is the religion of John Peter Jukes?"
+      },
+      {
+        "query_id": "confiqa_01471",
+        "question": "What band was Zayn Malik a member of?"
+      },
+      {
+        "query_id": "triviaqa_12433",
+        "question": "The expression 'Go West' originally (mid-1800s) encouraged people to move from/within?"
+      },
+      {
+        "query_id": "confiqa_00534",
+        "question": "What position does Patrick Leahy hold?"
+      },
+      {
+        "query_id": "confiqa_01135",
+        "question": "What is the religion of Lal Bahadur Shastri?"
+      },
+      {
+        "query_id": "confiqa_01070",
+        "question": "Who is the author of Attack on Titan (TV series)?"
+      },
+      {
+        "query_id": "confiqa_01197",
+        "question": "What band was Freddie Mercury a member of?"
+      },
+      {
+        "query_id": "confiqa_00907",
+        "question": "What position does Zaza Pachulia play?"
+      },
+      {
+        "query_id": "popqa_04339",
+        "question": "Who was the producer of Monkeybone?"
+      },
+      {
+        "query_id": "confiqa_00821",
+        "question": "What award did Roseanne Barr receive?"
+      }
+    ],
+    "faithful_control_cases": [
+      {
+        "query_id": "triviaqa_16171",
+        "question": "Which art gallery is in Trafalgar Square?"
+      },
+      {
+        "query_id": "popqa_11770",
+        "question": "What sport does Andr\u00e9 Racicot play?"
+      },
+      {
+        "query_id": "confiqa_00001",
+        "question": "What band is Hugh Laurie a member of?"
+      },
+      {
+        "query_id": "triviaqa_01029",
+        "question": "Tewkesbury Mustard is mentioned in which Shakespeare play?"
+      },
+      {
+        "query_id": "confiqa_01110",
+        "question": "What is the country of citizenship of Prince Michael of Kent?"
+      },
+      {
+        "query_id": "popqa_12461",
+        "question": "Who is the author of Kanojo wa Uso o Aishisugiteru?"
+      },
+      {
+        "query_id": "triviaqa_06515",
+        "question": "Which Roman Emperor succeeded his father Vespasian in 79?"
+      },
+      {
+        "query_id": "triviaqa_15623",
+        "question": "The statue of the 'Little Mermaid' is in the harbour of which city?"
+      },
+      {
+        "query_id": "popqa_00821",
+        "question": "In what city was Ingvild Bryn born?"
+      },
+      {
+        "query_id": "confiqa_00435",
+        "question": "What record label did Rosemary Clooney sign with?"
+      },
+      {
+        "query_id": "popqa_06930",
+        "question": "Who was the director of Baxter!?"
+      },
+      {
+        "query_id": "triviaqa_12403",
+        "question": "The Turkish Van (or Turkish Vankedisi), originally from the eastern Turkish lakeside city of Van, is domestic breed of?"
+      },
+      {
+        "query_id": "triviaqa_15947",
+        "question": "The documentary about the making of which 1970s groundbreaking film was titled Hearts of Darkness alluding not just to the novel that inspired it but also to it's chaotic production?"
+      },
+      {
+        "query_id": "nq_00128",
+        "question": "how many episodes of greys anatomy season 14"
+      },
+      {
+        "query_id": "triviaqa_06232",
+        "question": "Which teacher taught Helen Keller to communicate?"
+      },
+      {
+        "query_id": "confiqa_01404",
+        "question": "What record label is Jay-Z associated with?"
+      },
+      {
+        "query_id": "triviaqa_06940",
+        "question": "The first session of the United Nations General Assembly was convened in January 1946, in which city?"
+      },
+      {
+        "query_id": "nq_01667",
+        "question": "what state did they film daddy's home 2"
+      },
+      {
+        "query_id": "triviaqa_09617",
+        "question": "March 30, 1853 saw the birth of one of the most influential painters of all time, Vincent van Gogh, in what European country?"
+      },
+      {
+        "query_id": "nq_01284",
+        "question": "bacterial cell walls are made rigid by the presence of"
+      },
+      {
+        "query_id": "confiqa_00904",
+        "question": "What award did Seve Ballesteros receive from the University of St Andrews?"
+      },
+      {
+        "query_id": "triviaqa_02267",
+        "question": "Which city in Saxony was known as Karl-Marx-Stadt from 1953 until 1990?"
+      },
+      {
+        "query_id": "triviaqa_17455",
+        "question": "Name the Greek Mythological hero who killed the gorgon Medusa?"
+      },
+      {
+        "query_id": "triviaqa_12252",
+        "question": "Alan Greenspan is a former chairman of what organization?"
+      },
+      {
+        "query_id": "triviaqa_12969",
+        "question": "Which film, directed by David Lean and starring John Mills, opens with an escaped convict grabbing hold of a boy in a graveyard?"
+      },
+      {
+        "query_id": "triviaqa_15773",
+        "question": "The 53.5 km Milford Track is a long-distance walk in which country?"
+      },
+      {
+        "query_id": "triviaqa_17669",
+        "question": "Who's missing: Bashful, Doc, Dopey, Grumpy, Happy, Sleepy"
+      },
+      {
+        "query_id": "confiqa_01478",
+        "question": "What award did Vera Wang receive?"
+      },
+      {
+        "query_id": "confiqa_01492",
+        "question": "What is Shohei Ohtani's country of citizenship?"
+      },
+      {
+        "query_id": "triviaqa_08021",
+        "question": "Which novel features the scholar 'Humbert Humbert'?"
+      },
+      {
+        "query_id": "triviaqa_04120",
+        "question": "\"On 2 November 2010, the oil painting \"\"Nude Sitting on a Divan\"\" sold for $68.9 million, a record for an artwork by which artist?\""
+      },
+      {
+        "query_id": "popqa_13789",
+        "question": "What is the capital of Comoros?"
+      },
+      {
+        "query_id": "triviaqa_11861",
+        "question": "With which song did Lulu represent the UK in the 1969 Eurovision Song Contest?"
+      },
+      {
+        "query_id": "triviaqa_16959",
+        "question": "Of which country was Adrian Nastase Prime Minister from 2000 to 2004?"
+      },
+      {
+        "query_id": "confiqa_01163",
+        "question": "What country did Subrahmanyan Chandrasekhar hold citizenship in?"
+      },
+      {
+        "query_id": "nq_02390",
+        "question": "name the tissue type of the inner most layer of cells"
+      },
+      {
+        "query_id": "popqa_00993",
+        "question": "In what city was JB Magsaysay born?"
+      },
+      {
+        "query_id": "confiqa_01090",
+        "question": "Who directed the film Patriots Day?"
+      },
+      {
+        "query_id": "popqa_12665",
+        "question": "Who is the author of Darkfever?"
+      },
+      {
+        "query_id": "triviaqa_17671",
+        "question": "Now a part of Carnival Corporation, what shipping company commissioned and sailed the RMS Titanic?"
+      }
+    ]
+  }
+}
