@@ -35,8 +35,15 @@ def load_jsonl(path):
 
 def select_for_model(records, model):
     label_key = f"{model}_label"
-    override = [r for r in records if r.get(label_key) == "override"]
-    faithful = [r for r in records if r.get(label_key) == "faithful"]
+    # Exclude ConFiQA: its "override" label means the model correctly
+    # RESISTED a false/counterfactual passage (the good outcome there),
+    # opposite of what "override" means for NQ/TriviaQA/PopQA (wrongly
+    # ignoring a CORRECT passage). Scoring correctness the same way for
+    # both would be backwards for ConFiQA rows. Kept separate throughout
+    # this project for exactly this reason -- same here.
+    non_confiqa = [r for r in records if r.get("source_category") != "confiqa"]
+    override = [r for r in non_confiqa if r.get(label_key) == "override"]
+    faithful = [r for r in non_confiqa if r.get(label_key) == "faithful"]
 
     rng = random.Random(SEED)
     rng.shuffle(override)

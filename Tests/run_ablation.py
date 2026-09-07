@@ -75,33 +75,17 @@ def normalize_text(s):
     return s
 
 
-def get_gold_candidates(gold):
-    """Same multi-format handling as build_causal_tracing_probes.py --
-    gold_answers can be a dict (value/aliases), a plain string, or a list.
-    Returns a list of acceptable answer strings for correctness checking."""
-    candidates = []
-    if isinstance(gold, dict):
-        if gold.get("value"):
-            candidates.append(gold["value"])
-        candidates.extend(gold.get("aliases") or [])
-        candidates.extend(gold.get("normalized_aliases") or [])
-    elif isinstance(gold, str):
-        s = gold.strip()
-        if s.startswith("[") and s.endswith("]"):
-            try:
-                parsed = json.loads(s)
-                candidates.extend(parsed if isinstance(parsed, list) else [parsed])
-            except json.JSONDecodeError:
-                candidates.append(gold)
-        else:
-            candidates.append(gold)
-    elif isinstance(gold, list):
-        candidates.extend(gold)
-    return [c for c in candidates if c]
+def get_gold_candidates(gold_answer_text):
+    """This dataset version stores the gold answer as a plain string in
+    'gold_answer_text', not the more complex dict/list structure seen in
+    an earlier dataset version. Simple wrapper for a single candidate."""
+    if not gold_answer_text:
+        return []
+    return [gold_answer_text]
 
 
-def is_correct(generated_text, gold):
-    candidates = get_gold_candidates(gold)
+def is_correct(generated_text, gold_answer_text):
+    candidates = get_gold_candidates(gold_answer_text)
     norm_gen = normalize_text(generated_text)
     for c in candidates:
         if normalize_text(c) in norm_gen:
@@ -122,7 +106,7 @@ def merge_passages_and_gold(records, retrieval_records, dataset_records):
             "query_id": r["query_id"],
             "question": r["question"],
             "retrieved_passages": retrieval.get("retrieved_passages", []),
-            "gold_answers": dataset_row.get("gold_answers"),
+            "gold_answer_text": dataset_row.get("gold_answer_text"),
         })
     return merged
 
@@ -198,12 +182,12 @@ def run_model(model_key, model_path, targets, test_sample, means, device):
             for h in hooks:
                 h.disarm()
             baseline_text = generate_text(model, tokenizer, prompt, device)
-            baseline_correct = is_correct(baseline_text, r["gold_answers"])
+            baseline_correct = is_correct(baseline_text, r["gold_answer_text"])
 
             for h in hooks:
                 h.arm()
             ablated_text = generate_text(model, tokenizer, prompt, device)
-            ablated_correct = is_correct(ablated_text, r["gold_answers"])
+            ablated_correct = is_correct(ablated_text, r["gold_answer_text"])
             for h in hooks:
                 h.disarm()
 
