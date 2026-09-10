@@ -1,0 +1,854 @@
+{
+  "n": 94,
+  "real_mean_shift": 0.2587468918967754,
+  "control_mean_shift": 0.0017717588455119031,
+  "pvalue": 0.013201215508085312,
+  "per_query": [
+    {
+      "query_id": "triviaqa_06222",
+      "pcs_gemma": -4.3403630257,
+      "baseline_logprob": -6.8986687660217285,
+      "real_logprob": -7.1856207847595215,
+      "control_logprob": -7.185558319091797,
+      "real_shift": -0.28695201873779297,
+      "control_shift": -0.28688955307006836
+    },
+    {
+      "query_id": "popqa_13970",
+      "pcs_gemma": -1.4005621672,
+      "baseline_logprob": -15.985998153686523,
+      "real_logprob": -14.6053466796875,
+      "control_logprob": -15.88778018951416,
+      "real_shift": 1.3806514739990234,
+      "control_shift": 0.09821796417236328
+    },
+    {
+      "query_id": "nq_01620",
+      "pcs_gemma": -4.5544867516,
+      "baseline_logprob": -2.6451287269592285,
+      "real_logprob": -3.697601318359375,
+      "control_logprob": -2.7063353061676025,
+      "real_shift": -1.0524725914001465,
+      "control_shift": -0.06120657920837402
+    },
+    {
+      "query_id": "nq_00674",
+      "pcs_gemma": -5.1700229645,
+      "baseline_logprob": -0.879676342010498,
+      "real_logprob": -0.652843713760376,
+      "control_logprob": -0.8765664100646973,
+      "real_shift": 0.22683262825012207,
+      "control_shift": 0.0031099319458007812
+    },
+    {
+      "query_id": "nq_01563",
+      "pcs_gemma": -5.9833803177,
+      "baseline_logprob": -12.140161514282227,
+      "real_logprob": -11.169198989868164,
+      "control_logprob": -12.340692520141602,
+      "real_shift": 0.9709625244140625,
+      "control_shift": -0.200531005859375
+    },
+    {
+      "query_id": "popqa_01312",
+      "pcs_gemma": -2.4986796379,
+      "baseline_logprob": -18.196197509765625,
+      "real_logprob": -16.472183227539062,
+      "control_logprob": -18.01664161682129,
+      "real_shift": 1.7240142822265625,
+      "control_shift": 0.17955589294433594
+    },
+    {
+      "query_id": "popqa_11302",
+      "pcs_gemma": -2.5700652599,
+      "baseline_logprob": -16.717002868652344,
+      "real_logprob": -14.911458015441895,
+      "control_logprob": -15.777264595031738,
+      "real_shift": 1.8055448532104492,
+      "control_shift": 0.9397382736206055
+    },
+    {
+      "query_id": "popqa_11791",
+      "pcs_gemma": -2.3683328629,
+      "baseline_logprob": -17.523895263671875,
+      "real_logprob": -16.517446517944336,
+      "control_logprob": -17.605722427368164,
+      "real_shift": 1.006448745727539,
+      "control_shift": -0.08182716369628906
+    },
+    {
+      "query_id": "popqa_02060",
+      "pcs_gemma": -3.4458150864,
+      "baseline_logprob": -15.873808860778809,
+      "real_logprob": -14.984110832214355,
+      "control_logprob": -15.536086082458496,
+      "real_shift": 0.8896980285644531,
+      "control_shift": 0.3377227783203125
+    },
+    {
+      "query_id": "nq_00995",
+      "pcs_gemma": -7.4889059067,
+      "baseline_logprob": -5.8155107498168945,
+      "real_logprob": -5.745877742767334,
+      "control_logprob": -5.725863933563232,
+      "real_shift": 0.06963300704956055,
+      "control_shift": 0.08964681625366211
+    },
+    {
+      "query_id": "popqa_14242",
+      "pcs_gemma": -3.0212008953,
+      "baseline_logprob": -16.09682846069336,
+      "real_logprob": -14.623095512390137,
+      "control_logprob": -15.808660507202148,
+      "real_shift": 1.4737329483032227,
+      "control_shift": 0.28816795349121094
+    },
+    {
+      "query_id": "triviaqa_00976",
+      "pcs_gemma": -3.1143522263,
+      "baseline_logprob": -3.623708486557007,
+      "real_logprob": -3.2741951942443848,
+      "control_logprob": -3.5138750076293945,
+      "real_shift": 0.34951329231262207,
+      "control_shift": 0.1098334789276123
+    },
+    {
+      "query_id": "nq_00413",
+      "pcs_gemma": -1.4631062746,
+      "baseline_logprob": -2.15436053276062,
+      "real_logprob": -3.3020377159118652,
+      "control_logprob": -2.372462749481201,
+      "real_shift": -1.1476771831512451,
+      "control_shift": -0.21810221672058105
+    },
+    {
+      "query_id": "popqa_11199",
+      "pcs_gemma": -2.6731419563,
+      "baseline_logprob": -17.905113220214844,
+      "real_logprob": -15.449585914611816,
+      "control_logprob": -17.348220825195312,
+      "real_shift": 2.4555273056030273,
+      "control_shift": 0.5568923950195312
+    },
+    {
+      "query_id": "nq_00262",
+      "pcs_gemma": -3.7992165089,
+      "baseline_logprob": -11.146675109863281,
+      "real_logprob": -12.131782531738281,
+      "control_logprob": -11.790698051452637,
+      "real_shift": -0.985107421875,
+      "control_shift": -0.6440229415893555
+    },
+    {
+      "query_id": "nq_02105",
+      "pcs_gemma": -3.4480447769,
+      "baseline_logprob": -2.065838575363159,
+      "real_logprob": -1.6764297485351562,
+      "control_logprob": -2.2415199279785156,
+      "real_shift": 0.38940882682800293,
+      "control_shift": -0.17568135261535645
+    },
+    {
+      "query_id": "nq_01168",
+      "pcs_gemma": -0.7122843266,
+      "baseline_logprob": -0.7582669258117676,
+      "real_logprob": -0.4525641202926636,
+      "control_logprob": -0.7086547613143921,
+      "real_shift": 0.305702805519104,
+      "control_shift": 0.04961216449737549
+    },
+    {
+      "query_id": "triviaqa_10366",
+      "pcs_gemma": -1.9601202011,
+      "baseline_logprob": -2.8320388793945312,
+      "real_logprob": -4.671985626220703,
+      "control_logprob": -2.824974536895752,
+      "real_shift": -1.8399467468261719,
+      "control_shift": 0.007064342498779297
+    },
+    {
+      "query_id": "nq_02087",
+      "pcs_gemma": -3.1256463528,
+      "baseline_logprob": -3.7829437255859375,
+      "real_logprob": -2.8429017066955566,
+      "control_logprob": -3.8153927326202393,
+      "real_shift": 0.9400420188903809,
+      "control_shift": -0.03244900703430176
+    },
+    {
+      "query_id": "nq_02561",
+      "pcs_gemma": -2.4761357307,
+      "baseline_logprob": -2.5944466590881348,
+      "real_logprob": -3.71307635307312,
+      "control_logprob": -2.6168620586395264,
+      "real_shift": -1.1186296939849854,
+      "control_shift": -0.0224153995513916
+    },
+    {
+      "query_id": "popqa_11216",
+      "pcs_gemma": -2.6918547153,
+      "baseline_logprob": -14.506260871887207,
+      "real_logprob": -12.892199516296387,
+      "control_logprob": -14.2998046875,
+      "real_shift": 1.6140613555908203,
+      "control_shift": 0.20645618438720703
+    },
+    {
+      "query_id": "nq_03189",
+      "pcs_gemma": -1.1734398603,
+      "baseline_logprob": -0.6988813877105713,
+      "real_logprob": -0.39152565598487854,
+      "control_logprob": -0.647022008895874,
+      "real_shift": 0.30735573172569275,
+      "control_shift": 0.051859378814697266
+    },
+    {
+      "query_id": "nq_02371",
+      "pcs_gemma": -1.6309390068,
+      "baseline_logprob": -2.5579512119293213,
+      "real_logprob": -2.0837016105651855,
+      "control_logprob": -2.875922441482544,
+      "real_shift": 0.47424960136413574,
+      "control_shift": -0.31797122955322266
+    },
+    {
+      "query_id": "nq_01408",
+      "pcs_gemma": -6.6277384758,
+      "baseline_logprob": -12.451310157775879,
+      "real_logprob": -14.402046203613281,
+      "control_logprob": -12.449766159057617,
+      "real_shift": -1.9507360458374023,
+      "control_shift": 0.0015439987182617188
+    },
+    {
+      "query_id": "nq_02799",
+      "pcs_gemma": -1.0870373249,
+      "baseline_logprob": -4.085550785064697,
+      "real_logprob": -3.5815556049346924,
+      "control_logprob": -4.3268022537231445,
+      "real_shift": 0.5039951801300049,
+      "control_shift": -0.24125146865844727
+    },
+    {
+      "query_id": "popqa_03119",
+      "pcs_gemma": -1.7788637877,
+      "baseline_logprob": -17.286907196044922,
+      "real_logprob": -15.854439735412598,
+      "control_logprob": -16.963945388793945,
+      "real_shift": 1.4324674606323242,
+      "control_shift": 0.32296180725097656
+    },
+    {
+      "query_id": "nq_00669",
+      "pcs_gemma": -1.0101461411,
+      "baseline_logprob": -1.577821135520935,
+      "real_logprob": -2.2479400634765625,
+      "control_logprob": -1.5691897869110107,
+      "real_shift": -0.6701189279556274,
+      "control_shift": 0.008631348609924316
+    },
+    {
+      "query_id": "nq_02233",
+      "pcs_gemma": -1.2012696266,
+      "baseline_logprob": -1.4094927310943604,
+      "real_logprob": -1.1212856769561768,
+      "control_logprob": -1.3748139142990112,
+      "real_shift": 0.2882070541381836,
+      "control_shift": 0.03467881679534912
+    },
+    {
+      "query_id": "nq_02209",
+      "pcs_gemma": -0.7049239874,
+      "baseline_logprob": -1.3269578218460083,
+      "real_logprob": -1.0562801361083984,
+      "control_logprob": -1.2257130146026611,
+      "real_shift": 0.27067768573760986,
+      "control_shift": 0.10124480724334717
+    },
+    {
+      "query_id": "nq_00008",
+      "pcs_gemma": -5.8781576157,
+      "baseline_logprob": -4.2797441482543945,
+      "real_logprob": -4.776512622833252,
+      "control_logprob": -4.5326409339904785,
+      "real_shift": -0.4967684745788574,
+      "control_shift": -0.252896785736084
+    },
+    {
+      "query_id": "nq_00864",
+      "pcs_gemma": -2.195987463,
+      "baseline_logprob": -6.363835334777832,
+      "real_logprob": -6.696556091308594,
+      "control_logprob": -5.724096298217773,
+      "real_shift": -0.3327207565307617,
+      "control_shift": 0.6397390365600586
+    },
+    {
+      "query_id": "popqa_02167",
+      "pcs_gemma": -3.1045401096,
+      "baseline_logprob": -16.011343002319336,
+      "real_logprob": -14.646339416503906,
+      "control_logprob": -15.82192611694336,
+      "real_shift": 1.3650035858154297,
+      "control_shift": 0.18941688537597656
+    },
+    {
+      "query_id": "nq_01731",
+      "pcs_gemma": -0.855784893,
+      "baseline_logprob": -2.9804062843322754,
+      "real_logprob": -2.509591579437256,
+      "control_logprob": -3.235898971557617,
+      "real_shift": 0.47081470489501953,
+      "control_shift": -0.2554926872253418
+    },
+    {
+      "query_id": "popqa_01654",
+      "pcs_gemma": -4.3961114883,
+      "baseline_logprob": -19.25380516052246,
+      "real_logprob": -17.69017219543457,
+      "control_logprob": -18.683433532714844,
+      "real_shift": 1.5636329650878906,
+      "control_shift": 0.5703716278076172
+    },
+    {
+      "query_id": "popqa_11274",
+      "pcs_gemma": -2.6722676754,
+      "baseline_logprob": -14.295077323913574,
+      "real_logprob": -12.921812057495117,
+      "control_logprob": -14.188721656799316,
+      "real_shift": 1.373265266418457,
+      "control_shift": 0.10635566711425781
+    },
+    {
+      "query_id": "nq_01023",
+      "pcs_gemma": -3.692214489,
+      "baseline_logprob": -2.7005252838134766,
+      "real_logprob": -2.5829358100891113,
+      "control_logprob": -2.6530144214630127,
+      "real_shift": 0.11758947372436523,
+      "control_shift": 0.04751086235046387
+    },
+    {
+      "query_id": "nq_00937",
+      "pcs_gemma": -1.9227811098,
+      "baseline_logprob": -2.323629856109619,
+      "real_logprob": -1.9380431175231934,
+      "control_logprob": -2.275331974029541,
+      "real_shift": 0.3855867385864258,
+      "control_shift": 0.048297882080078125
+    },
+    {
+      "query_id": "nq_00278",
+      "pcs_gemma": -2.1770749092,
+      "baseline_logprob": -3.200880527496338,
+      "real_logprob": -3.5637965202331543,
+      "control_logprob": -3.257169485092163,
+      "real_shift": -0.3629159927368164,
+      "control_shift": -0.056288957595825195
+    },
+    {
+      "query_id": "popqa_07953",
+      "pcs_gemma": -3.8342292309,
+      "baseline_logprob": -18.884374618530273,
+      "real_logprob": -16.254926681518555,
+      "control_logprob": -18.628902435302734,
+      "real_shift": 2.6294479370117188,
+      "control_shift": 0.25547218322753906
+    },
+    {
+      "query_id": "nq_01952",
+      "pcs_gemma": -10.6762924194,
+      "baseline_logprob": -11.605545043945312,
+      "real_logprob": -11.203653335571289,
+      "control_logprob": -12.083904266357422,
+      "real_shift": 0.40189170837402344,
+      "control_shift": -0.4783592224121094
+    },
+    {
+      "query_id": "nq_02621",
+      "pcs_gemma": -2.7417235374,
+      "baseline_logprob": -3.181612491607666,
+      "real_logprob": -3.7607059478759766,
+      "control_logprob": -3.228343963623047,
+      "real_shift": -0.5790934562683105,
+      "control_shift": -0.04673147201538086
+    },
+    {
+      "query_id": "triviaqa_09606",
+      "pcs_gemma": -2.9563271999,
+      "baseline_logprob": -4.796093940734863,
+      "real_logprob": -4.978894233703613,
+      "control_logprob": -5.084290981292725,
+      "real_shift": -0.18280029296875,
+      "control_shift": -0.28819704055786133
+    },
+    {
+      "query_id": "nq_03608",
+      "pcs_gemma": -8.5652770996,
+      "baseline_logprob": -2.613879919052124,
+      "real_logprob": -4.312137603759766,
+      "control_logprob": -2.527081251144409,
+      "real_shift": -1.6982576847076416,
+      "control_shift": 0.08679866790771484
+    },
+    {
+      "query_id": "nq_02021",
+      "pcs_gemma": -4.145942688,
+      "baseline_logprob": -7.770840167999268,
+      "real_logprob": -9.027522087097168,
+      "control_logprob": -8.070039749145508,
+      "real_shift": -1.2566819190979004,
+      "control_shift": -0.29919958114624023
+    },
+    {
+      "query_id": "triviaqa_12433",
+      "pcs_gemma": -5.9452424049,
+      "baseline_logprob": -4.791513919830322,
+      "real_logprob": -5.711499214172363,
+      "control_logprob": -4.639736652374268,
+      "real_shift": -0.919985294342041,
+      "control_shift": 0.1517772674560547
+    },
+    {
+      "query_id": "nq_02199",
+      "pcs_gemma": -9.8734941483,
+      "baseline_logprob": -3.557652473449707,
+      "real_logprob": -4.027651309967041,
+      "control_logprob": -3.3849663734436035,
+      "real_shift": -0.469998836517334,
+      "control_shift": 0.17268610000610352
+    },
+    {
+      "query_id": "nq_00130",
+      "pcs_gemma": -2.5542602539,
+      "baseline_logprob": -1.560876488685608,
+      "real_logprob": -1.0276297330856323,
+      "control_logprob": -1.578647494316101,
+      "real_shift": 0.5332467555999756,
+      "control_shift": -0.017771005630493164
+    },
+    {
+      "query_id": "nq_02181",
+      "pcs_gemma": -3.9878120422,
+      "baseline_logprob": -4.113705158233643,
+      "real_logprob": -4.362095832824707,
+      "control_logprob": -3.823991537094116,
+      "real_shift": -0.24839067459106445,
+      "control_shift": 0.28971362113952637
+    },
+    {
+      "query_id": "nq_00241",
+      "pcs_gemma": -4.2670564651,
+      "baseline_logprob": -1.4201276302337646,
+      "real_logprob": -1.0028996467590332,
+      "control_logprob": -1.4000686407089233,
+      "real_shift": 0.41722798347473145,
+      "control_shift": 0.02005898952484131
+    },
+    {
+      "query_id": "nq_03565",
+      "pcs_gemma": -5.9090890884,
+      "baseline_logprob": -5.971661567687988,
+      "real_logprob": -6.899951934814453,
+      "control_logprob": -6.728484630584717,
+      "real_shift": -0.9282903671264648,
+      "control_shift": -0.7568230628967285
+    },
+    {
+      "query_id": "popqa_01424",
+      "pcs_gemma": -4.0048179626,
+      "baseline_logprob": -15.854591369628906,
+      "real_logprob": -14.488642692565918,
+      "control_logprob": -15.559137344360352,
+      "real_shift": 1.3659486770629883,
+      "control_shift": 0.2954540252685547
+    },
+    {
+      "query_id": "nq_00456",
+      "pcs_gemma": -4.2240629196,
+      "baseline_logprob": -2.2489564418792725,
+      "real_logprob": -3.283754825592041,
+      "control_logprob": -2.3816380500793457,
+      "real_shift": -1.0347983837127686,
+      "control_shift": -0.13268160820007324
+    },
+    {
+      "query_id": "popqa_09195",
+      "pcs_gemma": -5.5335297585,
+      "baseline_logprob": -16.589244842529297,
+      "real_logprob": -15.199996948242188,
+      "control_logprob": -16.122867584228516,
+      "real_shift": 1.3892478942871094,
+      "control_shift": 0.46637725830078125
+    },
+    {
+      "query_id": "popqa_00035",
+      "pcs_gemma": -8.651348114,
+      "baseline_logprob": -16.93877410888672,
+      "real_logprob": -14.982035636901855,
+      "control_logprob": -16.98502540588379,
+      "real_shift": 1.9567384719848633,
+      "control_shift": -0.04625129699707031
+    },
+    {
+      "query_id": "triviaqa_06865",
+      "pcs_gemma": -0.2693932652,
+      "baseline_logprob": -1.8671098947525024,
+      "real_logprob": -2.312913417816162,
+      "control_logprob": -1.8194036483764648,
+      "real_shift": -0.44580352306365967,
+      "control_shift": 0.0477062463760376
+    },
+    {
+      "query_id": "nq_02600",
+      "pcs_gemma": -2.2018361092,
+      "baseline_logprob": -3.7841410636901855,
+      "real_logprob": -4.212156295776367,
+      "control_logprob": -3.739658832550049,
+      "real_shift": -0.42801523208618164,
+      "control_shift": 0.04448223114013672
+    },
+    {
+      "query_id": "nq_00401",
+      "pcs_gemma": -0.6479761004,
+      "baseline_logprob": -2.989661693572998,
+      "real_logprob": -3.0265860557556152,
+      "control_logprob": -3.1488723754882812,
+      "real_shift": -0.03692436218261719,
+      "control_shift": -0.1592106819152832
+    },
+    {
+      "query_id": "nq_00284",
+      "pcs_gemma": -4.9046115875,
+      "baseline_logprob": -11.246283531188965,
+      "real_logprob": -11.470266342163086,
+      "control_logprob": -12.02055835723877,
+      "real_shift": -0.2239828109741211,
+      "control_shift": -0.7742748260498047
+    },
+    {
+      "query_id": "popqa_00771",
+      "pcs_gemma": -12.8544111252,
+      "baseline_logprob": -16.921859741210938,
+      "real_logprob": -14.999305725097656,
+      "control_logprob": -17.062496185302734,
+      "real_shift": 1.9225540161132812,
+      "control_shift": -0.14063644409179688
+    },
+    {
+      "query_id": "nq_01288",
+      "pcs_gemma": -3.4492511749,
+      "baseline_logprob": -9.33838939666748,
+      "real_logprob": -10.99069595336914,
+      "control_logprob": -9.311697006225586,
+      "real_shift": -1.6523065567016602,
+      "control_shift": 0.02669239044189453
+    },
+    {
+      "query_id": "nq_00308",
+      "pcs_gemma": -2.3825581074,
+      "baseline_logprob": -1.1791292428970337,
+      "real_logprob": -1.1574838161468506,
+      "control_logprob": -1.1322822570800781,
+      "real_shift": 0.021645426750183105,
+      "control_shift": 0.046846985816955566
+    },
+    {
+      "query_id": "nq_03178",
+      "pcs_gemma": -4.2293453217,
+      "baseline_logprob": -14.310731887817383,
+      "real_logprob": -11.775314331054688,
+      "control_logprob": -14.68845272064209,
+      "real_shift": 2.5354175567626953,
+      "control_shift": -0.37772083282470703
+    },
+    {
+      "query_id": "nq_02671",
+      "pcs_gemma": -2.0623264313,
+      "baseline_logprob": -2.6996445655822754,
+      "real_logprob": -2.219951629638672,
+      "control_logprob": -2.6858835220336914,
+      "real_shift": 0.4796929359436035,
+      "control_shift": 0.013761043548583984
+    },
+    {
+      "query_id": "nq_02050",
+      "pcs_gemma": -1.1982147694,
+      "baseline_logprob": -2.03570294380188,
+      "real_logprob": -1.9476773738861084,
+      "control_logprob": -2.076113224029541,
+      "real_shift": 0.08802556991577148,
+      "control_shift": -0.04041028022766113
+    },
+    {
+      "query_id": "nq_03309",
+      "pcs_gemma": -5.4355139732,
+      "baseline_logprob": -3.7944648265838623,
+      "real_logprob": -4.289979457855225,
+      "control_logprob": -3.9616730213165283,
+      "real_shift": -0.4955146312713623,
+      "control_shift": -0.16720819473266602
+    },
+    {
+      "query_id": "triviaqa_03486",
+      "pcs_gemma": -1.3134086132,
+      "baseline_logprob": -1.734969139099121,
+      "real_logprob": -1.5530551671981812,
+      "control_logprob": -1.7271637916564941,
+      "real_shift": 0.18191397190093994,
+      "control_shift": 0.007805347442626953
+    },
+    {
+      "query_id": "nq_03213",
+      "pcs_gemma": -3.4079740047,
+      "baseline_logprob": -3.7341604232788086,
+      "real_logprob": -3.4981634616851807,
+      "control_logprob": -3.9068410396575928,
+      "real_shift": 0.23599696159362793,
+      "control_shift": -0.17268061637878418
+    },
+    {
+      "query_id": "nq_01971",
+      "pcs_gemma": -2.4677679539,
+      "baseline_logprob": -6.377170562744141,
+      "real_logprob": -7.623786449432373,
+      "control_logprob": -6.328524112701416,
+      "real_shift": -1.2466158866882324,
+      "control_shift": 0.04864645004272461
+    },
+    {
+      "query_id": "nq_02853",
+      "pcs_gemma": -1.7167266607,
+      "baseline_logprob": -3.7799386978149414,
+      "real_logprob": -4.111148834228516,
+      "control_logprob": -3.756281852722168,
+      "real_shift": -0.3312101364135742,
+      "control_shift": 0.023656845092773438
+    },
+    {
+      "query_id": "popqa_05168",
+      "pcs_gemma": -1.7354996204,
+      "baseline_logprob": -20.12738800048828,
+      "real_logprob": -18.96367645263672,
+      "control_logprob": -19.52286148071289,
+      "real_shift": 1.1637115478515625,
+      "control_shift": 0.6045265197753906
+    },
+    {
+      "query_id": "nq_01858",
+      "pcs_gemma": -0.7838119864,
+      "baseline_logprob": -2.9410157203674316,
+      "real_logprob": -2.795534133911133,
+      "control_logprob": -3.131037712097168,
+      "real_shift": 0.14548158645629883,
+      "control_shift": -0.19002199172973633
+    },
+    {
+      "query_id": "popqa_01832",
+      "pcs_gemma": -1.872066021,
+      "baseline_logprob": -13.958088874816895,
+      "real_logprob": -12.91834831237793,
+      "control_logprob": -13.673977851867676,
+      "real_shift": 1.0397405624389648,
+      "control_shift": 0.28411102294921875
+    },
+    {
+      "query_id": "nq_01139",
+      "pcs_gemma": -0.3768604398,
+      "baseline_logprob": -2.3783788681030273,
+      "real_logprob": -2.615753650665283,
+      "control_logprob": -2.5443458557128906,
+      "real_shift": -0.23737478256225586,
+      "control_shift": -0.16596698760986328
+    },
+    {
+      "query_id": "triviaqa_05329",
+      "pcs_gemma": -2.7809224129,
+      "baseline_logprob": -5.723393440246582,
+      "real_logprob": -5.823871612548828,
+      "control_logprob": -5.8498687744140625,
+      "real_shift": -0.1004781723022461,
+      "control_shift": -0.12647533416748047
+    },
+    {
+      "query_id": "nq_02232",
+      "pcs_gemma": -0.6593931913,
+      "baseline_logprob": -0.8027336001396179,
+      "real_logprob": -0.5384138822555542,
+      "control_logprob": -0.7608927488327026,
+      "real_shift": 0.2643197178840637,
+      "control_shift": 0.04184085130691528
+    },
+    {
+      "query_id": "nq_00634",
+      "pcs_gemma": -1.4013278484,
+      "baseline_logprob": -3.300715208053589,
+      "real_logprob": -3.5101842880249023,
+      "control_logprob": -3.378666400909424,
+      "real_shift": -0.20946907997131348,
+      "control_shift": -0.07795119285583496
+    },
+    {
+      "query_id": "nq_00108",
+      "pcs_gemma": -3.1600654125,
+      "baseline_logprob": -2.434879779815674,
+      "real_logprob": -1.9352121353149414,
+      "control_logprob": -2.2712020874023438,
+      "real_shift": 0.4996676445007324,
+      "control_shift": 0.16367769241333008
+    },
+    {
+      "query_id": "nq_00234",
+      "pcs_gemma": -3.939265728,
+      "baseline_logprob": -3.0585014820098877,
+      "real_logprob": -3.0447587966918945,
+      "control_logprob": -2.9727725982666016,
+      "real_shift": 0.013742685317993164,
+      "control_shift": 0.08572888374328613
+    },
+    {
+      "query_id": "popqa_07962",
+      "pcs_gemma": -1.3449875116,
+      "baseline_logprob": -15.547019004821777,
+      "real_logprob": -14.12787914276123,
+      "control_logprob": -15.333518981933594,
+      "real_shift": 1.4191398620605469,
+      "control_shift": 0.2135000228881836
+    },
+    {
+      "query_id": "nq_00192",
+      "pcs_gemma": -6.201374054,
+      "baseline_logprob": -13.205516815185547,
+      "real_logprob": -12.136931419372559,
+      "control_logprob": -15.021254539489746,
+      "real_shift": 1.0685853958129883,
+      "control_shift": -1.8157377243041992
+    },
+    {
+      "query_id": "nq_02372",
+      "pcs_gemma": -1.0236549377,
+      "baseline_logprob": -2.7769713401794434,
+      "real_logprob": -2.891040325164795,
+      "control_logprob": -2.582737445831299,
+      "real_shift": -0.11406898498535156,
+      "control_shift": 0.19423389434814453
+    },
+    {
+      "query_id": "nq_03136",
+      "pcs_gemma": -2.4352807999,
+      "baseline_logprob": -3.193326711654663,
+      "real_logprob": -3.415987491607666,
+      "control_logprob": -2.987344741821289,
+      "real_shift": -0.22266077995300293,
+      "control_shift": 0.20598196983337402
+    },
+    {
+      "query_id": "nq_00777",
+      "pcs_gemma": -6.1449961662,
+      "baseline_logprob": -10.574243545532227,
+      "real_logprob": -10.587942123413086,
+      "control_logprob": -9.565851211547852,
+      "real_shift": -0.013698577880859375,
+      "control_shift": 1.008392333984375
+    },
+    {
+      "query_id": "nq_01837",
+      "pcs_gemma": -5.315975666,
+      "baseline_logprob": -9.263879776000977,
+      "real_logprob": -9.118881225585938,
+      "control_logprob": -9.550460815429688,
+      "real_shift": 0.14499855041503906,
+      "control_shift": -0.28658103942871094
+    },
+    {
+      "query_id": "nq_03075",
+      "pcs_gemma": -0.611358583,
+      "baseline_logprob": -2.0367343425750732,
+      "real_logprob": -1.5387414693832397,
+      "control_logprob": -1.8395967483520508,
+      "real_shift": 0.4979928731918335,
+      "control_shift": 0.19713759422302246
+    },
+    {
+      "query_id": "nq_03594",
+      "pcs_gemma": -2.9984302521,
+      "baseline_logprob": -2.040306568145752,
+      "real_logprob": -1.9718879461288452,
+      "control_logprob": -2.101555585861206,
+      "real_shift": 0.06841862201690674,
+      "control_shift": -0.0612490177154541
+    },
+    {
+      "query_id": "triviaqa_13825",
+      "pcs_gemma": -1.6604530811,
+      "baseline_logprob": -1.9679625034332275,
+      "real_logprob": -1.6498167514801025,
+      "control_logprob": -2.014599561691284,
+      "real_shift": 0.318145751953125,
+      "control_shift": -0.04663705825805664
+    },
+    {
+      "query_id": "nq_00328",
+      "pcs_gemma": -0.5609064698,
+      "baseline_logprob": -6.571619033813477,
+      "real_logprob": -8.355610847473145,
+      "control_logprob": -6.856409072875977,
+      "real_shift": -1.783991813659668,
+      "control_shift": -0.2847900390625
+    },
+    {
+      "query_id": "nq_03211",
+      "pcs_gemma": -0.8858653903,
+      "baseline_logprob": -2.197056293487549,
+      "real_logprob": -1.7819910049438477,
+      "control_logprob": -2.0069046020507812,
+      "real_shift": 0.41506528854370117,
+      "control_shift": 0.19015169143676758
+    },
+    {
+      "query_id": "nq_02119",
+      "pcs_gemma": -2.9162471294,
+      "baseline_logprob": -4.509957313537598,
+      "real_logprob": -4.215655326843262,
+      "control_logprob": -4.5101776123046875,
+      "real_shift": 0.29430198669433594,
+      "control_shift": -0.00022029876708984375
+    },
+    {
+      "query_id": "popqa_01679",
+      "pcs_gemma": -2.1796786785,
+      "baseline_logprob": -13.878107070922852,
+      "real_logprob": -12.832784652709961,
+      "control_logprob": -13.767248153686523,
+      "real_shift": 1.0453224182128906,
+      "control_shift": 0.11085891723632812
+    },
+    {
+      "query_id": "nq_01215",
+      "pcs_gemma": -4.288230896,
+      "baseline_logprob": -2.988532066345215,
+      "real_logprob": -3.382066249847412,
+      "control_logprob": -3.0057406425476074,
+      "real_shift": -0.39353418350219727,
+      "control_shift": -0.017208576202392578
+    },
+    {
+      "query_id": "popqa_11169",
+      "pcs_gemma": -2.4737582207,
+      "baseline_logprob": -14.69631576538086,
+      "real_logprob": -13.242220878601074,
+      "control_logprob": -14.303179740905762,
+      "real_shift": 1.4540948867797852,
+      "control_shift": 0.39313602447509766
+    },
+    {
+      "query_id": "popqa_08837",
+      "pcs_gemma": -3.1584267616,
+      "baseline_logprob": -16.16556739807129,
+      "real_logprob": -14.511712074279785,
+      "control_logprob": -16.860843658447266,
+      "real_shift": 1.653855323791504,
+      "control_shift": -0.6952762603759766
+    }
+  ]
+}
