@@ -1,0 +1,107 @@
+{
+  "real_heads": [
+    [
+      34,
+      14
+    ],
+    [
+      37,
+      14
+    ],
+    [
+      40,
+      14
+    ],
+    [
+      36,
+      0
+    ],
+    [
+      37,
+      12
+    ],
+    [
+      38,
+      14
+    ],
+    [
+      34,
+      15
+    ],
+    [
+      30,
+      6
+    ]
+  ],
+  "control_heads": [
+    [
+      33,
+      1
+    ],
+    [
+      39,
+      9
+    ],
+    [
+      41,
+      5
+    ],
+    [
+      33,
+      5
+    ],
+    [
+      41,
+      15
+    ],
+    [
+      39,
+      2
+    ],
+    [
+      29,
+      12
+    ],
+    [
+      30,
+      0
+    ]
+  ],
+  "results": [
+    {
+      "magnitude": 0.0,
+      "real_flip": 0,
+      "real_total": 20,
+      "control_flip": 0,
+      "control_total": 20
+    },
+    {
+      "magnitude": 2.0,
+      "real_flip": 1,
+      "real_total": 20,
+      "control_flip": 0,
+      "control_total": 20
+    },
+    {
+      "magnitude": 5.0,
+      "real_flip": 7,
+      "real_total": 20,
+      "control_flip": 0,
+      "control_total": 20
+    },
+    {
+      "magnitude": 10.0,
+      "real_flip": 10,
+      "real_total": 20,
+      "control_flip": 2,
+      "control_total": 20
+    },
+    {
+      "magnitude": 20.0,
+      "real_flip": 10,
+      "real_total": 20,
+      "control_flip": 4,
+      "control_total": 20
+    }
+  ]
+}
