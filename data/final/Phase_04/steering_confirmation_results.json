@@ -1,0 +1,1476 @@
+{
+  "magnitude": 10.0,
+  "real_target_heads": [
+    [
+      34,
+      14
+    ],
+    [
+      37,
+      14
+    ],
+    [
+      40,
+      14
+    ],
+    [
+      36,
+      0
+    ],
+    [
+      37,
+      12
+    ],
+    [
+      38,
+      14
+    ],
+    [
+      34,
+      15
+    ],
+    [
+      30,
+      6
+    ]
+  ],
+  "control_target_heads": [
+    [
+      33,
+      1
+    ],
+    [
+      39,
+      9
+    ],
+    [
+      41,
+      5
+    ],
+    [
+      33,
+      5
+    ],
+    [
+      41,
+      15
+    ],
+    [
+      39,
+      2
+    ],
+    [
+      29,
+      12
+    ],
+    [
+      30,
+      0
+    ]
+  ],
+  "real_results": [
+    {
+      "query_id": "triviaqa_06222",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_13970",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_01620",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00674",
+      "baseline_correct": true,
+      "steered_correct": true,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_01563",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_01312",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_11302",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_11791",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_02060",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00995",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_14242",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "triviaqa_00976",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00413",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_11199",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00276",
+      "baseline_correct": false,
+      "steered_correct": true,
+      "flipped_to_correct": true,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00262",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02105",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_01168",
+      "baseline_correct": true,
+      "steered_correct": true,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02413",
+      "baseline_correct": false,
+      "steered_correct": true,
+      "flipped_to_correct": true,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "triviaqa_10366",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02087",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02561",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_11216",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_03189",
+      "baseline_correct": true,
+      "steered_correct": true,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "triviaqa_09779",
+      "baseline_correct": false,
+      "steered_correct": true,
+      "flipped_to_correct": true,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02371",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_01408",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02799",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_03119",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00669",
+      "baseline_correct": true,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": true
+    },
+    {
+      "query_id": "nq_02233",
+      "baseline_correct": true,
+      "steered_correct": true,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02209",
+      "baseline_correct": true,
+      "steered_correct": true,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00008",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00864",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_02167",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_01731",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_01654",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_11274",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_01023",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00937",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00278",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_07953",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_01952",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02621",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "triviaqa_09606",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_03608",
+      "baseline_correct": true,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": true
+    },
+    {
+      "query_id": "nq_02021",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "triviaqa_12433",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02199",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00130",
+      "baseline_correct": true,
+      "steered_correct": true,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02181",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00241",
+      "baseline_correct": true,
+      "steered_correct": true,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_03565",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_01424",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00456",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_09195",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_00035",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "triviaqa_06865",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02600",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00401",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00284",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_00771",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_01288",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00308",
+      "baseline_correct": true,
+      "steered_correct": true,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_03178",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02671",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02050",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_03309",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "triviaqa_03486",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_03213",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_01971",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02853",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_05168",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_01858",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_01832",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_01139",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "triviaqa_05329",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02232",
+      "baseline_correct": true,
+      "steered_correct": true,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00634",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00108",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00234",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_07962",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "triviaqa_17766",
+      "baseline_correct": false,
+      "steered_correct": true,
+      "flipped_to_correct": true,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00192",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02372",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_03136",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00777",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02986",
+      "baseline_correct": false,
+      "steered_correct": true,
+      "flipped_to_correct": true,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_01837",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_03075",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_03594",
+      "baseline_correct": true,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": true
+    },
+    {
+      "query_id": "triviaqa_13825",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00328",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_03211",
+      "baseline_correct": true,
+      "steered_correct": true,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02119",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_01679",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_01389",
+      "baseline_correct": false,
+      "steered_correct": true,
+      "flipped_to_correct": true,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_01215",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_11169",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_08837",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    }
+  ],
+  "control_results": [
+    {
+      "query_id": "triviaqa_06222",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_13970",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_01620",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00674",
+      "baseline_correct": true,
+      "steered_correct": true,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_01563",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_01312",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_11302",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_11791",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_02060",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00995",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_14242",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "triviaqa_00976",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00413",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_11199",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00276",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00262",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02105",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_01168",
+      "baseline_correct": true,
+      "steered_correct": true,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02413",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "triviaqa_10366",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02087",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02561",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_11216",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_03189",
+      "baseline_correct": true,
+      "steered_correct": true,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "triviaqa_09779",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02371",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_01408",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02799",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_03119",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00669",
+      "baseline_correct": true,
+      "steered_correct": true,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02233",
+      "baseline_correct": true,
+      "steered_correct": true,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02209",
+      "baseline_correct": true,
+      "steered_correct": true,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00008",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00864",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_02167",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_01731",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_01654",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_11274",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_01023",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00937",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00278",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_07953",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_01952",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02621",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "triviaqa_09606",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_03608",
+      "baseline_correct": true,
+      "steered_correct": true,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02021",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "triviaqa_12433",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02199",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00130",
+      "baseline_correct": true,
+      "steered_correct": true,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02181",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00241",
+      "baseline_correct": true,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": true
+    },
+    {
+      "query_id": "nq_03565",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_01424",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00456",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_09195",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_00035",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "triviaqa_06865",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02600",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00401",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00284",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_00771",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_01288",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00308",
+      "baseline_correct": true,
+      "steered_correct": true,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_03178",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02671",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02050",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_03309",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "triviaqa_03486",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_03213",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_01971",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02853",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_05168",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_01858",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_01832",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_01139",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "triviaqa_05329",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02232",
+      "baseline_correct": true,
+      "steered_correct": true,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00634",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00108",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00234",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_07962",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "triviaqa_17766",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00192",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02372",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_03136",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00777",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02986",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_01837",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_03075",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_03594",
+      "baseline_correct": true,
+      "steered_correct": true,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "triviaqa_13825",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_00328",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_03211",
+      "baseline_correct": true,
+      "steered_correct": true,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_02119",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_01679",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_01389",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "nq_01215",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_11169",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    },
+    {
+      "query_id": "popqa_08837",
+      "baseline_correct": false,
+      "steered_correct": false,
+      "flipped_to_correct": false,
+      "flipped_to_incorrect": false
+    }
+  ],
+  "pvalue": 0.03125
+}
