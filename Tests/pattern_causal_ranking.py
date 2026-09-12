@@ -49,9 +49,13 @@ from transformer_lens import HookedTransformer
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 MODEL_NAME = "gemma-2-9b"
-LOCAL_MODEL_PATH = "/home/models/gemma-2-9b"  # avoid re-downloading -- see
-                             # steering_transformerlens_replication.py's
-                             # load_model() for why this matters
+LOCAL_MODEL_PATH = "google/gemma-2-9b"  # Hub repo ID, not a local path -- this
+                             # box has no pre-downloaded model files, so this
+                             # downloads Gemma's real bf16 checkpoint (~18GB)
+                             # directly, correctly sized (not the ~37GB fp32
+                             # download that happens if TransformerLens tries
+                             # to fetch its own copy via a bare model name
+                             # instead of an explicit hf_model handoff)
 DATASET_PATH = "data/final/Phase_02/analysis_dataset.jsonl"
 RETRIEVAL_PATH = "data/final/Phase_02/retrieval_results.jsonl"
 TEST_SAMPLE_PATH = "data/final/Phase_04/ablation_test_sample.json"
@@ -113,26 +117,40 @@ def make_pattern_boost_hook(head_idx, n_passage_tokens, boost_factor, state):
 
 
 def load_model(device):
-    print(f"Loading HF model from local path {LOCAL_MODEL_PATH} (bf16)...")
+    print(f"Loading HF model from local path {LOCAL_MODEL_PATH} (bf16, on CPU first)...")
+    # device_map="cpu", NOT device -- loading straight to GPU here would mean
+    # TWO full ~19GB copies exist in VRAM at once during the handoff below
+    # (this HF copy, plus the internal copy HookedTransformer builds when
+    # wrapping it) -- confirmed as the actual OOM cause on a 22GB GPU.
+    # Loading to CPU RAM first means only ONE full copy ever touches the
+    # GPU, which HookedTransformer creates itself via the device= argument
+    # below.
     hf_model = AutoModelForCausalLM.from_pretrained(
-        LOCAL_MODEL_PATH, dtype=torch.bfloat16, device_map=device,
+        LOCAL_MODEL_PATH, dtype=torch.bfloat16, device_map="cpu",
     )
     tokenizer = AutoTokenizer.from_pretrained(LOCAL_MODEL_PATH)
 
-    print("Wrapping with HookedTransformer (no new download, no weight processing)...")
-    # from_pretrained_no_processing, not from_pretrained: the default
-    # from_pretrained does LayerNorm folding, which needs a float32
-    # intermediate REGARDLESS of the requested dtype -- on top of an
-    # already-loaded 18.9GB bf16 model, that overflowed a 22GB GPU
-    # (confirmed by a real OOM here). Folding is only useful for LINEAR
-    # decomposition (like DLA); this script does a hard intervention
-    # (boost + renormalize the attention pattern, measure the real
-    # result), which doesn't need or benefit from folding at all -- so
-    # skipping it costs nothing here, not just a workaround.
+    print("Wrapping with HookedTransformer on CPU first (moving to GPU after)...")
+    # CORRECTION: from_pretrained_no_processing was assumed to skip the
+    # float32-upcasting weight-processing step -- confirmed WRONG by a
+    # real second OOM with an identical traceback (it still internally
+    # calls from_pretrained -> load_and_process_state_dict ->
+    # ProcessWeights.process_weights -> v.float() on every tensor,
+    # regardless of the "no_processing" name, in this installed version).
+    # More robust fix, that doesn't depend on trusting that internal
+    # behavior: do ALL processing with device="cpu" first, where there's
+    # much more headroom than a 22GB GPU, then move the FINISHED model to
+    # GPU as an explicit, separate final step. This works no matter what
+    # from_pretrained_no_processing actually does internally, since
+    # nothing touches CUDA memory until processing is already complete.
     model = HookedTransformer.from_pretrained_no_processing(
         MODEL_NAME, hf_model=hf_model, tokenizer=tokenizer,
-        device=device, dtype=torch.bfloat16,
+        device="cpu", dtype=torch.bfloat16,
     )
+    del hf_model
+    print(f"Moving fully-processed model to {device}...")
+    model = model.to(device)
+    torch.cuda.empty_cache()
     return model
 
 
