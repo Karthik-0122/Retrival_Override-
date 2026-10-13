@@ -1,0 +1,569 @@
+{"query_id": "nq_02982", "model": "gemma", "noctx_answer": "switchback"}
+{"query_id": "nq_02711", "model": "gemma", "noctx_answer": "Johannes Gutenberg in 1450"}
+{"query_id": "nq_01952", "model": "gemma", "noctx_answer": "Sir Francis Galton"}
+{"query_id": "triviaqa_13317", "model": "gemma", "noctx_answer": "St. Petersburg"}
+{"query_id": "popqa_08085", "model": "gemma", "noctx_answer": "Bert V. Royal"}
+{"query_id": "popqa_06209", "model": "gemma", "noctx_answer": "Fatih Akin"}
+{"query_id": "triviaqa_06222", "model": "gemma", "noctx_answer": "Rubber"}
+{"query_id": "nq_00284", "model": "gemma", "noctx_answer": "acetate"}
+{"query_id": "nq_03447", "model": "gemma", "noctx_answer": "divergent"}
+{"query_id": "nq_00777", "model": "gemma", "noctx_answer": ""}
+{"query_id": "nq_01288", "model": "gemma", "noctx_answer": "season 2"}
+{"query_id": "nq_00784", "model": "gemma", "noctx_answer": "7"}
+{"query_id": "nq_00933", "model": "gemma", "noctx_answer": ""}
+{"query_id": "popqa_13666", "model": "gemma", "noctx_answer": "Orangeburg"}
+{"query_id": "triviaqa_01986", "model": "gemma", "noctx_answer": "Martin Ruane"}
+{"query_id": "popqa_02927", "model": "gemma", "noctx_answer": "Massasoit"}
+{"query_id": "nq_00047", "model": "gemma", "noctx_answer": "1985"}
+{"query_id": "triviaqa_11861", "model": "gemma", "noctx_answer": "Boom Bang-a-Bang"}
+{"query_id": "triviaqa_11029", "model": "gemma", "noctx_answer": "George IV"}
+{"query_id": "triviaqa_11146", "model": "gemma", "noctx_answer": "4"}
+{"query_id": "popqa_03006", "model": "gemma", "noctx_answer": "James Garfield"}
+{"query_id": "nq_03342", "model": "gemma", "noctx_answer": "convex mirror"}
+{"query_id": "nq_02299", "model": "gemma", "noctx_answer": ""}
+{"query_id": "nq_03315", "model": "gemma", "noctx_answer": "Fajr, Dhuhr, Asr, Maghrib, Isha"}
+{"query_id": "nq_00995", "model": "gemma", "noctx_answer": "2"}
+{"query_id": "popqa_13970", "model": "gemma", "noctx_answer": "Mexico City"}
+{"query_id": "triviaqa_00976", "model": "gemma", "noctx_answer": "1000000000000000000000000000000"}
+{"query_id": "triviaqa_09606", "model": "gemma", "noctx_answer": "Napoleon Bonaparte"}
+{"query_id": "nq_00963", "model": "gemma", "noctx_answer": "Sir Syed Ahmed Khan"}
+{"query_id": "popqa_01832", "model": "gemma", "noctx_answer": "Crush is a genre-bending, genre-defying, genre-creating, genre-breaking, genre-making, genre-breaking, genre-creating,"}
+{"query_id": "nq_02561", "model": "gemma", "noctx_answer": "1/2 inch below the surface of the skin"}
+{"query_id": "nq_03063", "model": "gemma", "noctx_answer": "Oona Chaplin"}
+{"query_id": "nq_00655", "model": "gemma", "noctx_answer": "white"}
+{"query_id": "nq_02751", "model": "gemma", "noctx_answer": "Christianity and Islam"}
+{"query_id": "nq_03127", "model": "gemma", "noctx_answer": "Machel Montano"}
+{"query_id": "triviaqa_02254", "model": "gemma", "noctx_answer": "The Prime Minister"}
+{"query_id": "triviaqa_00106", "model": "gemma", "noctx_answer": "Joey Richardson is the son of Vanessa Redgrave."}
+{"query_id": "triviaqa_09127", "model": "gemma", "noctx_answer": "Philippines"}
+{"query_id": "nq_03189", "model": "gemma", "noctx_answer": "1998"}
+{"query_id": "nq_03297", "model": "gemma", "noctx_answer": ""}
+{"query_id": "popqa_07962", "model": "gemma", "noctx_answer": "Belgium"}
+{"query_id": "nq_03471", "model": "gemma", "noctx_answer": "1721"}
+{"query_id": "nq_03544", "model": "gemma", "noctx_answer": ""}
+{"query_id": "triviaqa_15054", "model": "gemma", "noctx_answer": "Cricket"}
+{"query_id": "nq_02799", "model": "gemma", "noctx_answer": "2016"}
+{"query_id": "nq_02251", "model": "gemma", "noctx_answer": "Toronto Pearson International Airport"}
+{"query_id": "triviaqa_04120", "model": "gemma", "noctx_answer": "\"Pablo Picasso\""}
+{"query_id": "nq_00086", "model": "gemma", "noctx_answer": "12"}
+{"query_id": "nq_00262", "model": "gemma", "noctx_answer": "DNA"}
+{"query_id": "nq_00647", "model": "gemma", "noctx_answer": "The Dominican Republic is named after the Dominican friars who came to the island in the 16th century."}
+{"query_id": "nq_01858", "model": "gemma", "noctx_answer": "14 April 2017"}
+{"query_id": "nq_01635", "model": "gemma", "noctx_answer": "a girl named judy who was a friend of the band"}
+{"query_id": "popqa_14196", "model": "gemma", "noctx_answer": "Banjul"}
+{"query_id": "nq_00899", "model": "gemma", "noctx_answer": "Mark Ruffalo"}
+{"query_id": "triviaqa_07467", "model": "gemma", "noctx_answer": "Medellin"}
+{"query_id": "popqa_11302", "model": "gemma", "noctx_answer": "Frank Pavone is a Catholic priest."}
+{"query_id": "nq_00413", "model": "gemma", "noctx_answer": "the sun represents the sun of may"}
+{"query_id": "nq_00241", "model": "gemma", "noctx_answer": "1.8L"}
+{"query_id": "triviaqa_04681", "model": "gemma", "noctx_answer": "The Scopes \"monkey trial\" was a trial that took place in Dayton, Tennessee, in 1925. The trial was a test case for"}
+{"query_id": "nq_00953", "model": "gemma", "noctx_answer": "the NFL"}
+{"query_id": "nq_03075", "model": "gemma", "noctx_answer": "5th September 1666"}
+{"query_id": "nq_00008", "model": "gemma", "noctx_answer": "it is a mod that allows you to drink coffee in the game."}
+{"query_id": "popqa_01424", "model": "gemma", "noctx_answer": "Diabolis Interium is a horror/thriller/mystery/drama."}
+{"query_id": "nq_02209", "model": "gemma", "noctx_answer": "2015"}
+{"query_id": "nq_02942", "model": "gemma", "noctx_answer": "Thomas Chisholm"}
+{"query_id": "nq_00875", "model": "gemma", "noctx_answer": "the confederacy"}
+{"query_id": "nq_03366", "model": "gemma", "noctx_answer": "Marie Antoinette"}
+{"query_id": "nq_02920", "model": "gemma", "noctx_answer": "the courts"}
+{"query_id": "popqa_01743", "model": "gemma", "noctx_answer": "Musical"}
+{"query_id": "popqa_07956", "model": "gemma", "noctx_answer": "Telangana"}
+{"query_id": "popqa_13905", "model": "gemma", "noctx_answer": "Santiago"}
+{"query_id": "nq_02372", "model": "gemma", "noctx_answer": "Galadriel, Celeborn, and Gil-galad"}
+{"query_id": "nq_01731", "model": "gemma", "noctx_answer": "2017"}
+{"query_id": "popqa_11216", "model": "gemma", "noctx_answer": "John Peter Jukes was a Christian."}
+{"query_id": "triviaqa_03486", "model": "gemma", "noctx_answer": "Mercury"}
+{"query_id": "nq_01554", "model": "gemma", "noctx_answer": "1788"}
+{"query_id": "popqa_00711", "model": "gemma", "noctx_answer": "Mexico City"}
+{"query_id": "nq_02364", "model": "gemma", "noctx_answer": "the eastern shore"}
+{"query_id": "nq_02684", "model": "gemma", "noctx_answer": "put option"}
+{"query_id": "nq_00914", "model": "gemma", "noctx_answer": "when you have a 4-card suit and a 5-card suit"}
+{"query_id": "nq_00418", "model": "gemma", "noctx_answer": "10.10"}
+{"query_id": "nq_01408", "model": "gemma", "noctx_answer": "The song is about the Vietnam War and the effects of the war on the people of the United States."}
+{"query_id": "nq_00669", "model": "gemma", "noctx_answer": "the states"}
+{"query_id": "nq_02940", "model": "gemma", "noctx_answer": "England and Wales"}
+{"query_id": "nq_02232", "model": "gemma", "noctx_answer": "7"}
+{"query_id": "nq_00937", "model": "gemma", "noctx_answer": "China, France, Russia, United Kingdom, United States"}
+{"query_id": "nq_00751", "model": "gemma", "noctx_answer": "to collect menstrual blood"}
+{"query_id": "nq_01168", "model": "gemma", "noctx_answer": "13"}
+{"query_id": "nq_00666", "model": "gemma", "noctx_answer": ""}
+{"query_id": "nq_00864", "model": "gemma", "noctx_answer": "Canada"}
+{"query_id": "nq_02619", "model": "gemma", "noctx_answer": "in the 2010s"}
+{"query_id": "nq_00870", "model": "gemma", "noctx_answer": "Sal"}
+{"query_id": "nq_03608", "model": "gemma", "noctx_answer": "Bacteria"}
+{"query_id": "triviaqa_17595", "model": "gemma", "noctx_answer": "Ross Perot"}
+{"query_id": "nq_00676", "model": "gemma", "noctx_answer": "FIGG Bridge Engineers"}
+{"query_id": "popqa_04563", "model": "gemma", "noctx_answer": ""}
+{"query_id": "nq_00234", "model": "gemma", "noctx_answer": "Kat Slater's sisters are:"}
+{"query_id": "nq_03213", "model": "gemma", "noctx_answer": "Buddy Holly"}
+{"query_id": "popqa_07811", "model": "gemma", "noctx_answer": "Quebec"}
+{"query_id": "nq_01259", "model": "gemma", "noctx_answer": ""}
+{"query_id": "nq_00456", "model": "gemma", "noctx_answer": "The harp is the national symbol of Ireland. It is a symbol of the Irish people and their culture. The harp is a symbol of peace, love, and"}
+{"query_id": "triviaqa_11641", "model": "gemma", "noctx_answer": "General Joseph Stilwell"}
+{"query_id": "triviaqa_12969", "model": "gemma", "noctx_answer": "Great Expectations"}
+{"query_id": "nq_03565", "model": "gemma", "noctx_answer": "60-100 times per minute"}
+{"query_id": "triviaqa_10626", "model": "gemma", "noctx_answer": "Feet"}
+{"query_id": "popqa_00035", "model": "gemma", "noctx_answer": "He is a retired police officer."}
+{"query_id": "nq_02175", "model": "gemma", "noctx_answer": "Joseph M. Scriven"}
+{"query_id": "nq_00571", "model": "gemma", "noctx_answer": "Zulfikar Ali Bhutto"}
+{"query_id": "nq_03178", "model": "gemma", "noctx_answer": "season 2 episode 10"}
+{"query_id": "nq_00002", "model": "gemma", "noctx_answer": "2"}
+{"query_id": "popqa_11087", "model": "gemma", "noctx_answer": "Arturo Tabera Araoz is a Catholic."}
+{"query_id": "nq_00278", "model": "gemma", "noctx_answer": "2003"}
+{"query_id": "nq_01653", "model": "gemma", "noctx_answer": "France"}
+{"query_id": "nq_03309", "model": "gemma", "noctx_answer": ""}
+{"query_id": "nq_01642", "model": "gemma", "noctx_answer": "80%"}
+{"query_id": "triviaqa_09912", "model": "gemma", "noctx_answer": "Marines"}
+{"query_id": "nq_01292", "model": "gemma", "noctx_answer": "Kennedy Space Center"}
+{"query_id": "nq_00980", "model": "gemma", "noctx_answer": "Madison, Wisconsin"}
+{"query_id": "nq_02394", "model": "gemma", "noctx_answer": "February 9, 2018"}
+{"query_id": "nq_00731", "model": "gemma", "noctx_answer": ""}
+{"query_id": "nq_02021", "model": "gemma", "noctx_answer": "The name Edwards is a patronymic surname, meaning that it was originally a nickname for the son of Edward. The name Edward is derived from the Old English"}
+{"query_id": "nq_01556", "model": "gemma", "noctx_answer": "fred ott"}
+{"query_id": "triviaqa_15498", "model": "gemma", "noctx_answer": "Tesco"}
+{"query_id": "nq_03582", "model": "gemma", "noctx_answer": "Florida"}
+{"query_id": "nq_03037", "model": "gemma", "noctx_answer": "the teddy bear dog is a cross between a poodle and a bichon frise"}
+{"query_id": "nq_00634", "model": "gemma", "noctx_answer": "1890"}
+{"query_id": "nq_00192", "model": "gemma", "noctx_answer": "I think it will be a tie between the two."}
+{"query_id": "nq_00290", "model": "gemma", "noctx_answer": "10"}
+{"query_id": "nq_02494", "model": "gemma", "noctx_answer": "granite"}
+{"query_id": "nq_02371", "model": "gemma", "noctx_answer": "2017-03-04 12:00:00"}
+{"query_id": "nq_02853", "model": "gemma", "noctx_answer": "during mitosis"}
+{"query_id": "nq_02600", "model": "gemma", "noctx_answer": "at the Great Barrier Reef"}
+{"query_id": "nq_01971", "model": "gemma", "noctx_answer": "to indicate the presence of proteins"}
+{"query_id": "nq_01023", "model": "gemma", "noctx_answer": "to the unicef"}
+{"query_id": "nq_02119", "model": "gemma", "noctx_answer": "the legend of the easter bunny comes from the germanic pagan festival of Ostara, which was a celebration of spring and fertility."}
+{"query_id": "nq_00308", "model": "gemma", "noctx_answer": "the final season of game of thrones is the eighth and final season of the american fantasy drama television series game of thrones, based on a series of novels by george"}
+{"query_id": "triviaqa_07186", "model": "gemma", "noctx_answer": "Finches"}
+{"query_id": "triviaqa_06865", "model": "gemma", "noctx_answer": "Catherine of Aragon"}
+{"query_id": "nq_00895", "model": "gemma", "noctx_answer": ""}
+{"query_id": "triviaqa_12252", "model": "gemma", "noctx_answer": "Federal Reserve"}
+{"query_id": "nq_03526", "model": "gemma", "noctx_answer": "private"}
+{"query_id": "triviaqa_13338", "model": "gemma", "noctx_answer": "Jamestown, Virginia"}
+{"query_id": "nq_00239", "model": "gemma", "noctx_answer": "the national assembly"}
+{"query_id": "nq_02484", "model": "gemma", "noctx_answer": "at the Rose Bowl in Pasadena, California"}
+{"query_id": "nq_00626", "model": "gemma", "noctx_answer": "turning, drilling, and milling"}
+{"query_id": "popqa_11791", "model": "gemma", "noctx_answer": "Football"}
+{"query_id": "nq_02208", "model": "gemma", "noctx_answer": "Jamie Dornan"}
+{"query_id": "nq_00276", "model": "gemma", "noctx_answer": "Yeh Hai Mohabbatein is an Indian television series that premiered on 3 December 2013 on Star Plus. The series is produced by Ek"}
+{"query_id": "popqa_02060", "model": "gemma", "noctx_answer": "Horror"}
+{"query_id": "nq_02988", "model": "gemma", "noctx_answer": "Great Britain"}
+{"query_id": "nq_02050", "model": "gemma", "noctx_answer": "Kaldor"}
+{"query_id": "nq_01563", "model": "gemma", "noctx_answer": "the river irk starts in the hills of the pennines and finishes in the irwell river"}
+{"query_id": "triviaqa_09108", "model": "gemma", "noctx_answer": "Eurythmics"}
+{"query_id": "nq_01139", "model": "gemma", "noctx_answer": "Michael Jordan"}
+{"query_id": "nq_02621", "model": "gemma", "noctx_answer": "protocol://host:port/path?query#fragment"}
+{"query_id": "nq_01389", "model": "gemma", "noctx_answer": "April 19, 1775"}
+{"query_id": "nq_01620", "model": "gemma", "noctx_answer": "the song was about a dragon that was a friend to a little boy. The dragon was a friend to the little boy and the little boy was a friend to"}
+{"query_id": "nq_00108", "model": "gemma", "noctx_answer": "4"}
+{"query_id": "nq_02986", "model": "gemma", "noctx_answer": "2010"}
+{"query_id": "nq_02281", "model": "gemma", "noctx_answer": "pyloric sphincter"}
+{"query_id": "popqa_01679", "model": "gemma", "noctx_answer": "Summer Sports: Paradise Island is a sports game."}
+{"query_id": "popqa_09195", "model": "gemma", "noctx_answer": "David S. Goyer"}
+{"query_id": "nq_02533", "model": "gemma", "noctx_answer": "the film was shot in the beautiful city of Vancouver, Canada."}
+{"query_id": "nq_00029", "model": "gemma", "noctx_answer": "1985"}
+{"query_id": "popqa_01654", "model": "gemma", "noctx_answer": "Satanic Slaughter is a horror/thriller/comedy."}
+{"query_id": "nq_00814", "model": "gemma", "noctx_answer": "white"}
+{"query_id": "triviaqa_17870", "model": "gemma", "noctx_answer": "The assassination of President John F. Kennedy"}
+{"query_id": "nq_03108", "model": "gemma", "noctx_answer": "biomes"}
+{"query_id": "popqa_05168", "model": "gemma", "noctx_answer": "Mark Burg"}
+{"query_id": "nq_01728", "model": "gemma", "noctx_answer": "the model is named \"the model\""}
+{"query_id": "nq_02199", "model": "gemma", "noctx_answer": "in the studio"}
+{"query_id": "nq_02233", "model": "gemma", "noctx_answer": "6"}
+{"query_id": "nq_02338", "model": "gemma", "noctx_answer": "Zachary Quinto"}
+{"query_id": "popqa_07953", "model": "gemma", "noctx_answer": "Laishevo is the capital of the Laishevo District in the Republic of Tatarstan, Russia."}
+{"query_id": "nq_03409", "model": "gemma", "noctx_answer": "Michael Douglas"}
+{"query_id": "popqa_08005", "model": "gemma", "noctx_answer": "Spain"}
+{"query_id": "popqa_00771", "model": "gemma", "noctx_answer": "Buenos Aires"}
+{"query_id": "popqa_08837", "model": "gemma", "noctx_answer": "Thomas Thompson"}
+{"query_id": "nq_03093", "model": "gemma", "noctx_answer": "the white castle in the movie is actually a real white castle in the city of los angeles. the white castle is located at 1000 south ver"}
+{"query_id": "nq_00867", "model": "gemma", "noctx_answer": "in the town of Thermopolis, Wyoming"}
+{"query_id": "nq_01516", "model": "gemma", "noctx_answer": "a republic"}
+{"query_id": "nq_02603", "model": "gemma", "noctx_answer": "in the battle of fort fisher, north carolina"}
+{"query_id": "nq_03211", "model": "gemma", "noctx_answer": "2015"}
+{"query_id": "nq_02671", "model": "gemma", "noctx_answer": "the british"}
+{"query_id": "nq_00130", "model": "gemma", "noctx_answer": "1%"}
+{"query_id": "popqa_11032", "model": "gemma", "noctx_answer": "The flag of Colorado is a blue field with a white C in the center."}
+{"query_id": "nq_03602", "model": "gemma", "noctx_answer": "San Francisco"}
+{"query_id": "triviaqa_00212", "model": "gemma", "noctx_answer": "St. Basil\u2019s Cathedral"}
+{"query_id": "nq_00674", "model": "gemma", "noctx_answer": "Justin Hartley"}
+{"query_id": "nq_02885", "model": "gemma", "noctx_answer": "Tom Brady"}
+{"query_id": "popqa_02621", "model": "gemma", "noctx_answer": "Something Happens is a genre-bending, genre-defying, genre-creating, genre-destroying, genre-redefining, genre-recreating,"}
+{"query_id": "triviaqa_06089", "model": "gemma", "noctx_answer": "Kitchener"}
+{"query_id": "nq_02181", "model": "gemma", "noctx_answer": "Radcliffe line"}
+{"query_id": "triviaqa_13230", "model": "gemma", "noctx_answer": "Football"}
+{"query_id": "nq_00401", "model": "gemma", "noctx_answer": "1757"}
+{"query_id": "popqa_11199", "model": "gemma", "noctx_answer": "Walter James Fitzgerald is a Christian."}
+{"query_id": "nq_00328", "model": "gemma", "noctx_answer": "1881-1885"}
+{"query_id": "popqa_11945", "model": "gemma", "noctx_answer": "J.D. Salinger"}
+{"query_id": "nq_00891", "model": "gemma", "noctx_answer": "Puerto Rico\u2019s power comes from the sun, wind, and water."}
+{"query_id": "nq_03136", "model": "gemma", "noctx_answer": "in Egypt"}
+{"query_id": "popqa_14242", "model": "gemma", "noctx_answer": "Ottawa"}
+{"query_id": "nq_01599", "model": "gemma", "noctx_answer": "James Lafferty"}
+{"query_id": "nq_02633", "model": "gemma", "noctx_answer": "Kam Chancellor"}
+{"query_id": "nq_02044", "model": "gemma", "noctx_answer": "Jack Lord"}
+{"query_id": "nq_01863", "model": "gemma", "noctx_answer": "grass"}
+{"query_id": "nq_01988", "model": "gemma", "noctx_answer": "the Civil War"}
+{"query_id": "popqa_02547", "model": "gemma", "noctx_answer": "Adventure"}
+{"query_id": "popqa_11169", "model": "gemma", "noctx_answer": "Joseph MacRory was a Roman Catholic."}
+{"query_id": "popqa_01312", "model": "gemma", "noctx_answer": "Rock"}
+{"query_id": "popqa_11770", "model": "gemma", "noctx_answer": "Andr\u00e9 Racicot is a professional hockey player."}
+{"query_id": "nq_03594", "model": "gemma", "noctx_answer": "the size of the engine"}
+{"query_id": "nq_01002", "model": "gemma", "noctx_answer": "Frank Morris"}
+{"query_id": "triviaqa_12433", "model": "gemma", "noctx_answer": "The East Coast to the West Coast"}
+{"query_id": "triviaqa_05329", "model": "gemma", "noctx_answer": "The first ever concerto for tuba and orchestra was composed by the French composer, Jules Demersseman."}
+{"query_id": "popqa_02167", "model": "gemma", "noctx_answer": "Horror"}
+{"query_id": "nq_02298", "model": "gemma", "noctx_answer": "1967"}
+{"query_id": "nq_02087", "model": "gemma", "noctx_answer": "the narrator"}
+{"query_id": "popqa_14117", "model": "gemma", "noctx_answer": "Hanover"}
+{"query_id": "nq_02413", "model": "gemma", "noctx_answer": "1997"}
+{"query_id": "nq_01215", "model": "gemma", "noctx_answer": "1600s"}
+{"query_id": "nq_02957", "model": "gemma", "noctx_answer": "1982"}
+{"query_id": "nq_00823", "model": "gemma", "noctx_answer": ""}
+{"query_id": "triviaqa_04572", "model": "gemma", "noctx_answer": "Smoking"}
+{"query_id": "nq_00131", "model": "gemma", "noctx_answer": "command economy"}
+{"query_id": "triviaqa_07501", "model": "gemma", "noctx_answer": "Pyrrhus"}
+{"query_id": "nq_02261", "model": "gemma", "noctx_answer": "radio waves"}
+{"query_id": "nq_01837", "model": "gemma", "noctx_answer": "Dusseldorf"}
+{"query_id": "triviaqa_17766", "model": "gemma", "noctx_answer": "Right"}
+{"query_id": "nq_01667", "model": "gemma", "noctx_answer": "Georgia"}
+{"query_id": "nq_01815", "model": "gemma", "noctx_answer": "along the medial side of the foot"}
+{"query_id": "popqa_11274", "model": "gemma", "noctx_answer": "The religion of California Lutheran University is the religion of Jesus Christ."}
+{"query_id": "nq_02105", "model": "gemma", "noctx_answer": "washington"}
+{"query_id": "nq_00491", "model": "gemma", "noctx_answer": ""}
+{"query_id": "popqa_04339", "model": "gemma", "noctx_answer": "David Kirschner"}
+{"query_id": "nq_03304", "model": "gemma", "noctx_answer": "2017"}
+{"query_id": "triviaqa_07892", "model": "gemma", "noctx_answer": "Clancy Wiggum"}
+{"query_id": "triviaqa_17800", "model": "gemma", "noctx_answer": "Jerry Seinfeld"}
+{"query_id": "triviaqa_09779", "model": "gemma", "noctx_answer": "A car door lock"}
+{"query_id": "triviaqa_03276", "model": "gemma", "noctx_answer": "Fianna Fail"}
+{"query_id": "popqa_03119", "model": "gemma", "noctx_answer": "George Dance the Elder"}
+{"query_id": "triviaqa_10366", "model": "gemma", "noctx_answer": "The Red Dwarf Corporation"}
+{"query_id": "nq_00177", "model": "gemma", "noctx_answer": "keratin and collagen"}
+{"query_id": "triviaqa_14909", "model": "gemma", "noctx_answer": "Adam Werrity"}
+{"query_id": "triviaqa_05293", "model": "gemma", "noctx_answer": "\"Christina Onassis\""}
+{"query_id": "nq_03115", "model": "gemma", "noctx_answer": "plant hormones"}
+{"query_id": "triviaqa_13825", "model": "gemma", "noctx_answer": "The Forum"}
+{"query_id": "nq_01649", "model": "gemma", "noctx_answer": "I don't want to be lonely"}
+{"query_id": "nq_02982", "model": "llama", "noctx_answer": "another name for a hairpin bend crossword clue"}
+{"query_id": "nq_02711", "model": "llama", "noctx_answer": "Johann Gutenberg invented the printing press in 1450."}
+{"query_id": "nq_01952", "model": "llama", "noctx_answer": "Henry"}
+{"query_id": "triviaqa_13317", "model": "llama", "noctx_answer": "St. Petersburg"}
+{"query_id": "triviaqa_04207", "model": "llama", "noctx_answer": "Tannic acid"}
+{"query_id": "popqa_08085", "model": "llama", "noctx_answer": "Kerry Koharski"}
+{"query_id": "triviaqa_06222", "model": "llama", "noctx_answer": "Rubber"}
+{"query_id": "nq_00284", "model": "llama", "noctx_answer": "The name for the CH3COO- ion is acetate."}
+{"query_id": "nq_03447", "model": "llama", "noctx_answer": "Iceland is located on the Mid-Atlantic Ridge, a divergent plate boundary. The Mid-Atlantic Ridge is a long chain of underwater volcanoes that runs from"}
+{"query_id": "nq_00777", "model": "llama", "noctx_answer": "1. Antivirus software"}
+{"query_id": "nq_01288", "model": "llama", "noctx_answer": "The Flash first appeared in the comic book The Flash #1, published by DC Comics on January 10, 1952."}
+{"query_id": "nq_00784", "model": "llama", "noctx_answer": "The International System of Units (SI) is the modern form of the metric system. It is the most widely used system of measurement, and is the system that"}
+{"query_id": "nq_00933", "model": "llama", "noctx_answer": "The Accounting Standards Board (ASB) is a statutory body established under the Companies Act, 2013. The ASB is responsible for formulating accounting standards"}
+{"query_id": "popqa_13666", "model": "llama", "noctx_answer": "Orangeburg is the capital of Orangeburg County."}
+{"query_id": "triviaqa_05182", "model": "llama", "noctx_answer": "London"}
+{"query_id": "triviaqa_01986", "model": "llama", "noctx_answer": "Giant Haystacks"}
+{"query_id": "popqa_02927", "model": "llama", "noctx_answer": "Metacomet was the son of Chief Pocasset, who was the son of Chief Massasoit. Metacomet was also known as King Philip."}
+{"query_id": "triviaqa_17674", "model": "llama", "noctx_answer": "CBS"}
+{"query_id": "nq_00047", "model": "llama", "noctx_answer": "The last time Oklahoma won a national championship in football was in 2000. The Sooners defeated Florida State 13-2 in the Sugar Bowl to claim"}
+{"query_id": "nq_01754", "model": "llama", "noctx_answer": "The House of Representatives has 360 members, each representing a constituency (constituent) within an state."}
+{"query_id": "triviaqa_17130", "model": "llama", "noctx_answer": "The Drifters"}
+{"query_id": "nq_00397", "model": "llama", "noctx_answer": "There are four seasons in the Lost Girl series: Winter, Spring, Summer, and Fall. Each season has its own unique challenges and rewards for the characters,"}
+{"query_id": "triviaqa_11861", "model": "llama", "noctx_answer": "Boom Bang-a-Bang"}
+{"query_id": "popqa_12588", "model": "llama", "noctx_answer": "Aurora Mardiganian"}
+{"query_id": "triviaqa_11029", "model": "llama", "noctx_answer": "George IV"}
+{"query_id": "triviaqa_11146", "model": "llama", "noctx_answer": "33"}
+{"query_id": "popqa_03006", "model": "llama", "noctx_answer": "Henry Augustus Garfield"}
+{"query_id": "nq_03342", "model": "llama", "noctx_answer": "convex mirror"}
+{"query_id": "nq_02299", "model": "llama", "noctx_answer": "Yo Gabba Gabba! is an American children's television series produced by The Jim Henson Company in association with Too Much Stuff Studios. The show's production"}
+{"query_id": "nq_03215", "model": "llama", "noctx_answer": "Son of Sardaar"}
+{"query_id": "nq_03315", "model": "llama", "noctx_answer": "The five compulsory prayers in Islam are:"}
+{"query_id": "nq_00995", "model": "llama", "noctx_answer": "3"}
+{"query_id": "popqa_13970", "model": "llama", "noctx_answer": "Mexico City"}
+{"query_id": "triviaqa_00976", "model": "llama", "noctx_answer": "Cambodia uses the international vehicle registration code of KH."}
+{"query_id": "triviaqa_09606", "model": "llama", "noctx_answer": "Napoleon Bonaparte"}
+{"query_id": "nq_00963", "model": "llama", "noctx_answer": "Sir Syed Ahmed Khan"}
+{"query_id": "popqa_01832", "model": "llama", "noctx_answer": "Crush is a romance novel."}
+{"query_id": "popqa_14108", "model": "llama", "noctx_answer": "Tarnogsky District is a district of the Poltava Oblast in central Ukraine. The administrative center of the district is the town of Tarnop"}
+{"query_id": "nq_02561", "model": "llama", "noctx_answer": "A subcutaneous injection is made into the layer of fat just under the skin."}
+{"query_id": "popqa_12592", "model": "llama", "noctx_answer": "Michael Walzer"}
+{"query_id": "nq_03063", "model": "llama", "noctx_answer": "Natalie Dormer"}
+{"query_id": "nq_00655", "model": "llama", "noctx_answer": "yellow"}
+{"query_id": "nq_02751", "model": "llama", "noctx_answer": "The first and second major religions in France are Roman Catholicism and Protestantism."}
+{"query_id": "nq_03127", "model": "llama", "noctx_answer": "The answer is (a) - The Road March is a song competition held annually in Trinidad and Tobago. The competition is held in the month of September,"}
+{"query_id": "triviaqa_00106", "model": "llama", "noctx_answer": "Joey Richardson is Vanessa Redgrave's son."}
+{"query_id": "triviaqa_09127", "model": "llama", "noctx_answer": "USA"}
+{"query_id": "triviaqa_02686", "model": "llama", "noctx_answer": "velocity"}
+{"query_id": "nq_03189", "model": "llama", "noctx_answer": "1997"}
+{"query_id": "nq_03297", "model": "llama", "noctx_answer": "George Orwell"}
+{"query_id": "popqa_07962", "model": "llama", "noctx_answer": "Belgium"}
+{"query_id": "nq_03471", "model": "llama", "noctx_answer": "The term Prime Minister was first used in 1902."}
+{"query_id": "nq_03544", "model": "llama", "noctx_answer": "Style guides and style sheets are used to ensure consistency in the appearance of documents. They are used to ensure that the same style is used throughout a document or a"}
+{"query_id": "nq_00469", "model": "llama", "noctx_answer": "science"}
+{"query_id": "triviaqa_15054", "model": "llama", "noctx_answer": "Cricket"}
+{"query_id": "nq_02799", "model": "llama", "noctx_answer": "the witch and the hundred knight 2 us release"}
+{"query_id": "nq_02251", "model": "llama", "noctx_answer": "Porter Airlines flies out of Billy Bishop Toronto City Airport (YTZ) in Toronto. This airport is located on the Toronto Islands, just east of downtown Toronto."}
+{"query_id": "triviaqa_04120", "model": "llama", "noctx_answer": "Pablo Picasso"}
+{"query_id": "nq_00086", "model": "llama", "noctx_answer": "12"}
+{"query_id": "nq_00262", "model": "llama", "noctx_answer": "Hydrogen bonds are found in proteins, nucleic acids, and carbohydrates. They are also found in some inorganic compounds, such as hydroxides, ox"}
+{"query_id": "nq_00647", "model": "llama", "noctx_answer": "The Dominican Republic was named after the Dominican Order, which was founded by Saint Dominic in 1218. The Dominican Order was a religious order that was dedicated to"}
+{"query_id": "nq_01936", "model": "llama", "noctx_answer": "The song \"Tell Me Something Good\" was originally recorded by Stevie Wonder in 1968. It was later covered by other artists, including the Jackson"}
+{"query_id": "nq_01858", "model": "llama", "noctx_answer": "Fast & Furious 8 Release Date in India is 14 Apr 2017 and Fast & Furious 8 hits the Indian theatres on 14 Apr"}
+{"query_id": "nq_00968", "model": "llama", "noctx_answer": "The pulmonary trunk receives blood from the right ventricle of the heart."}
+{"query_id": "popqa_04374", "model": "llama", "noctx_answer": "George Martin"}
+{"query_id": "nq_01635", "model": "llama", "noctx_answer": "The story of the woman who was the subject of the book is not known. The book was written by a man named John D. Rockefeller, Jr. He"}
+{"query_id": "popqa_14196", "model": "llama", "noctx_answer": "Napier"}
+{"query_id": "nq_00899", "model": "llama", "noctx_answer": "Mark Ruffalo"}
+{"query_id": "popqa_12846", "model": "llama", "noctx_answer": "Libba Bray"}
+{"query_id": "popqa_11302", "model": "llama", "noctx_answer": "Frank Pavone is a Roman Catholic priest and anti-abortion activist. He is the founder and president of Priests for Life, an organization that seeks to mobilize"}
+{"query_id": "nq_00413", "model": "llama", "noctx_answer": "The sun represents the country\u2019s independence and the people\u2019s will to fight for it."}
+{"query_id": "nq_02952", "model": "llama", "noctx_answer": "The National Industrial Recovery Act (NIRA) was a US federal law passed during the Great Depression. It was designed to establish a framework for both labor unions and"}
+{"query_id": "nq_00241", "model": "llama", "noctx_answer": "The 2005 Honda Civic has a 1.7-liter engine."}
+{"query_id": "triviaqa_04681", "model": "llama", "noctx_answer": "The Scopes \"monkey trial\" was about the teaching of evolution in public schools."}
+{"query_id": "nq_00953", "model": "llama", "noctx_answer": "The NFL decides where the Super Bowl is played."}
+{"query_id": "nq_03075", "model": "llama", "noctx_answer": "The Great Fire of London ended on September 5, 1666."}
+{"query_id": "nq_00008", "model": "llama", "noctx_answer": "The Hot Coffee mod is a controversial modification for the video game Grand Theft Auto: San Andreas. It was created by a group of modders who wanted to add"}
+{"query_id": "popqa_01424", "model": "llama", "noctx_answer": "Horror"}
+{"query_id": "nq_02209", "model": "llama", "noctx_answer": "Stephen Curry won the MVP award in 2015-16 season."}
+{"query_id": "nq_02942", "model": "llama", "noctx_answer": "Thomas Obediah Chisholm"}
+{"query_id": "nq_00875", "model": "llama", "noctx_answer": "Jefferson Davis"}
+{"query_id": "triviaqa_05854", "model": "llama", "noctx_answer": "India"}
+{"query_id": "nq_01105", "model": "llama", "noctx_answer": "adrenaline"}
+{"query_id": "nq_00902", "model": "llama", "noctx_answer": "John Donne"}
+{"query_id": "nq_03366", "model": "llama", "noctx_answer": "Marie Antoinette"}
+{"query_id": "nq_02920", "model": "llama", "noctx_answer": "The Supreme Court of Canada is the highest court in the country. It is the final court of appeal for all cases, and is the final interpreter of the law"}
+{"query_id": "popqa_01743", "model": "llama", "noctx_answer": "Hamilton is a musical that is a combination of hip-hop, jazz, and R&B."}
+{"query_id": "popqa_09007", "model": "llama", "noctx_answer": "David Cummings"}
+{"query_id": "popqa_13464", "model": "llama", "noctx_answer": "Martha Wayne"}
+{"query_id": "popqa_13905", "model": "llama", "noctx_answer": "Santiago"}
+{"query_id": "nq_01494", "model": "llama", "noctx_answer": "The meninges are the three layers of membranes that surround the brain and spinal cord. They are the pia mater (or arachnoid mater), the"}
+{"query_id": "nq_02372", "model": "llama", "noctx_answer": "The three elves who got rings were Goldberry, Goldberry's mother, and Goldberry's father."}
+{"query_id": "nq_01731", "model": "llama", "noctx_answer": "The second part of the fourth season of the American television series Vikings premiered on November 29, 2017, and ended on April 24, 201"}
+{"query_id": "popqa_11216", "model": "llama", "noctx_answer": "John Peter Jukes is a Christian."}
+{"query_id": "nq_01554", "model": "llama", "noctx_answer": "The First Fleet arrived in Australia in 1788."}
+{"query_id": "popqa_00711", "model": "llama", "noctx_answer": "Mexico City"}
+{"query_id": "nq_02364", "model": "llama", "noctx_answer": "Maryland is a state in the United States of America. It is bordered by Delaware to the northeast, Pennsylvania to the north, West Virginia to the west, and"}
+{"query_id": "triviaqa_02321", "model": "llama", "noctx_answer": "1879"}
+{"query_id": "nq_02684", "model": "llama", "noctx_answer": "A. Put"}
+{"query_id": "nq_02440", "model": "llama", "noctx_answer": "Brent Barry won the 2000 NBA Slam Dunk Contest."}
+{"query_id": "nq_00914", "model": "llama", "noctx_answer": "When you are playing a contract and you have a good hand, you should declare honors. This means that you will play a card that is higher in value than"}
+{"query_id": "nq_00418", "model": "llama", "noctx_answer": "Criminal Minds Season 1 Episode 10 \"Somebody's Watching\""}
+{"query_id": "nq_01408", "model": "llama", "noctx_answer": "Mercy Mercy Me (The Ecology) is a song written by Marvin Gaye and released as a single in 1972. It was the first single from Gay"}
+{"query_id": "nq_00669", "model": "llama", "noctx_answer": "The national government had more power under the Articles of Confederation than the state governments."}
+{"query_id": "nq_02940", "model": "llama", "noctx_answer": "India, Pakistan, Bangladesh, Sri Lanka, England, Australia, New Zealand, South Africa, West Indies, Zimbabwe, Afghanistan, Ireland, Scotland, Namibia"}
+{"query_id": "nq_03361", "model": "llama", "noctx_answer": "Lady Gaga"}
+{"query_id": "triviaqa_09012", "model": "llama", "noctx_answer": "Apache"}
+{"query_id": "nq_03478", "model": "llama", "noctx_answer": "The band Imagine Dragons comes from Las Vegas, Nevada."}
+{"query_id": "triviaqa_12608", "model": "llama", "noctx_answer": "Victor Hugo"}
+{"query_id": "nq_02232", "model": "llama", "noctx_answer": "5"}
+{"query_id": "popqa_07744", "model": "llama", "noctx_answer": "Teramo is the capital of the Abruzzo region of Italy."}
+{"query_id": "nq_00779", "model": "llama", "noctx_answer": "The Country Music Hall of Fame and Museum is located in Nashville, Tennessee, in the heart of Music City."}
+{"query_id": "triviaqa_02226", "model": "llama", "noctx_answer": "Jennifer Aniston"}
+{"query_id": "nq_00937", "model": "llama", "noctx_answer": "The five permanent members of the Security Council are China, France, Russia, the United Kingdom, and the United States. The other ten members are elected by the"}
+{"query_id": "nq_00751", "model": "llama", "noctx_answer": "A menstrual cup is a small, flexible cup that is inserted into the vagina to collect menstrual blood. It is a reusable alternative to tampons and pads, and"}
+{"query_id": "nq_02765", "model": "llama", "noctx_answer": "nitty gritty dirt band fishin in the dark album"}
+{"query_id": "nq_01168", "model": "llama", "noctx_answer": "The Last Ship Season 4 Episode 1"}
+{"query_id": "nq_00666", "model": "llama", "noctx_answer": "Dharmendra"}
+{"query_id": "nq_00653", "model": "llama", "noctx_answer": "The USS Maine was in the harbor of Havana, Cuba, when it exploded in 1898."}
+{"query_id": "nq_00864", "model": "llama", "noctx_answer": "The most successful curler in the history of the sport is David Murdoch, who has won a total of 10 medals at the World Championships and the Winter Olympics"}
+{"query_id": "nq_02619", "model": "llama", "noctx_answer": "The Karate Kid 2010 takes place in Beijing, China."}
+{"query_id": "nq_00870", "model": "llama", "noctx_answer": "Joe Gatto"}
+{"query_id": "nq_01849", "model": "llama", "noctx_answer": "Heather Tom"}
+{"query_id": "nq_03608", "model": "llama", "noctx_answer": "Eukarya"}
+{"query_id": "nq_01015", "model": "llama", "noctx_answer": "The Big Texan Steak Ranch is a popular steakhouse located in Amarillo, Texas. It is known for its massive 72-ounce steak challenge, which"}
+{"query_id": "nq_02268", "model": "llama", "noctx_answer": "Rick and Morty is a science fiction animated television series that takes place in the fictional town of \"Earth C-132\" in the \"Dimension C-132"}
+{"query_id": "triviaqa_17595", "model": "llama", "noctx_answer": "Ross Perot"}
+{"query_id": "nq_00676", "model": "llama", "noctx_answer": "The pedestrian bridge that collapsed at Florida International University was built by Munilla Construction Management, a company owned by the family of the university's president."}
+{"query_id": "popqa_04563", "model": "llama", "noctx_answer": "John Ford"}
+{"query_id": "nq_00234", "model": "llama", "noctx_answer": "Kat Slater's sister is Zoe Slater."}
+{"query_id": "nq_03213", "model": "llama", "noctx_answer": "Buddy Holly"}
+{"query_id": "nq_01486", "model": "llama", "noctx_answer": "The song is about a girl named diamonds and rust."}
+{"query_id": "popqa_07811", "model": "llama", "noctx_answer": "Quebec"}
+{"query_id": "nq_03558", "model": "llama", "noctx_answer": "Desi Arnaz"}
+{"query_id": "nq_01259", "model": "llama", "noctx_answer": "The original voices of the Flintstones were Alan Reed as Fred, Bea Benaderet as Wilma, Mel Blanc as Barney, and June Foray as Betty"}
+{"query_id": "nq_02708", "model": "llama", "noctx_answer": "1. Shilpa Shinde"}
+{"query_id": "nq_00456", "model": "llama", "noctx_answer": "The harp is the national emblem of Ireland. It is also the national emblem of the Republic of Ireland. The harp is a symbol of Ireland and is"}
+{"query_id": "triviaqa_11641", "model": "llama", "noctx_answer": "General Joseph W. 'Vinegar Joe' Stilwell"}
+{"query_id": "popqa_04422", "model": "llama", "noctx_answer": "The producer of Prom is Adam Shankman."}
+{"query_id": "nq_03565", "model": "llama", "noctx_answer": "The SA node begins electrical signaling when it is stimulated by the autonomic nervous system."}
+{"query_id": "nq_00229", "model": "llama", "noctx_answer": "Mark Hall"}
+{"query_id": "triviaqa_10626", "model": "llama", "noctx_answer": "Feet"}
+{"query_id": "popqa_00035", "model": "llama", "noctx_answer": "Bruce McDaniel is a doctor."}
+{"query_id": "popqa_03295", "model": "llama", "noctx_answer": "Hippocrates"}
+{"query_id": "nq_03013", "model": "llama", "noctx_answer": "The World Chess Championship 2017 was held in New York City, USA."}
+{"query_id": "nq_02175", "model": "llama", "noctx_answer": "The lyrics to the hymn \u201cWhat a Friend We Have in Jesus\u201d were written by Joseph Scriven, an Irish immigrant to Canada."}
+{"query_id": "nq_00571", "model": "llama", "noctx_answer": "Yahya Khan"}
+{"query_id": "nq_03178", "model": "llama", "noctx_answer": "Caroline Forbes is a fictional character from the television series The Vampire Diaries, based on the book series of the same name by L. J. Smith. She"}
+{"query_id": "nq_00002", "model": "llama", "noctx_answer": "There are two seasons of The Bastard Executioner."}
+{"query_id": "popqa_11087", "model": "llama", "noctx_answer": "Roman Catholic"}
+{"query_id": "nq_00278", "model": "llama", "noctx_answer": "When did McGee become a regular on NCIS?"}
+{"query_id": "triviaqa_17573", "model": "llama", "noctx_answer": "Grace Darling's father was a lighthouse keeper."}
+{"query_id": "nq_01653", "model": "llama", "noctx_answer": "France"}
+{"query_id": "nq_02654", "model": "llama", "noctx_answer": "The Monday Night Football game is shown on the National Football League (NFL) Network. The NFL Network is a cable television channel that is dedicated to broadcasting NFL games"}
+{"query_id": "nq_03309", "model": "llama", "noctx_answer": "The process to become a santero is a long and difficult one. It takes years of study and practice to become a master of the art."}
+{"query_id": "nq_01642", "model": "llama", "noctx_answer": "De Beers owns about 85% of the world's diamonds."}
+{"query_id": "nq_01327", "model": "llama", "noctx_answer": "Fusion of the spine is a surgical procedure that involves the removal of a damaged disc and the insertion of a bone graft to fuse the vertebrae together. The"}
+{"query_id": "triviaqa_09912", "model": "llama", "noctx_answer": "US Navy"}
+{"query_id": "nq_01292", "model": "llama", "noctx_answer": "The space shuttle launches from the Kennedy Space Center in Florida."}
+{"query_id": "nq_00980", "model": "llama", "noctx_answer": "The University of Wisconsin\u2013Madison is a public land-grant university in the U.S. state of Wisconsin and the flagship university of the University of Wisconsin System"}
+{"query_id": "nq_02394", "model": "llama", "noctx_answer": "The opening ceremonies of the Olympics 2018 will be held on February 9th, 2018."}
+{"query_id": "nq_00731", "model": "llama", "noctx_answer": "The human skeleton has many functions. It provides a framework for the body, supports the body, helps protect the body, helps protect internal organs, helps produce red"}
+{"query_id": "nq_02021", "model": "llama", "noctx_answer": "The last name Edwards comes from the Old English word \"e\u00f0weor\u00f0\" which means \"rich in wealth.\""}
+{"query_id": "nq_00248", "model": "llama", "noctx_answer": "India"}
+{"query_id": "nq_01556", "model": "llama", "noctx_answer": "this inventor co-created the film fred ott\u2019s sneeze"}
+{"query_id": "nq_01378", "model": "llama", "noctx_answer": "Rutherford"}
+{"query_id": "triviaqa_15498", "model": "llama", "noctx_answer": "Tesco"}
+{"query_id": "nq_03582", "model": "llama", "noctx_answer": "Florida Natural Orange Juice comes from the state of Florida in the United States. The company was founded in 1988 and is headquartered in Winter Haven, Florida."}
+{"query_id": "nq_03037", "model": "llama", "noctx_answer": "The Teddy Bear Dog is a cross between a Shih Tzu and a Maltese. The Teddy Bear Dog is a cross between a Shih Tzu"}
+{"query_id": "nq_00634", "model": "llama", "noctx_answer": "The Ouija board game was first introduced in 1890 by Elijah Bond, an American inventor. The game was originally called the \"Ouija Board"}
+{"query_id": "triviaqa_13746", "model": "llama", "noctx_answer": "a well"}
+{"query_id": "nq_00192", "model": "llama", "noctx_answer": "The next Iron Chef Super Chefs will be announced soon. Stay tuned for more information!"}
+{"query_id": "nq_00290", "model": "llama", "noctx_answer": "There are 10 breeds of pigs in the UK."}
+{"query_id": "nq_02494", "model": "llama", "noctx_answer": "a type of basic rock popular in the 1980s is granite."}
+{"query_id": "triviaqa_11850", "model": "llama", "noctx_answer": "Lady Bracknell"}
+{"query_id": "nq_02371", "model": "llama", "noctx_answer": "The men's world curling championship is held every year in March. The first men's world curling championship was held in 1959. The first women"}
+{"query_id": "nq_02853", "model": "llama", "noctx_answer": "when it is in metaphase"}
+{"query_id": "nq_02600", "model": "llama", "noctx_answer": "The Coral Sea is a marginal sea of the South Pacific Ocean, south of the Great Dividing Range of Queensland, Australia. It is located south of the T"}
+{"query_id": "popqa_11968", "model": "llama", "noctx_answer": "Chhatarpati"}
+{"query_id": "popqa_01982", "model": "llama", "noctx_answer": "Rude Kids is a genre of music that combines elements of hip hop, rap, and electronic music. It is characterized by its fast-paced beats, heavy bass"}
+{"query_id": "nq_01971", "model": "llama", "noctx_answer": "The bromophenol blue dye is used to determine the pH of the solution. The bromophenol blue dye is a pH indicator that changes color depending"}
+{"query_id": "nq_00232", "model": "llama", "noctx_answer": "Lin-Manuel Miranda"}
+{"query_id": "nq_01023", "model": "llama", "noctx_answer": "Trick-or-Treat for UNICEF is a fundraising program that allows children to collect donations for UNICEF. The money raised goes to UNICEF's"}
+{"query_id": "popqa_03111", "model": "llama", "noctx_answer": "Amir Khusro"}
+{"query_id": "nq_02119", "model": "llama", "noctx_answer": "The Easter Bunny is a popular symbol of Easter. The Easter Bunny, like Santa Claus, does not really exist. However, children enjoy the idea of the Easter"}
+{"query_id": "nq_00308", "model": "llama", "noctx_answer": "Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss. It is based on the series of fantasy novels"}
+{"query_id": "popqa_01133", "model": "llama", "noctx_answer": "The Wicked is a musical that combines elements of rock music with Broadway theatre. It is a darkly humorous musical with music and lyrics by Stephen Schwartz and book"}
+{"query_id": "triviaqa_07186", "model": "llama", "noctx_answer": "Linnets belong to the family of birds called finches."}
+{"query_id": "nq_00895", "model": "llama", "noctx_answer": "Osmosis"}
+{"query_id": "triviaqa_12252", "model": "llama", "noctx_answer": "Federal Reserve"}
+{"query_id": "nq_03526", "model": "llama", "noctx_answer": "private"}
+{"query_id": "triviaqa_13338", "model": "llama", "noctx_answer": "Jamestown, Virginia"}
+{"query_id": "nq_00239", "model": "llama", "noctx_answer": "Jean-Jacques Rousseau"}
+{"query_id": "nq_02484", "model": "llama", "noctx_answer": "The UCLA-USC game is being played at the Rose Bowl in Pasadena, California. The Rose Bowl is a famous stadium that has hosted many college football games,"}
+{"query_id": "popqa_11791", "model": "llama", "noctx_answer": "Football"}
+{"query_id": "nq_02208", "model": "llama", "noctx_answer": "Christian Grey is played by Jamie Dornan. Christian Grey is the main character in the Fifty Shades of Grey trilogy. He is a wealthy businessman who is involved"}
+{"query_id": "nq_02625", "model": "llama", "noctx_answer": "David Beckham"}
+{"query_id": "nq_02792", "model": "llama", "noctx_answer": "Australia II won the America's Cup in 1983."}
+{"query_id": "nq_00276", "model": "llama", "noctx_answer": "Real name of the serial star cast of yeh hai mohabbatein is"}
+{"query_id": "popqa_02060", "model": "llama", "noctx_answer": "Horror"}
+{"query_id": "nq_02988", "model": "llama", "noctx_answer": "The United States fought Great Britain in the War of 1812."}
+{"query_id": "nq_02050", "model": "llama", "noctx_answer": "1. Arthur Lewis"}
+{"query_id": "nq_01563", "model": "llama", "noctx_answer": "The river Irk starts at the River Irwell and finishes at the River Irwell."}
+{"query_id": "triviaqa_09108", "model": "llama", "noctx_answer": "Annie Lennox"}
+{"query_id": "nq_02001", "model": "llama", "noctx_answer": "1. The Orange Is the New Black cast is a diverse group of actors, and one of the most interesting characters is Red, played by Kate Mulg"}
+{"query_id": "nq_01139", "model": "llama", "noctx_answer": "Michael Jordan"}
+{"query_id": "nq_02621", "model": "llama", "noctx_answer": "The general structure of a URL is as follows: http://www.example.com:80/path/to/file.html"}
+{"query_id": "popqa_12834", "model": "llama", "noctx_answer": "Arthur Hailey"}
+{"query_id": "nq_01634", "model": "llama", "noctx_answer": "India"}
+{"query_id": "nq_01389", "model": "llama", "noctx_answer": "The Battles of Lexington and Concord were the first military engagements of the American Revolutionary War. They were fought on April 19, 1775, in Massachusetts on"}
+{"query_id": "nq_01620", "model": "llama", "noctx_answer": "The song \"Puff the Magic Dragon\" is a children's song that was written by Peter, Paul and Mary in the 1960s. The song"}
+{"query_id": "nq_00952", "model": "llama", "noctx_answer": "I Don't Like Mondays was released in 1984."}
+{"query_id": "nq_03397", "model": "llama", "noctx_answer": "Hudson river"}
+{"query_id": "nq_00108", "model": "llama", "noctx_answer": "the chinese dragons are protectors of the five seas"}
+{"query_id": "nq_02986", "model": "llama", "noctx_answer": "The last volcano to erupt in Iceland was the Eyjafjallaj\u00f6kull volcano in 2010. The eruption caused a large ash cloud that disrupted"}
+{"query_id": "nq_02281", "model": "llama", "noctx_answer": "the pyloric sphincter"}
+{"query_id": "triviaqa_05158", "model": "llama", "noctx_answer": "The Zambezi River"}
+{"query_id": "popqa_01679", "model": "llama", "noctx_answer": "Summer Sports: Paradise Island is a sports game."}
+{"query_id": "popqa_09195", "model": "llama", "noctx_answer": "John August"}
+{"query_id": "nq_02533", "model": "llama", "noctx_answer": "The Light Between Oceans is a 2018 Australian-American romantic drama film directed by Derek Cianfrance and written by Cianfrance, Becky Ol"}
+{"query_id": "nq_00029", "model": "llama", "noctx_answer": "1985"}
+{"query_id": "nq_01732", "model": "llama", "noctx_answer": "The Trafalgar Square Christmas tree is donated by the city of Oslo, Norway, as a token of Norwegian gratitude to the British people for their support during"}
+{"query_id": "nq_00814", "model": "llama", "noctx_answer": "The cue ball is white in color."}
+{"query_id": "triviaqa_17870", "model": "llama", "noctx_answer": "The assassination of President John F. Kennedy"}
+{"query_id": "nq_03108", "model": "llama", "noctx_answer": "communities of similar organisms found in a particular environment are called"}
+{"query_id": "popqa_11991", "model": "llama", "noctx_answer": "Dr. S. N. Bose"}
+{"query_id": "nq_01728", "model": "llama", "noctx_answer": "The model on Let's Make a Deal is a woman named Vanessa Hudgens. She is an American actress and singer who is best known for her role as Gabri"}
+{"query_id": "nq_02199", "model": "llama", "noctx_answer": "The film was shot in Germany, Poland, and Morocco."}
+{"query_id": "nq_02233", "model": "llama", "noctx_answer": "There have been four seasons of Ray Donovan."}
+{"query_id": "nq_02338", "model": "llama", "noctx_answer": "Zachary Quinto"}
+{"query_id": "nq_03409", "model": "llama", "noctx_answer": "Michael Douglas"}
+{"query_id": "popqa_08005", "model": "llama", "noctx_answer": "Spain"}
+{"query_id": "popqa_00771", "model": "llama", "noctx_answer": "Havana, Cuba"}
+{"query_id": "popqa_11808", "model": "llama", "noctx_answer": "He plays ice hockey."}
+{"query_id": "triviaqa_17378", "model": "llama", "noctx_answer": "Blue"}
+{"query_id": "popqa_08837", "model": "llama", "noctx_answer": "Albert Maltz"}
+{"query_id": "nq_03503", "model": "llama", "noctx_answer": "The Fool"}
+{"query_id": "nq_03093", "model": "llama", "noctx_answer": "The White Castle is a 1999 American comedy film directed by Greg Mottola and starring Naseeruddin Shah and Daniel Raymont. The film"}
+{"query_id": "nq_00447", "model": "llama", "noctx_answer": "Justin Timberlake"}
+{"query_id": "nq_00867", "model": "llama", "noctx_answer": "The world's largest thermometer is located in Baker, California. It is 375 feet tall and 375 feet wide. The thermometer was built in 1949"}
+{"query_id": "nq_01516", "model": "llama", "noctx_answer": "The United States is a representative democracy, with elected officials holding positions equivalent to those in the parliamentary democratic system while also incorporating republican beliefs such as citizenship, rule of"}
+{"query_id": "nq_02603", "model": "llama", "noctx_answer": "where did the northernmost land action of the american civil war occur"}
+{"query_id": "nq_03211", "model": "llama", "noctx_answer": "when did the new day win the tag team titles"}
+{"query_id": "nq_02671", "model": "llama", "noctx_answer": "The Battle of Britain was a military campaign fought between the Royal Air Force (RAF) and the German Luftwaffe during the summer and autumn of 194"}
+{"query_id": "nq_00130", "model": "llama", "noctx_answer": "0.5%"}
+{"query_id": "popqa_13626", "model": "llama", "noctx_answer": "The capital of Nan is Nan."}
+{"query_id": "popqa_11032", "model": "llama", "noctx_answer": "Colorado's flag is blue with a circular red disk in the center."}
+{"query_id": "nq_03602", "model": "llama", "noctx_answer": "where did immigrants enter the us on the west coast"}
+{"query_id": "triviaqa_13848", "model": "llama", "noctx_answer": "Lancelot"}
+{"query_id": "triviaqa_00212", "model": "llama", "noctx_answer": "St. Basil's Cathedral"}
+{"query_id": "nq_00674", "model": "llama", "noctx_answer": "The actor who plays JT on The Young and the Restless is Thad Luckinbill. He has been a part of the show since 1993 and"}
+{"query_id": "nq_02885", "model": "llama", "noctx_answer": "Tom Brady has the most Super Bowl rings of any player in NFL history, with seven. He is followed by Charles Haley, who has five rings."}
+{"query_id": "popqa_02621", "model": "llama", "noctx_answer": "Something Happens is a rock band from Dublin, Ireland. They are known for their energetic live performances and their catchy, upbeat songs. Their music is a mix"}
+{"query_id": "triviaqa_06089", "model": "llama", "noctx_answer": "Lord Kitchener"}
+{"query_id": "nq_02181", "model": "llama", "noctx_answer": "The India-Pakistan border is a de facto border between India and Pakistan. It is the longest land border in the world between two neighboring states. The border is"}
+{"query_id": "nq_00401", "model": "llama", "noctx_answer": "The East India Company took control of India in the 18th century. The company was established in 1600 and was originally a private trading company. However"}
+{"query_id": "popqa_11199", "model": "llama", "noctx_answer": "Walter James Fitzgerald was a Roman Catholic."}
+{"query_id": "nq_00328", "model": "llama", "noctx_answer": "The Canadian Pacific Railway (CPR) was incorporated on February 11, 1881. Construction of the transcontinental railway was completed on November 7,"}
+{"query_id": "popqa_11945", "model": "llama", "noctx_answer": "J.G. Ballard"}
+{"query_id": "nq_00891", "model": "llama", "noctx_answer": "Puerto Rico's power comes from a combination of fossil fuels and renewable energy sources. The island is home to several power plants that use fossil fuels, such as oil"}
+{"query_id": "nq_03136", "model": "llama", "noctx_answer": "The Suez Canal is located in Egypt. It connects the Mediterranean Sea with the Red Sea."}
+{"query_id": "popqa_14242", "model": "llama", "noctx_answer": "Ottawa"}
+{"query_id": "nq_01599", "model": "llama", "noctx_answer": "Chad Michael Murray"}
+{"query_id": "nq_02633", "model": "llama", "noctx_answer": "The Honey Badger is a nickname for former NFL player Michael Vick. He was a quarterback for the Philadelphia Eagles and the Washington Redskins. He is known for his"}
+{"query_id": "nq_02044", "model": "llama", "noctx_answer": "Jack Lord"}
+{"query_id": "popqa_05155", "model": "llama", "noctx_answer": "T Bone Burnett"}
+{"query_id": "nq_01863", "model": "llama", "noctx_answer": "The woolly mammoth ate grasses and sedges."}
+{"query_id": "popqa_04741", "model": "llama", "noctx_answer": "Manmohan Shetty"}
+{"query_id": "nq_01988", "model": "llama", "noctx_answer": "the civil war."}
+{"query_id": "nq_00350", "model": "llama", "noctx_answer": "Elton John's album \"Sacrifice\" was released in 1990. It features the hit single \"Sacrifice\" and other popular tracks like"}
+{"query_id": "triviaqa_01501", "model": "llama", "noctx_answer": "Brain"}
+{"query_id": "popqa_02547", "model": "llama", "noctx_answer": "Adventure"}
+{"query_id": "popqa_11169", "model": "llama", "noctx_answer": "Joseph MacRory was a Roman Catholic."}
+{"query_id": "popqa_01312", "model": "llama", "noctx_answer": "John Entwistle is a rock musician. He is best known as the bassist for the rock band The Who. He was also a songwriter and singer."}
+{"query_id": "nq_03594", "model": "llama", "noctx_answer": "A mini bike is a small motorcycle that is designed for children and young adults. It is typically smaller and lighter than a regular motorcycle, and is often used for"}
+{"query_id": "nq_01002", "model": "llama", "noctx_answer": "Alcatraz was a prison that was built on an island in the San Francisco Bay. It was built in 1912 and was used to hold the most"}
+{"query_id": "popqa_06216", "model": "llama", "noctx_answer": "Dr. Richard Wiseman"}
+{"query_id": "triviaqa_12433", "model": "llama", "noctx_answer": "the East Coast to the West Coast"}
+{"query_id": "triviaqa_05329", "model": "llama", "noctx_answer": "William Bell"}
+{"query_id": "popqa_02167", "model": "llama", "noctx_answer": "In Silence is a drama film."}
+{"query_id": "nq_02298", "model": "llama", "noctx_answer": "The first colour television service in the UK was launched by the BBC in 1967. The BBC's first colour service was PAL (Phase Alternating Line),"}
+{"query_id": "nq_02087", "model": "llama", "noctx_answer": "The speaker is the narrator, who is a British police officer in Burma."}
+{"query_id": "popqa_14117", "model": "llama", "noctx_answer": "Hanover"}
+{"query_id": "nq_02413", "model": "llama", "noctx_answer": "The Denver Broncos won the Super Bowl in 1998."}
+{"query_id": "nq_02442", "model": "llama", "noctx_answer": "The song \"Everybody Dies in Their Nightmares\" is performed by the band \"The Black Keys.\" The song is from their album \"El Camino,\" which"}
+{"query_id": "nq_02392", "model": "llama", "noctx_answer": "implantation of the embryo occurs at the end of the second week of development"}
+{"query_id": "nq_01215", "model": "llama", "noctx_answer": "The letter J was introduced to the alphabet in 1639."}
+{"query_id": "nq_02957", "model": "llama", "noctx_answer": "Pac-Man was released in the US in 1980."}
+{"query_id": "popqa_09771", "model": "llama", "noctx_answer": "Yesim Ustaoglu"}
+{"query_id": "nq_00823", "model": "llama", "noctx_answer": "The song was written by Ian Dury and Chaz Jankel."}
+{"query_id": "triviaqa_04572", "model": "llama", "noctx_answer": "Quitline is a system of centres to help people to quit smoking."}
+{"query_id": "nq_02254", "model": "llama", "noctx_answer": "Yamuna"}
+{"query_id": "nq_00131", "model": "llama", "noctx_answer": "The Soviet Union was a communist country, which means that it had a planned economy. This means that the government controlled the production and distribution of goods and services."}
+{"query_id": "nq_02261", "model": "llama", "noctx_answer": "Satellites generally use radio waves to communicate with Earth."}
+{"query_id": "nq_01837", "model": "llama", "noctx_answer": "industrial city in germany on the rhine herne canal"}
+{"query_id": "nq_00541", "model": "llama", "noctx_answer": "The safe haven is a place where the baby is left. It is a place where the baby is left in a safe place. It is a place where the"}
+{"query_id": "triviaqa_17766", "model": "llama", "noctx_answer": "Right"}
+{"query_id": "nq_02079", "model": "llama", "noctx_answer": "A"}
+{"query_id": "nq_01667", "model": "llama", "noctx_answer": "The film was shot in the state of New Jersey, USA. The exact location is not disclosed, but it is believed to be a suburban area with a mix"}
+{"query_id": "nq_01815", "model": "llama", "noctx_answer": "The sciatic nerve runs down the back of the leg, through the back of the thigh and into the buttocks. It is the largest nerve in the body"}
+{"query_id": "nq_02105", "model": "llama", "noctx_answer": "Michigan State University played in the Rose Bowl in 2014 against the Stanford Cardinal. The game was a close one, with the final score being 20-"}
+{"query_id": "nq_01085", "model": "llama", "noctx_answer": "Davos"}
+{"query_id": "nq_00491", "model": "llama", "noctx_answer": "The parts of a domain name are called the top-level domain (TLD), the second-level domain (SLD), and the subdomain."}
+{"query_id": "popqa_04339", "model": "llama", "noctx_answer": "Henry Mancini"}
+{"query_id": "triviaqa_03655", "model": "llama", "noctx_answer": "The British R-34"}
+{"query_id": "nq_03304", "model": "llama", "noctx_answer": "2006"}
+{"query_id": "triviaqa_07892", "model": "llama", "noctx_answer": "Chief Wiggum"}
+{"query_id": "nq_02992", "model": "llama", "noctx_answer": "Balram"}
+{"query_id": "nq_00382", "model": "llama", "noctx_answer": "Rory and Paris go to the University of Vermont."}
+{"query_id": "nq_02207", "model": "llama", "noctx_answer": "The Flash season 4 is set to premiere on October 9, 2018. The season will consist of 22 episodes and will air on The CW"}
+{"query_id": "nq_02360", "model": "llama", "noctx_answer": "The Delano Las Vegas is a hotel and casino located on the Las Vegas Strip in Paradise, Nevada, United States. The hotel is owned by the Delano"}
+{"query_id": "triviaqa_01543", "model": "llama", "noctx_answer": "Daleks"}
+{"query_id": "triviaqa_09779", "model": "llama", "noctx_answer": "Door"}
+{"query_id": "triviaqa_03928", "model": "llama", "noctx_answer": "The popes"}
+{"query_id": "triviaqa_03276", "model": "llama", "noctx_answer": "Fianna Fail"}
+{"query_id": "popqa_03119", "model": "llama", "noctx_answer": "George Dance the Elder"}
+{"query_id": "triviaqa_10366", "model": "llama", "noctx_answer": "Blue Mink"}
+{"query_id": "triviaqa_03358", "model": "llama", "noctx_answer": "E"}
+{"query_id": "nq_00177", "model": "llama", "noctx_answer": "Collagen and elastin are the two fibres which are made of proteins."}
+{"query_id": "triviaqa_05293", "model": "llama", "noctx_answer": "Christina Onassis"}
+{"query_id": "triviaqa_03039", "model": "llama", "noctx_answer": "Car seats"}
+{"query_id": "nq_03115", "model": "llama", "noctx_answer": "hormones"}
+{"query_id": "nq_01649", "model": "llama", "noctx_answer": "Gloria Estefan"}

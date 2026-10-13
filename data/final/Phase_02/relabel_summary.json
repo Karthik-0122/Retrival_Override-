@@ -1,0 +1,41 @@
+{
+  "gemma": {
+    "natural_rag_other": {
+      "old_override": 140,
+      "really_correct": 31,
+      "faithful_to_override": 62
+    },
+    "popqa": {
+      "old_override": 42,
+      "really_correct": 23,
+      "faithful_to_override": 2
+    },
+    "_total": {
+      "old_override": 182,
+      "really_correct": 54,
+      "short_gold_flagged": 7
+    }
+  },
+  "llama": {
+    "natural_rag_other": {
+      "old_override": 222,
+      "really_correct": 75,
+      "faithful_to_override": 39
+    },
+    "popqa": {
+      "old_override": 58,
+      "really_correct": 37,
+      "faithful_to_override": 1
+    },
+    "_total": {
+      "old_override": 280,
+      "really_correct": 112,
+      "short_gold_flagged": 11
+    }
+  },
+  "test_set": {
+    "total": 100,
+    "still_override": 71
+  },
+  "six_flips_real_override": 4
+}
