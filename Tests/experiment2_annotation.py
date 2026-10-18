@@ -130,7 +130,16 @@ def cmd_sample(a):
     cells = defaultdict(list)
     for r in rows:
         cells[(r["model"], r["failure_type"])].append(r)
-    quota = allocate({k: len(v) for k, v in cells.items()}, a.n)
+    sizes = {k: len(v) for k, v in cells.items()}
+    # Oversampling (reported in the paper): every F1 case (Exp 4 needs all of them
+    # human-verified), a fixed number of F6 (may hide F1), the rest spread evenly.
+    quota = {k: sizes[k] for k in sizes if k[1] == "F1"} if a.all_f1 else {}
+    f6 = {k: s for k, s in sizes.items() if k[1] == "F6"}
+    quota.update(allocate(f6, min(a.n_f6, sum(f6.values()))))
+    others = {k: s for k, s in sizes.items() if k not in quota}
+    quota.update(allocate(others, max(0, a.n - sum(quota.values()))))
+    for k in sizes:
+        quota.setdefault(k, 0)
 
     picked = []
     for k, n in sorted(quota.items()):
@@ -161,7 +170,9 @@ def cmd_sample(a):
                       **{c: "" for c in ANNOT_COLS}})
         key.append({"item_id": iid, "question_id": r["question_id"], "model": r["model"],
                     "dataset": r["dataset"], "auto_type": r["failure_type"],
-                    "auto_confidence": r["confidence"], "original_label": r["original_label"]})
+                    "auto_confidence": r["confidence"], "original_label": r["original_label"],
+                    "sampling_weight": round(sizes[(r["model"], r["failure_type"])]
+                                             / quota[(r["model"], r["failure_type"])], 4)})
     cols = ["item_id", "question", "gold_answers", "model_answer", "retrieved_passages"] + ANNOT_COLS
     for name, s in (("A", SEED + 1), ("B", SEED + 2)):
         sheet = items[:]
@@ -298,7 +309,10 @@ def cmd_validate(a):
     auto = [key[i]["auto_type"] for i in ids]
 
     acc = sum(h == p for h, p in zip(human, auto)) / len(ids)
-    print(f"Ground-truth items: {len(ids)}   automatic accuracy: {100 * acc:.1f}%\n")
+    w = [float(key[i].get("sampling_weight") or 1) for i in ids]
+    wacc = sum(wi for wi, h, p in zip(w, human, auto) if h == p) / sum(w)
+    print(f"Ground-truth items: {len(ids)}   automatic accuracy: {100 * acc:.1f}% "
+          f"(weighted back to the full population: {100 * wacc:.1f}%)\n")
     print_matrix(matrix(human, auto, TYPES), TYPES, "human", "auto")
     print(f"\n{'type':<5}{'prec':>7}{'recall':>8}{'F1':>7}{'n_human':>9}")
     per, f1s = {}, []
@@ -326,7 +340,7 @@ def cmd_validate(a):
             f.write(json.dumps({"question_id": k["question_id"], "model": k["model"], "dataset": k["dataset"],
                                 "human_type": h, "auto_type": k["auto_type"],
                                 "original_label": k["original_label"], "how": adj[i]["how"]}) + "\n")
-    json.dump({"n": len(ids), "accuracy": acc, "macro_f1": macro, "per_type": per,
+    json.dump({"n": len(ids), "accuracy": acc, "weighted_accuracy": wacc, "macro_f1": macro, "per_type": per,
                "confusion_human_rows_auto_cols": {r: dict(c) for r, c in matrix(human, auto, TYPES).items()}},
               open(d / "validation_report.json", "w"), indent=2)
     print(f"\nWrote {d / 'validated_labels.jsonl'} (ground truth for Exp 3-7)")
@@ -340,6 +354,9 @@ def main():
     ap.add_argument("--retrieval", default="data/final/Phase_02/retrieval_results.jsonl")
     ap.add_argument("--outdir", default="data/final/Phase_05/exp2")
     ap.add_argument("--n", type=int, default=TARGET_N)
+    ap.add_argument("--n-f6", type=int, default=60, help="F6 cases to include (split across models)")
+    ap.add_argument("--no-all-f1", dest="all_f1", action="store_false",
+                    help="don't force every F1 case into the sample")
     ap.add_argument("--single", action="store_true")
     a = ap.parse_args()
     {"sample": cmd_sample, "agreement": cmd_agreement, "validate": cmd_validate}[a.step](a)

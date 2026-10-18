@@ -29,7 +29,7 @@ Decision order (first match wins):
   answer has >=50% of gold's words     -> F4
   >=50% of answer's 4-grams in passage -> F2
   no-passage answer available:
-      matches with-passage answer (word overlap >=0.5) and is itself wrong -> F1
+      is contained in the with-passage answer (>=50% of its words) and is itself wrong -> F1
       otherwise                                                            -> F6
   no no-passage answer                 -> F6
 
@@ -144,9 +144,14 @@ def copy_score(answer_norm, passage_norm):
     return sum(g in pgrams for g in grams) / len(grams)
 
 
-def jaccard(a, b):
-    sa, sb = set(content_tokens(a)), set(content_tokens(b))
-    return len(sa & sb) / len(sa | sb) if (sa or sb) else 0.0
+def containment(noctx, answer):
+    """Share of the no-passage answer's content words that appear in the
+    with-passage answer. No-passage answers are short phrases ("Johannes
+    Gutenberg in 1450") while with-passage answers are often full sentences,
+    so plain overlap (Jaccard) would understate a match."""
+    nt = content_tokens(noctx) or normalize(noctx).split()
+    at = set(content_tokens(answer)) | set(normalize(answer).split())
+    return sum(t in at for t in nt) / len(nt) if nt else 0.0
 
 
 def passage_answer_snippet(raw, aliases, width=120):
@@ -169,8 +174,8 @@ def classify(original, full, answer, aliases, raw_passage, noctx):
         "gold_word_share_in_passage": round(gold_word_share_in_passage(aliases, pn), 3),
         "gold_recall": round(gold_recall(answer, aliases), 3),
         "copy_score": round(copy_score(an, pn), 3),
-        "noctx_similarity": round(jaccard(answer, noctx), 3) if noctx is not None else None,
-        "noctx_correct": (any(contains(normalize(noctx), a) for a in aliases) if noctx is not None else None),
+        "noctx_similarity": round(containment(noctx, answer), 3) if noctx else None,
+        "noctx_correct": (any(contains(normalize(noctx), a) for a in aliases) if noctx else None),
         "short_gold": bool(aliases) and min(len(normalize(a)) for a in aliases) <= SHORT_GOLD_CHARS,
     }
     evidence = "yes" if sig["gold_in_passage"] else (
@@ -202,18 +207,18 @@ def classify(original, full, answer, aliases, raw_passage, noctx):
         return out("F2", 0.55 + 0.35 * sig["copy_score"],
                    f"{sig['copy_score']:.0%} of the answer's word sequences are copied from the passage, "
                    "but it is not the gold fact.")
-    if noctx is None:
+    if not noctx:
         return out("F6", 0.3, "Passage has the answer and the model's answer is not copied from it, "
                               "but there is no no-passage answer to show it came from memory.")
     if sig["noctx_similarity"] >= NOCTX_T and not sig["noctx_correct"]:
         return out("F1", 0.55 + 0.4 * sig["noctx_similarity"],
                    f"Passage has the answer; the model's answer is not from the passage and matches its "
-                   f"no-passage answer (overlap {sig['noctx_similarity']:.2f}).")
+                   f"no-passage answer (containment {sig['noctx_similarity']:.2f}).")
     if sig["noctx_correct"]:
         return out("F6", 0.35, "Model answers correctly WITHOUT the passage but wrongly WITH it -- "
                                "the passage made it worse; not parametric override.")
     return out("F6", 0.35, f"Answer neither copied from the passage nor matching the no-passage answer "
-                           f"(overlap {sig['noctx_similarity']:.2f}).")
+                           f"(containment {sig['noctx_similarity']:.2f}).")
 
 
 # ------------------------------------------------------------------ main
@@ -334,3 +339,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

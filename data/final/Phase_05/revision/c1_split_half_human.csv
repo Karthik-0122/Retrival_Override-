@@ -1,0 +1,9 @@
+model,comparison,n,status,split_half_r,r_95_low,r_95_high,top5_overlap,out_of_half_auroc
+gemma,F1 vs faithful,4/300,descriptive only (need >= 5 per group),,,,,
+gemma,F2 vs faithful,11/300,tested,0.26,-0.029,0.549,0.042,0.502
+gemma,F3 vs faithful,17/300,tested,0.772,0.658,0.858,0.394,0.811
+gemma,F4 vs faithful,9/300,tested,0.154,-0.231,0.418,0.144,0.573
+llama,F1 vs faithful,3/225,descriptive only (need >= 5 per group),,,,,
+llama,F2 vs faithful,23/225,tested,0.5,0.162,0.769,0.191,0.552
+llama,F3 vs faithful,18/225,tested,0.255,-0.144,0.582,0.069,0.457
+llama,F4 vs faithful,9/225,tested,0.018,-0.23,0.273,0.125,0.449

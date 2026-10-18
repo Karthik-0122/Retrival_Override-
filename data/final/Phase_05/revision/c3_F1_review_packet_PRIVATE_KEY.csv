@@ -1,0 +1,8 @@
+case,item_id,question_id,model,annot_A,annot_B,final_type,in_set_because
+R01,item_171,nq_00676,gemma,F2,F1,F1,final F1 + F1-vs-F2 dispute
+R02,item_092,triviaqa_02254,gemma,F2,F1,F1,final F1 + F1-vs-F2 dispute
+R03,item_141,triviaqa_03486,gemma,F2,F1,F1,final F1 + F1-vs-F2 dispute
+R04,item_189,nq_03608,gemma,F3,F1,F1,final F1
+R05,item_167,triviaqa_01543,llama,F1,F1,F1,final F1
+R06,item_115,popqa_07744,llama,F2,F1,F1,final F1 + F1-vs-F2 dispute
+R07,item_060,nq_03565,llama,F2,F1,F1,final F1 + F1-vs-F2 dispute

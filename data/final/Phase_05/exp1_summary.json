@@ -1,0 +1,463 @@
+{
+  "type_names": {
+    "F1": "Genuine parametric override",
+    "F2": "Wrong extraction / interpretation",
+    "F3": "Evidence absent",
+    "F4": "Partially correct / incomplete",
+    "F5": "Actually correct / scoring error",
+    "F6": "Ambiguous / needs human review"
+  },
+  "gemma": {
+    "n_apparent_failures": 246,
+    "noctx_available": true,
+    "counts": {
+      "F2": 45,
+      "F6": 53,
+      "F4": 32,
+      "F1": 32,
+      "F5": 54,
+      "F3": 30
+    },
+    "percent": {
+      "F1": 13.0,
+      "F2": 18.3,
+      "F3": 12.2,
+      "F4": 13.0,
+      "F5": 22.0,
+      "F6": 21.5
+    },
+    "by_dataset": {
+      "natural_rag_other": {
+        "F2": 41,
+        "F6": 53,
+        "F4": 21,
+        "F5": 31,
+        "F1": 27,
+        "F3": 29
+      },
+      "popqa": {
+        "F4": 11,
+        "F1": 5,
+        "F5": 23,
+        "F2": 4,
+        "F3": 1
+      }
+    },
+    "original_override_composition": {
+      "F2": 35,
+      "F1": 31,
+      "F6": 31,
+      "F5": 54,
+      "F3": 17,
+      "F4": 14
+    },
+    "excluded": {
+      "confiqa": 276,
+      "no_valid_gold": 1
+    },
+    "n_ambiguous": 53,
+    "examples": {
+      "F1": [
+        {
+          "question_id": "popqa_06209",
+          "question": "Who was the director of Crossing the Bridge?",
+          "gold": "[\"Mike Binder\"]",
+          "model_answer": "Fatih Akin",
+          "noctx_answer": "Fatih Akin",
+          "passage_answer": "nd Danny Morgan (Stephen Baldwin) are friends who embark on a dangerous drug-smuggling venture. The film was created by Mike Binder and loosely based on Binders' friends during the late 1970s in the Detroit/Birmingham, MI area. Much of the plot concer",
+          "rationale": "Passage has the answer; the model's answer is not from the passage and matches its no-passage answer (containment 1.00)."
+        },
+        {
+          "question_id": "nq_00784",
+          "question": "what is the number of basic units in the international system of units",
+          "gold": "seven",
+          "model_answer": "7",
+          "noctx_answer": "7",
+          "passage_answer": "n 2008 and 2011. The INS is an open list, \"\"subject to the  SI base unit The International System of Units (SI) defines seven units of measure as a basic set from which all other SI units can be derived. The SI base units and their physical quan",
+          "rationale": "Passage has the answer; the model's answer is not from the passage and matches its no-passage answer (containment 1.00)."
+        },
+        {
+          "question_id": "triviaqa_09606",
+          "question": "Who famously described England as \u201ca nation of shopkeepers\u201d?",
+          "gold": "Adam Smith",
+          "model_answer": "Napoleon Bonaparte",
+          "noctx_answer": "Napoleon Bonaparte",
+          "passage_answer": "ginate with Napoleon, or even Bar\u00e8re. It first appears in a non-pejorative sense in \"\"The Wealth of Nations\"\" (1776) by Adam Smith, who wrote: Smith is also quoted as saying that Britain was \"\"a nation that is governed by shopkeepers\"\", which is how",
+          "rationale": "Passage has the answer; the model's answer is not from the passage and matches its no-passage answer (containment 1.00)."
+        }
+      ],
+      "F2": [
+        {
+          "question_id": "nq_02982",
+          "question": "another name for a hairpin bend crossword clue",
+          "gold": "hairpin bend",
+          "model_answer": "switchback",
+          "noctx_answer": "switchback",
+          "passage_answer": "Hairpin turn A hairpin turn (also hairpin bend, hairpin corner, etc.), named for its resemblance to a hairpin/bobby pin, is a bend in a road with a very acute inner a",
+          "rationale": "100% of the answer's word sequences are copied from the passage, but it is not the gold fact."
+        },
+        {
+          "question_id": "nq_01952",
+          "question": "who devised the fingerprint classification still used today in europe and the us",
+          "gold": "Hem Chandra Bose",
+          "model_answer": "Sir Francis Galton",
+          "noctx_answer": "Sir Francis Galton",
+          "passage_answer": "anding method by which fingerprints are sorted by physiological characteristics for one-to-many searching. Developed by Hem Chandra Bose, Azizul Haque and Sir Edward Henry in the late 19th century for criminal investigations in British India, it was the ba",
+          "rationale": "100% of the answer's word sequences are copied from the passage, but it is not the gold fact."
+        },
+        {
+          "question_id": "triviaqa_06222",
+          "question": "What product is obtained from the tree Hevea Braziliensis' (amongst others)?",
+          "gold": "LATEX",
+          "model_answer": "Rubber",
+          "noctx_answer": "Rubber",
+          "passage_answer": "refined into rubber ready for commercial processing. In major areas, latex is allowed to coagulate in the collection cup. The coagulated lumps are collected and processed into dry forms for mark",
+          "rationale": "100% of the answer's word sequences are copied from the passage, but it is not the gold fact."
+        }
+      ],
+      "F3": [
+        {
+          "question_id": "triviaqa_11861",
+          "question": "With which song did Lulu represent the UK in the 1969 Eurovision Song Contest?",
+          "gold": "BOOM BANG A BANG",
+          "model_answer": "Boom Bang-a-Bang",
+          "noctx_answer": "Boom Bang-a-Bang",
+          "passage_answer": "",
+          "rationale": "No gold alias (or all parts of one) appears in the retrieved passage."
+        },
+        {
+          "question_id": "triviaqa_11146",
+          "question": "How many \u2018Triangles\u2019 are there on the logo of car manufacturer BMW?",
+          "gold": "Four",
+          "model_answer": "4",
+          "noctx_answer": "4",
+          "passage_answer": "",
+          "rationale": "No gold alias (or all parts of one) appears in the retrieved passage."
+        },
+        {
+          "question_id": "triviaqa_00976",
+          "question": "What is the International Vehicle Registration for Cambodia?",
+          "gold": "K",
+          "model_answer": "The International Vehicle Registration for Cambodia is 035.",
+          "noctx_answer": "1000000000000000000000000000000",
+          "passage_answer": "Vehicle registration plates of the United Kingdom Vehicle registration plates are the mandatory alphanumeric plates used to display the \"\"registration mark\"\" of a",
+          "rationale": "No gold alias (or all parts of one) appears in the retrieved passage."
+        }
+      ],
+      "F4": [
+        {
+          "question_id": "triviaqa_13317",
+          "question": "In the 18th century, the capital of Russia was moved from Moscow to where?",
+          "gold": "St Petersburg",
+          "model_answer": "St.",
+          "noctx_answer": "St. Petersburg",
+          "passage_answer": "",
+          "rationale": "Answer contains 50% of the gold answer's words, not all."
+        },
+        {
+          "question_id": "popqa_08085",
+          "question": "Who was the screenwriter for Easy A?",
+          "gold": "[\"Bert V. Royal\"]",
+          "model_answer": "Bert V.",
+          "noctx_answer": "Bert V. Royal",
+          "passage_answer": "mn business\"\". She goes outside to meet him, they kiss, and the two are shown riding off on the lawnmower. Screenwriter Bert V. Royal claims to have written the entire screenplay, except for the last ten pages, in five days. Royal's plan was to adapt th",
+          "rationale": "Answer contains 67% of the gold answer's words, not all."
+        },
+        {
+          "question_id": "nq_03447",
+          "question": "what type of plate boundary is associated with iceland and its volcanic eruptions",
+          "gold": "divergent tectonic plate boundary",
+          "model_answer": "divergent plate boundary",
+          "noctx_answer": "divergent",
+          "passage_answer": "volcanoes of Iceland include a high concentration of active ones due to Iceland's location on the mid-Atlantic Ridge, a divergent tectonic plate boundary, and its location over a hot spot. The island has 30 active volcanic systems, of which 13 have erupted since the settle",
+          "rationale": "Answer contains 75% of the gold answer's words, not all."
+        }
+      ],
+      "F5": [
+        {
+          "question_id": "nq_01288",
+          "question": "when did the flash first appear on arrow",
+          "gold": "second season",
+          "model_answer": "The Flash first appeared on Arrow in the eighth episode of the second season, titled \"Three Ghosts\".",
+          "noctx_answer": "season 2",
+          "passage_answer": "cause  The CW during the 2013\u201314 television season, when Barry Allen was introduced in the eighth episode of \"\"Arrow\"\"s second season ahead of the debut of \"\"The Flash\"\". In July 2014, it was announced that the eighth episodes of the third season of \"\"A",
+          "rationale": "A gold alias appears in the answer; strict scoring marked it wrong."
+        },
+        {
+          "question_id": "nq_00933",
+          "question": "authorities involved in formulating accounting standard in india",
+          "gold": "government department",
+          "model_answer": "The Accounting Standards Board (ASB) is a committee under the Institute of Chartered Accountants of India (ICAI) which consists of representatives from government department, academicians, other professional bodies viz.",
+          "noctx_answer": "",
+          "passage_answer": "977. ASB is a committee under Institute of Chartered Accountants of India (ICAI) which consists of representatives from government department, academicians, other professional bodies viz. ICAI, representatives from ASSOCHAM, CII, FICCI, etc. The Ind AS are name",
+          "rationale": "A gold alias appears in the answer; strict scoring marked it wrong."
+        },
+        {
+          "question_id": "popqa_13666",
+          "question": "What is the capital of Orangeburg County?",
+          "gold": "[\"Orangeburg\", \"Orangeburg, South Carolina\"]",
+          "model_answer": "Orangeburg",
+          "noctx_answer": "Orangeburg",
+          "passage_answer": "Orangeburg County, South Carolina Orangeburg County is a county located in the U.S. state of South Carolina. As of the 2010 census",
+          "rationale": "A gold alias appears in the answer; strict scoring marked it wrong."
+        }
+      ],
+      "F6": [
+        {
+          "question_id": "nq_02711",
+          "question": "who invented the printing press and in what year",
+          "gold": "the German Johannes Gutenberg",
+          "model_answer": "Johannes Gutenberg invented the printing press in 1440.",
+          "noctx_answer": "Johannes Gutenberg in 1450",
+          "passage_answer": "",
+          "rationale": "Exact gold not in passage, but 67% of its words are -- the passage may state it in another form."
+        },
+        {
+          "question_id": "nq_00284",
+          "question": "what is the name for the ch3coo- ion",
+          "gold": "polyatomic anion",
+          "model_answer": "acetate ion",
+          "noctx_answer": "acetate",
+          "passage_answer": "her hydrogen ion yields the sulfate anion (). There are two \"\"rules\"\" that can be used for learning the nomenclature of polyatomic anions. First, when the prefix \"\"bi\"\" is added to a name, a hydrogen is added to the ion's formula and its charge is increase",
+          "rationale": "Exact gold not in passage, but 100% of its words are -- the passage may state it in another form."
+        },
+        {
+          "question_id": "triviaqa_01986",
+          "question": "Weighing-in at up 48 stone, who wrestled under the ring-name Giant Haystacks?",
+          "gold": "Martin Ruane",
+          "model_answer": "Martin Austin Ruane",
+          "noctx_answer": "Martin Ruane",
+          "passage_answer": "",
+          "rationale": "Exact gold not in passage, but 100% of its words are -- the passage may state it in another form."
+        }
+      ]
+    }
+  },
+  "llama": {
+    "n_apparent_failures": 320,
+    "noctx_available": true,
+    "counts": {
+      "F4": 34,
+      "F6": 59,
+      "F2": 64,
+      "F5": 112,
+      "F1": 20,
+      "F3": 31
+    },
+    "percent": {
+      "F1": 6.2,
+      "F2": 20.0,
+      "F3": 9.7,
+      "F4": 10.6,
+      "F5": 35.0,
+      "F6": 18.4
+    },
+    "by_dataset": {
+      "natural_rag_other": {
+        "F4": 23,
+        "F6": 56,
+        "F2": 57,
+        "F5": 75,
+        "F1": 20,
+        "F3": 30
+      },
+      "popqa": {
+        "F4": 11,
+        "F5": 37,
+        "F6": 3,
+        "F2": 7,
+        "F3": 1
+      }
+    },
+    "original_override_composition": {
+      "F6": 44,
+      "F2": 59,
+      "F5": 112,
+      "F1": 20,
+      "F3": 26,
+      "F4": 19
+    },
+    "excluded": {
+      "confiqa": 249,
+      "no_answer": 1,
+      "no_valid_gold": 1
+    },
+    "n_ambiguous": 59,
+    "examples": {
+      "F1": [
+        {
+          "question_id": "triviaqa_09606",
+          "question": "Who famously described England as \u201ca nation of shopkeepers\u201d?",
+          "gold": "Adam Smith",
+          "model_answer": "Napoleon Bonaparte",
+          "noctx_answer": "Napoleon Bonaparte",
+          "passage_answer": "ginate with Napoleon, or even Bar\u00e8re. It first appears in a non-pejorative sense in \"\"The Wealth of Nations\"\" (1776) by Adam Smith, who wrote: Smith is also quoted as saying that Britain was \"\"a nation that is governed by shopkeepers\"\", which is how",
+          "rationale": "Passage has the answer; the model's answer is not from the passage and matches its no-passage answer (containment 1.00)."
+        },
+        {
+          "question_id": "nq_02765",
+          "question": "nitty gritty dirt band fishin in the dark album",
+          "gold": "Hold On",
+          "model_answer": "nitty gritty dirt band fishin in the dark album",
+          "noctx_answer": "nitty gritty dirt band fishin in the dark album",
+          "passage_answer": "an country music group The Nitty Gritty Dirt Band. It was released in June 1987 as the second single from their album \"\"Hold On\"\". It reached number-one on the U.S. and Canadian country charts. It was the band's third number-one single on the U.S.",
+          "rationale": "Passage has the answer; the model's answer is not from the passage and matches its no-passage answer (containment 1.00)."
+        },
+        {
+          "question_id": "triviaqa_13338",
+          "question": "Where was the first permanent European settlement established in North America?",
+          "gold": "Florida",
+          "model_answer": "The first permanent European settlement established in North America was in Jamestown, Virginia.",
+          "noctx_answer": "Jamestown, Virginia",
+          "passage_answer": "nd the United States of America was laid by the colonization of parts of the Americas by Spain. The first settlement in Florida was Spanish, followed by more permanent, larger colonies in New Mexico, California, with a few elsewhere. The earliest",
+          "rationale": "Passage has the answer; the model's answer is not from the passage and matches its no-passage answer (containment 1.00)."
+        }
+      ],
+      "F2": [
+        {
+          "question_id": "nq_01952",
+          "question": "who devised the fingerprint classification still used today in europe and the us",
+          "gold": "Hem Chandra Bose",
+          "model_answer": "The Henry Classification System is a long-standing method by which fingerprints are sorted by physiological characteristics for one-to-many searching.",
+          "noctx_answer": "Henry",
+          "passage_answer": "anding method by which fingerprints are sorted by physiological characteristics for one-to-many searching. Developed by Hem Chandra Bose, Azizul Haque and Sir Edward Henry in the late 19th century for criminal investigations in British India, it was the ba",
+          "rationale": "100% of the answer's word sequences are copied from the passage, but it is not the gold fact."
+        },
+        {
+          "question_id": "triviaqa_06222",
+          "question": "What product is obtained from the tree Hevea Braziliensis' (amongst others)?",
+          "gold": "LATEX",
+          "model_answer": "Natural rubber",
+          "noctx_answer": "Rubber",
+          "passage_answer": "refined into rubber ready for commercial processing. In major areas, latex is allowed to coagulate in the collection cup. The coagulated lumps are collected and processed into dry forms for mark",
+          "rationale": "100% of the answer's word sequences are copied from the passage, but it is not the gold fact."
+        },
+        {
+          "question_id": "nq_00933",
+          "question": "authorities involved in formulating accounting standard in india",
+          "gold": "government department",
+          "model_answer": "Indian Accounting Standards Indian Accounting Standard (abbreviated as Ind-AS) is the Accounting standard adopted by companies in India and issued under the supervison of Accounting Standards Board (ASB) which was constituted as a body in the year 1977.",
+          "noctx_answer": "The Accounting Standards Board (ASB) is a statutory body established under the Companies Act, 2013. The ASB is responsible for formulating accounting standards",
+          "passage_answer": "977. ASB is a committee under Institute of Chartered Accountants of India (ICAI) which consists of representatives from government department, academicians, other professional bodies viz. ICAI, representatives from ASSOCHAM, CII, FICCI, etc. The Ind AS are name",
+          "rationale": "100% of the answer's word sequences are copied from the passage, but it is not the gold fact."
+        }
+      ],
+      "F3": [
+        {
+          "question_id": "triviaqa_11861",
+          "question": "With which song did Lulu represent the UK in the 1969 Eurovision Song Contest?",
+          "gold": "BOOM BANG A BANG",
+          "model_answer": "Boom Bang-a-Bang",
+          "noctx_answer": "Boom Bang-a-Bang",
+          "passage_answer": "",
+          "rationale": "No gold alias (or all parts of one) appears in the retrieved passage."
+        },
+        {
+          "question_id": "triviaqa_11146",
+          "question": "How many \u2018Triangles\u2019 are there on the logo of car manufacturer BMW?",
+          "gold": "Four",
+          "model_answer": "There are 2 \u2018Triangles\u2019 on the logo of car manufacturer BMW.",
+          "noctx_answer": "33",
+          "passage_answer": "",
+          "rationale": "No gold alias (or all parts of one) appears in the retrieved passage."
+        },
+        {
+          "question_id": "nq_03315",
+          "question": "what are the five compulsory prayers in islam",
+          "gold": "Asr",
+          "model_answer": "Prayers in Islam are classified into four categories based on degrees of obligation: fard, wajib, sunnah, and nafl.",
+          "noctx_answer": "The five compulsory prayers in Islam are:",
+          "passage_answer": "",
+          "rationale": "No gold alias (or all parts of one) appears in the retrieved passage."
+        }
+      ],
+      "F4": [
+        {
+          "question_id": "nq_02982",
+          "question": "another name for a hairpin bend crossword clue",
+          "gold": "hairpin bend",
+          "model_answer": "hairpin turn",
+          "noctx_answer": "another name for a hairpin bend crossword clue",
+          "passage_answer": "Hairpin turn A hairpin turn (also hairpin bend, hairpin corner, etc.), named for its resemblance to a hairpin/bobby pin, is a bend in a road with a very acute inner a",
+          "rationale": "Answer contains 50% of the gold answer's words, not all."
+        },
+        {
+          "question_id": "triviaqa_13317",
+          "question": "In the 18th century, the capital of Russia was moved from Moscow to where?",
+          "gold": "St Petersburg",
+          "model_answer": "St.",
+          "noctx_answer": "St. Petersburg",
+          "passage_answer": "",
+          "rationale": "Answer contains 50% of the gold answer's words, not all."
+        },
+        {
+          "question_id": "popqa_08085",
+          "question": "Who was the screenwriter for Easy A?",
+          "gold": "[\"Bert V. Royal\"]",
+          "model_answer": "Bert V.",
+          "noctx_answer": "Kerry Koharski",
+          "passage_answer": "mn business\"\". She goes outside to meet him, they kiss, and the two are shown riding off on the lawnmower. Screenwriter Bert V. Royal claims to have written the entire screenplay, except for the last ten pages, in five days. Royal's plan was to adapt th",
+          "rationale": "Answer contains 67% of the gold answer's words, not all."
+        }
+      ],
+      "F5": [
+        {
+          "question_id": "triviaqa_04207",
+          "question": "What acid is found in tea?",
+          "gold": "Tannic",
+          "model_answer": "The acid found in tea is tannic acid.",
+          "noctx_answer": "Tannic acid",
+          "passage_answer": "",
+          "rationale": "A gold alias appears in the answer; strict scoring marked it wrong."
+        },
+        {
+          "question_id": "nq_03447",
+          "question": "what type of plate boundary is associated with iceland and its volcanic eruptions",
+          "gold": "divergent tectonic plate boundary",
+          "model_answer": "Iceland is located on the mid-Atlantic Ridge, a divergent tectonic plate boundary, and its location over a hot spot.",
+          "noctx_answer": "Iceland is located on the Mid-Atlantic Ridge, a divergent plate boundary. The Mid-Atlantic Ridge is a long chain of underwater volcanoes that runs from",
+          "passage_answer": "volcanoes of Iceland include a high concentration of active ones due to Iceland's location on the mid-Atlantic Ridge, a divergent tectonic plate boundary, and its location over a hot spot. The island has 30 active volcanic systems, of which 13 have erupted since the settle",
+          "rationale": "A gold alias appears in the answer; strict scoring marked it wrong."
+        },
+        {
+          "question_id": "nq_00784",
+          "question": "what is the number of basic units in the international system of units",
+          "gold": "seven",
+          "model_answer": "The International System of Units (SI) defines seven units of measure as a basic set from which all other SI units can be derived.",
+          "noctx_answer": "The International System of Units (SI) is the modern form of the metric system. It is the most widely used system of measurement, and is the system that",
+          "passage_answer": "n 2008 and 2011. The INS is an open list, \"\"subject to the  SI base unit The International System of Units (SI) defines seven units of measure as a basic set from which all other SI units can be derived. The SI base units and their physical quan",
+          "rationale": "A gold alias appears in the answer; strict scoring marked it wrong."
+        }
+      ],
+      "F6": [
+        {
+          "question_id": "nq_02711",
+          "question": "who invented the printing press and in what year",
+          "gold": "the German Johannes Gutenberg",
+          "model_answer": "The printing press was invented by Johannes Gutenberg in 1440.",
+          "noctx_answer": "Johann Gutenberg invented the printing press in 1450.",
+          "passage_answer": "",
+          "rationale": "Exact gold not in passage, but 67% of its words are -- the passage may state it in another form."
+        },
+        {
+          "question_id": "nq_00284",
+          "question": "what is the name for the ch3coo- ion",
+          "gold": "polyatomic anion",
+          "model_answer": "The name for the ch3coo- ion is acetate.",
+          "noctx_answer": "The name for the CH3COO- ion is acetate.",
+          "passage_answer": "her hydrogen ion yields the sulfate anion (). There are two \"\"rules\"\" that can be used for learning the nomenclature of polyatomic anions. First, when the prefix \"\"bi\"\" is added to a name, a hydrogen is added to the ion's formula and its charge is increase",
+          "rationale": "Exact gold not in passage, but 100% of its words are -- the passage may state it in another form."
+        },
+        {
+          "question_id": "triviaqa_01986",
+          "question": "Weighing-in at up 48 stone, who wrestled under the ring-name Giant Haystacks?",
+          "gold": "Martin Ruane",
+          "model_answer": "Martin Austin Ruane",
+          "noctx_answer": "Giant Haystacks",
+          "passage_answer": "",
+          "rationale": "Exact gold not in passage, but 100% of its words are -- the passage may state it in another form."
+        }
+      ]
+    }
+  }
+}

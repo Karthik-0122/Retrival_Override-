@@ -1,0 +1,33 @@
+ANNOTATION GUIDELINES -- Retrieval failure types (read fully before starting)
+
+You see: question, gold answer(s), retrieved passage(s), the model's answer.
+Work ALONE. Do not discuss cases with the other annotator until both sheets are done.
+Fill every annotation column. Allowed values are listed below; use them exactly.
+
+Answer these in order, then pick ONE failure_type:
+  passage_contains_answer       yes / no / unclear
+      Does the passage explicitly state the gold answer (any valid form)?
+  answer_correct                yes / no / partially / unclear
+      Is the model's answer factually correct for the question?
+  answer_supported_by_passage   yes / no / partially / unclear
+      Is what the model said stated in the passage (even if it's the wrong fact)?
+  answer_conflicts_with_passage yes / no / unclear
+      Does the model's answer contradict what the passage says about the question?
+
+failure_type (exactly one):
+  F1  Genuine parametric override -- passage contains the correct answer, the model's
+      answer conflicts with it, and the answer is NOT taken from the passage, i.e. it is
+      better explained by the model's own prior knowledge.
+  F2  Wrong extraction / wrong interpretation -- the model uses the passage but takes the
+      wrong fact, answers a different aspect of the question, or misreads the evidence.
+  F3  Evidence absent -- the passage does not actually support the gold answer.
+  F4  Partially correct / incomplete -- part of the correct answer is present but
+      something required is missing or altered.
+  F5  Actually correct -- the answer is right; the automatic scoring was too strict.
+  F6  Ambiguous -- you cannot reliably decide among the above.
+
+CRITICAL: a wrong answer is NOT automatically F1. Choose F1 only when the passage has the
+answer AND the model's answer is not drawn from the passage. If the model's wrong answer
+appears in the passage, that is F2. If you can't tell, use F6.
+
+confidence: high / medium / low.   rationale: one short sentence.
