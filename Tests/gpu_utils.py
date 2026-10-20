@@ -107,6 +107,32 @@ def done_keys(path, key_fn):
 
 
 # ------------------------------------------------------------------ models
+def pick_dtype(path, use_4bit):
+    """bf16 on Ampere or newer (as in every earlier phase). Older GPUs (Turing,
+    Volta: T4, V100, RTX 20xx, Quadro RTX) have no bf16. Llama and Qwen run fine
+    in fp16 there, but Gemma-2 can overflow in fp16 (NaN / garbage output), so
+    Gemma falls back to fp32 when the GPU has room, and stops otherwise."""
+    if not torch.cuda.is_available():
+        return torch.float32
+    major, minor = torch.cuda.get_device_capability()
+    if major >= 8:
+        return torch.bfloat16
+    name = torch.cuda.get_device_name()
+    vram = torch.cuda.get_device_properties(0).total_memory / 2**30
+    print(f"!! {name} (compute {major}.{minor}) has no bfloat16 support", flush=True)
+    if "gemma" not in str(path).lower():
+        print("!! using float16 for this model", flush=True)
+        return torch.float16
+    if use_4bit:
+        raise SystemExit("Gemma-2 in 4-bit needs bf16 compute, which this GPU lacks -- use an Ampere or newer GPU.")
+    if vram >= 44:
+        print(f"!! Gemma-2 is unstable in float16 -> using float32 ({vram:.0f} GB VRAM; slower, results comparable)",
+              flush=True)
+        return torch.float32
+    raise SystemExit(f"Gemma-2 needs bf16 (or ~40 GB for fp32); this GPU has neither ({vram:.0f} GB). "
+                     "Use an Ampere or newer GPU (A5000, A6000, A40, L40S, A100, RTX 3090/4090).")
+
+
 def load_model(path, use_4bit=False):
     from transformers import AutoModelForCausalLM, AutoTokenizer
     tok = AutoTokenizer.from_pretrained(path)
@@ -114,12 +140,13 @@ def load_model(path, use_4bit=False):
     if tok.pad_token_id is None:
         tok.pad_token = tok.eos_token
     on_gpu = torch.cuda.is_available()
+    dtype = pick_dtype(path, use_4bit)
     kw = {"device_map": "cuda" if on_gpu else "cpu"}
     if use_4bit:
         from transformers import BitsAndBytesConfig
-        kw["quantization_config"] = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_compute_dtype=torch.bfloat16)
+        kw["quantization_config"] = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_compute_dtype=dtype)
     else:
-        kw["dtype"] = torch.bfloat16 if on_gpu else torch.float32
+        kw["dtype"] = dtype
     if "gemma" in str(path).lower():
         kw["attn_implementation"] = "eager"        # Gemma-2 attention soft-capping; same as earlier phases
     t0 = time.time()

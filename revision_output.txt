@@ -1,0 +1,152 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+==============================================================================
+CORRECTION 1 -- split-half stability, human labels (100 random splits)
+==============================================================================
+>> FOR TABLE 11 (Gemma, human F3 vs faithful, n=17/300): split-half r = 0.77 (95% range 0.66 to 0.86); top-5 layer overlap (Jaccard) = 0.39; out-of-half AUROC = 0.81
+  gemma  F1 vs faithful   n=4/300    descriptive only (need >= 5 per group)
+  gemma  F2 vs faithful   n=11/300   r=+0.26 [-0.03,+0.55]  top-5 overlap 0.04  out-of-half AUROC 0.50
+  gemma  F3 vs faithful   n=17/300   r=+0.77 [+0.66,+0.86]  top-5 overlap 0.39  out-of-half AUROC 0.81
+  gemma  F4 vs faithful   n=9/300    r=+0.15 [-0.23,+0.42]  top-5 overlap 0.14  out-of-half AUROC 0.57
+  llama  F1 vs faithful   n=3/225    descriptive only (need >= 5 per group)
+  llama  F2 vs faithful   n=23/225   r=+0.50 [+0.16,+0.77]  top-5 overlap 0.19  out-of-half AUROC 0.55
+  llama  F3 vs faithful   n=18/225   r=+0.26 [-0.14,+0.58]  top-5 overlap 0.07  out-of-half AUROC 0.46
+  llama  F4 vs faithful   n=9/225    r=+0.02 [-0.23,+0.27]  top-5 overlap 0.12  out-of-half AUROC 0.45
+  (r = rank correlation of the per-layer effect between the two halves; top-5 overlap = share of
+   the five strongest layers found in both halves; AUROC > 0.5 = layers picked in one half
+   separate the groups in the other half)
+
+==============================================================================
+CORRECTION 2 -- figures from human-validated labels
+==============================================================================
+  wrote data/final/Phase_05/revision/figure1_layer_profile_human_gemma.png
+  wrote data/final/Phase_05/revision/figure2_layer_profile_human_llama.png
+  wrote data/final/Phase_05/revision/figure3_head_heatmap_human_gemma_F3.png
+  wrote data/final/Phase_05/revision/appendixA1_layer_profile_AUTOMATIC_gemma.png
+  wrote data/final/Phase_05/revision/appendixA2_layer_profile_AUTOMATIC_llama.png
+
+==============================================================================
+CORRECTION 5 -- no-passage counts vs Experiment 1 counts
+==============================================================================
+  gemma: no-passage answers 247, Experiment 1 cases 246, difference 1; exclusions (non-ConFiQA): {'no_valid_gold': 1}
+  llama: no-passage answers 322, Experiment 1 cases 320, difference 2; exclusions (non-ConFiQA): {'no_answer': 1, 'no_valid_gold': 1}
+
+  Sentence for the report:
+  "No-passage answers were generated for every apparent failure before any filtering (247 Gemma and 322 Llama). Experiment 1 then excluded 1 Gemma case (1 without a usable gold answer); 2 Llama cases (1 with an empty model answer, 1 without a usable gold answer), giving 246 and 320 apparent failures."
+
+==============================================================================
+ANALYSIS 1 -- human-validated F1 cases vs their no-passage answers
+==============================================================================
+
+  [llama] nq_03565  Q: when does the sa node begin electrical signaling
+     gold: spontaneously generated
+     with passage:    The SA node begins electrical signaling when the heart is at rest.
+     without passage: The SA node begins electrical signaling when it is stimulated by the autonomic nervous system.
+     same answer without passage: no (containment 0.0, question words excluded; Exp 1 measure 0.56); no-passage answer correct: no
+
+  [gemma] triviaqa_02254  Q: Whose official country residence is Dorneywood, Buckinghamshire?
+     gold: Chancellor of the Exchequer
+     with passage:    The Prime Minister of the United Kingdom.
+     without passage: The Prime Minister
+     same answer without passage: yes (containment 1.0, question words excluded; Exp 1 measure 1.0); no-passage answer correct: no
+
+  [llama] popqa_07744  Q: What is Teramo the capital of?
+     gold: ["Province of Teramo", "Teramo province", "provincia di Teramo"]
+     with passage:    Teramo is the capital of Italy
+     without passage: Teramo is the capital of the Abruzzo region of Italy.
+     same answer without passage: no (containment 0.33, question words excluded; Exp 1 measure 0.6); no-passage answer correct: no
+
+  [gemma] triviaqa_03486  Q: What substance was believed by Alchemists to transmute other metals into gold?
+     gold: Philosopher's stone
+     with passage:    Mercury
+     without passage: Mercury
+     same answer without passage: yes (containment 1.0, question words excluded; Exp 1 measure 1.0); no-passage answer correct: no
+
+  [llama] triviaqa_01543  Q: What is the name of the life-size plastic dummies in the television series Doctor Who, the
+     gold: Autons
+     with passage:    The name of the life-size plastic dummies in the television series Doctor Who, the first of which arrived on E
+     without passage: Daleks
+     same answer without passage: yes (containment 1.0, question words excluded; Exp 1 measure 1.0); no-passage answer correct: no
+
+  [gemma] nq_00676  Q: who built pedestrian bridge at florida international university
+     gold: Munilla Construction Management
+     with passage:    The bridge was built by the Florida Department of Transportation (FDOT).
+     without passage: FIGG Bridge Engineers
+     same answer without passage: no (containment 0.0, question words excluded; Exp 1 measure 0.33); no-passage answer correct: no
+
+  [gemma] nq_03608  Q: what domain has more individuals than all other domains combined do
+     gold: the com TLD
+     with passage:    the domain of life
+     without passage: Bacteria
+     same answer without passage: no (containment 0.0, question words excluded; Exp 1 measure 0.0); no-passage answer correct: no
+
+  SUMMARY: 3/7 F1 cases give the same wrong answer without the passage (direct evidence of parametric origin).
+  (The Experiment 1 measure, which does not remove words echoed from the question, would say 5/7.)
+
+==============================================================================
+ANALYSIS 2 -- does the failure-type ROI effect survive a passage-relevance covariate?
+==============================================================================
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights:  71%|███████   | 73/103 [00:00<00:00, 729.52it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 1016.23it/s]
+Batches:   0%|          | 0/43 [00:00<?, ?it/s]Batches:   2%|▏         | 1/43 [00:02<01:35,  2.27s/it]Batches:   5%|▍         | 2/43 [00:04<01:40,  2.46s/it]Batches:   7%|▋         | 3/43 [00:07<01:44,  2.62s/it]Batches:   9%|▉         | 4/43 [00:10<01:42,  2.62s/it]Batches:  12%|█▏        | 5/43 [00:12<01:38,  2.60s/it]Batches:  14%|█▍        | 6/43 [00:15<01:33,  2.52s/it]Batches:  16%|█▋        | 7/43 [00:17<01:30,  2.51s/it]Batches:  19%|█▊        | 8/43 [00:20<01:28,  2.54s/it]Batches:  21%|██        | 9/43 [00:22<01:27,  2.58s/it]Batches:  23%|██▎       | 10/43 [00:25<01:21,  2.48s/it]Batches:  26%|██▌       | 11/43 [00:27<01:18,  2.44s/it]Batches:  28%|██▊       | 12/43 [00:29<01:14,  2.39s/it]Batches:  30%|███       | 13/43 [00:31<01:09,  2.30s/it]Batches:  33%|███▎      | 14/43 [00:34<01:07,  2.32s/it]Batches:  35%|███▍      | 15/43 [00:37<01:09,  2.49s/it]Batches:  37%|███▋      | 16/43 [00:40<01:10,  2.60s/it]Batches:  40%|███▉      | 17/43 [00:42<01:05,  2.52s/it]Batches:  42%|████▏     | 18/43 [00:45<01:04,  2.57s/it]Batches:  44%|████▍     | 19/43 [00:47<01:03,  2.63s/it]Batches:  47%|████▋     | 20/43 [00:50<01:00,  2.64s/it]Batches:  49%|████▉     | 21/43 [00:53<00:58,  2.64s/it]Batches:  51%|█████     | 22/43 [00:55<00:54,  2.60s/it]Batches:  53%|█████▎    | 23/43 [00:57<00:50,  2.50s/it]Batches:  56%|█████▌    | 24/43 [01:00<00:46,  2.45s/it]Batches:  58%|█████▊    | 25/43 [01:02<00:43,  2.40s/it]Batches:  60%|██████    | 26/43 [01:04<00:40,  2.41s/it]Batches:  63%|██████▎   | 27/43 [01:07<00:39,  2.46s/it]Batches:  65%|██████▌   | 28/43 [01:09<00:36,  2.41s/it]Batches:  67%|██████▋   | 29/43 [01:12<00:33,  2.39s/it]Batches:  70%|██████▉   | 30/43 [01:14<00:29,  2.31s/it]Batches:  72%|███████▏  | 31/43 [01:16<00:28,  2.35s/it]Batches:  74%|███████▍  | 32/43 [01:18<00:25,  2.29s/it]Batches:  77%|███████▋  | 33/43 [01:21<00:22,  2.28s/it]Batches:  79%|███████▉  | 34/43 [01:23<00:19,  2.22s/it]Batches:  81%|████████▏ | 35/43 [01:25<00:17,  2.21s/it]Batches:  84%|████████▎ | 36/43 [01:27<00:14,  2.08s/it]Batches:  86%|████████▌ | 37/43 [01:28<00:11,  1.99s/it]Batches:  88%|████████▊ | 38/43 [01:30<00:09,  1.96s/it]Batches:  91%|█████████ | 39/43 [01:32<00:07,  1.82s/it]Batches:  93%|█████████▎| 40/43 [01:33<00:05,  1.73s/it]Batches:  95%|█████████▌| 41/43 [01:35<00:03,  1.71s/it]Batches:  98%|█████████▊| 42/43 [01:37<00:01,  1.63s/it]Batches: 100%|██████████| 43/43 [01:38<00:00,  1.47s/it]Batches: 100%|██████████| 43/43 [01:38<00:00,  2.28s/it]
+
+  gemma F2 vs faithful (n=11/300)
+    length-controlled (as reported):        layers none  [0]
+    + token_overlap                    layers none  [0]   effect size change over the band: +5%
+      token_overlap: F2 mean 0.894 vs faithful 0.827 (Mann-Whitney p=0.259; relevance alone separates them with AUROC 0.60)
+    + embedding_max_cosine             layers none  [0]   effect size change over the band: -9%
+      embedding_max_cosine: F2 mean 0.659 vs faithful 0.643 (Mann-Whitney p=0.563; relevance alone separates them with AUROC 0.55)
+
+  gemma F3 vs faithful (n=17/300)
+    length-controlled (as reported):        layers 12, 15, 17-19, 21-41  [26]
+    + token_overlap                    layers 12, 15-41  [28]   effect size change over the band: +2%
+      token_overlap: F3 mean 0.879 vs faithful 0.827 (Mann-Whitney p=0.13; relevance alone separates them with AUROC 0.61)
+    + embedding_max_cosine             layers 17, 19, 21-41  [23]   effect size change over the band: -22%
+      embedding_max_cosine: F3 mean 0.569 vs faithful 0.643 (Mann-Whitney p=0.00829; relevance alone separates them with AUROC 0.69)
+
+  gemma F4 vs faithful (n=9/300)
+    length-controlled (as reported):        layers none  [0]
+    + token_overlap                    layers none  [0]   effect size change over the band: -0%
+      token_overlap: F4 mean 0.837 vs faithful 0.827 (Mann-Whitney p=0.975; relevance alone separates them with AUROC 0.50)
+    + embedding_max_cosine             layers none  [0]   effect size change over the band: -14%
+      embedding_max_cosine: F4 mean 0.637 vs faithful 0.643 (Mann-Whitney p=0.647; relevance alone separates them with AUROC 0.55)
+
+  llama F2 vs faithful (n=23/225)
+    length-controlled (as reported):        layers none  [0]
+    + token_overlap                    layers none  [0]   effect size change over the band: -2%
+      token_overlap: F2 mean 0.846 vs faithful 0.818 (Mann-Whitney p=0.546; relevance alone separates them with AUROC 0.54)
+    + embedding_max_cosine             layers none  [0]   effect size change over the band: +4%
+      embedding_max_cosine: F2 mean 0.638 vs faithful 0.639 (Mann-Whitney p=0.876; relevance alone separates them with AUROC 0.51)
+
+  llama F3 vs faithful (n=18/225)
+    length-controlled (as reported):        layers none  [0]
+    + token_overlap                    layers none  [0]   effect size change over the band: -1%
+      token_overlap: F3 mean 0.862 vs faithful 0.818 (Mann-Whitney p=0.336; relevance alone separates them with AUROC 0.57)
+    + embedding_max_cosine             layers none  [0]   effect size change over the band: -21%
+      embedding_max_cosine: F3 mean 0.592 vs faithful 0.639 (Mann-Whitney p=0.05; relevance alone separates them with AUROC 0.64)
+
+  llama F4 vs faithful (n=9/225)
+    length-controlled (as reported):        layers none  [0]
+    + token_overlap                    layers none  [0]   effect size change over the band: +0%
+      token_overlap: F4 mean 0.892 vs faithful 0.818 (Mann-Whitney p=0.221; relevance alone separates them with AUROC 0.62)
+    + embedding_max_cosine             layers none  [0]   effect size change over the band: -17%
+      embedding_max_cosine: F4 mean 0.626 vs faithful 0.639 (Mann-Whitney p=0.488; relevance alone separates them with AUROC 0.57)
+
+  READING THE GEMMA F3 RESULT:
+    token_overlap: 26 -> 28 significant layers, effect +2%  =>  SURVIVES the relevance control -> not explained by topical relevance
+    embedding_max_cosine: 26 -> 23 significant layers, effect -22%  =>  SURVIVES the relevance control -> not explained by topical relevance
+    Caveat: F3 is defined by the passage lacking the answer, so even a surviving effect is a
+    response to the input; it shows ROI tracks more than topical relevance, not that it is a
+    failure mechanism.
+
+==============================================================================
+ANALYSIS 4 -- automatic-label F1 result for Llama (text for the report)
+==============================================================================
+  "With automatic labels, Llama F1 (n=20) vs faithful (n=225) shows 4 layers at uncorrected p < .05, 0 after FDR and 0 after length control and FDR (strongest: L2 g = +0.87, L3 g = +0.79, L7 g = +0.73; AUROC on the pre-specified layers 0.67). 38 heads pass FDR. As for Gemma, these automatic F1 cases are mostly not genuine override, so the result is not interpreted."
+
+==============================================================================
+CORRECTION 3 -- F1 cases and F1-vs-F2 disputes for the guide's third pass
+==============================================================================
+  7 unique cases: 7 final F1, 5 F1-vs-F2 disputes (overlap counted once).
+  Send ONLY c3_F1_review_packet_FOR_GUIDE.csv (labels hidden, random order). Keep the PRIVATE_KEY file.
+
+All outputs in data/final/Phase_05/revision/
