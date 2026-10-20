@@ -54,7 +54,7 @@ def stage_pool(a):
         print(f"{out} exists -- delete it to rebuild the pool")
         return
     existing = {normalize(r.get("question")) for r in load_jsonl(a.dataset)}
-    print(f"excluding {len(existing)} questions already in {a.dataset}")
+    print(f"excluding {len(existing)} questions already in {a.dataset}", flush=True)
     rng = random.Random(SEED)
     pool = []
     for src, (repo, fname) in SOURCES.items():
@@ -63,14 +63,22 @@ def stage_pool(a):
         else:
             from huggingface_hub import hf_hub_download
             path = hf_hub_download(repo_id=repo, filename=fname, repo_type="dataset")
+        print(f"{src}: reading {path}", flush=True)
         rows = load_jsonl(path)
-        eligible, seen, why = [], set(), {"no_answer": 0, "no_gold_passage": 0, "few_distractors": 0,
-                                          "already_used": 0, "duplicate": 0}
-        for r in rows:
+        order = list(range(len(rows)))
+        random.Random(f"{SEED}-{src}").shuffle(order)       # shuffle first, then take the first eligible ones
+        picked, seen, checked = [], set(), 0
+        why = {"no_answer": 0, "no_gold_passage": 0, "few_distractors": 0, "already_used": 0, "duplicate": 0}
+        for i in order:
+            if len(picked) >= a.n_per_source:
+                break
+            checked += 1
+            r = rows[i]
             q = (r.get("query") or "").strip()
             nq = normalize(q)
             aliases = parse_gold(r.get("answers") or [])
-            if not aliases:
+            keys = [f" {normalize(x)} " for x in aliases if normalize(x)]
+            if not keys:
                 why["no_answer"] += 1
                 continue
             if nq in existing:
@@ -79,23 +87,32 @@ def stage_pool(a):
             if nq in seen:
                 why["duplicate"] += 1
                 continue
-            gold = next((ptext(p) for p in (r.get("positive_passages") or []) if contains_any(ptext(p), aliases)), None)
+
+            def has_alias(text):                              # each passage normalised once
+                t = f" {normalize(text)} "
+                return any(k in t for k in keys)
+
+            gold = next((ptext(p) for p in (r.get("positive_passages") or []) if has_alias(ptext(p))), None)
             if not gold:
                 why["no_gold_passage"] += 1
                 continue
-            negs = [ptext(p) for p in (r.get("negative_passages") or []) if not contains_any(ptext(p), aliases)]
+            negs = []
+            for p in (r.get("negative_passages") or []):
+                t = ptext(p)
+                if not has_alias(t):
+                    negs.append(t)
+                    if len(negs) == N_DISTRACTORS:
+                        break
             if len(negs) < N_DISTRACTORS:
                 why["few_distractors"] += 1
                 continue
             seen.add(nq)
-            eligible.append({"pid": f"pilot_{src}_{r.get('query_id')}", "source": src, "question": q,
-                             "answers": aliases, "gold_passage": gold, "distractors": negs[:N_DISTRACTORS]})
-        k = min(a.n_per_source, len(eligible))
-        picked = rng.sample(eligible, k)
-        for p in picked:
-            p["gold_position"] = rng.randrange(N_DISTRACTORS + 1)
+            picked.append({"pid": f"pilot_{src}_{r.get('query_id')}", "source": src, "question": q,
+                           "answers": aliases, "gold_passage": gold, "distractors": negs,
+                           "gold_position": rng.randrange(N_DISTRACTORS + 1)})
         pool += picked
-        print(f"{src}: {len(rows)} questions, {len(eligible)} eligible, sampled {k}; excluded {why}")
+        print(f"{src}: {len(rows)} questions, checked {checked}, sampled {len(picked)}; excluded {why}", flush=True)
+        del rows
     append_jsonl(out, pool)
     print(f"wrote {out} ({len(pool)} questions)")
 

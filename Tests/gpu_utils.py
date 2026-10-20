@@ -146,7 +146,9 @@ def load_model(path, use_4bit=False):
         from transformers import BitsAndBytesConfig
         kw["quantization_config"] = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_compute_dtype=dtype)
     else:
-        kw["dtype"] = dtype
+        import transformers
+        from packaging.version import Version
+        kw["dtype" if Version(transformers.__version__) >= Version("4.56") else "torch_dtype"] = dtype
     if "gemma" in str(path).lower():
         kw["attn_implementation"] = "eager"        # Gemma-2 attention soft-capping; same as earlier phases
     t0 = time.time()
@@ -157,7 +159,7 @@ def load_model(path, use_4bit=False):
             raise
         kw.pop("device_map")
         model = AutoModelForCausalLM.from_pretrained(path, **kw).eval().to("cuda" if on_gpu else "cpu")
-    print(f"loaded {path} in {time.time() - t0:.0f}s ({'4-bit' if use_4bit else kw.get('dtype')}, "
+    print(f"loaded {path} in {time.time() - t0:.0f}s ({'4-bit' if use_4bit else model.dtype}, "
           f"{'GPU' if on_gpu else 'CPU'})", flush=True)
     return model, tok
 
@@ -199,6 +201,7 @@ def run_safely(fn, items):
 @torch.no_grad()
 def _generate_batch(model, tok, prompts, max_new_tokens):
     enc = tok(prompts, return_tensors="pt", padding=True).to(model.device)
+    enc.pop("token_type_ids", None)               # some tokenizers add these; causal LMs reject them
     kw = dict(max_new_tokens=max_new_tokens, do_sample=False, pad_token_id=tok.pad_token_id,
               return_dict_in_generate=True, output_logits=True, temperature=None, top_p=None, top_k=None)
     try:
@@ -259,6 +262,7 @@ def label_token_ids(tok, label):
 @torch.no_grad()
 def _last_logprobs(model, tok, prompts):
     enc = tok(prompts, return_tensors="pt", padding=True, add_special_tokens=False).to(model.device)
+    enc.pop("token_type_ids", None)
     try:
         out = model(**enc, logits_to_keep=1)
     except TypeError:
