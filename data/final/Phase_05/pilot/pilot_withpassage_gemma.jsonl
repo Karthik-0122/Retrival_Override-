@@ -1,0 +1,1032 @@
+{"pid": "pilot_nq_2034", "model": "gemma", "cond": "gold", "wp_answer": "Stephanie Edwards (Grey's Anatomy) best. The love triangle between Jackson (Jesse Williams) and April (Sarah Drew), her relationship with neurosurgery mentor Amelia", "wp_first_logprob": -1.6843, "wp_mean_logprob": -0.1781, "wp_string_correct": true}
+{"pid": "pilot_nq_2034", "model": "gemma", "cond": "mixed", "wp_answer": "Stephanie Edwards (Grey's Anatomy) Stephanie Edwards (Grey's Anatomy) Stephanie Edwards, M.D. is a fictional character from the medical drama television", "wp_first_logprob": -1.5138, "wp_mean_logprob": -0.1481, "wp_string_correct": false}
+{"pid": "pilot_nq_2655", "model": "gemma", "cond": "gold", "wp_answer": "Duncan Norvelle", "wp_first_logprob": -0.31, "wp_mean_logprob": -0.2219, "wp_string_correct": true}
+{"pid": "pilot_nq_2655", "model": "gemma", "cond": "mixed", "wp_answer": "Duncan Norvelle", "wp_first_logprob": -0.4982, "wp_mean_logprob": -0.3316, "wp_string_correct": true}
+{"pid": "pilot_nq_3119", "model": "gemma", "cond": "gold", "wp_answer": "Eleanor Oldroyd", "wp_first_logprob": -0.6714, "wp_mean_logprob": -0.2426, "wp_string_correct": true}
+{"pid": "pilot_nq_3119", "model": "gemma", "cond": "mixed", "wp_answer": "Eleanor Oldroyd", "wp_first_logprob": -0.8426, "wp_mean_logprob": -0.3004, "wp_string_correct": true}
+{"pid": "pilot_nq_1572", "model": "gemma", "cond": "gold", "wp_answer": "The show ended in 2011.", "wp_first_logprob": -1.7594, "wp_mean_logprob": -0.6678, "wp_string_correct": false}
+{"pid": "pilot_nq_1572", "model": "gemma", "cond": "mixed", "wp_answer": "Lie to Me ended on January 31, 2011.", "wp_first_logprob": -1.5083, "wp_mean_logprob": -0.3703, "wp_string_correct": true}
+{"pid": "pilot_nq_5873", "model": "gemma", "cond": "gold", "wp_answer": "Fran Drescher", "wp_first_logprob": -0.9237, "wp_mean_logprob": -0.3945, "wp_string_correct": false}
+{"pid": "pilot_nq_5873", "model": "gemma", "cond": "mixed", "wp_answer": "The Nanny theme song is sung by Fran Drescher.", "wp_first_logprob": -2.1262, "wp_mean_logprob": -0.9004, "wp_string_correct": false}
+{"pid": "pilot_nq_1265", "model": "gemma", "cond": "gold", "wp_answer": "Wendy Kilbourne", "wp_first_logprob": -1.5642, "wp_mean_logprob": -0.5899, "wp_string_correct": true}
+{"pid": "pilot_nq_1265", "model": "gemma", "cond": "mixed", "wp_answer": "Wendy Kilbourne", "wp_first_logprob": -1.5726, "wp_mean_logprob": -0.5624, "wp_string_correct": true}
+{"pid": "pilot_nq_107", "model": "gemma", "cond": "gold", "wp_answer": "1965", "wp_first_logprob": -1.2156, "wp_mean_logprob": -0.5978, "wp_string_correct": false}
+{"pid": "pilot_nq_107", "model": "gemma", "cond": "mixed", "wp_answer": "1966", "wp_first_logprob": -1.5269, "wp_mean_logprob": -0.6134, "wp_string_correct": false}
+{"pid": "pilot_nq_2943", "model": "gemma", "cond": "gold", "wp_answer": "Henry Edward Bedford", "wp_first_logprob": -1.3501, "wp_mean_logprob": -0.5021, "wp_string_correct": true}
+{"pid": "pilot_nq_2943", "model": "gemma", "cond": "mixed", "wp_answer": "The clock in Grand Central Station was made by the Self Winding Clock Company.", "wp_first_logprob": -1.3205, "wp_mean_logprob": -0.6764, "wp_string_correct": false}
+{"pid": "pilot_nq_526", "model": "gemma", "cond": "gold", "wp_answer": "Melissa Etheridge", "wp_first_logprob": -0.6324, "wp_mean_logprob": -0.2342, "wp_string_correct": true}
+{"pid": "pilot_nq_526", "model": "gemma", "cond": "mixed", "wp_answer": "Melissa Etheridge", "wp_first_logprob": -0.6632, "wp_mean_logprob": -0.2523, "wp_string_correct": true}
+{"pid": "pilot_nq_2427", "model": "gemma", "cond": "gold", "wp_answer": "Shioli Kutsuna", "wp_first_logprob": -1.1035, "wp_mean_logprob": -0.2336, "wp_string_correct": true}
+{"pid": "pilot_nq_2427", "model": "gemma", "cond": "mixed", "wp_answer": "Shioli Kutsuna", "wp_first_logprob": -1.4939, "wp_mean_logprob": -0.3092, "wp_string_correct": true}
+{"pid": "pilot_nq_4960", "model": "gemma", "cond": "gold", "wp_answer": "Matt Lowe", "wp_first_logprob": -1.498, "wp_mean_logprob": -0.8056, "wp_string_correct": true}
+{"pid": "pilot_nq_4960", "model": "gemma", "cond": "mixed", "wp_answer": "Anna Kendrick", "wp_first_logprob": -2.4876, "wp_mean_logprob": -1.337, "wp_string_correct": false}
+{"pid": "pilot_nq_6023", "model": "gemma", "cond": "gold", "wp_answer": "Harry Nilsson", "wp_first_logprob": -1.481, "wp_mean_logprob": -0.8048, "wp_string_correct": false}
+{"pid": "pilot_nq_6023", "model": "gemma", "cond": "mixed", "wp_answer": "Harry Nilsson", "wp_first_logprob": -2.0684, "wp_mean_logprob": -1.1064, "wp_string_correct": false}
+{"pid": "pilot_nq_4237", "model": "gemma", "cond": "gold", "wp_answer": "The fifth and final season of \"Bates Motel\" premiered on February 20, 2017, and concluded on April 24,", "wp_first_logprob": -1.6994, "wp_mean_logprob": -0.1017, "wp_string_correct": true}
+{"pid": "pilot_nq_4237", "model": "gemma", "cond": "mixed", "wp_answer": "The fifth and final season of \"Bates Motel\" premiered on February 20, 2017, and concluded on April 24,", "wp_first_logprob": -1.3927, "wp_mean_logprob": -0.0942, "wp_string_correct": true}
+{"pid": "pilot_nq_5438", "model": "gemma", "cond": "gold", "wp_answer": "1982", "wp_first_logprob": -1.1892, "wp_mean_logprob": -0.3321, "wp_string_correct": false}
+{"pid": "pilot_nq_5438", "model": "gemma", "cond": "mixed", "wp_answer": "1982", "wp_first_logprob": -1.22, "wp_mean_logprob": -0.3887, "wp_string_correct": false}
+{"pid": "pilot_nq_5226", "model": "gemma", "cond": "gold", "wp_answer": "Alicia Keys won The Voice with Brynn Cartelli.", "wp_first_logprob": -2.1942, "wp_mean_logprob": -0.7579, "wp_string_correct": false}
+{"pid": "pilot_nq_5226", "model": "gemma", "cond": "mixed", "wp_answer": "Brynn Cartelli", "wp_first_logprob": -1.9958, "wp_mean_logprob": -0.5051, "wp_string_correct": false}
+{"pid": "pilot_nq_3542", "model": "gemma", "cond": "gold", "wp_answer": "early childhood education", "wp_first_logprob": -1.468, "wp_mean_logprob": -0.5417, "wp_string_correct": true}
+{"pid": "pilot_nq_3542", "model": "gemma", "cond": "mixed", "wp_answer": "early childhood education", "wp_first_logprob": -1.7531, "wp_mean_logprob": -0.6358, "wp_string_correct": true}
+{"pid": "pilot_nq_4513", "model": "gemma", "cond": "gold", "wp_answer": "1994", "wp_first_logprob": -1.416, "wp_mean_logprob": -0.3963, "wp_string_correct": true}
+{"pid": "pilot_nq_4513", "model": "gemma", "cond": "mixed", "wp_answer": "BMW has been building cars in the United States since 1994. The company's first plant in the country was located in Spartanburg, South", "wp_first_logprob": -1.5647, "wp_mean_logprob": -0.722, "wp_string_correct": true}
+{"pid": "pilot_nq_3618", "model": "gemma", "cond": "gold", "wp_answer": "Real Madrid", "wp_first_logprob": -1.0682, "wp_mean_logprob": -0.5714, "wp_string_correct": true}
+{"pid": "pilot_nq_3618", "model": "gemma", "cond": "mixed", "wp_answer": "Real Madrid", "wp_first_logprob": -1.1225, "wp_mean_logprob": -0.5907, "wp_string_correct": true}
+{"pid": "pilot_nq_5838", "model": "gemma", "cond": "gold", "wp_answer": "Galileo Galilei", "wp_first_logprob": -1.9637, "wp_mean_logprob": -0.9979, "wp_string_correct": false}
+{"pid": "pilot_nq_5838", "model": "gemma", "cond": "mixed", "wp_answer": "Galileo Galilei", "wp_first_logprob": -1.3517, "wp_mean_logprob": -0.743, "wp_string_correct": false}
+{"pid": "pilot_nq_1713", "model": "gemma", "cond": "gold", "wp_answer": "Mary Hopkin", "wp_first_logprob": -0.7302, "wp_mean_logprob": -0.2847, "wp_string_correct": false}
+{"pid": "pilot_nq_1713", "model": "gemma", "cond": "mixed", "wp_answer": "Mary Hopkin", "wp_first_logprob": -1.0394, "wp_mean_logprob": -0.4037, "wp_string_correct": false}
+{"pid": "pilot_nq_4992", "model": "gemma", "cond": "gold", "wp_answer": "Leslie Phillips", "wp_first_logprob": -0.761, "wp_mean_logprob": -0.4366, "wp_string_correct": false}
+{"pid": "pilot_nq_4992", "model": "gemma", "cond": "mixed", "wp_answer": "The Sorting Hat is a sentient magical hat that is used to sort students into one of the four houses of Hogwarts School of Witchcraft and Wizardry. The Sorting", "wp_first_logprob": -2.1327, "wp_mean_logprob": -0.6369, "wp_string_correct": false}
+{"pid": "pilot_nq_3482", "model": "gemma", "cond": "gold", "wp_answer": "1854", "wp_first_logprob": -1.0165, "wp_mean_logprob": -0.4231, "wp_string_correct": false}
+{"pid": "pilot_nq_3482", "model": "gemma", "cond": "mixed", "wp_answer": "1854", "wp_first_logprob": -1.3272, "wp_mean_logprob": -0.4264, "wp_string_correct": false}
+{"pid": "pilot_nq_1549", "model": "gemma", "cond": "gold", "wp_answer": "T.I.", "wp_first_logprob": -1.1269, "wp_mean_logprob": -0.3603, "wp_string_correct": true}
+{"pid": "pilot_nq_1549", "model": "gemma", "cond": "mixed", "wp_answer": "T.I.", "wp_first_logprob": -1.4675, "wp_mean_logprob": -0.4416, "wp_string_correct": true}
+{"pid": "pilot_nq_997", "model": "gemma", "cond": "gold", "wp_answer": "The film is set in New Jersey, but was mainly filmed in Toronto, Ontario, Canada. Scenes set at Princeton University were actually filmed at the University of Toronto", "wp_first_logprob": -1.7823, "wp_mean_logprob": -0.1411, "wp_string_correct": true}
+{"pid": "pilot_nq_997", "model": "gemma", "cond": "mixed", "wp_answer": "The film is set in New Jersey, but was mainly filmed in Toronto, Ontario, Canada. Scenes set at Princeton University were actually filmed at the University of Toronto", "wp_first_logprob": -1.6104, "wp_mean_logprob": -0.1174, "wp_string_correct": true}
+{"pid": "pilot_nq_2092", "model": "gemma", "cond": "gold", "wp_answer": "Mesopotamia", "wp_first_logprob": -2.2788, "wp_mean_logprob": -2.2788, "wp_string_correct": false}
+{"pid": "pilot_nq_2092", "model": "gemma", "cond": "mixed", "wp_answer": "The first bank was established in the world in 1781 in the United States of America.", "wp_first_logprob": -2.087, "wp_mean_logprob": -0.8808, "wp_string_correct": false}
+{"pid": "pilot_nq_6514", "model": "gemma", "cond": "gold", "wp_answer": "Lauren Taft", "wp_first_logprob": -0.6522, "wp_mean_logprob": -0.392, "wp_string_correct": true}
+{"pid": "pilot_nq_6514", "model": "gemma", "cond": "mixed", "wp_answer": "Lauren Taft", "wp_first_logprob": -0.7878, "wp_mean_logprob": -0.4997, "wp_string_correct": true}
+{"pid": "pilot_nq_578", "model": "gemma", "cond": "gold", "wp_answer": "Sophia Myles", "wp_first_logprob": -0.3959, "wp_mean_logprob": -0.2349, "wp_string_correct": true}
+{"pid": "pilot_nq_578", "model": "gemma", "cond": "mixed", "wp_answer": "Sophia Myles", "wp_first_logprob": -0.8914, "wp_mean_logprob": -0.4991, "wp_string_correct": true}
+{"pid": "pilot_nq_2642", "model": "gemma", "cond": "gold", "wp_answer": "Jacinda Barrett", "wp_first_logprob": -0.539, "wp_mean_logprob": -0.1967, "wp_string_correct": true}
+{"pid": "pilot_nq_2642", "model": "gemma", "cond": "mixed", "wp_answer": "Jacinda Barrett", "wp_first_logprob": -0.6809, "wp_mean_logprob": -0.2446, "wp_string_correct": true}
+{"pid": "pilot_nq_6163", "model": "gemma", "cond": "gold", "wp_answer": "baroque", "wp_first_logprob": -2.0593, "wp_mean_logprob": -2.0593, "wp_string_correct": false}
+{"pid": "pilot_nq_6163", "model": "gemma", "cond": "mixed", "wp_answer": "The style of St Paul's Cathedral in London is Baroque.", "wp_first_logprob": -2.2176, "wp_mean_logprob": -0.5897, "wp_string_correct": false}
+{"pid": "pilot_nq_704", "model": "gemma", "cond": "gold", "wp_answer": "Yuzuru Hanyu", "wp_first_logprob": -0.7098, "wp_mean_logprob": -0.1491, "wp_string_correct": true}
+{"pid": "pilot_nq_704", "model": "gemma", "cond": "mixed", "wp_answer": "Yuzuru Hanyu", "wp_first_logprob": -0.9183, "wp_mean_logprob": -0.1917, "wp_string_correct": true}
+{"pid": "pilot_nq_2555", "model": "gemma", "cond": "gold", "wp_answer": "The Food Stamp Program was established in 1939 as a way to help farmers sell their surplus crops. The program was originally called the Food Stamp Act", "wp_first_logprob": -1.5287, "wp_mean_logprob": -0.8477, "wp_string_correct": false}
+{"pid": "pilot_nq_2555", "model": "gemma", "cond": "mixed", "wp_answer": "The Food Stamp Program was established in 1939 as a pilot project in several states. The program was expanded in 1961 to include", "wp_first_logprob": -1.3908, "wp_mean_logprob": -0.8054, "wp_string_correct": false}
+{"pid": "pilot_nq_5050", "model": "gemma", "cond": "gold", "wp_answer": "Sumitra Mahajan", "wp_first_logprob": -1.0739, "wp_mean_logprob": -0.2934, "wp_string_correct": true}
+{"pid": "pilot_nq_5050", "model": "gemma", "cond": "mixed", "wp_answer": "Sumitra Mahajan", "wp_first_logprob": -1.4212, "wp_mean_logprob": -0.3728, "wp_string_correct": true}
+{"pid": "pilot_nq_2229", "model": "gemma", "cond": "gold", "wp_answer": "Dario Cologna", "wp_first_logprob": -2.0804, "wp_mean_logprob": -0.7182, "wp_string_correct": true}
+{"pid": "pilot_nq_2229", "model": "gemma", "cond": "mixed", "wp_answer": "Emil Jönsson", "wp_first_logprob": -1.7735, "wp_mean_logprob": -0.6803, "wp_string_correct": false}
+{"pid": "pilot_nq_638", "model": "gemma", "cond": "gold", "wp_answer": "1922", "wp_first_logprob": -1.6317, "wp_mean_logprob": -0.4308, "wp_string_correct": true}
+{"pid": "pilot_nq_638", "model": "gemma", "cond": "mixed", "wp_answer": "1922", "wp_first_logprob": -1.6143, "wp_mean_logprob": -0.482, "wp_string_correct": true}
+{"pid": "pilot_nq_4411", "model": "gemma", "cond": "gold", "wp_answer": "Justin Long", "wp_first_logprob": -1.5051, "wp_mean_logprob": -0.8554, "wp_string_correct": true}
+{"pid": "pilot_nq_4411", "model": "gemma", "cond": "mixed", "wp_answer": "Justin Long", "wp_first_logprob": -1.7216, "wp_mean_logprob": -0.9551, "wp_string_correct": true}
+{"pid": "pilot_nq_297", "model": "gemma", "cond": "gold", "wp_answer": "Snow White and the Huntsman was filmed in the United Kingdom. The beach scenes were predominantly filmed in Pembrokeshire, on the Marloes Sands beach near", "wp_first_logprob": -1.5807, "wp_mean_logprob": -0.2422, "wp_string_correct": false}
+{"pid": "pilot_nq_297", "model": "gemma", "cond": "mixed", "wp_answer": "The film was shot in the United Kingdom. The beach scenes were predominantly filmed in Pembrokeshire, on the Marloes Sands beach near the village of Mar", "wp_first_logprob": -1.466, "wp_mean_logprob": -0.2644, "wp_string_correct": false}
+{"pid": "pilot_nq_5782", "model": "gemma", "cond": "gold", "wp_answer": "Sarah Chalke", "wp_first_logprob": -0.561, "wp_mean_logprob": -0.2814, "wp_string_correct": true}
+{"pid": "pilot_nq_5782", "model": "gemma", "cond": "mixed", "wp_answer": "Sarah Chalke", "wp_first_logprob": -1.0866, "wp_mean_logprob": -0.4107, "wp_string_correct": true}
+{"pid": "pilot_nq_5170", "model": "gemma", "cond": "gold", "wp_answer": "1931", "wp_first_logprob": -1.4431, "wp_mean_logprob": -0.4301, "wp_string_correct": true}
+{"pid": "pilot_nq_5170", "model": "gemma", "cond": "mixed", "wp_answer": "1931", "wp_first_logprob": -1.557, "wp_mean_logprob": -0.481, "wp_string_correct": true}
+{"pid": "pilot_nq_2876", "model": "gemma", "cond": "gold", "wp_answer": "Bobby Russell", "wp_first_logprob": -0.6395, "wp_mean_logprob": -0.3717, "wp_string_correct": true}
+{"pid": "pilot_nq_2876", "model": "gemma", "cond": "mixed", "wp_answer": "Bobby Russell", "wp_first_logprob": -0.8396, "wp_mean_logprob": -0.4519, "wp_string_correct": true}
+{"pid": "pilot_nq_1943", "model": "gemma", "cond": "gold", "wp_answer": "Nicolas Jenson", "wp_first_logprob": -1.3453, "wp_mean_logprob": -0.5175, "wp_string_correct": false}
+{"pid": "pilot_nq_1943", "model": "gemma", "cond": "mixed", "wp_answer": "Nicolas Jenson", "wp_first_logprob": -1.9728, "wp_mean_logprob": -0.7711, "wp_string_correct": false}
+{"pid": "pilot_nq_6", "model": "gemma", "cond": "gold", "wp_answer": "Stax", "wp_first_logprob": -1.5231, "wp_mean_logprob": -0.7635, "wp_string_correct": false}
+{"pid": "pilot_nq_6", "model": "gemma", "cond": "mixed", "wp_answer": "Malaco Records", "wp_first_logprob": -2.1337, "wp_mean_logprob": -1.0695, "wp_string_correct": false}
+{"pid": "pilot_nq_5693", "model": "gemma", "cond": "gold", "wp_answer": "The Steelers played the Jacksonville Jaguars in the playoffs last year.", "wp_first_logprob": -1.168, "wp_mean_logprob": -0.6458, "wp_string_correct": false}
+{"pid": "pilot_nq_5693", "model": "gemma", "cond": "mixed", "wp_answer": "The Steelers played the New England Patriots in the AFC Championship Game last year. The Patriots won the game 36-17.", "wp_first_logprob": -1.0394, "wp_mean_logprob": -0.497, "wp_string_correct": true}
+{"pid": "pilot_nq_5115", "model": "gemma", "cond": "gold", "wp_answer": "A Thousand Splendid Suns is a 2007 novel by Afghan-American author Khaled Hosseini. It is his second, following his bestselling", "wp_first_logprob": -1.5679, "wp_mean_logprob": -0.1396, "wp_string_correct": false}
+{"pid": "pilot_nq_5115", "model": "gemma", "cond": "mixed", "wp_answer": "A Thousand Splendid Suns is a 2007 novel by Afghan-American author Khaled Hosseini. It is his second, following his bestselling", "wp_first_logprob": -1.4117, "wp_mean_logprob": -0.1149, "wp_string_correct": false}
+{"pid": "pilot_nq_5194", "model": "gemma", "cond": "gold", "wp_answer": "The Capris", "wp_first_logprob": -0.8428, "wp_mean_logprob": -0.3549, "wp_string_correct": true}
+{"pid": "pilot_nq_5194", "model": "gemma", "cond": "mixed", "wp_answer": "The Capris", "wp_first_logprob": -0.9173, "wp_mean_logprob": -0.4242, "wp_string_correct": true}
+{"pid": "pilot_nq_2435", "model": "gemma", "cond": "gold", "wp_answer": "Sally and Conrad", "wp_first_logprob": -1.7091, "wp_mean_logprob": -0.8035, "wp_string_correct": false}
+{"pid": "pilot_nq_2435", "model": "gemma", "cond": "mixed", "wp_answer": "The Cat in the Hat (also known as Dr. Seuss' The Cat in the Hat) is a 2003 American fantasy comedy film directed by", "wp_first_logprob": -1.6266, "wp_mean_logprob": -0.1776, "wp_string_correct": false}
+{"pid": "pilot_nq_3170", "model": "gemma", "cond": "gold", "wp_answer": "d minor", "wp_first_logprob": -0.7831, "wp_mean_logprob": -0.439, "wp_string_correct": true}
+{"pid": "pilot_nq_3170", "model": "gemma", "cond": "mixed", "wp_answer": "d minor", "wp_first_logprob": -1.2306, "wp_mean_logprob": -0.7008, "wp_string_correct": true}
+{"pid": "pilot_nq_1432", "model": "gemma", "cond": "gold", "wp_answer": "2017", "wp_first_logprob": -1.3524, "wp_mean_logprob": -0.4826, "wp_string_correct": true}
+{"pid": "pilot_nq_1432", "model": "gemma", "cond": "mixed", "wp_answer": "2017", "wp_first_logprob": -1.1886, "wp_mean_logprob": -0.4907, "wp_string_correct": true}
+{"pid": "pilot_nq_3140", "model": "gemma", "cond": "gold", "wp_answer": "1945", "wp_first_logprob": -0.9498, "wp_mean_logprob": -0.2962, "wp_string_correct": false}
+{"pid": "pilot_nq_3140", "model": "gemma", "cond": "mixed", "wp_answer": "1945", "wp_first_logprob": -1.0065, "wp_mean_logprob": -0.3505, "wp_string_correct": false}
+{"pid": "pilot_nq_667", "model": "gemma", "cond": "gold", "wp_answer": "The Elf on the Shelf appears on Thanksgiving Day.", "wp_first_logprob": -1.2416, "wp_mean_logprob": -0.8765, "wp_string_correct": true}
+{"pid": "pilot_nq_667", "model": "gemma", "cond": "mixed", "wp_answer": "The elf on the shelf appears on the first day of December.", "wp_first_logprob": -1.4575, "wp_mean_logprob": -0.7317, "wp_string_correct": false}
+{"pid": "pilot_nq_2865", "model": "gemma", "cond": "gold", "wp_answer": "Camden County, Virginia", "wp_first_logprob": -1.8711, "wp_mean_logprob": -0.9323, "wp_string_correct": true}
+{"pid": "pilot_nq_2865", "model": "gemma", "cond": "mixed", "wp_answer": "My Name Is Earl is set in fictional Camden County. Creator Greg Garcia says: \"I grew up in a trailer park in Virginia, and I wanted to set", "wp_first_logprob": -1.7558, "wp_mean_logprob": -0.6088, "wp_string_correct": true}
+{"pid": "pilot_nq_545", "model": "gemma", "cond": "gold", "wp_answer": "Milkman lives in Michigan.", "wp_first_logprob": -1.767, "wp_mean_logprob": -0.8207, "wp_string_correct": true}
+{"pid": "pilot_nq_545", "model": "gemma", "cond": "mixed", "wp_answer": "Milkman lives in Michigan.", "wp_first_logprob": -1.5946, "wp_mean_logprob": -0.8304, "wp_string_correct": true}
+{"pid": "pilot_nq_850", "model": "gemma", "cond": "gold", "wp_answer": "Sergeant", "wp_first_logprob": -2.2055, "wp_mean_logprob": -2.2055, "wp_string_correct": true}
+{"pid": "pilot_nq_850", "model": "gemma", "cond": "mixed", "wp_answer": "Sergeant", "wp_first_logprob": -2.0297, "wp_mean_logprob": -2.0297, "wp_string_correct": true}
+{"pid": "pilot_nq_2549", "model": "gemma", "cond": "gold", "wp_answer": "1983", "wp_first_logprob": -1.434, "wp_mean_logprob": -0.3665, "wp_string_correct": true}
+{"pid": "pilot_nq_2549", "model": "gemma", "cond": "mixed", "wp_answer": "1983", "wp_first_logprob": -1.6817, "wp_mean_logprob": -0.4061, "wp_string_correct": true}
+{"pid": "pilot_nq_1062", "model": "gemma", "cond": "gold", "wp_answer": "15 October 2017", "wp_first_logprob": -1.2876, "wp_mean_logprob": -0.5183, "wp_string_correct": false}
+{"pid": "pilot_nq_1062", "model": "gemma", "cond": "mixed", "wp_answer": "1992", "wp_first_logprob": -1.2451, "wp_mean_logprob": -0.547, "wp_string_correct": false}
+{"pid": "pilot_nq_2079", "model": "gemma", "cond": "gold", "wp_answer": "Benjamin Whitrow", "wp_first_logprob": -0.7876, "wp_mean_logprob": -0.2768, "wp_string_correct": true}
+{"pid": "pilot_nq_2079", "model": "gemma", "cond": "mixed", "wp_answer": "Benjamin Whitrow", "wp_first_logprob": -1.5831, "wp_mean_logprob": -0.5417, "wp_string_correct": true}
+{"pid": "pilot_nq_4149", "model": "gemma", "cond": "gold", "wp_answer": "2017", "wp_first_logprob": -1.6905, "wp_mean_logprob": -0.7534, "wp_string_correct": false}
+{"pid": "pilot_nq_4149", "model": "gemma", "cond": "mixed", "wp_answer": "2017", "wp_first_logprob": -1.8601, "wp_mean_logprob": -0.8291, "wp_string_correct": false}
+{"pid": "pilot_nq_2903", "model": "gemma", "cond": "gold", "wp_answer": "Sansa Stark is a fictional character in the A Song of Ice and Fire series of fantasy novels by American author George R. R. Martin, and its television", "wp_first_logprob": -1.7801, "wp_mean_logprob": -0.2447, "wp_string_correct": false}
+{"pid": "pilot_nq_2903", "model": "gemma", "cond": "mixed", "wp_answer": "Sansa Stark is a fictional character in the A Song of Ice and Fire series of fantasy novels by American author George R. R. Martin, and its television", "wp_first_logprob": -1.4196, "wp_mean_logprob": -0.2343, "wp_string_correct": false}
+{"pid": "pilot_nq_3711", "model": "gemma", "cond": "gold", "wp_answer": "in the world tomorrow", "wp_first_logprob": -2.2337, "wp_mean_logprob": -1.3511, "wp_string_correct": true}
+{"pid": "pilot_nq_3711", "model": "gemma", "cond": "mixed", "wp_answer": "in the world tomorrow", "wp_first_logprob": -2.1014, "wp_mean_logprob": -1.2895, "wp_string_correct": true}
+{"pid": "pilot_nq_4099", "model": "gemma", "cond": "gold", "wp_answer": "Naomi Campbell, Linda Evangelista, Tatjana Patitz, Christy Turlington, and Cindy Crawford", "wp_first_logprob": -2.2956, "wp_mean_logprob": -0.2628, "wp_string_correct": true}
+{"pid": "pilot_nq_4099", "model": "gemma", "cond": "mixed", "wp_answer": "The video features the five supermodels of the 1990s: Naomi Campbell, Linda Evangelista, Christy Turlington, Tatjana Patitz and", "wp_first_logprob": -2.2596, "wp_mean_logprob": -0.5667, "wp_string_correct": true}
+{"pid": "pilot_nq_6309", "model": "gemma", "cond": "gold", "wp_answer": "The chief officer of the House of Representatives is the Speaker of the House. The Speaker is the presiding officer of the House and is responsible for maintaining order and decor", "wp_first_logprob": -1.6177, "wp_mean_logprob": -0.5118, "wp_string_correct": false}
+{"pid": "pilot_nq_6309", "model": "gemma", "cond": "mixed", "wp_answer": "The chief officer of the House of Representatives is the Speaker of the House. The Speaker is elected by the members of the House and serves as the presiding officer of", "wp_first_logprob": -1.267, "wp_mean_logprob": -0.4153, "wp_string_correct": false}
+{"pid": "pilot_nq_4835", "model": "gemma", "cond": "gold", "wp_answer": "1957", "wp_first_logprob": -0.9214, "wp_mean_logprob": -0.3995, "wp_string_correct": false}
+{"pid": "pilot_nq_4835", "model": "gemma", "cond": "mixed", "wp_answer": "1957", "wp_first_logprob": -1.3204, "wp_mean_logprob": -0.5527, "wp_string_correct": false}
+{"pid": "pilot_nq_1133", "model": "gemma", "cond": "gold", "wp_answer": "Casino Night", "wp_first_logprob": -1.2144, "wp_mean_logprob": -0.7028, "wp_string_correct": true}
+{"pid": "pilot_nq_1133", "model": "gemma", "cond": "mixed", "wp_answer": "Casino Night", "wp_first_logprob": -1.6132, "wp_mean_logprob": -0.8785, "wp_string_correct": true}
+{"pid": "pilot_nq_5681", "model": "gemma", "cond": "gold", "wp_answer": "Iowa ranks 2nd in the nation in wind energy production.", "wp_first_logprob": -1.5399, "wp_mean_logprob": -0.8157, "wp_string_correct": false}
+{"pid": "pilot_nq_5681", "model": "gemma", "cond": "mixed", "wp_answer": "Iowa ranks first in the nation in wind energy production.", "wp_first_logprob": -1.0062, "wp_mean_logprob": -0.8344, "wp_string_correct": false}
+{"pid": "pilot_nq_2680", "model": "gemma", "cond": "gold", "wp_answer": "1947", "wp_first_logprob": -1.5939, "wp_mean_logprob": -0.9377, "wp_string_correct": false}
+{"pid": "pilot_nq_2680", "model": "gemma", "cond": "mixed", "wp_answer": "1945", "wp_first_logprob": -1.742, "wp_mean_logprob": -0.8749, "wp_string_correct": false}
+{"pid": "pilot_nq_4921", "model": "gemma", "cond": "gold", "wp_answer": "1989", "wp_first_logprob": -1.7328, "wp_mean_logprob": -0.4445, "wp_string_correct": false}
+{"pid": "pilot_nq_4921", "model": "gemma", "cond": "mixed", "wp_answer": "1989", "wp_first_logprob": -1.4265, "wp_mean_logprob": -0.3902, "wp_string_correct": false}
+{"pid": "pilot_nq_700", "model": "gemma", "cond": "gold", "wp_answer": "10,873", "wp_first_logprob": -0.9106, "wp_mean_logprob": -0.2386, "wp_string_correct": true}
+{"pid": "pilot_nq_700", "model": "gemma", "cond": "mixed", "wp_answer": "10,873", "wp_first_logprob": -1.0019, "wp_mean_logprob": -0.2954, "wp_string_correct": true}
+{"pid": "pilot_nq_3198", "model": "gemma", "cond": "gold", "wp_answer": "Solomon Linda", "wp_first_logprob": -0.6898, "wp_mean_logprob": -0.4033, "wp_string_correct": true}
+{"pid": "pilot_nq_3198", "model": "gemma", "cond": "mixed", "wp_answer": "Solomon Linda", "wp_first_logprob": -1.3058, "wp_mean_logprob": -0.7, "wp_string_correct": true}
+{"pid": "pilot_nq_3418", "model": "gemma", "cond": "gold", "wp_answer": "Sparta, Illinois", "wp_first_logprob": -0.9541, "wp_mean_logprob": -0.4909, "wp_string_correct": true}
+{"pid": "pilot_nq_3418", "model": "gemma", "cond": "mixed", "wp_answer": "Sparta, Illinois", "wp_first_logprob": -1.4484, "wp_mean_logprob": -0.6338, "wp_string_correct": true}
+{"pid": "pilot_nq_3010", "model": "gemma", "cond": "gold", "wp_answer": "Napoleon Bonaparte", "wp_first_logprob": -1.0687, "wp_mean_logprob": -0.8598, "wp_string_correct": true}
+{"pid": "pilot_nq_3010", "model": "gemma", "cond": "mixed", "wp_answer": "Napoleon Bonaparte", "wp_first_logprob": -1.545, "wp_mean_logprob": -1.129, "wp_string_correct": true}
+{"pid": "pilot_nq_5120", "model": "gemma", "cond": "gold", "wp_answer": "2008", "wp_first_logprob": -1.023, "wp_mean_logprob": -0.3155, "wp_string_correct": true}
+{"pid": "pilot_nq_5120", "model": "gemma", "cond": "mixed", "wp_answer": "1988", "wp_first_logprob": -1.1373, "wp_mean_logprob": -0.4805, "wp_string_correct": false}
+{"pid": "pilot_nq_6168", "model": "gemma", "cond": "gold", "wp_answer": "Chyler Leigh", "wp_first_logprob": -1.0214, "wp_mean_logprob": -0.3591, "wp_string_correct": true}
+{"pid": "pilot_nq_6168", "model": "gemma", "cond": "mixed", "wp_answer": "Chyler Leigh", "wp_first_logprob": -1.1763, "wp_mean_logprob": -0.4081, "wp_string_correct": true}
+{"pid": "pilot_nq_62", "model": "gemma", "cond": "gold", "wp_answer": "Steven Weber", "wp_first_logprob": -0.7783, "wp_mean_logprob": -0.5097, "wp_string_correct": false}
+{"pid": "pilot_nq_62", "model": "gemma", "cond": "mixed", "wp_answer": "Steven Weber", "wp_first_logprob": -0.5425, "wp_mean_logprob": -0.3469, "wp_string_correct": false}
+{"pid": "pilot_nq_360", "model": "gemma", "cond": "gold", "wp_answer": "Midway City", "wp_first_logprob": -0.9365, "wp_mean_logprob": -0.627, "wp_string_correct": true}
+{"pid": "pilot_nq_360", "model": "gemma", "cond": "mixed", "wp_answer": "Midway City", "wp_first_logprob": -1.0678, "wp_mean_logprob": -0.6345, "wp_string_correct": true}
+{"pid": "pilot_nq_4741", "model": "gemma", "cond": "gold", "wp_answer": "1910", "wp_first_logprob": -1.464, "wp_mean_logprob": -0.4711, "wp_string_correct": true}
+{"pid": "pilot_nq_4741", "model": "gemma", "cond": "mixed", "wp_answer": "The first horror movie was made in 1910.", "wp_first_logprob": -1.3745, "wp_mean_logprob": -0.5932, "wp_string_correct": true}
+{"pid": "pilot_nq_1450", "model": "gemma", "cond": "gold", "wp_answer": "The Gates was cancelled after its first season due to low ratings.", "wp_first_logprob": -1.8881, "wp_mean_logprob": -0.6025, "wp_string_correct": true}
+{"pid": "pilot_nq_1450", "model": "gemma", "cond": "mixed", "wp_answer": "The Gates is a supernatural crime drama television series that aired on the ABC network from June 20, 2010 to September 19,", "wp_first_logprob": -2.1256, "wp_mean_logprob": -0.3112, "wp_string_correct": false}
+{"pid": "pilot_nq_5014", "model": "gemma", "cond": "gold", "wp_answer": "The King James Version (KJV) is the best selling bible translation of all time.", "wp_first_logprob": -1.3195, "wp_mean_logprob": -0.5902, "wp_string_correct": false}
+{"pid": "pilot_nq_5014", "model": "gemma", "cond": "mixed", "wp_answer": "The New International Version (NIV) is the best selling bible translation of all time. It has sold over 100 million copies since its publication in", "wp_first_logprob": -0.9655, "wp_mean_logprob": -0.4876, "wp_string_correct": true}
+{"pid": "pilot_nq_990", "model": "gemma", "cond": "gold", "wp_answer": "Delia Smith", "wp_first_logprob": -0.2663, "wp_mean_logprob": -0.1797, "wp_string_correct": false}
+{"pid": "pilot_nq_990", "model": "gemma", "cond": "mixed", "wp_answer": "Delia Smith", "wp_first_logprob": -0.3511, "wp_mean_logprob": -0.2203, "wp_string_correct": false}
+{"pid": "pilot_nq_3894", "model": "gemma", "cond": "gold", "wp_answer": "Stephen Schnetzer", "wp_first_logprob": -0.576, "wp_mean_logprob": -0.1911, "wp_string_correct": true}
+{"pid": "pilot_nq_3894", "model": "gemma", "cond": "mixed", "wp_answer": "Stephen Schnetzer", "wp_first_logprob": -0.6171, "wp_mean_logprob": -0.2134, "wp_string_correct": true}
+{"pid": "pilot_nq_4362", "model": "gemma", "cond": "gold", "wp_answer": "Mark Lester", "wp_first_logprob": -0.5915, "wp_mean_logprob": -0.3273, "wp_string_correct": true}
+{"pid": "pilot_nq_4362", "model": "gemma", "cond": "mixed", "wp_answer": "Mark Lester", "wp_first_logprob": -1.269, "wp_mean_logprob": -0.645, "wp_string_correct": true}
+{"pid": "pilot_nq_4759", "model": "gemma", "cond": "gold", "wp_answer": "Marvel's Agents of S.H.I.E.L.D. Season 4 will premiere on Tuesday, September 20, 2", "wp_first_logprob": -2.523, "wp_mean_logprob": -0.3336, "wp_string_correct": false}
+{"pid": "pilot_nq_4759", "model": "gemma", "cond": "mixed", "wp_answer": "The fourth season of the American television series \"Agents of S.H.I.E.L.D.\", based on the Marvel Comics organization S.H", "wp_first_logprob": -1.9404, "wp_mean_logprob": -0.1353, "wp_string_correct": false}
+{"pid": "pilot_nq_5012", "model": "gemma", "cond": "gold", "wp_answer": "1789", "wp_first_logprob": -1.2423, "wp_mean_logprob": -0.4588, "wp_string_correct": false}
+{"pid": "pilot_nq_5012", "model": "gemma", "cond": "mixed", "wp_answer": "The office of the vice president was created in 1789.", "wp_first_logprob": -1.5454, "wp_mean_logprob": -0.4905, "wp_string_correct": false}
+{"pid": "pilot_nq_720", "model": "gemma", "cond": "gold", "wp_answer": "The United States Navy is the oldest navy in the world. The United States Navy was established in 1775.", "wp_first_logprob": -1.5557, "wp_mean_logprob": -0.6812, "wp_string_correct": false}
+{"pid": "pilot_nq_720", "model": "gemma", "cond": "mixed", "wp_answer": "The oldest navy in the world is the Royal Navy of the United Kingdom. The Royal Navy is the oldest navy in the world, with a history dating back to", "wp_first_logprob": -1.3726, "wp_mean_logprob": -0.6086, "wp_string_correct": false}
+{"pid": "pilot_nq_480", "model": "gemma", "cond": "gold", "wp_answer": "The state tax in Puerto Rico is 11.5%", "wp_first_logprob": -1.8211, "wp_mean_logprob": -0.7191, "wp_string_correct": false}
+{"pid": "pilot_nq_480", "model": "gemma", "cond": "mixed", "wp_answer": "The Puerto Rico Sales and Use Tax (SUT, , IVU) is the combined sales and use tax applied to most sales in Puerto Rico. The tax", "wp_first_logprob": -1.3318, "wp_mean_logprob": -0.1842, "wp_string_correct": false}
+{"pid": "pilot_nq_4813", "model": "gemma", "cond": "gold", "wp_answer": "Sam Smith", "wp_first_logprob": -0.6417, "wp_mean_logprob": -0.3804, "wp_string_correct": true}
+{"pid": "pilot_nq_4813", "model": "gemma", "cond": "mixed", "wp_answer": "Sam Smith", "wp_first_logprob": -0.7278, "wp_mean_logprob": -0.4207, "wp_string_correct": true}
+{"pid": "pilot_nq_6180", "model": "gemma", "cond": "gold", "wp_answer": "2.471053814671657 acres", "wp_first_logprob": -0.7673, "wp_mean_logprob": -0.4633, "wp_string_correct": false}
+{"pid": "pilot_nq_6180", "model": "gemma", "cond": "mixed", "wp_answer": "1 hectare = 2.471053814671657 acres", "wp_first_logprob": -0.7891, "wp_mean_logprob": -0.478, "wp_string_correct": false}
+{"pid": "pilot_nq_3608", "model": "gemma", "cond": "gold", "wp_answer": "2013", "wp_first_logprob": -1.513, "wp_mean_logprob": -0.435, "wp_string_correct": false}
+{"pid": "pilot_nq_3608", "model": "gemma", "cond": "mixed", "wp_answer": "Full Throttle opened on June 22, 2013.", "wp_first_logprob": -1.3456, "wp_mean_logprob": -0.2897, "wp_string_correct": true}
+{"pid": "pilot_nq_4004", "model": "gemma", "cond": "gold", "wp_answer": "2nd century BC", "wp_first_logprob": -1.8899, "wp_mean_logprob": -0.9532, "wp_string_correct": true}
+{"pid": "pilot_nq_4004", "model": "gemma", "cond": "mixed", "wp_answer": "2nd century BC", "wp_first_logprob": -1.7316, "wp_mean_logprob": -0.8826, "wp_string_correct": true}
+{"pid": "pilot_nq_6352", "model": "gemma", "cond": "gold", "wp_answer": "The Christmas season begins on December 25 and ends on January 6, the Feast of the Epiphany. The Christmas season is a time of joy and", "wp_first_logprob": -1.6413, "wp_mean_logprob": -0.6784, "wp_string_correct": false}
+{"pid": "pilot_nq_6352", "model": "gemma", "cond": "mixed", "wp_answer": "The Christmas season begins on December 25 and ends on January 6. The Christmas season is a time of joy and celebration. It is a time to", "wp_first_logprob": -1.6406, "wp_mean_logprob": -0.7299, "wp_string_correct": false}
+{"pid": "pilot_nq_5377", "model": "gemma", "cond": "gold", "wp_answer": "Shirley Chisholm", "wp_first_logprob": -2.3241, "wp_mean_logprob": -1.2604, "wp_string_correct": true}
+{"pid": "pilot_nq_5377", "model": "gemma", "cond": "mixed", "wp_answer": "James Monroe", "wp_first_logprob": -2.3339, "wp_mean_logprob": -2.345, "wp_string_correct": false}
+{"pid": "pilot_nq_583", "model": "gemma", "cond": "gold", "wp_answer": "Rob Cantor", "wp_first_logprob": -1.6876, "wp_mean_logprob": -0.863, "wp_string_correct": true}
+{"pid": "pilot_nq_583", "model": "gemma", "cond": "mixed", "wp_answer": "The song is called \"Goldie and Bear\" and it is sung by the cast of the show.", "wp_first_logprob": -1.5916, "wp_mean_logprob": -0.7126, "wp_string_correct": false}
+{"pid": "pilot_nq_3377", "model": "gemma", "cond": "gold", "wp_answer": "Billy Dee Williams", "wp_first_logprob": -0.9089, "wp_mean_logprob": -0.3367, "wp_string_correct": true}
+{"pid": "pilot_nq_3377", "model": "gemma", "cond": "mixed", "wp_answer": "Billy Dee Williams", "wp_first_logprob": -0.9647, "wp_mean_logprob": -0.3567, "wp_string_correct": true}
+{"pid": "pilot_nq_3708", "model": "gemma", "cond": "gold", "wp_answer": "Ram Nath Kovind", "wp_first_logprob": -1.5402, "wp_mean_logprob": -0.4076, "wp_string_correct": false}
+{"pid": "pilot_nq_3708", "model": "gemma", "cond": "mixed", "wp_answer": "Ram Nath Kovind", "wp_first_logprob": -1.2705, "wp_mean_logprob": -0.3313, "wp_string_correct": false}
+{"pid": "pilot_nq_3995", "model": "gemma", "cond": "gold", "wp_answer": "Barney Stinson is a lawyer. He is a partner at the law firm of GNB. He is also a member of the firm's management team.", "wp_first_logprob": -1.1784, "wp_mean_logprob": -0.8881, "wp_string_correct": false}
+{"pid": "pilot_nq_3995", "model": "gemma", "cond": "mixed", "wp_answer": "Barney Stinson is a fictional character on the CBS sitcom How I Met Your Mother. He is portrayed by Neil Patrick Harris. Barney is a womanizer and a", "wp_first_logprob": -0.9346, "wp_mean_logprob": -0.5297, "wp_string_correct": false}
+{"pid": "pilot_nq_2432", "model": "gemma", "cond": "gold", "wp_answer": "The phrase \"Bye, Felicia\" (actually spelled \"Felisha\" in the cast listing) came from a scene in the American stoner buddy crime comedy film", "wp_first_logprob": -1.768, "wp_mean_logprob": -0.1271, "wp_string_correct": false}
+{"pid": "pilot_nq_2432", "model": "gemma", "cond": "mixed", "wp_answer": "The phrase \"Bye, Felicia\" (actually spelled \"Felisha\" in the cast listing) came from a scene in the American stoner buddy crime comedy film", "wp_first_logprob": -1.7187, "wp_mean_logprob": -0.1368, "wp_string_correct": false}
+{"pid": "pilot_nq_2769", "model": "gemma", "cond": "gold", "wp_answer": "The fight for women 's right to vote began in the 1840s.", "wp_first_logprob": -1.8214, "wp_mean_logprob": -0.4523, "wp_string_correct": false}
+{"pid": "pilot_nq_2769", "model": "gemma", "cond": "mixed", "wp_answer": "The fight for women 's right to vote began in the 1840s.", "wp_first_logprob": -1.1889, "wp_mean_logprob": -0.4375, "wp_string_correct": false}
+{"pid": "pilot_nq_5076", "model": "gemma", "cond": "gold", "wp_answer": "The Nobel Peace Prize is awarded by the Norwegian Nobel Committee: 2016 Nobel Peace Prize The 2016 Nobel Peace Prize was awarded to", "wp_first_logprob": -1.6943, "wp_mean_logprob": -0.1975, "wp_string_correct": true}
+{"pid": "pilot_nq_5076", "model": "gemma", "cond": "mixed", "wp_answer": "The 2016 Nobel Peace Prize was awarded to the President of Colombia Juan Manuel Santos \"for his resolute efforts to bring the country’s more than", "wp_first_logprob": -1.66, "wp_mean_logprob": -0.1192, "wp_string_correct": false}
+{"pid": "pilot_nq_6204", "model": "gemma", "cond": "gold", "wp_answer": "Trans fats are stored in the body's fat cells.", "wp_first_logprob": -1.3188, "wp_mean_logprob": -0.896, "wp_string_correct": false}
+{"pid": "pilot_nq_6204", "model": "gemma", "cond": "mixed", "wp_answer": "Trans fats are not stored in the body. They are broken down and used for energy.", "wp_first_logprob": -1.2895, "wp_mean_logprob": -1.0351, "wp_string_correct": false}
+{"pid": "pilot_nq_2814", "model": "gemma", "cond": "gold", "wp_answer": "The film was shot in Los Angeles, California, and Washington, D.C. from March 2017 to May 2017.", "wp_first_logprob": -2.4877, "wp_mean_logprob": -0.7135, "wp_string_correct": false}
+{"pid": "pilot_nq_2814", "model": "gemma", "cond": "mixed", "wp_answer": "they started production on the post in 2016", "wp_first_logprob": -2.141, "wp_mean_logprob": -0.7469, "wp_string_correct": false}
+{"pid": "pilot_nq_6315", "model": "gemma", "cond": "gold", "wp_answer": "Dan Stevens", "wp_first_logprob": -1.0009, "wp_mean_logprob": -0.5558, "wp_string_correct": true}
+{"pid": "pilot_nq_6315", "model": "gemma", "cond": "mixed", "wp_answer": "Dan Stevens", "wp_first_logprob": -2.4479, "wp_mean_logprob": -1.2787, "wp_string_correct": true}
+{"pid": "pilot_nq_6141", "model": "gemma", "cond": "gold", "wp_answer": "Stacy Haiduk", "wp_first_logprob": -0.7576, "wp_mean_logprob": -0.2042, "wp_string_correct": true}
+{"pid": "pilot_nq_6141", "model": "gemma", "cond": "mixed", "wp_answer": "Stacy Haiduk", "wp_first_logprob": -1.3026, "wp_mean_logprob": -0.3382, "wp_string_correct": true}
+{"pid": "pilot_nq_6123", "model": "gemma", "cond": "gold", "wp_answer": "2009", "wp_first_logprob": -1.1546, "wp_mean_logprob": -0.5667, "wp_string_correct": false}
+{"pid": "pilot_nq_6123", "model": "gemma", "cond": "mixed", "wp_answer": "The Pittsburgh Steelers are a professional American football team based in Pittsburgh. The Steelers compete in the National Football League (NFL) as a member club of the league'", "wp_first_logprob": -1.4314, "wp_mean_logprob": -0.2402, "wp_string_correct": false}
+{"pid": "pilot_nq_6329", "model": "gemma", "cond": "gold", "wp_answer": "1945", "wp_first_logprob": -0.8379, "wp_mean_logprob": -0.3278, "wp_string_correct": true}
+{"pid": "pilot_nq_6329", "model": "gemma", "cond": "mixed", "wp_answer": "1945", "wp_first_logprob": -1.2613, "wp_mean_logprob": -0.475, "wp_string_correct": true}
+{"pid": "pilot_nq_2784", "model": "gemma", "cond": "gold", "wp_answer": "Daryl Mosley", "wp_first_logprob": -0.6312, "wp_mean_logprob": -0.3594, "wp_string_correct": true}
+{"pid": "pilot_nq_2784", "model": "gemma", "cond": "mixed", "wp_answer": "Daryl Mosley", "wp_first_logprob": -0.9784, "wp_mean_logprob": -0.5238, "wp_string_correct": true}
+{"pid": "pilot_nq_2250", "model": "gemma", "cond": "gold", "wp_answer": "The last nuclear power plant built in the United States was the Watts Bar Nuclear Generating Station Unit 2 in Tennessee. It was completed in 2016", "wp_first_logprob": -1.8469, "wp_mean_logprob": -0.4993, "wp_string_correct": false}
+{"pid": "pilot_nq_2250", "model": "gemma", "cond": "mixed", "wp_answer": "The last permanent closure of a US nuclear power plant was in 1997. US nuclear reactors were originally licensed to operate for 40-year", "wp_first_logprob": -1.472, "wp_mean_logprob": -0.1352, "wp_string_correct": false}
+{"pid": "pilot_nq_66", "model": "gemma", "cond": "gold", "wp_answer": "1985", "wp_first_logprob": -1.2495, "wp_mean_logprob": -0.5548, "wp_string_correct": false}
+{"pid": "pilot_nq_66", "model": "gemma", "cond": "mixed", "wp_answer": "1985", "wp_first_logprob": -1.2863, "wp_mean_logprob": -0.5538, "wp_string_correct": false}
+{"pid": "pilot_nq_130", "model": "gemma", "cond": "gold", "wp_answer": "Martin Short", "wp_first_logprob": -0.8314, "wp_mean_logprob": -0.5208, "wp_string_correct": true}
+{"pid": "pilot_nq_130", "model": "gemma", "cond": "mixed", "wp_answer": "Martin Short", "wp_first_logprob": -0.9682, "wp_mean_logprob": -0.5761, "wp_string_correct": true}
+{"pid": "pilot_nq_5957", "model": "gemma", "cond": "gold", "wp_answer": "The Hollies", "wp_first_logprob": -0.8828, "wp_mean_logprob": -0.3708, "wp_string_correct": true}
+{"pid": "pilot_nq_5957", "model": "gemma", "cond": "mixed", "wp_answer": "The Hollies", "wp_first_logprob": -0.8843, "wp_mean_logprob": -0.4174, "wp_string_correct": true}
+{"pid": "pilot_nq_6169", "model": "gemma", "cond": "gold", "wp_answer": "Huey \"Piano\" Smith", "wp_first_logprob": -0.9846, "wp_mean_logprob": -0.397, "wp_string_correct": true}
+{"pid": "pilot_nq_6169", "model": "gemma", "cond": "mixed", "wp_answer": "Johnny Rivers", "wp_first_logprob": -0.9102, "wp_mean_logprob": -0.5127, "wp_string_correct": false}
+{"pid": "pilot_nq_2580", "model": "gemma", "cond": "gold", "wp_answer": "9 years", "wp_first_logprob": -0.6466, "wp_mean_logprob": -0.7682, "wp_string_correct": false}
+{"pid": "pilot_nq_2580", "model": "gemma", "cond": "mixed", "wp_answer": "9", "wp_first_logprob": -1.0683, "wp_mean_logprob": -1.0142, "wp_string_correct": false}
+{"pid": "pilot_nq_5217", "model": "gemma", "cond": "gold", "wp_answer": "Eddie Orlofsky", "wp_first_logprob": -1.6179, "wp_mean_logprob": -0.5578, "wp_string_correct": true}
+{"pid": "pilot_nq_5217", "model": "gemma", "cond": "mixed", "wp_answer": "Eddie Orlofsky", "wp_first_logprob": -1.9373, "wp_mean_logprob": -0.6736, "wp_string_correct": true}
+{"pid": "pilot_nq_5066", "model": "gemma", "cond": "gold", "wp_answer": "The Ocean Resort Casino is a casino and hotel in Atlantic City, New Jersey. It is located on the Boardwalk at the site of the former Revel Casino Hotel", "wp_first_logprob": -1.7701, "wp_mean_logprob": -0.5584, "wp_string_correct": false}
+{"pid": "pilot_nq_5066", "model": "gemma", "cond": "mixed", "wp_answer": "Ocean Resort Casino (formerly Revel Casino Hotel Atlantic City) is a resort, hotel and casino in Atlantic City, New Jersey, United States. It is the northern", "wp_first_logprob": -1.3535, "wp_mean_logprob": -0.1362, "wp_string_correct": false}
+{"pid": "pilot_nq_740", "model": "gemma", "cond": "gold", "wp_answer": "Tracy Quartermaine is going to Amsterdam.", "wp_first_logprob": -0.9865, "wp_mean_logprob": -0.7914, "wp_string_correct": true}
+{"pid": "pilot_nq_740", "model": "gemma", "cond": "mixed", "wp_answer": "Tracy Quartermaine is a fictional character from \"General Hospital\", an American soap opera on the ABC network. Introduced in 1978, Tracy is the", "wp_first_logprob": -0.8321, "wp_mean_logprob": -0.2151, "wp_string_correct": false}
+{"pid": "pilot_nq_3310", "model": "gemma", "cond": "gold", "wp_answer": "1993", "wp_first_logprob": -1.3296, "wp_mean_logprob": -0.3424, "wp_string_correct": true}
+{"pid": "pilot_nq_3310", "model": "gemma", "cond": "mixed", "wp_answer": "The Dallas Stars are a professional ice hockey team based in Dallas, Texas. The team plays in the Central Division of the Western Conference in the National Hockey League (", "wp_first_logprob": -1.4068, "wp_mean_logprob": -0.3243, "wp_string_correct": false}
+{"pid": "pilot_nq_5025", "model": "gemma", "cond": "gold", "wp_answer": "The Coasters", "wp_first_logprob": -0.8158, "wp_mean_logprob": -0.3625, "wp_string_correct": true}
+{"pid": "pilot_nq_5025", "model": "gemma", "cond": "mixed", "wp_answer": "The Coasters", "wp_first_logprob": -1.1526, "wp_mean_logprob": -0.5407, "wp_string_correct": true}
+{"pid": "pilot_nq_591", "model": "gemma", "cond": "gold", "wp_answer": "Selby Baqwa", "wp_first_logprob": -0.5791, "wp_mean_logprob": -0.1937, "wp_string_correct": true}
+{"pid": "pilot_nq_591", "model": "gemma", "cond": "mixed", "wp_answer": "Selby Baqwa", "wp_first_logprob": -0.9926, "wp_mean_logprob": -0.2864, "wp_string_correct": true}
+{"pid": "pilot_nq_1773", "model": "gemma", "cond": "gold", "wp_answer": "The song was written by a man named John A. Lomax.", "wp_first_logprob": -2.2891, "wp_mean_logprob": -0.9561, "wp_string_correct": false}
+{"pid": "pilot_nq_1773", "model": "gemma", "cond": "mixed", "wp_answer": "Woody Guthrie", "wp_first_logprob": -1.6789, "wp_mean_logprob": -0.8645, "wp_string_correct": false}
+{"pid": "pilot_nq_3759", "model": "gemma", "cond": "gold", "wp_answer": "Mexico has a multi-party system.", "wp_first_logprob": -1.9687, "wp_mean_logprob": -0.7298, "wp_string_correct": true}
+{"pid": "pilot_nq_3759", "model": "gemma", "cond": "mixed", "wp_answer": "Mexico has a multi-party system.", "wp_first_logprob": -1.5624, "wp_mean_logprob": -0.6922, "wp_string_correct": true}
+{"pid": "pilot_nq_6449", "model": "gemma", "cond": "gold", "wp_answer": "The hotel is the Grand Motel at 1479 S La Cienega Blvd, in Los Angeles.", "wp_first_logprob": -1.5661, "wp_mean_logprob": -0.1215, "wp_string_correct": true}
+{"pid": "pilot_nq_6449", "model": "gemma", "cond": "mixed", "wp_answer": "The video for this song was the second to last filmed prior to Winehouse's death on 23 July 2011.", "wp_first_logprob": -1.1455, "wp_mean_logprob": -0.1153, "wp_string_correct": false}
+{"pid": "pilot_nq_1930", "model": "gemma", "cond": "gold", "wp_answer": "stocks", "wp_first_logprob": -1.5347, "wp_mean_logprob": -1.5347, "wp_string_correct": false}
+{"pid": "pilot_nq_1930", "model": "gemma", "cond": "mixed", "wp_answer": "a guillotine", "wp_first_logprob": -1.6193, "wp_mean_logprob": -0.9714, "wp_string_correct": false}
+{"pid": "pilot_nq_3643", "model": "gemma", "cond": "gold", "wp_answer": "Alabama", "wp_first_logprob": -1.2608, "wp_mean_logprob": -1.2608, "wp_string_correct": false}
+{"pid": "pilot_nq_3643", "model": "gemma", "cond": "mixed", "wp_answer": "Alabama Crimson Tide football", "wp_first_logprob": -1.3635, "wp_mean_logprob": -0.9843, "wp_string_correct": false}
+{"pid": "pilot_nq_4498", "model": "gemma", "cond": "gold", "wp_answer": "The Friends of Distinction", "wp_first_logprob": -1.4277, "wp_mean_logprob": -0.5337, "wp_string_correct": true}
+{"pid": "pilot_nq_4498", "model": "gemma", "cond": "mixed", "wp_answer": "The Friends of Distinction", "wp_first_logprob": -1.7872, "wp_mean_logprob": -0.7325, "wp_string_correct": true}
+{"pid": "pilot_nq_2497", "model": "gemma", "cond": "gold", "wp_answer": "4", "wp_first_logprob": -0.8007, "wp_mean_logprob": -0.4921, "wp_string_correct": false}
+{"pid": "pilot_nq_2497", "model": "gemma", "cond": "mixed", "wp_answer": "4", "wp_first_logprob": -1.0765, "wp_mean_logprob": -0.7823, "wp_string_correct": false}
+{"pid": "pilot_nq_377", "model": "gemma", "cond": "gold", "wp_answer": "Linwood Boomer", "wp_first_logprob": -0.6873, "wp_mean_logprob": -0.282, "wp_string_correct": true}
+{"pid": "pilot_nq_377", "model": "gemma", "cond": "mixed", "wp_answer": "Dean Butler", "wp_first_logprob": -1.558, "wp_mean_logprob": -0.8161, "wp_string_correct": false}
+{"pid": "pilot_nq_209", "model": "gemma", "cond": "gold", "wp_answer": "William Sadler", "wp_first_logprob": -0.5199, "wp_mean_logprob": -0.4333, "wp_string_correct": false}
+{"pid": "pilot_nq_209", "model": "gemma", "cond": "mixed", "wp_answer": "William Sadler", "wp_first_logprob": -0.5257, "wp_mean_logprob": -0.4818, "wp_string_correct": false}
+{"pid": "pilot_nq_2654", "model": "gemma", "cond": "gold", "wp_answer": "Douglas Adams", "wp_first_logprob": -1.8739, "wp_mean_logprob": -1.0021, "wp_string_correct": false}
+{"pid": "pilot_nq_2654", "model": "gemma", "cond": "mixed", "wp_answer": "The Hitchhiker's Guide to the Galaxy is a science fiction comedy series created by Douglas Adams. The series began as a 1978 BBC radio", "wp_first_logprob": -1.5434, "wp_mean_logprob": -0.4549, "wp_string_correct": false}
+{"pid": "pilot_nq_3527", "model": "gemma", "cond": "gold", "wp_answer": "Ann Peebles", "wp_first_logprob": -1.2906, "wp_mean_logprob": -0.4613, "wp_string_correct": true}
+{"pid": "pilot_nq_3527", "model": "gemma", "cond": "mixed", "wp_answer": "Tina Turner", "wp_first_logprob": -1.7354, "wp_mean_logprob": -0.9109, "wp_string_correct": false}
+{"pid": "pilot_nq_2000", "model": "gemma", "cond": "gold", "wp_answer": "Hollywood Beyond", "wp_first_logprob": -0.5445, "wp_mean_logprob": -0.391, "wp_string_correct": true}
+{"pid": "pilot_nq_2000", "model": "gemma", "cond": "mixed", "wp_answer": "Hollywood Beyond", "wp_first_logprob": -1.2981, "wp_mean_logprob": -0.7605, "wp_string_correct": true}
+{"pid": "pilot_nq_39", "model": "gemma", "cond": "gold", "wp_answer": "Beauty and the Beast (2017 film)", "wp_first_logprob": -1.5056, "wp_mean_logprob": -0.3234, "wp_string_correct": false}
+{"pid": "pilot_nq_39", "model": "gemma", "cond": "mixed", "wp_answer": "Beauty and the Beast (1991) - DVD - November 11, 1997", "wp_first_logprob": -1.4342, "wp_mean_logprob": -0.5411, "wp_string_correct": false}
+{"pid": "pilot_nq_4572", "model": "gemma", "cond": "gold", "wp_answer": "Season 10", "wp_first_logprob": -1.7234, "wp_mean_logprob": -0.4856, "wp_string_correct": true}
+{"pid": "pilot_nq_4572", "model": "gemma", "cond": "mixed", "wp_answer": "Cristina Yang is a fictional character on the ABC television series Grey's Anatomy, portrayed by Sandra Oh. She is a surgical resident at Seattle Grace Hospital, and", "wp_first_logprob": -1.6775, "wp_mean_logprob": -0.5505, "wp_string_correct": false}
+{"pid": "pilot_nq_1352", "model": "gemma", "cond": "gold", "wp_answer": "Toby comes back to the office in the episode \"Goodbye Toby\"", "wp_first_logprob": -1.5917, "wp_mean_logprob": -0.7981, "wp_string_correct": false}
+{"pid": "pilot_nq_1352", "model": "gemma", "cond": "mixed", "wp_answer": "Toby comes back to the office in the episode \"Frame Toby\"", "wp_first_logprob": -1.7402, "wp_mean_logprob": -0.7627, "wp_string_correct": false}
+{"pid": "pilot_nq_1824", "model": "gemma", "cond": "gold", "wp_answer": "The Louvre Pyramid was built in 1989.", "wp_first_logprob": -1.3871, "wp_mean_logprob": -0.53, "wp_string_correct": false}
+{"pid": "pilot_nq_1824", "model": "gemma", "cond": "mixed", "wp_answer": "The Louvre Pyramid was built in 1989.", "wp_first_logprob": -1.213, "wp_mean_logprob": -0.5457, "wp_string_correct": false}
+{"pid": "pilot_nq_1537", "model": "gemma", "cond": "gold", "wp_answer": "Benjamin Franklin", "wp_first_logprob": -0.9394, "wp_mean_logprob": -0.4855, "wp_string_correct": false}
+{"pid": "pilot_nq_1537", "model": "gemma", "cond": "mixed", "wp_answer": "Benjamin Franklin", "wp_first_logprob": -0.9631, "wp_mean_logprob": -0.4997, "wp_string_correct": false}
+{"pid": "pilot_nq_1917", "model": "gemma", "cond": "gold", "wp_answer": "Lynyrd Skynyrd", "wp_first_logprob": -2.1133, "wp_mean_logprob": -0.3686, "wp_string_correct": true}
+{"pid": "pilot_nq_1917", "model": "gemma", "cond": "mixed", "wp_answer": "Lynyrd Skynyrd", "wp_first_logprob": -1.613, "wp_mean_logprob": -0.2906, "wp_string_correct": true}
+{"pid": "pilot_nq_2069", "model": "gemma", "cond": "gold", "wp_answer": "Herb Alpert", "wp_first_logprob": -0.7859, "wp_mean_logprob": -0.2877, "wp_string_correct": true}
+{"pid": "pilot_nq_2069", "model": "gemma", "cond": "mixed", "wp_answer": "Herb Alpert", "wp_first_logprob": -1.2826, "wp_mean_logprob": -0.4512, "wp_string_correct": true}
+{"pid": "pilot_nq_3920", "model": "gemma", "cond": "gold", "wp_answer": "O Brother, Where Art Thou? was filmed in Mississippi, South Carolina, and Georgia.", "wp_first_logprob": -1.6807, "wp_mean_logprob": -0.5999, "wp_string_correct": false}
+{"pid": "pilot_nq_3920", "model": "gemma", "cond": "mixed", "wp_answer": "O Brother, Where Art Thou? was filmed in Mississippi and South Carolina.", "wp_first_logprob": -1.6048, "wp_mean_logprob": -0.465, "wp_string_correct": false}
+{"pid": "pilot_nq_4721", "model": "gemma", "cond": "gold", "wp_answer": "France and Croatia", "wp_first_logprob": -1.2216, "wp_mean_logprob": -0.8262, "wp_string_correct": true}
+{"pid": "pilot_nq_4721", "model": "gemma", "cond": "mixed", "wp_answer": "France and Croatia", "wp_first_logprob": -2.2913, "wp_mean_logprob": -1.3774, "wp_string_correct": true}
+{"pid": "pilot_nq_2455", "model": "gemma", "cond": "gold", "wp_answer": "George M. Steinbrenner Field", "wp_first_logprob": -1.556, "wp_mean_logprob": -0.3144, "wp_string_correct": true}
+{"pid": "pilot_nq_2455", "model": "gemma", "cond": "mixed", "wp_answer": "The New York Yankees play their spring training games at George M. Steinbrenner Field in Tampa, Florida.", "wp_first_logprob": -1.6254, "wp_mean_logprob": -0.3304, "wp_string_correct": true}
+{"pid": "pilot_nq_1738", "model": "gemma", "cond": "gold", "wp_answer": "Oliver O. Howard", "wp_first_logprob": -1.6547, "wp_mean_logprob": -0.7282, "wp_string_correct": false}
+{"pid": "pilot_nq_1738", "model": "gemma", "cond": "mixed", "wp_answer": "Oliver O. Howard", "wp_first_logprob": -1.6107, "wp_mean_logprob": -0.659, "wp_string_correct": false}
+{"pid": "pilot_nq_5102", "model": "gemma", "cond": "gold", "wp_answer": "J. Michael Finley", "wp_first_logprob": -0.7723, "wp_mean_logprob": -0.2655, "wp_string_correct": true}
+{"pid": "pilot_nq_5102", "model": "gemma", "cond": "mixed", "wp_answer": "J. Michael Finley", "wp_first_logprob": -0.9473, "wp_mean_logprob": -0.3152, "wp_string_correct": true}
+{"pid": "pilot_nq_5789", "model": "gemma", "cond": "gold", "wp_answer": "Cassandra Cooper Ingalls", "wp_first_logprob": -1.3385, "wp_mean_logprob": -0.4389, "wp_string_correct": true}
+{"pid": "pilot_nq_5789", "model": "gemma", "cond": "mixed", "wp_answer": "Cassandra Cooper Ingalls", "wp_first_logprob": -1.0668, "wp_mean_logprob": -0.3789, "wp_string_correct": true}
+{"pid": "pilot_nq_3127", "model": "gemma", "cond": "gold", "wp_answer": "April 2, 2018", "wp_first_logprob": -1.5272, "wp_mean_logprob": -0.3135, "wp_string_correct": true}
+{"pid": "pilot_nq_3127", "model": "gemma", "cond": "mixed", "wp_answer": "The championship game of the NCAA tournament is played on the first Monday in April.", "wp_first_logprob": -1.5044, "wp_mean_logprob": -0.5869, "wp_string_correct": false}
+{"pid": "pilot_nq_5719", "model": "gemma", "cond": "gold", "wp_answer": "Sonny Throckmorton and Casey Kelly", "wp_first_logprob": -0.7243, "wp_mean_logprob": -0.1675, "wp_string_correct": true}
+{"pid": "pilot_nq_5719", "model": "gemma", "cond": "mixed", "wp_answer": "Sonny Throckmorton and Casey Kelly", "wp_first_logprob": -1.1021, "wp_mean_logprob": -0.2227, "wp_string_correct": true}
+{"pid": "pilot_nq_3964", "model": "gemma", "cond": "gold", "wp_answer": "Shayla Mackarvich", "wp_first_logprob": -0.513, "wp_mean_logprob": -0.1691, "wp_string_correct": true}
+{"pid": "pilot_nq_3964", "model": "gemma", "cond": "mixed", "wp_answer": "Shayla Mackarvich", "wp_first_logprob": -0.9528, "wp_mean_logprob": -0.2757, "wp_string_correct": true}
+{"pid": "pilot_nq_2956", "model": "gemma", "cond": "gold", "wp_answer": "Avicii", "wp_first_logprob": -1.7812, "wp_mean_logprob": -0.9015, "wp_string_correct": false}
+{"pid": "pilot_nq_2956", "model": "gemma", "cond": "mixed", "wp_answer": "The song \"Wake Me Up When It's All Over\" is performed by the American rock band The Killers. The song was released as the second single from", "wp_first_logprob": -2.2708, "wp_mean_logprob": -0.6437, "wp_string_correct": false}
+{"pid": "pilot_nq_484", "model": "gemma", "cond": "gold", "wp_answer": "September 2012", "wp_first_logprob": -1.4684, "wp_mean_logprob": -0.2932, "wp_string_correct": true}
+{"pid": "pilot_nq_484", "model": "gemma", "cond": "mixed", "wp_answer": "2012", "wp_first_logprob": -1.5199, "wp_mean_logprob": -0.6154, "wp_string_correct": false}
+{"pid": "pilot_nq_4949", "model": "gemma", "cond": "gold", "wp_answer": "2013", "wp_first_logprob": -1.4753, "wp_mean_logprob": -0.6324, "wp_string_correct": false}
+{"pid": "pilot_nq_4949", "model": "gemma", "cond": "mixed", "wp_answer": "2007", "wp_first_logprob": -1.3039, "wp_mean_logprob": -0.7459, "wp_string_correct": false}
+{"pid": "pilot_nq_172", "model": "gemma", "cond": "gold", "wp_answer": "Dwight Howard is a center for the Los Angeles Lakers.", "wp_first_logprob": -1.3786, "wp_mean_logprob": -0.7156, "wp_string_correct": false}
+{"pid": "pilot_nq_172", "model": "gemma", "cond": "mixed", "wp_answer": "Dwight Howard is a professional basketball player who currently plays for the Los Angeles Lakers in the National Basketball Association (NBA). He was born on December 8,", "wp_first_logprob": -1.1902, "wp_mean_logprob": -0.364, "wp_string_correct": false}
+{"pid": "pilot_nq_444", "model": "gemma", "cond": "gold", "wp_answer": "Dick Clark", "wp_first_logprob": -1.8745, "wp_mean_logprob": -1.0077, "wp_string_correct": false}
+{"pid": "pilot_nq_444", "model": "gemma", "cond": "mixed", "wp_answer": "Dick Clark", "wp_first_logprob": -1.6806, "wp_mean_logprob": -0.8869, "wp_string_correct": false}
+{"pid": "pilot_nq_2186", "model": "gemma", "cond": "gold", "wp_answer": "the dominant ethnic group of southern south america including argentina and uruguay is the mestizo.", "wp_first_logprob": -2.7745, "wp_mean_logprob": -0.6808, "wp_string_correct": false}
+{"pid": "pilot_nq_2186", "model": "gemma", "cond": "mixed", "wp_answer": "The dominant ethnic group of southern South America is the Mestizo. The Mestizo is a person of mixed European and Native American ancestry. The Mesti", "wp_first_logprob": -2.2677, "wp_mean_logprob": -0.6751, "wp_string_correct": false}
+{"pid": "pilot_nq_4916", "model": "gemma", "cond": "gold", "wp_answer": "Juliet Mills", "wp_first_logprob": -0.5979, "wp_mean_logprob": -0.3876, "wp_string_correct": true}
+{"pid": "pilot_nq_4916", "model": "gemma", "cond": "mixed", "wp_answer": "Shirley Knight", "wp_first_logprob": -1.4577, "wp_mean_logprob": -0.8259, "wp_string_correct": false}
+{"pid": "pilot_nq_1579", "model": "gemma", "cond": "gold", "wp_answer": "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a giant planet with a mass one-thousandth that of the Sun", "wp_first_logprob": -0.9518, "wp_mean_logprob": -0.1312, "wp_string_correct": true}
+{"pid": "pilot_nq_1579", "model": "gemma", "cond": "mixed", "wp_answer": "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a giant planet with a mass one-thousandth that of the Sun", "wp_first_logprob": -0.8546, "wp_mean_logprob": -0.1289, "wp_string_correct": true}
+{"pid": "pilot_nq_3428", "model": "gemma", "cond": "gold", "wp_answer": "Paco", "wp_first_logprob": -0.6244, "wp_mean_logprob": -0.6244, "wp_string_correct": true}
+{"pid": "pilot_nq_3428", "model": "gemma", "cond": "mixed", "wp_answer": "Ferdinand is a 2017 American 3D computer-animated comedy film produced by Blue Sky Studios and distributed by 20th Century Fox.", "wp_first_logprob": -1.3098, "wp_mean_logprob": -0.2883, "wp_string_correct": false}
+{"pid": "pilot_nq_4341", "model": "gemma", "cond": "gold", "wp_answer": "right to property", "wp_first_logprob": -2.0966, "wp_mean_logprob": -1.1271, "wp_string_correct": false}
+{"pid": "pilot_nq_4341", "model": "gemma", "cond": "mixed", "wp_answer": "Right to property", "wp_first_logprob": -2.099, "wp_mean_logprob": -1.2078, "wp_string_correct": false}
+{"pid": "pilot_nq_1609", "model": "gemma", "cond": "gold", "wp_answer": "Sarah Hotchkiss Trendell", "wp_first_logprob": -0.5715, "wp_mean_logprob": -0.2261, "wp_string_correct": true}
+{"pid": "pilot_nq_1609", "model": "gemma", "cond": "mixed", "wp_answer": "Sarah Hotchkiss Trendell", "wp_first_logprob": -0.6932, "wp_mean_logprob": -0.2273, "wp_string_correct": true}
+{"pid": "pilot_nq_364", "model": "gemma", "cond": "gold", "wp_answer": "Uncle Dave Macon", "wp_first_logprob": -1.4142, "wp_mean_logprob": -0.5283, "wp_string_correct": false}
+{"pid": "pilot_nq_364", "model": "gemma", "cond": "mixed", "wp_answer": "Uncle Dave Macon", "wp_first_logprob": -1.5362, "wp_mean_logprob": -0.5558, "wp_string_correct": false}
+{"pid": "pilot_nq_466", "model": "gemma", "cond": "gold", "wp_answer": "Benjamin Harrison", "wp_first_logprob": -1.2446, "wp_mean_logprob": -0.6571, "wp_string_correct": true}
+{"pid": "pilot_nq_466", "model": "gemma", "cond": "mixed", "wp_answer": "Abraham Lincoln", "wp_first_logprob": -2.7533, "wp_mean_logprob": -1.4216, "wp_string_correct": false}
+{"pid": "pilot_nq_5563", "model": "gemma", "cond": "gold", "wp_answer": "He Could Be The One", "wp_first_logprob": -2.5751, "wp_mean_logprob": -0.7004, "wp_string_correct": true}
+{"pid": "pilot_nq_5563", "model": "gemma", "cond": "mixed", "wp_answer": "I think that Miley should choose Jesse because he is a better person than Jake. He is more mature and he is a better person. He is also a better", "wp_first_logprob": -2.4964, "wp_mean_logprob": -1.2678, "wp_string_correct": false}
+{"pid": "pilot_nq_1350", "model": "gemma", "cond": "gold", "wp_answer": "Bob Hoskins", "wp_first_logprob": -0.9885, "wp_mean_logprob": -0.3473, "wp_string_correct": true}
+{"pid": "pilot_nq_1350", "model": "gemma", "cond": "mixed", "wp_answer": "Bob Hoskins", "wp_first_logprob": -0.9191, "wp_mean_logprob": -0.3168, "wp_string_correct": true}
+{"pid": "pilot_nq_3332", "model": "gemma", "cond": "gold", "wp_answer": "Julianna McCarthy", "wp_first_logprob": -0.7464, "wp_mean_logprob": -0.2834, "wp_string_correct": true}
+{"pid": "pilot_nq_3332", "model": "gemma", "cond": "mixed", "wp_answer": "Julianna McCarthy", "wp_first_logprob": -0.819, "wp_mean_logprob": -0.2992, "wp_string_correct": true}
+{"pid": "pilot_nq_3401", "model": "gemma", "cond": "gold", "wp_answer": "jellyfish", "wp_first_logprob": -1.8586, "wp_mean_logprob": -1.8586, "wp_string_correct": true}
+{"pid": "pilot_nq_3401", "model": "gemma", "cond": "mixed", "wp_answer": "the largest members of the plankton are the jellyfish.", "wp_first_logprob": -2.305, "wp_mean_logprob": -0.7946, "wp_string_correct": true}
+{"pid": "pilot_nq_4140", "model": "gemma", "cond": "gold", "wp_answer": "1861", "wp_first_logprob": -1.2827, "wp_mean_logprob": -0.4697, "wp_string_correct": false}
+{"pid": "pilot_nq_4140", "model": "gemma", "cond": "mixed", "wp_answer": "Lagos was annexed as a colony in 1861. The remainder of the Benin Empire - i.e., modern-day Nigeria - were seized by", "wp_first_logprob": -1.2586, "wp_mean_logprob": -0.2762, "wp_string_correct": false}
+{"pid": "pilot_nq_1424", "model": "gemma", "cond": "gold", "wp_answer": "The first person to settle Dodge City was a man named William H.", "wp_first_logprob": -2.173, "wp_mean_logprob": -0.7945, "wp_string_correct": false}
+{"pid": "pilot_nq_1424", "model": "gemma", "cond": "mixed", "wp_answer": "The first person to settle Dodge City was a man named William Bent. He was a fur trader and he built a fort in the area in 182", "wp_first_logprob": -2.0363, "wp_mean_logprob": -0.6881, "wp_string_correct": false}
+{"pid": "pilot_nq_5631", "model": "gemma", "cond": "gold", "wp_answer": "Fernando Valenzuela", "wp_first_logprob": -1.9487, "wp_mean_logprob": -0.993, "wp_string_correct": true}
+{"pid": "pilot_nq_5631", "model": "gemma", "cond": "mixed", "wp_answer": "Fernando Valenzuela", "wp_first_logprob": -2.8457, "wp_mean_logprob": -1.449, "wp_string_correct": true}
+{"pid": "pilot_nq_2587", "model": "gemma", "cond": "gold", "wp_answer": "Lily James, Jessica Keenan Wynn, Alexa Davies and Celia Imrie", "wp_first_logprob": -1.3832, "wp_mean_logprob": -0.1868, "wp_string_correct": true}
+{"pid": "pilot_nq_2587", "model": "gemma", "cond": "mixed", "wp_answer": "Lily James, Jessica Keenan Wynn, Alexa Davies and Celia Imrie recorded \"When I Kissed the Teacher\", with a slightly changed lyric, as the first single", "wp_first_logprob": -2.2078, "wp_mean_logprob": -0.1697, "wp_string_correct": true}
+{"pid": "pilot_nq_4669", "model": "gemma", "cond": "gold", "wp_answer": "Chita Rivera", "wp_first_logprob": -1.5459, "wp_mean_logprob": -0.523, "wp_string_correct": false}
+{"pid": "pilot_nq_4669", "model": "gemma", "cond": "mixed", "wp_answer": "Chita Rivera", "wp_first_logprob": -1.7652, "wp_mean_logprob": -0.595, "wp_string_correct": false}
+{"pid": "pilot_nq_2260", "model": "gemma", "cond": "gold", "wp_answer": "Darryl Keen", "wp_first_logprob": -1.1834, "wp_mean_logprob": -0.6238, "wp_string_correct": true}
+{"pid": "pilot_nq_2260", "model": "gemma", "cond": "mixed", "wp_answer": "Darryl Keen", "wp_first_logprob": -1.6321, "wp_mean_logprob": -0.8655, "wp_string_correct": true}
+{"pid": "pilot_nq_97", "model": "gemma", "cond": "gold", "wp_answer": "The doctrine of once saved always saved is a doctrine that is not found in the Bible. It is a doctrine that is found in the writings of the early church", "wp_first_logprob": -1.7697, "wp_mean_logprob": -0.7803, "wp_string_correct": false}
+{"pid": "pilot_nq_97", "model": "gemma", "cond": "mixed", "wp_answer": "The doctrine of once saved always saved is a doctrine that is not found in the Bible. It is a doctrine that was created by man. It is a doctrine", "wp_first_logprob": -1.5946, "wp_mean_logprob": -0.7321, "wp_string_correct": false}
+{"pid": "pilot_nq_5697", "model": "gemma", "cond": "gold", "wp_answer": "24,733", "wp_first_logprob": -0.8699, "wp_mean_logprob": -0.2746, "wp_string_correct": true}
+{"pid": "pilot_nq_5697", "model": "gemma", "cond": "mixed", "wp_answer": "24,733", "wp_first_logprob": -1.1137, "wp_mean_logprob": -0.3659, "wp_string_correct": true}
+{"pid": "pilot_nq_5469", "model": "gemma", "cond": "gold", "wp_answer": "Robert Lamm", "wp_first_logprob": -1.3189, "wp_mean_logprob": -0.4642, "wp_string_correct": true}
+{"pid": "pilot_nq_5469", "model": "gemma", "cond": "mixed", "wp_answer": "Robert Lamm", "wp_first_logprob": -1.4911, "wp_mean_logprob": -0.5301, "wp_string_correct": true}
+{"pid": "pilot_nq_3940", "model": "gemma", "cond": "gold", "wp_answer": "Hasbro", "wp_first_logprob": -1.7067, "wp_mean_logprob": -1.7067, "wp_string_correct": true}
+{"pid": "pilot_nq_3940", "model": "gemma", "cond": "mixed", "wp_answer": "Saban Brands", "wp_first_logprob": -1.5686, "wp_mean_logprob": -0.7872, "wp_string_correct": false}
+{"pid": "pilot_nq_3792", "model": "gemma", "cond": "gold", "wp_answer": "Curtis Baldwin", "wp_first_logprob": -1.0344, "wp_mean_logprob": -0.5698, "wp_string_correct": true}
+{"pid": "pilot_nq_3792", "model": "gemma", "cond": "mixed", "wp_answer": "Alaina Reed Hall", "wp_first_logprob": -2.4916, "wp_mean_logprob": -0.9552, "wp_string_correct": false}
+{"pid": "pilot_nq_3614", "model": "gemma", "cond": "gold", "wp_answer": "Mary Elizabeth Ellis", "wp_first_logprob": -0.4597, "wp_mean_logprob": -0.1843, "wp_string_correct": true}
+{"pid": "pilot_nq_3614", "model": "gemma", "cond": "mixed", "wp_answer": "Mary Elizabeth Ellis", "wp_first_logprob": -0.5291, "wp_mean_logprob": -0.1953, "wp_string_correct": true}
+{"pid": "pilot_nq_4040", "model": "gemma", "cond": "gold", "wp_answer": "Lesley Gore", "wp_first_logprob": -1.7044, "wp_mean_logprob": -0.9301, "wp_string_correct": false}
+{"pid": "pilot_nq_4040", "model": "gemma", "cond": "mixed", "wp_answer": "John Gluck, Wally Gold and Herb Weiner", "wp_first_logprob": -2.1299, "wp_mean_logprob": -0.4272, "wp_string_correct": true}
+{"pid": "pilot_nq_2596", "model": "gemma", "cond": "gold", "wp_answer": "nights of cabiria", "wp_first_logprob": -1.4968, "wp_mean_logprob": -0.3679, "wp_string_correct": true}
+{"pid": "pilot_nq_2596", "model": "gemma", "cond": "mixed", "wp_answer": "nights of cabiria", "wp_first_logprob": -1.5324, "wp_mean_logprob": -0.3542, "wp_string_correct": true}
+{"pid": "pilot_nq_4239", "model": "gemma", "cond": "gold", "wp_answer": "Carter Burwell", "wp_first_logprob": -1.1787, "wp_mean_logprob": -0.4097, "wp_string_correct": true}
+{"pid": "pilot_nq_4239", "model": "gemma", "cond": "mixed", "wp_answer": "Carter Burwell", "wp_first_logprob": -1.8965, "wp_mean_logprob": -0.6548, "wp_string_correct": true}
+{"pid": "pilot_nq_3295", "model": "gemma", "cond": "gold", "wp_answer": "Ludwig Göransson", "wp_first_logprob": -0.5901, "wp_mean_logprob": -0.2409, "wp_string_correct": true}
+{"pid": "pilot_nq_3295", "model": "gemma", "cond": "mixed", "wp_answer": "Ludwig Göransson", "wp_first_logprob": -1.1091, "wp_mean_logprob": -0.3029, "wp_string_correct": true}
+{"pid": "pilot_nq_3370", "model": "gemma", "cond": "gold", "wp_answer": "The phrase \"this too shall pass\" is a translation of the Persian phrase \"In sha Allah\" which means \"God willing\". The phrase is often used in", "wp_first_logprob": -1.5799, "wp_mean_logprob": -0.8264, "wp_string_correct": false}
+{"pid": "pilot_nq_3370", "model": "gemma", "cond": "mixed", "wp_answer": "The phrase \"this too shall pass\" is a common English expression that is used to comfort someone who is experiencing a difficult time. The phrase is often used to", "wp_first_logprob": -1.6548, "wp_mean_logprob": -0.9644, "wp_string_correct": false}
+{"pid": "pilot_nq_3757", "model": "gemma", "cond": "gold", "wp_answer": "Michael Wray", "wp_first_logprob": -0.6904, "wp_mean_logprob": -0.492, "wp_string_correct": true}
+{"pid": "pilot_nq_3757", "model": "gemma", "cond": "mixed", "wp_answer": "Michael Wray", "wp_first_logprob": -0.905, "wp_mean_logprob": -0.5901, "wp_string_correct": true}
+{"pid": "pilot_nq_4605", "model": "gemma", "cond": "gold", "wp_answer": "1954", "wp_first_logprob": -1.4155, "wp_mean_logprob": -0.797, "wp_string_correct": false}
+{"pid": "pilot_nq_4605", "model": "gemma", "cond": "mixed", "wp_answer": "The first Lord of the Rings film was released in 2001.", "wp_first_logprob": -1.092, "wp_mean_logprob": -0.4964, "wp_string_correct": true}
+{"pid": "pilot_nq_6022", "model": "gemma", "cond": "gold", "wp_answer": "Benjamin Hanby", "wp_first_logprob": -0.6051, "wp_mean_logprob": -0.2223, "wp_string_correct": true}
+{"pid": "pilot_nq_6022", "model": "gemma", "cond": "mixed", "wp_answer": "Benjamin Hanby", "wp_first_logprob": -0.799, "wp_mean_logprob": -0.4284, "wp_string_correct": true}
+{"pid": "pilot_nq_6408", "model": "gemma", "cond": "gold", "wp_answer": "2007", "wp_first_logprob": -0.5971, "wp_mean_logprob": -0.1637, "wp_string_correct": true}
+{"pid": "pilot_nq_6408", "model": "gemma", "cond": "mixed", "wp_answer": "2007", "wp_first_logprob": -1.349, "wp_mean_logprob": -0.3867, "wp_string_correct": true}
+{"pid": "pilot_nq_782", "model": "gemma", "cond": "gold", "wp_answer": "Sting", "wp_first_logprob": -0.6994, "wp_mean_logprob": -0.6994, "wp_string_correct": true}
+{"pid": "pilot_nq_782", "model": "gemma", "cond": "mixed", "wp_answer": "Sting", "wp_first_logprob": -0.6819, "wp_mean_logprob": -0.6819, "wp_string_correct": true}
+{"pid": "pilot_nq_4635", "model": "gemma", "cond": "gold", "wp_answer": "Dorothy Dwan", "wp_first_logprob": -0.3539, "wp_mean_logprob": -0.1702, "wp_string_correct": true}
+{"pid": "pilot_nq_4635", "model": "gemma", "cond": "mixed", "wp_answer": "Dorothy Dwan", "wp_first_logprob": -0.4904, "wp_mean_logprob": -0.2233, "wp_string_correct": true}
+{"pid": "pilot_nq_1361", "model": "gemma", "cond": "gold", "wp_answer": "The financial crisis of 2007–2008 was a global financial crisis that occurred in the late 2000s and early", "wp_first_logprob": -1.3414, "wp_mean_logprob": -0.3824, "wp_string_correct": false}
+{"pid": "pilot_nq_1361", "model": "gemma", "cond": "mixed", "wp_answer": "The financial crisis of 2008 was a global financial crisis that began in the United States in 2007 and spread to other countries.", "wp_first_logprob": -1.1384, "wp_mean_logprob": -0.5935, "wp_string_correct": false}
+{"pid": "pilot_nq_1121", "model": "gemma", "cond": "gold", "wp_answer": "1941", "wp_first_logprob": -0.9503, "wp_mean_logprob": -0.4187, "wp_string_correct": false}
+{"pid": "pilot_nq_1121", "model": "gemma", "cond": "mixed", "wp_answer": "1921", "wp_first_logprob": -1.6434, "wp_mean_logprob": -0.6666, "wp_string_correct": false}
+{"pid": "pilot_nq_454", "model": "gemma", "cond": "gold", "wp_answer": "Michel Gill", "wp_first_logprob": -1.1767, "wp_mean_logprob": -0.5978, "wp_string_correct": true}
+{"pid": "pilot_nq_454", "model": "gemma", "cond": "mixed", "wp_answer": "Frank Underwood", "wp_first_logprob": -1.8935, "wp_mean_logprob": -0.9859, "wp_string_correct": false}
+{"pid": "pilot_nq_903", "model": "gemma", "cond": "gold", "wp_answer": "Heather West", "wp_first_logprob": -0.7828, "wp_mean_logprob": -0.5671, "wp_string_correct": false}
+{"pid": "pilot_nq_903", "model": "gemma", "cond": "mixed", "wp_answer": "Heather West", "wp_first_logprob": -0.9643, "wp_mean_logprob": -0.6512, "wp_string_correct": false}
+{"pid": "pilot_nq_3099", "model": "gemma", "cond": "gold", "wp_answer": "John Sykes", "wp_first_logprob": -0.6167, "wp_mean_logprob": -0.3349, "wp_string_correct": true}
+{"pid": "pilot_nq_3099", "model": "gemma", "cond": "mixed", "wp_answer": "John Sykes", "wp_first_logprob": -0.9599, "wp_mean_logprob": -0.5078, "wp_string_correct": true}
+{"pid": "pilot_nq_5832", "model": "gemma", "cond": "gold", "wp_answer": "8", "wp_first_logprob": -0.7285, "wp_mean_logprob": -0.475, "wp_string_correct": false}
+{"pid": "pilot_nq_5832", "model": "gemma", "cond": "mixed", "wp_answer": "8", "wp_first_logprob": -1.1717, "wp_mean_logprob": -0.7824, "wp_string_correct": false}
+{"pid": "pilot_nq_5865", "model": "gemma", "cond": "gold", "wp_answer": "Jimmy Boyd", "wp_first_logprob": -0.744, "wp_mean_logprob": -0.4011, "wp_string_correct": true}
+{"pid": "pilot_nq_5865", "model": "gemma", "cond": "mixed", "wp_answer": "Jimmy Boyd", "wp_first_logprob": -0.7842, "wp_mean_logprob": -0.4119, "wp_string_correct": true}
+{"pid": "pilot_nq_5791", "model": "gemma", "cond": "gold", "wp_answer": "Jean Arthur", "wp_first_logprob": -0.4203, "wp_mean_logprob": -0.2258, "wp_string_correct": true}
+{"pid": "pilot_nq_5791", "model": "gemma", "cond": "mixed", "wp_answer": "Jean Arthur", "wp_first_logprob": -0.5134, "wp_mean_logprob": -0.275, "wp_string_correct": true}
+{"pid": "pilot_nq_3580", "model": "gemma", "cond": "gold", "wp_answer": "Dexter Holland", "wp_first_logprob": -0.6224, "wp_mean_logprob": -0.3535, "wp_string_correct": false}
+{"pid": "pilot_nq_3580", "model": "gemma", "cond": "mixed", "wp_answer": "The Offspring", "wp_first_logprob": -1.3486, "wp_mean_logprob": -0.708, "wp_string_correct": true}
+{"pid": "pilot_nq_2368", "model": "gemma", "cond": "gold", "wp_answer": "Sohyang", "wp_first_logprob": -1.2735, "wp_mean_logprob": -0.7007, "wp_string_correct": true}
+{"pid": "pilot_nq_2368", "model": "gemma", "cond": "mixed", "wp_answer": "Sohyang", "wp_first_logprob": -1.7458, "wp_mean_logprob": -0.9184, "wp_string_correct": true}
+{"pid": "pilot_nq_409", "model": "gemma", "cond": "gold", "wp_answer": "Callan McAuliffe", "wp_first_logprob": -0.8205, "wp_mean_logprob": -0.1882, "wp_string_correct": true}
+{"pid": "pilot_nq_409", "model": "gemma", "cond": "mixed", "wp_answer": "Callan McAuliffe", "wp_first_logprob": -0.8304, "wp_mean_logprob": -0.1901, "wp_string_correct": true}
+{"pid": "pilot_nq_3720", "model": "gemma", "cond": "gold", "wp_answer": "Gene Lockhart", "wp_first_logprob": -1.1717, "wp_mean_logprob": -0.6188, "wp_string_correct": true}
+{"pid": "pilot_nq_3720", "model": "gemma", "cond": "mixed", "wp_answer": "Gene Lockhart and Ernest Seitz", "wp_first_logprob": -1.413, "wp_mean_logprob": -0.598, "wp_string_correct": true}
+{"pid": "pilot_nq_1420", "model": "gemma", "cond": "gold", "wp_answer": "Archer season 8 will be released on Netflix on April 5, 2017.", "wp_first_logprob": -1.7589, "wp_mean_logprob": -0.4931, "wp_string_correct": true}
+{"pid": "pilot_nq_1420", "model": "gemma", "cond": "mixed", "wp_answer": "Archer season 8 will be released on Netflix on April 5, 2017.", "wp_first_logprob": -1.4936, "wp_mean_logprob": -0.3436, "wp_string_correct": true}
+{"pid": "pilot_nq_6244", "model": "gemma", "cond": "gold", "wp_answer": "The current president pro tempore of the United States Senate is Chuck Grassley (R-IA).", "wp_first_logprob": -2.4855, "wp_mean_logprob": -0.6448, "wp_string_correct": false}
+{"pid": "pilot_nq_6244", "model": "gemma", "cond": "mixed", "wp_answer": "The current president of the Senate is Chuck Grassley, a Republican from Iowa.", "wp_first_logprob": -1.7634, "wp_mean_logprob": -0.702, "wp_string_correct": false}
+{"pid": "pilot_nq_1347", "model": "gemma", "cond": "gold", "wp_answer": "Lucille Ball and Henry Fonda", "wp_first_logprob": -0.8926, "wp_mean_logprob": -0.5082, "wp_string_correct": true}
+{"pid": "pilot_nq_1347", "model": "gemma", "cond": "mixed", "wp_answer": "Lucille Ball and Henry Fonda", "wp_first_logprob": -1.1792, "wp_mean_logprob": -0.5583, "wp_string_correct": true}
+{"pid": "pilot_nq_5834", "model": "gemma", "cond": "gold", "wp_answer": "Burt Bacharach and Hal David", "wp_first_logprob": -1.0047, "wp_mean_logprob": -0.3336, "wp_string_correct": true}
+{"pid": "pilot_nq_5834", "model": "gemma", "cond": "mixed", "wp_answer": "Burt Bacharach and Hal David", "wp_first_logprob": -1.0499, "wp_mean_logprob": -0.3537, "wp_string_correct": true}
+{"pid": "pilot_nq_1468", "model": "gemma", "cond": "gold", "wp_answer": "Mac Davis", "wp_first_logprob": -0.6825, "wp_mean_logprob": -0.3629, "wp_string_correct": true}
+{"pid": "pilot_nq_1468", "model": "gemma", "cond": "mixed", "wp_answer": "Mac Davis", "wp_first_logprob": -0.7589, "wp_mean_logprob": -0.4041, "wp_string_correct": true}
+{"pid": "pilot_nq_4268", "model": "gemma", "cond": "gold", "wp_answer": "Faction Punk is currently available on select Sirius XM radios, Sirius XM streaming, and the Sirius XM smartphone app.", "wp_first_logprob": -1.2631, "wp_mean_logprob": -0.2085, "wp_string_correct": false}
+{"pid": "pilot_nq_4268", "model": "gemma", "cond": "mixed", "wp_answer": "Faction Punk is a subscription-based channel on the satellite radio service Sirius XM Radio. The channel first aired on XM on August 6, 200", "wp_first_logprob": -1.0602, "wp_mean_logprob": -0.1947, "wp_string_correct": false}
+{"pid": "pilot_nq_992", "model": "gemma", "cond": "gold", "wp_answer": "Markham, Ontario, Canada", "wp_first_logprob": -1.2909, "wp_mean_logprob": -0.5906, "wp_string_correct": true}
+{"pid": "pilot_nq_992", "model": "gemma", "cond": "mixed", "wp_answer": "Markham, Ontario, Canada", "wp_first_logprob": -1.5873, "wp_mean_logprob": -0.657, "wp_string_correct": true}
+{"pid": "pilot_nq_4245", "model": "gemma", "cond": "gold", "wp_answer": "Jonathan Sadowski", "wp_first_logprob": -0.7357, "wp_mean_logprob": -0.2919, "wp_string_correct": true}
+{"pid": "pilot_nq_4245", "model": "gemma", "cond": "mixed", "wp_answer": "Jonathan Sadowski", "wp_first_logprob": -1.5533, "wp_mean_logprob": -0.5562, "wp_string_correct": true}
+{"pid": "pilot_nq_1639", "model": "gemma", "cond": "gold", "wp_answer": "Billy Boyd", "wp_first_logprob": -0.567, "wp_mean_logprob": -0.2925, "wp_string_correct": true}
+{"pid": "pilot_nq_1639", "model": "gemma", "cond": "mixed", "wp_answer": "Billy Boyd", "wp_first_logprob": -0.6667, "wp_mean_logprob": -0.3368, "wp_string_correct": true}
+{"pid": "pilot_nq_3394", "model": "gemma", "cond": "gold", "wp_answer": "Clayne Crawford", "wp_first_logprob": -0.7363, "wp_mean_logprob": -0.2576, "wp_string_correct": true}
+{"pid": "pilot_nq_3394", "model": "gemma", "cond": "mixed", "wp_answer": "Clayne Crawford", "wp_first_logprob": -1.2079, "wp_mean_logprob": -0.4188, "wp_string_correct": true}
+{"pid": "pilot_nq_2270", "model": "gemma", "cond": "gold", "wp_answer": "Frank Dillane", "wp_first_logprob": -0.6093, "wp_mean_logprob": -0.2411, "wp_string_correct": false}
+{"pid": "pilot_nq_2270", "model": "gemma", "cond": "mixed", "wp_answer": "Frank Dillane", "wp_first_logprob": -0.4926, "wp_mean_logprob": -0.1952, "wp_string_correct": false}
+{"pid": "pilot_nq_3706", "model": "gemma", "cond": "gold", "wp_answer": "Destroyer", "wp_first_logprob": -1.7544, "wp_mean_logprob": -1.7544, "wp_string_correct": true}
+{"pid": "pilot_nq_3706", "model": "gemma", "cond": "mixed", "wp_answer": "Jack Frost", "wp_first_logprob": -1.9156, "wp_mean_logprob": -1.0927, "wp_string_correct": false}
+{"pid": "pilot_nq_3834", "model": "gemma", "cond": "gold", "wp_answer": "Sofitel Minneapolis", "wp_first_logprob": -0.7427, "wp_mean_logprob": -0.9442, "wp_string_correct": false}
+{"pid": "pilot_nq_3834", "model": "gemma", "cond": "mixed", "wp_answer": "Sofitel Minneapolis", "wp_first_logprob": -0.9315, "wp_mean_logprob": -0.9255, "wp_string_correct": false}
+{"pid": "pilot_nq_6240", "model": "gemma", "cond": "gold", "wp_answer": "Ringo Starr", "wp_first_logprob": -1.2612, "wp_mean_logprob": -0.7423, "wp_string_correct": true}
+{"pid": "pilot_nq_6240", "model": "gemma", "cond": "mixed", "wp_answer": "Ringo Starr", "wp_first_logprob": -1.0662, "wp_mean_logprob": -0.6362, "wp_string_correct": true}
+{"pid": "pilot_nq_4353", "model": "gemma", "cond": "gold", "wp_answer": "T.J. Jagodowski and Peter Grosz", "wp_first_logprob": -1.3309, "wp_mean_logprob": -0.2592, "wp_string_correct": true}
+{"pid": "pilot_nq_4353", "model": "gemma", "cond": "mixed", "wp_answer": "Peter Grosz and T. J. Jagodowski", "wp_first_logprob": -1.3579, "wp_mean_logprob": -0.2898, "wp_string_correct": true}
+{"pid": "pilot_nq_247", "model": "gemma", "cond": "gold", "wp_answer": "Kristin Kreuk", "wp_first_logprob": -1.4849, "wp_mean_logprob": -0.5222, "wp_string_correct": true}
+{"pid": "pilot_nq_247", "model": "gemma", "cond": "mixed", "wp_answer": "Kristin Kreuk", "wp_first_logprob": -0.5879, "wp_mean_logprob": -0.2193, "wp_string_correct": true}
+{"pid": "pilot_nq_4352", "model": "gemma", "cond": "gold", "wp_answer": "Ameer Abdullah is a running back for the Minnesota Vikings.", "wp_first_logprob": -1.32, "wp_mean_logprob": -0.4644, "wp_string_correct": false}
+{"pid": "pilot_nq_4352", "model": "gemma", "cond": "mixed", "wp_answer": "Ameer Abdullah is a running back for the Minnesota Vikings of the National Football League (NFL). He was drafted by the Detroit Lions in the second round of the", "wp_first_logprob": -1.0647, "wp_mean_logprob": -0.2506, "wp_string_correct": true}
+{"pid": "pilot_nq_4528", "model": "gemma", "cond": "gold", "wp_answer": "72,008", "wp_first_logprob": -1.2673, "wp_mean_logprob": -0.377, "wp_string_correct": true}
+{"pid": "pilot_nq_4528", "model": "gemma", "cond": "mixed", "wp_answer": "72,008", "wp_first_logprob": -1.298, "wp_mean_logprob": -0.4153, "wp_string_correct": true}
+{"pid": "pilot_nq_4525", "model": "gemma", "cond": "gold", "wp_answer": "The film was shot in Baton Rouge, Louisiana.", "wp_first_logprob": -1.7699, "wp_mean_logprob": -0.6169, "wp_string_correct": true}
+{"pid": "pilot_nq_4525", "model": "gemma", "cond": "mixed", "wp_answer": "Never Back Down 2: The Beatdown (also known as The Fighters 2: The Beatdown) is a 2011 direct-to", "wp_first_logprob": -1.4678, "wp_mean_logprob": -0.109, "wp_string_correct": false}
+{"pid": "pilot_nq_1056", "model": "gemma", "cond": "gold", "wp_answer": "Duffy", "wp_first_logprob": -1.2318, "wp_mean_logprob": -1.2318, "wp_string_correct": true}
+{"pid": "pilot_nq_1056", "model": "gemma", "cond": "mixed", "wp_answer": "Bullet for My Valentine", "wp_first_logprob": -2.0141, "wp_mean_logprob": -0.7788, "wp_string_correct": false}
+{"pid": "pilot_nq_4381", "model": "gemma", "cond": "gold", "wp_answer": "Regis Philbin", "wp_first_logprob": -0.6382, "wp_mean_logprob": -0.235, "wp_string_correct": true}
+{"pid": "pilot_nq_4381", "model": "gemma", "cond": "mixed", "wp_answer": "Regis Philbin", "wp_first_logprob": -0.7055, "wp_mean_logprob": -0.2526, "wp_string_correct": true}
+{"pid": "pilot_nq_6269", "model": "gemma", "cond": "gold", "wp_answer": "Naa Peru Surya, Naa Illu India (English: \"My Name is Surya and My Home is India\") is a 2018 Indian", "wp_first_logprob": -1.4082, "wp_mean_logprob": -0.1454, "wp_string_correct": false}
+{"pid": "pilot_nq_6269", "model": "gemma", "cond": "mixed", "wp_answer": "Naa Peru Surya, Naa Illu India (English: \"My Name is Surya and My Home is India\") is a 2018 Indian", "wp_first_logprob": -1.3267, "wp_mean_logprob": -0.1563, "wp_string_correct": false}
+{"pid": "pilot_nq_5705", "model": "gemma", "cond": "gold", "wp_answer": "non-Hodgkin's lymphoma", "wp_first_logprob": -1.7586, "wp_mean_logprob": -0.3793, "wp_string_correct": true}
+{"pid": "pilot_nq_5705", "model": "gemma", "cond": "mixed", "wp_answer": "Rocky has non-Hodgkin's lymphoma.", "wp_first_logprob": -1.484, "wp_mean_logprob": -0.5742, "wp_string_correct": true}
+{"pid": "pilot_nq_3824", "model": "gemma", "cond": "gold", "wp_answer": "a-ha", "wp_first_logprob": -1.3255, "wp_mean_logprob": -0.6367, "wp_string_correct": false}
+{"pid": "pilot_nq_3824", "model": "gemma", "cond": "mixed", "wp_answer": "A-ha", "wp_first_logprob": -1.395, "wp_mean_logprob": -0.7329, "wp_string_correct": false}
+{"pid": "pilot_nq_6256", "model": "gemma", "cond": "gold", "wp_answer": "David Scarboro", "wp_first_logprob": -0.7058, "wp_mean_logprob": -0.3594, "wp_string_correct": false}
+{"pid": "pilot_nq_6256", "model": "gemma", "cond": "mixed", "wp_answer": "David Scarboro", "wp_first_logprob": -0.6065, "wp_mean_logprob": -0.269, "wp_string_correct": false}
+{"pid": "pilot_nq_1242", "model": "gemma", "cond": "gold", "wp_answer": "Nebula", "wp_first_logprob": -1.8426, "wp_mean_logprob": -1.8426, "wp_string_correct": false}
+{"pid": "pilot_nq_1242", "model": "gemma", "cond": "mixed", "wp_answer": "Nebula", "wp_first_logprob": -1.2266, "wp_mean_logprob": -1.2266, "wp_string_correct": false}
+{"pid": "pilot_nq_2410", "model": "gemma", "cond": "gold", "wp_answer": "1998", "wp_first_logprob": -1.006, "wp_mean_logprob": -0.2474, "wp_string_correct": true}
+{"pid": "pilot_nq_2410", "model": "gemma", "cond": "mixed", "wp_answer": "1998", "wp_first_logprob": -1.2441, "wp_mean_logprob": -0.3284, "wp_string_correct": true}
+{"pid": "pilot_nq_678", "model": "gemma", "cond": "gold", "wp_answer": "the London Eye", "wp_first_logprob": -1.3297, "wp_mean_logprob": -1.0282, "wp_string_correct": true}
+{"pid": "pilot_nq_678", "model": "gemma", "cond": "mixed", "wp_answer": "the Singapore Flyer, which opened in 2008.", "wp_first_logprob": -1.3974, "wp_mean_logprob": -0.7483, "wp_string_correct": false}
+{"pid": "pilot_nq_224", "model": "gemma", "cond": "gold", "wp_answer": "on the sides of your tounge", "wp_first_logprob": -2.3088, "wp_mean_logprob": -0.8125, "wp_string_correct": false}
+{"pid": "pilot_nq_224", "model": "gemma", "cond": "mixed", "wp_answer": "on the sides of your tounge", "wp_first_logprob": -2.2612, "wp_mean_logprob": -0.8129, "wp_string_correct": false}
+{"pid": "pilot_nq_2863", "model": "gemma", "cond": "gold", "wp_answer": "Stephen Hendry", "wp_first_logprob": -1.2132, "wp_mean_logprob": -0.4465, "wp_string_correct": false}
+{"pid": "pilot_nq_2863", "model": "gemma", "cond": "mixed", "wp_answer": "Stephen Hendry", "wp_first_logprob": -1.0999, "wp_mean_logprob": -0.3793, "wp_string_correct": false}
+{"pid": "pilot_nq_3946", "model": "gemma", "cond": "gold", "wp_answer": "Jaeden Lieberher", "wp_first_logprob": -1.2865, "wp_mean_logprob": -0.3729, "wp_string_correct": true}
+{"pid": "pilot_nq_3946", "model": "gemma", "cond": "mixed", "wp_answer": "Jaeden Lieberher", "wp_first_logprob": -1.7284, "wp_mean_logprob": -0.4845, "wp_string_correct": true}
+{"pid": "pilot_nq_5805", "model": "gemma", "cond": "gold", "wp_answer": "1963", "wp_first_logprob": -1.537, "wp_mean_logprob": -0.4932, "wp_string_correct": false}
+{"pid": "pilot_nq_5805", "model": "gemma", "cond": "mixed", "wp_answer": "I Want to Hold Your Hand was released in 1963.", "wp_first_logprob": -1.71, "wp_mean_logprob": -0.4026, "wp_string_correct": false}
+{"pid": "pilot_nq_4120", "model": "gemma", "cond": "gold", "wp_answer": "Andy Serkis", "wp_first_logprob": -0.4888, "wp_mean_logprob": -0.1967, "wp_string_correct": true}
+{"pid": "pilot_nq_4120", "model": "gemma", "cond": "mixed", "wp_answer": "Roddy McDowall", "wp_first_logprob": -1.428, "wp_mean_logprob": -0.3143, "wp_string_correct": false}
+{"pid": "pilot_nq_5744", "model": "gemma", "cond": "gold", "wp_answer": "South Africa", "wp_first_logprob": -1.7903, "wp_mean_logprob": -0.9495, "wp_string_correct": false}
+{"pid": "pilot_nq_5744", "model": "gemma", "cond": "mixed", "wp_answer": "South Africa", "wp_first_logprob": -1.6989, "wp_mean_logprob": -0.8939, "wp_string_correct": false}
+{"pid": "pilot_nq_1904", "model": "gemma", "cond": "gold", "wp_answer": "1988", "wp_first_logprob": -1.4113, "wp_mean_logprob": -0.3395, "wp_string_correct": false}
+{"pid": "pilot_nq_1904", "model": "gemma", "cond": "mixed", "wp_answer": "1988", "wp_first_logprob": -1.3364, "wp_mean_logprob": -0.3379, "wp_string_correct": false}
+{"pid": "pilot_nq_5334", "model": "gemma", "cond": "gold", "wp_answer": "the auditor", "wp_first_logprob": -1.3708, "wp_mean_logprob": -0.87, "wp_string_correct": true}
+{"pid": "pilot_nq_5334", "model": "gemma", "cond": "mixed", "wp_answer": "The audit working papers are the property of the auditor.", "wp_first_logprob": -1.4155, "wp_mean_logprob": -0.4169, "wp_string_correct": true}
+{"pid": "pilot_nq_3402", "model": "gemma", "cond": "gold", "wp_answer": "Darlene Cates", "wp_first_logprob": -0.327, "wp_mean_logprob": -0.165, "wp_string_correct": true}
+{"pid": "pilot_nq_3402", "model": "gemma", "cond": "mixed", "wp_answer": "Darlene Cates", "wp_first_logprob": -0.2265, "wp_mean_logprob": -0.1089, "wp_string_correct": true}
+{"pid": "pilot_nq_5790", "model": "gemma", "cond": "gold", "wp_answer": "the state minister for finance", "wp_first_logprob": -1.7271, "wp_mean_logprob": -2.1305, "wp_string_correct": false}
+{"pid": "pilot_nq_5790", "model": "gemma", "cond": "mixed", "wp_answer": "The President of India", "wp_first_logprob": -1.7655, "wp_mean_logprob": -1.6076, "wp_string_correct": false}
+{"pid": "pilot_nq_743", "model": "gemma", "cond": "gold", "wp_answer": "Lionel Luthor was blind but his eyes healed and he intentionally neglected to tell anyone so he could watch how they acted around him.", "wp_first_logprob": -1.8004, "wp_mean_logprob": -0.3713, "wp_string_correct": true}
+{"pid": "pilot_nq_743", "model": "gemma", "cond": "mixed", "wp_answer": "Lionel Luthor was blind for a while, but he got his sight back.", "wp_first_logprob": -1.9284, "wp_mean_logprob": -1.1296, "wp_string_correct": false}
+{"pid": "pilot_nq_2747", "model": "gemma", "cond": "gold", "wp_answer": "1949", "wp_first_logprob": -0.9142, "wp_mean_logprob": -0.2797, "wp_string_correct": false}
+{"pid": "pilot_nq_2747", "model": "gemma", "cond": "mixed", "wp_answer": "1949", "wp_first_logprob": -1.1414, "wp_mean_logprob": -0.3573, "wp_string_correct": false}
+{"pid": "pilot_nq_2183", "model": "gemma", "cond": "gold", "wp_answer": "An American Tail", "wp_first_logprob": -0.8956, "wp_mean_logprob": -0.3471, "wp_string_correct": true}
+{"pid": "pilot_nq_2183", "model": "gemma", "cond": "mixed", "wp_answer": "An American Tail", "wp_first_logprob": -1.0685, "wp_mean_logprob": -0.4044, "wp_string_correct": true}
+{"pid": "pilot_nq_2315", "model": "gemma", "cond": "gold", "wp_answer": "The train heist scene was filmed in Rice, California over three weeks.", "wp_first_logprob": -1.3714, "wp_mean_logprob": -0.1913, "wp_string_correct": true}
+{"pid": "pilot_nq_2315", "model": "gemma", "cond": "mixed", "wp_answer": "The train heist scene was filmed in Rice, California over three weeks. A brawl scene between Johnson's and Diesel's characters was considered difficult to choreograph", "wp_first_logprob": -1.1364, "wp_mean_logprob": -0.1362, "wp_string_correct": true}
+{"pid": "pilot_nq_222", "model": "gemma", "cond": "gold", "wp_answer": "Anglican", "wp_first_logprob": -1.7763, "wp_mean_logprob": -1.7763, "wp_string_correct": true}
+{"pid": "pilot_nq_222", "model": "gemma", "cond": "mixed", "wp_answer": "The nuns are Anglican, and the midwives are Catholic.", "wp_first_logprob": -1.819, "wp_mean_logprob": -1.3806, "wp_string_correct": true}
+{"pid": "pilot_nq_4639", "model": "gemma", "cond": "gold", "wp_answer": "The letter J was added to the English alphabet in the 16th century.", "wp_first_logprob": -1.7084, "wp_mean_logprob": -0.611, "wp_string_correct": false}
+{"pid": "pilot_nq_4639", "model": "gemma", "cond": "mixed", "wp_answer": "The letter J was first used in the 16th century. It was originally used as a variant of the letter I. The letter J was first used", "wp_first_logprob": -1.3935, "wp_mean_logprob": -0.7487, "wp_string_correct": false}
+{"pid": "pilot_nq_6060", "model": "gemma", "cond": "gold", "wp_answer": "Gwen Verdon", "wp_first_logprob": -1.8324, "wp_mean_logprob": -0.6448, "wp_string_correct": true}
+{"pid": "pilot_nq_6060", "model": "gemma", "cond": "mixed", "wp_answer": "Bianca Marroquin", "wp_first_logprob": -1.3152, "wp_mean_logprob": -0.5506, "wp_string_correct": false}
+{"pid": "pilot_nq_3769", "model": "gemma", "cond": "gold", "wp_answer": "James Brown", "wp_first_logprob": -1.5035, "wp_mean_logprob": -0.8378, "wp_string_correct": true}
+{"pid": "pilot_nq_3769", "model": "gemma", "cond": "mixed", "wp_answer": "James Brown", "wp_first_logprob": -1.4854, "wp_mean_logprob": -0.8338, "wp_string_correct": true}
+{"pid": "pilot_nq_1294", "model": "gemma", "cond": "gold", "wp_answer": "in England", "wp_first_logprob": -2.172, "wp_mean_logprob": -1.8623, "wp_string_correct": false}
+{"pid": "pilot_nq_1294", "model": "gemma", "cond": "mixed", "wp_answer": "in the 11th century, the Normans built the first motte and bailey castle in England.", "wp_first_logprob": -2.4525, "wp_mean_logprob": -0.7061, "wp_string_correct": false}
+{"pid": "pilot_nq_1438", "model": "gemma", "cond": "gold", "wp_answer": "Wally Johnson and Bob Brown", "wp_first_logprob": -1.0391, "wp_mean_logprob": -0.3806, "wp_string_correct": true}
+{"pid": "pilot_nq_1438", "model": "gemma", "cond": "mixed", "wp_answer": "Wally Johnson and Bob Brown", "wp_first_logprob": -1.2738, "wp_mean_logprob": -0.4733, "wp_string_correct": true}
+{"pid": "pilot_nq_15", "model": "gemma", "cond": "gold", "wp_answer": "1967", "wp_first_logprob": -0.9033, "wp_mean_logprob": -0.3354, "wp_string_correct": false}
+{"pid": "pilot_nq_15", "model": "gemma", "cond": "mixed", "wp_answer": "1967", "wp_first_logprob": -1.2666, "wp_mean_logprob": -0.3579, "wp_string_correct": false}
+{"pid": "pilot_nq_2088", "model": "gemma", "cond": "gold", "wp_answer": "Save the World was released on PC on July 25, 2017.", "wp_first_logprob": -1.8132, "wp_mean_logprob": -0.3874, "wp_string_correct": true}
+{"pid": "pilot_nq_2088", "model": "gemma", "cond": "mixed", "wp_answer": "Save the World was released on PC on July 25, 2018.", "wp_first_logprob": -1.5524, "wp_mean_logprob": -0.4465, "wp_string_correct": false}
+{"pid": "pilot_nq_1113", "model": "gemma", "cond": "gold", "wp_answer": "Arrietty", "wp_first_logprob": -2.1123, "wp_mean_logprob": -0.7085, "wp_string_correct": false}
+{"pid": "pilot_nq_1113", "model": "gemma", "cond": "mixed", "wp_answer": "Tom Holland plays the role of Shō in the Secret World of Arriety.", "wp_first_logprob": -1.6013, "wp_mean_logprob": -0.6019, "wp_string_correct": true}
+{"pid": "pilot_nq_3517", "model": "gemma", "cond": "gold", "wp_answer": "Scotty Wiseman", "wp_first_logprob": -0.9307, "wp_mean_logprob": -0.4787, "wp_string_correct": true}
+{"pid": "pilot_nq_3517", "model": "gemma", "cond": "mixed", "wp_answer": "Scotty Wiseman", "wp_first_logprob": -1.2125, "wp_mean_logprob": -0.6279, "wp_string_correct": true}
+{"pid": "pilot_nq_2454", "model": "gemma", "cond": "gold", "wp_answer": "c. virginia", "wp_first_logprob": -1.2875, "wp_mean_logprob": -0.6111, "wp_string_correct": false}
+{"pid": "pilot_nq_2454", "model": "gemma", "cond": "mixed", "wp_answer": "b. massachusetts", "wp_first_logprob": -1.4892, "wp_mean_logprob": -0.4849, "wp_string_correct": true}
+{"pid": "pilot_nq_5973", "model": "gemma", "cond": "gold", "wp_answer": "1925", "wp_first_logprob": -1.0291, "wp_mean_logprob": -0.2512, "wp_string_correct": true}
+{"pid": "pilot_nq_5973", "model": "gemma", "cond": "mixed", "wp_answer": "1925", "wp_first_logprob": -1.3805, "wp_mean_logprob": -0.3296, "wp_string_correct": true}
+{"pid": "pilot_nq_676", "model": "gemma", "cond": "gold", "wp_answer": "Chris Hemsworth left Home and Away in 2007.", "wp_first_logprob": -1.4159, "wp_mean_logprob": -0.4426, "wp_string_correct": false}
+{"pid": "pilot_nq_676", "model": "gemma", "cond": "mixed", "wp_answer": "Chris Hemsworth left Home and Away in 2007.", "wp_first_logprob": -1.3393, "wp_mean_logprob": -0.4759, "wp_string_correct": false}
+{"pid": "pilot_nq_3379", "model": "gemma", "cond": "gold", "wp_answer": "Lizzy Greene", "wp_first_logprob": -0.5787, "wp_mean_logprob": -0.3458, "wp_string_correct": true}
+{"pid": "pilot_nq_3379", "model": "gemma", "cond": "mixed", "wp_answer": "Lizzy Greene", "wp_first_logprob": -1.1947, "wp_mean_logprob": -0.6648, "wp_string_correct": true}
+{"pid": "pilot_nq_4585", "model": "gemma", "cond": "gold", "wp_answer": "The eighth season of the animated television series My Little Pony: Friendship Is Magic, developed by Lauren Faust, originally aired on the Discovery Family channel in the United States", "wp_first_logprob": -1.778, "wp_mean_logprob": -0.1916, "wp_string_correct": false}
+{"pid": "pilot_nq_4585", "model": "gemma", "cond": "mixed", "wp_answer": "The new season of My Little Pony is coming out on October 10, 2010.", "wp_first_logprob": -1.8684, "wp_mean_logprob": -0.6494, "wp_string_correct": false}
+{"pid": "pilot_nq_4321", "model": "gemma", "cond": "gold", "wp_answer": "Tom Drake", "wp_first_logprob": -0.724, "wp_mean_logprob": -0.3884, "wp_string_correct": true}
+{"pid": "pilot_nq_4321", "model": "gemma", "cond": "mixed", "wp_answer": "Tom Drake", "wp_first_logprob": -0.8893, "wp_mean_logprob": -0.468, "wp_string_correct": true}
+{"pid": "pilot_nq_2591", "model": "gemma", "cond": "gold", "wp_answer": "The Witches of Eastwick (1987) - IMDb", "wp_first_logprob": -1.4353, "wp_mean_logprob": -0.5668, "wp_string_correct": false}
+{"pid": "pilot_nq_2591", "model": "gemma", "cond": "mixed", "wp_answer": "The Witches of Eastwick was filmed in Cohasset, Massachusetts.", "wp_first_logprob": -1.2559, "wp_mean_logprob": -0.4733, "wp_string_correct": true}
+{"pid": "pilot_nq_4567", "model": "gemma", "cond": "gold", "wp_answer": "Alan Merrill", "wp_first_logprob": -1.822, "wp_mean_logprob": -0.9611, "wp_string_correct": false}
+{"pid": "pilot_nq_4567", "model": "gemma", "cond": "mixed", "wp_answer": "The Arrows", "wp_first_logprob": -1.8893, "wp_mean_logprob": -1.191, "wp_string_correct": false}
+{"pid": "pilot_nq_3214", "model": "gemma", "cond": "gold", "wp_answer": "Richard Karn", "wp_first_logprob": -1.1714, "wp_mean_logprob": -0.6168, "wp_string_correct": false}
+{"pid": "pilot_nq_3214", "model": "gemma", "cond": "mixed", "wp_answer": "Richard Karn", "wp_first_logprob": -1.0968, "wp_mean_logprob": -0.5702, "wp_string_correct": false}
+{"pid": "pilot_nq_6053", "model": "gemma", "cond": "gold", "wp_answer": "2018", "wp_first_logprob": -1.2588, "wp_mean_logprob": -0.4311, "wp_string_correct": false}
+{"pid": "pilot_nq_6053", "model": "gemma", "cond": "mixed", "wp_answer": "Roger Federer won his 20th Grand Slam title at the 2018 Australian Open, defeating Marin Cilic in the final.", "wp_first_logprob": -1.718, "wp_mean_logprob": -0.4261, "wp_string_correct": false}
+{"pid": "pilot_nq_3786", "model": "gemma", "cond": "gold", "wp_answer": "Sam and Doug Ross are the only couple to have a child together.", "wp_first_logprob": -2.1676, "wp_mean_logprob": -1.6207, "wp_string_correct": false}
+{"pid": "pilot_nq_3786", "model": "gemma", "cond": "mixed", "wp_answer": "Samantha Taggart is a nurse at County General Hospital. She is a free-spirited nurse who is a bit of a flirt. She is a good friend of", "wp_first_logprob": -1.5749, "wp_mean_logprob": -0.9764, "wp_string_correct": false}
+{"pid": "pilot_nq_5844", "model": "gemma", "cond": "gold", "wp_answer": "Greg Heffley", "wp_first_logprob": -1.4165, "wp_mean_logprob": -1.0013, "wp_string_correct": false}
+{"pid": "pilot_nq_5844", "model": "gemma", "cond": "mixed", "wp_answer": "Greg Heffley", "wp_first_logprob": -1.6738, "wp_mean_logprob": -1.0679, "wp_string_correct": false}
+{"pid": "pilot_nq_5046", "model": "gemma", "cond": "gold", "wp_answer": "Kisan Kanya", "wp_first_logprob": -1.3298, "wp_mean_logprob": -0.4338, "wp_string_correct": true}
+{"pid": "pilot_nq_5046", "model": "gemma", "cond": "mixed", "wp_answer": "Alam Ara", "wp_first_logprob": -1.7297, "wp_mean_logprob": -0.9667, "wp_string_correct": false}
+{"pid": "pilot_nq_4927", "model": "gemma", "cond": "gold", "wp_answer": "large", "wp_first_logprob": -2.6171, "wp_mean_logprob": -2.6171, "wp_string_correct": true}
+{"pid": "pilot_nq_4927", "model": "gemma", "cond": "mixed", "wp_answer": "microtonal", "wp_first_logprob": -2.4291, "wp_mean_logprob": -1.0156, "wp_string_correct": false}
+{"pid": "pilot_nq_2963", "model": "gemma", "cond": "gold", "wp_answer": "Bruce Springsteen", "wp_first_logprob": -1.111, "wp_mean_logprob": -0.5955, "wp_string_correct": true}
+{"pid": "pilot_nq_2963", "model": "gemma", "cond": "mixed", "wp_answer": "Bruce Springsteen", "wp_first_logprob": -0.9465, "wp_mean_logprob": -0.5003, "wp_string_correct": true}
+{"pid": "pilot_nq_33", "model": "gemma", "cond": "gold", "wp_answer": "Australia", "wp_first_logprob": -1.405, "wp_mean_logprob": -1.405, "wp_string_correct": false}
+{"pid": "pilot_nq_33", "model": "gemma", "cond": "mixed", "wp_answer": "Australia won the 2016 Women's Cricket World Cup.", "wp_first_logprob": -1.6233, "wp_mean_logprob": -0.5526, "wp_string_correct": false}
+{"pid": "pilot_nq_4490", "model": "gemma", "cond": "gold", "wp_answer": "The first national draft was used in the United States during the American Civil War.", "wp_first_logprob": -1.8002, "wp_mean_logprob": -0.5251, "wp_string_correct": true}
+{"pid": "pilot_nq_4490", "model": "gemma", "cond": "mixed", "wp_answer": "The first national draft was used in the United States during the American Revolutionary War.", "wp_first_logprob": -1.7236, "wp_mean_logprob": -0.5321, "wp_string_correct": false}
+{"pid": "pilot_nq_3474", "model": "gemma", "cond": "gold", "wp_answer": "Jinder Mahal", "wp_first_logprob": -0.9719, "wp_mean_logprob": -0.3781, "wp_string_correct": true}
+{"pid": "pilot_nq_3474", "model": "gemma", "cond": "mixed", "wp_answer": "Randy Orton", "wp_first_logprob": -1.8795, "wp_mean_logprob": -0.9698, "wp_string_correct": false}
+{"pid": "pilot_nq_5051", "model": "gemma", "cond": "gold", "wp_answer": "The Ocean Resort Casino is a casino and hotel in Atlantic City, New Jersey. It is located on the Boardwalk at the site of the former Revel Casino Hotel", "wp_first_logprob": -1.5709, "wp_mean_logprob": -0.5527, "wp_string_correct": false}
+{"pid": "pilot_nq_5051", "model": "gemma", "cond": "mixed", "wp_answer": "Ocean Resort Casino (formerly Revel Casino Hotel Atlantic City) is a resort, hotel and casino in Atlantic City, New Jersey, United States. It is the northern", "wp_first_logprob": -1.4769, "wp_mean_logprob": -0.117, "wp_string_correct": false}
+{"pid": "pilot_nq_5157", "model": "gemma", "cond": "gold", "wp_answer": "1994, 1998, 1999, 2000, 2002, 2", "wp_first_logprob": -1.1549, "wp_mean_logprob": -0.238, "wp_string_correct": true}
+{"pid": "pilot_nq_5157", "model": "gemma", "cond": "mixed", "wp_answer": "1994", "wp_first_logprob": -0.958, "wp_mean_logprob": -0.361, "wp_string_correct": false}
+{"pid": "pilot_nq_5597", "model": "gemma", "cond": "gold", "wp_answer": "Christa B. Allen", "wp_first_logprob": -0.5483, "wp_mean_logprob": -0.2044, "wp_string_correct": true}
+{"pid": "pilot_nq_5597", "model": "gemma", "cond": "mixed", "wp_answer": "Christa B. Allen", "wp_first_logprob": -0.5772, "wp_mean_logprob": -0.1812, "wp_string_correct": true}
+{"pid": "pilot_nq_5584", "model": "gemma", "cond": "gold", "wp_answer": "Worthington Valley, Maryland", "wp_first_logprob": -1.0122, "wp_mean_logprob": -0.4218, "wp_string_correct": true}
+{"pid": "pilot_nq_5584", "model": "gemma", "cond": "mixed", "wp_answer": "Worthington Valley, Maryland", "wp_first_logprob": -1.6254, "wp_mean_logprob": -0.5953, "wp_string_correct": true}
+{"pid": "pilot_nq_3204", "model": "gemma", "cond": "gold", "wp_answer": "2006", "wp_first_logprob": -1.2217, "wp_mean_logprob": -0.5998, "wp_string_correct": false}
+{"pid": "pilot_nq_3204", "model": "gemma", "cond": "mixed", "wp_answer": "2013", "wp_first_logprob": -1.5958, "wp_mean_logprob": -0.5507, "wp_string_correct": true}
+{"pid": "pilot_nq_2029", "model": "gemma", "cond": "gold", "wp_answer": "Joseph Galloway", "wp_first_logprob": -0.726, "wp_mean_logprob": -0.3771, "wp_string_correct": true}
+{"pid": "pilot_nq_2029", "model": "gemma", "cond": "mixed", "wp_answer": "James Madison", "wp_first_logprob": -1.7867, "wp_mean_logprob": -0.9747, "wp_string_correct": false}
+{"pid": "pilot_nq_4681", "model": "gemma", "cond": "gold", "wp_answer": "R. Bruce Dold", "wp_first_logprob": -1.8071, "wp_mean_logprob": -0.3882, "wp_string_correct": true}
+{"pid": "pilot_nq_4681", "model": "gemma", "cond": "mixed", "wp_answer": "James O'Shea", "wp_first_logprob": -2.181, "wp_mean_logprob": -0.7462, "wp_string_correct": false}
+{"pid": "pilot_nq_1433", "model": "gemma", "cond": "gold", "wp_answer": "Chris Young", "wp_first_logprob": -0.7384, "wp_mean_logprob": -0.4156, "wp_string_correct": true}
+{"pid": "pilot_nq_1433", "model": "gemma", "cond": "mixed", "wp_answer": "Chris Young", "wp_first_logprob": -0.8945, "wp_mean_logprob": -0.5148, "wp_string_correct": true}
+{"pid": "pilot_nq_5950", "model": "gemma", "cond": "gold", "wp_answer": "Grey DeLisle", "wp_first_logprob": -0.6486, "wp_mean_logprob": -0.2269, "wp_string_correct": true}
+{"pid": "pilot_nq_5950", "model": "gemma", "cond": "mixed", "wp_answer": "Grey DeLisle", "wp_first_logprob": -0.7776, "wp_mean_logprob": -0.2573, "wp_string_correct": true}
+{"pid": "pilot_nq_1580", "model": "gemma", "cond": "gold", "wp_answer": "the british sided with the iroquois", "wp_first_logprob": -1.1459, "wp_mean_logprob": -0.6069, "wp_string_correct": false}
+{"pid": "pilot_nq_1580", "model": "gemma", "cond": "mixed", "wp_answer": "the british sided with the iroquois", "wp_first_logprob": -1.4004, "wp_mean_logprob": -0.6546, "wp_string_correct": false}
+{"pid": "pilot_nq_4281", "model": "gemma", "cond": "gold", "wp_answer": "2017", "wp_first_logprob": -1.2592, "wp_mean_logprob": -0.5466, "wp_string_correct": true}
+{"pid": "pilot_nq_4281", "model": "gemma", "cond": "mixed", "wp_answer": "1960", "wp_first_logprob": -1.1623, "wp_mean_logprob": -0.479, "wp_string_correct": false}
+{"pid": "pilot_nq_6486", "model": "gemma", "cond": "gold", "wp_answer": "Barbara Billingsley", "wp_first_logprob": -1.9693, "wp_mean_logprob": -0.7054, "wp_string_correct": false}
+{"pid": "pilot_nq_6486", "model": "gemma", "cond": "mixed", "wp_answer": "Violet Rutherford was played by actress Mary Grace Canfield.", "wp_first_logprob": -1.2912, "wp_mean_logprob": -1.0733, "wp_string_correct": false}
+{"pid": "pilot_nq_5432", "model": "gemma", "cond": "gold", "wp_answer": "The new season of Love & Hip Hop: Atlanta will premiere on Monday, March 26 at 8 p.m. ET/PT.", "wp_first_logprob": -1.8278, "wp_mean_logprob": -0.5652, "wp_string_correct": false}
+{"pid": "pilot_nq_5432", "model": "gemma", "cond": "mixed", "wp_answer": "The new season of Love & Hip Hop will start on January 1, 2018.", "wp_first_logprob": -1.6723, "wp_mean_logprob": -0.6577, "wp_string_correct": true}
+{"pid": "pilot_nq_5275", "model": "gemma", "cond": "gold", "wp_answer": "Charles Darnay", "wp_first_logprob": -1.0842, "wp_mean_logprob": -0.4408, "wp_string_correct": false}
+{"pid": "pilot_nq_5275", "model": "gemma", "cond": "mixed", "wp_answer": "Charles Darnay", "wp_first_logprob": -1.0681, "wp_mean_logprob": -0.4503, "wp_string_correct": false}
+{"pid": "pilot_nq_5577", "model": "gemma", "cond": "gold", "wp_answer": "Chicago Cubs", "wp_first_logprob": -1.772, "wp_mean_logprob": -0.9597, "wp_string_correct": true}
+{"pid": "pilot_nq_5577", "model": "gemma", "cond": "mixed", "wp_answer": "The Chicago Cubs won the 2016 World Series.", "wp_first_logprob": -1.4249, "wp_mean_logprob": -0.5742, "wp_string_correct": true}
+{"pid": "pilot_nq_440", "model": "gemma", "cond": "gold", "wp_answer": "Devon Hamilton is a fictional character from the original CBS daytime soap opera, \"The Young and the Restless\", portrayed by Bryton James. The character made his", "wp_first_logprob": -1.2843, "wp_mean_logprob": -0.1952, "wp_string_correct": false}
+{"pid": "pilot_nq_440", "model": "gemma", "cond": "mixed", "wp_answer": "Devon Hamilton is a fictional character from the original CBS daytime soap opera, \"The Young and the Restless\", portrayed by Bryton James. The character made his", "wp_first_logprob": -1.5952, "wp_mean_logprob": -0.174, "wp_string_correct": false}
+{"pid": "pilot_nq_3713", "model": "gemma", "cond": "gold", "wp_answer": "Abby Lockhart (Maura Tierney) is a fictional character on the NBC medical drama ER. She was introduced in the show's third season as a new nurse", "wp_first_logprob": -2.1323, "wp_mean_logprob": -0.8517, "wp_string_correct": false}
+{"pid": "pilot_nq_3713", "model": "gemma", "cond": "mixed", "wp_answer": "Luka Kovac", "wp_first_logprob": -1.4245, "wp_mean_logprob": -0.917, "wp_string_correct": false}
+{"pid": "pilot_nq_1780", "model": "gemma", "cond": "gold", "wp_answer": "Lloyd Reckord and Elizabeth MacLennan", "wp_first_logprob": -0.665, "wp_mean_logprob": -0.2716, "wp_string_correct": true}
+{"pid": "pilot_nq_1780", "model": "gemma", "cond": "mixed", "wp_answer": "The first interracial kiss on television is a much debated topic concerning who the first two persons of different races to kiss on television were. For a time, it", "wp_first_logprob": -2.0698, "wp_mean_logprob": -0.1751, "wp_string_correct": false}
+{"pid": "pilot_nq_4409", "model": "gemma", "cond": "gold", "wp_answer": "Sigrid Valdis", "wp_first_logprob": -0.5564, "wp_mean_logprob": -0.1518, "wp_string_correct": false}
+{"pid": "pilot_nq_4409", "model": "gemma", "cond": "mixed", "wp_answer": "Sigrid Valdis", "wp_first_logprob": -1.3505, "wp_mean_logprob": -0.3517, "wp_string_correct": false}
+{"pid": "pilot_nq_5422", "model": "gemma", "cond": "gold", "wp_answer": "Will Smith, Nicky Jam, and Era Istrefi", "wp_first_logprob": -1.6257, "wp_mean_logprob": -0.2658, "wp_string_correct": true}
+{"pid": "pilot_nq_5422", "model": "gemma", "cond": "mixed", "wp_answer": "The song \"Live It Up\" by Will Smith, Nicky Jam, and Era Istrefi was the official song of the 2018 FIFA World", "wp_first_logprob": -2.125, "wp_mean_logprob": -0.3448, "wp_string_correct": true}
+{"pid": "pilot_nq_1659", "model": "gemma", "cond": "gold", "wp_answer": "David Cross", "wp_first_logprob": -0.6248, "wp_mean_logprob": -0.3872, "wp_string_correct": true}
+{"pid": "pilot_nq_1659", "model": "gemma", "cond": "mixed", "wp_answer": "David Cross", "wp_first_logprob": -0.9055, "wp_mean_logprob": -0.5308, "wp_string_correct": true}
+{"pid": "pilot_nq_3238", "model": "gemma", "cond": "gold", "wp_answer": "Marriott International", "wp_first_logprob": -1.4581, "wp_mean_logprob": -1.2032, "wp_string_correct": false}
+{"pid": "pilot_nq_3238", "model": "gemma", "cond": "mixed", "wp_answer": "Marriott International, Inc.", "wp_first_logprob": -1.0881, "wp_mean_logprob": -0.615, "wp_string_correct": false}
+{"pid": "pilot_nq_4412", "model": "gemma", "cond": "gold", "wp_answer": "1944", "wp_first_logprob": -1.7782, "wp_mean_logprob": -0.7222, "wp_string_correct": false}
+{"pid": "pilot_nq_4412", "model": "gemma", "cond": "mixed", "wp_answer": "The United States entered World War II on December 8, 1941, the day after the Japanese attack on Pearl Harbor. The United States declared", "wp_first_logprob": -1.6706, "wp_mean_logprob": -0.5078, "wp_string_correct": false}
+{"pid": "pilot_nq_4603", "model": "gemma", "cond": "gold", "wp_answer": "Elizabeth Taylor", "wp_first_logprob": -0.571, "wp_mean_logprob": -0.3086, "wp_string_correct": true}
+{"pid": "pilot_nq_4603", "model": "gemma", "cond": "mixed", "wp_answer": "Elizabeth Taylor", "wp_first_logprob": -0.7398, "wp_mean_logprob": -0.3946, "wp_string_correct": true}
+{"pid": "pilot_nq_2777", "model": "gemma", "cond": "gold", "wp_answer": "20", "wp_first_logprob": -0.7304, "wp_mean_logprob": -0.4205, "wp_string_correct": true}
+{"pid": "pilot_nq_2777", "model": "gemma", "cond": "mixed", "wp_answer": "20", "wp_first_logprob": -0.9076, "wp_mean_logprob": -0.5452, "wp_string_correct": true}
+{"pid": "pilot_nq_3007", "model": "gemma", "cond": "gold", "wp_answer": "2017", "wp_first_logprob": -0.637, "wp_mean_logprob": -0.3407, "wp_string_correct": true}
+{"pid": "pilot_nq_3007", "model": "gemma", "cond": "mixed", "wp_answer": "2005", "wp_first_logprob": -0.8364, "wp_mean_logprob": -0.3031, "wp_string_correct": false}
+{"pid": "pilot_nq_1398", "model": "gemma", "cond": "gold", "wp_answer": "2008", "wp_first_logprob": -1.5132, "wp_mean_logprob": -0.4966, "wp_string_correct": true}
+{"pid": "pilot_nq_1398", "model": "gemma", "cond": "mixed", "wp_answer": "The Tesla Roadster is an all-electric sports car produced by Tesla, Inc. from 2008 to 2012. It was the", "wp_first_logprob": -1.5525, "wp_mean_logprob": -0.3851, "wp_string_correct": true}
+{"pid": "pilot_nq_4325", "model": "gemma", "cond": "gold", "wp_answer": "closed shop", "wp_first_logprob": -0.713, "wp_mean_logprob": -0.9317, "wp_string_correct": true}
+{"pid": "pilot_nq_4325", "model": "gemma", "cond": "mixed", "wp_answer": "closed shop", "wp_first_logprob": -0.5926, "wp_mean_logprob": -0.7309, "wp_string_correct": true}
+{"pid": "pilot_nq_1157", "model": "gemma", "cond": "gold", "wp_answer": "1741", "wp_first_logprob": -0.9234, "wp_mean_logprob": -0.4559, "wp_string_correct": true}
+{"pid": "pilot_nq_1157", "model": "gemma", "cond": "mixed", "wp_answer": "1855", "wp_first_logprob": -1.2716, "wp_mean_logprob": -0.8924, "wp_string_correct": false}
+{"pid": "pilot_nq_1720", "model": "gemma", "cond": "gold", "wp_answer": "Sid Tepper and Roy C. Bennett", "wp_first_logprob": -1.0862, "wp_mean_logprob": -0.2438, "wp_string_correct": true}
+{"pid": "pilot_nq_1720", "model": "gemma", "cond": "mixed", "wp_answer": "Sid Tepper and Roy C. Bennett (alias Roy Brodsky)", "wp_first_logprob": -1.1802, "wp_mean_logprob": -0.2975, "wp_string_correct": true}
+{"pid": "pilot_nq_105", "model": "gemma", "cond": "gold", "wp_answer": "The dwarfs in Snow White and the Huntsman are: Nion, Griff, Bromwyn, Durin, Muir, Gus, and Nain.", "wp_first_logprob": -1.8694, "wp_mean_logprob": -0.8899, "wp_string_correct": false}
+{"pid": "pilot_nq_105", "model": "gemma", "cond": "mixed", "wp_answer": "The Seven Dwarfs are a group of seven dwarfs that appear in the fairy tale \"Snow White\" and others. The Seven Dwarfs are a group of seven", "wp_first_logprob": -1.6468, "wp_mean_logprob": -0.1866, "wp_string_correct": false}
+{"pid": "pilot_nq_135", "model": "gemma", "cond": "gold", "wp_answer": "the allies", "wp_first_logprob": -2.1559, "wp_mean_logprob": -1.4296, "wp_string_correct": false}
+{"pid": "pilot_nq_135", "model": "gemma", "cond": "mixed", "wp_answer": "the us lent money to the allies", "wp_first_logprob": -2.0545, "wp_mean_logprob": -0.8459, "wp_string_correct": false}
+{"pid": "pilot_nq_3924", "model": "gemma", "cond": "gold", "wp_answer": "Barbara Rosenblat", "wp_first_logprob": -0.6933, "wp_mean_logprob": -0.2789, "wp_string_correct": true}
+{"pid": "pilot_nq_3924", "model": "gemma", "cond": "mixed", "wp_answer": "Barbara Rosenblat", "wp_first_logprob": -0.8564, "wp_mean_logprob": -0.3369, "wp_string_correct": true}
+{"pid": "pilot_nq_1366", "model": "gemma", "cond": "gold", "wp_answer": "13 Reasons Why was filmed in Northern California. The show was filmed in Vallejo, Benicia, San Rafael, Crockett and Sebastopol.", "wp_first_logprob": -1.5053, "wp_mean_logprob": -0.4689, "wp_string_correct": true}
+{"pid": "pilot_nq_1366", "model": "gemma", "cond": "mixed", "wp_answer": "13 Reasons Why was filmed in Vallejo, Benicia, San Rafael, Crockett and Sebastopol, California.", "wp_first_logprob": -1.3172, "wp_mean_logprob": -0.3742, "wp_string_correct": true}
+{"pid": "pilot_nq_5291", "model": "gemma", "cond": "gold", "wp_answer": "Fungi", "wp_first_logprob": -1.6043, "wp_mean_logprob": -1.6043, "wp_string_correct": false}
+{"pid": "pilot_nq_5291", "model": "gemma", "cond": "mixed", "wp_answer": "Fungi", "wp_first_logprob": -1.6346, "wp_mean_logprob": -1.6346, "wp_string_correct": false}
+{"pid": "pilot_nq_4734", "model": "gemma", "cond": "gold", "wp_answer": "Isham Jones, Gus Kahn", "wp_first_logprob": -1.1975, "wp_mean_logprob": -0.5071, "wp_string_correct": true}
+{"pid": "pilot_nq_4734", "model": "gemma", "cond": "mixed", "wp_answer": "Isham Jones, Gus Kahn", "wp_first_logprob": -1.9282, "wp_mean_logprob": -0.6003, "wp_string_correct": true}
+{"pid": "pilot_nq_2845", "model": "gemma", "cond": "gold", "wp_answer": "Taran Killam", "wp_first_logprob": -0.8404, "wp_mean_logprob": -0.3679, "wp_string_correct": false}
+{"pid": "pilot_nq_2845", "model": "gemma", "cond": "mixed", "wp_answer": "Roscoe Orman", "wp_first_logprob": -2.075, "wp_mean_logprob": -0.731, "wp_string_correct": false}
+{"pid": "pilot_nq_4457", "model": "gemma", "cond": "gold", "wp_answer": "Deniz Akdeniz", "wp_first_logprob": -0.7229, "wp_mean_logprob": -0.2591, "wp_string_correct": true}
+{"pid": "pilot_nq_4457", "model": "gemma", "cond": "mixed", "wp_answer": "Deniz Akdeniz", "wp_first_logprob": -0.8951, "wp_mean_logprob": -0.3073, "wp_string_correct": true}
+{"pid": "pilot_nq_2150", "model": "gemma", "cond": "gold", "wp_answer": "Sonny Bono", "wp_first_logprob": -0.9993, "wp_mean_logprob": -0.6662, "wp_string_correct": true}
+{"pid": "pilot_nq_2150", "model": "gemma", "cond": "mixed", "wp_answer": "Sonny Bono", "wp_first_logprob": -1.1371, "wp_mean_logprob": -0.6881, "wp_string_correct": true}
+{"pid": "pilot_nq_5436", "model": "gemma", "cond": "gold", "wp_answer": "Genevieve Goings", "wp_first_logprob": -0.4012, "wp_mean_logprob": -0.1748, "wp_string_correct": true}
+{"pid": "pilot_nq_5436", "model": "gemma", "cond": "mixed", "wp_answer": "Genevieve Goings", "wp_first_logprob": -0.5004, "wp_mean_logprob": -0.2219, "wp_string_correct": true}
+{"pid": "pilot_nq_5867", "model": "gemma", "cond": "gold", "wp_answer": "Blair Redford", "wp_first_logprob": -1.3675, "wp_mean_logprob": -0.4703, "wp_string_correct": true}
+{"pid": "pilot_nq_5867", "model": "gemma", "cond": "mixed", "wp_answer": "Peter Barton", "wp_first_logprob": -1.0733, "wp_mean_logprob": -0.5579, "wp_string_correct": false}
+{"pid": "pilot_nq_4643", "model": "gemma", "cond": "gold", "wp_answer": "Horatio Spafford", "wp_first_logprob": -1.1495, "wp_mean_logprob": -0.5281, "wp_string_correct": true}
+{"pid": "pilot_nq_4643", "model": "gemma", "cond": "mixed", "wp_answer": "Leif Enger", "wp_first_logprob": -1.4872, "wp_mean_logprob": -0.5166, "wp_string_correct": false}
+{"pid": "pilot_nq_4696", "model": "gemma", "cond": "gold", "wp_answer": "Maureen McCormick", "wp_first_logprob": -0.5341, "wp_mean_logprob": -0.3291, "wp_string_correct": false}
+{"pid": "pilot_nq_4696", "model": "gemma", "cond": "mixed", "wp_answer": "Maureen McCormick", "wp_first_logprob": -0.4307, "wp_mean_logprob": -0.2678, "wp_string_correct": false}
+{"pid": "pilot_nq_4582", "model": "gemma", "cond": "gold", "wp_answer": "Houston, Texas", "wp_first_logprob": -2.1167, "wp_mean_logprob": -1.285, "wp_string_correct": false}
+{"pid": "pilot_nq_4582", "model": "gemma", "cond": "mixed", "wp_answer": "The 2017 World Series was the championship series of Major League Baseball's (MLB) 2017 season. The 11", "wp_first_logprob": -1.9591, "wp_mean_logprob": -0.2684, "wp_string_correct": false}
+{"pid": "pilot_nq_2226", "model": "gemma", "cond": "gold", "wp_answer": "The new Army Combat Uniform (ACU) will be issued to all soldiers in the Army by the end of 2015.", "wp_first_logprob": -1.4976, "wp_mean_logprob": -0.8061, "wp_string_correct": false}
+{"pid": "pilot_nq_2226", "model": "gemma", "cond": "mixed", "wp_answer": "The new Army uniform will be available in 2020.", "wp_first_logprob": -1.2624, "wp_mean_logprob": -0.9137, "wp_string_correct": false}
+{"pid": "pilot_nq_1919", "model": "gemma", "cond": "gold", "wp_answer": "Lady and the Tramp is set in the 1950s in a small town in the Midwest.", "wp_first_logprob": -1.9379, "wp_mean_logprob": -0.6664, "wp_string_correct": false}
+{"pid": "pilot_nq_1919", "model": "gemma", "cond": "mixed", "wp_answer": "The film is set in the 1950s in a small town in the Midwest.", "wp_first_logprob": -1.8777, "wp_mean_logprob": -0.7592, "wp_string_correct": false}
+{"pid": "pilot_nq_925", "model": "gemma", "cond": "gold", "wp_answer": "The Western Bulldogs won the 2018 AFL Women's Grand Final.", "wp_first_logprob": -1.8306, "wp_mean_logprob": -0.4826, "wp_string_correct": true}
+{"pid": "pilot_nq_925", "model": "gemma", "cond": "mixed", "wp_answer": "The 2018 AFL Women's Grand Final was an Australian rules football match held on 24 March 2018 to determine the", "wp_first_logprob": -1.3665, "wp_mean_logprob": -0.1022, "wp_string_correct": false}
+{"pid": "pilot_nq_4507", "model": "gemma", "cond": "gold", "wp_answer": "Mozella, Priscilla Renea, and Jesse Shatkin", "wp_first_logprob": -1.2413, "wp_mean_logprob": -0.1867, "wp_string_correct": true}
+{"pid": "pilot_nq_4507", "model": "gemma", "cond": "mixed", "wp_answer": "Mozella, Priscilla Renea, and Jesse Shatkin", "wp_first_logprob": -1.4551, "wp_mean_logprob": -0.2212, "wp_string_correct": true}
+{"pid": "pilot_nq_3463", "model": "gemma", "cond": "gold", "wp_answer": "1", "wp_first_logprob": -0.4429, "wp_mean_logprob": -0.8508, "wp_string_correct": false}
+{"pid": "pilot_nq_3463", "model": "gemma", "cond": "mixed", "wp_answer": "14", "wp_first_logprob": -0.6506, "wp_mean_logprob": -1.0662, "wp_string_correct": false}
+{"pid": "pilot_nq_319", "model": "gemma", "cond": "gold", "wp_answer": "bacteria in the mouth comes from the saliva, food, and the air.", "wp_first_logprob": -2.0484, "wp_mean_logprob": -1.0183, "wp_string_correct": true}
+{"pid": "pilot_nq_319", "model": "gemma", "cond": "mixed", "wp_answer": "The mouth is a complex ecosystem that is home to a wide variety of bacteria. The bacteria in the mouth are a mixture of bacteria that are found in the environment", "wp_first_logprob": -2.119, "wp_mean_logprob": -1.1441, "wp_string_correct": false}
+{"pid": "pilot_nq_6009", "model": "gemma", "cond": "gold", "wp_answer": "Paul McCoy", "wp_first_logprob": -0.6803, "wp_mean_logprob": -0.4631, "wp_string_correct": true}
+{"pid": "pilot_nq_6009", "model": "gemma", "cond": "mixed", "wp_answer": "Paul McCoy", "wp_first_logprob": -0.9239, "wp_mean_logprob": -0.5807, "wp_string_correct": true}
+{"pid": "pilot_nq_4981", "model": "gemma", "cond": "gold", "wp_answer": "Season 4 of Brooklyn Nine-Nine will premiere on September 20, 2016.", "wp_first_logprob": -2.2809, "wp_mean_logprob": -0.4438, "wp_string_correct": true}
+{"pid": "pilot_nq_4981", "model": "gemma", "cond": "mixed", "wp_answer": "Season 4 of Brooklyn Nine-Nine will premiere on September 20, 2016.", "wp_first_logprob": -2.1941, "wp_mean_logprob": -0.4227, "wp_string_correct": true}
+{"pid": "pilot_nq_2887", "model": "gemma", "cond": "gold", "wp_answer": "Laura Haddock", "wp_first_logprob": -1.2149, "wp_mean_logprob": -0.457, "wp_string_correct": true}
+{"pid": "pilot_nq_2887", "model": "gemma", "cond": "mixed", "wp_answer": "Isabela Moner", "wp_first_logprob": -1.7484, "wp_mean_logprob": -0.5084, "wp_string_correct": true}
+{"pid": "pilot_nq_4703", "model": "gemma", "cond": "gold", "wp_answer": "endothelial cells", "wp_first_logprob": -1.46, "wp_mean_logprob": -1.0251, "wp_string_correct": true}
+{"pid": "pilot_nq_4703", "model": "gemma", "cond": "mixed", "wp_answer": "endothelial cells", "wp_first_logprob": -1.9041, "wp_mean_logprob": -1.1793, "wp_string_correct": true}
+{"pid": "pilot_nq_2854", "model": "gemma", "cond": "gold", "wp_answer": "1871", "wp_first_logprob": -1.3657, "wp_mean_logprob": -0.3631, "wp_string_correct": true}
+{"pid": "pilot_nq_2854", "model": "gemma", "cond": "mixed", "wp_answer": "1871", "wp_first_logprob": -1.5824, "wp_mean_logprob": -0.476, "wp_string_correct": true}
+{"pid": "pilot_nq_2978", "model": "gemma", "cond": "gold", "wp_answer": "Frank Morgan", "wp_first_logprob": -1.9589, "wp_mean_logprob": -1.3492, "wp_string_correct": false}
+{"pid": "pilot_nq_2978", "model": "gemma", "cond": "mixed", "wp_answer": "The Wizard of Oz is a 1939 American musical fantasy film produced by Metro-Goldwyn-Mayer, based on the 1900", "wp_first_logprob": -2.0464, "wp_mean_logprob": -0.2751, "wp_string_correct": false}
+{"pid": "pilot_nq_5028", "model": "gemma", "cond": "gold", "wp_answer": "The Boy Scouts of America (BSA) is a national youth organization in the United States. It is the largest youth organization in the United States, with 2", "wp_first_logprob": -1.5909, "wp_mean_logprob": -0.6473, "wp_string_correct": false}
+{"pid": "pilot_nq_5028", "model": "gemma", "cond": "mixed", "wp_answer": "The Boy Scouts of America was founded in 1910 by William D. Boyce, a Chicago newspaperman, formed the American Boy Scouts (ABS),", "wp_first_logprob": -1.3673, "wp_mean_logprob": -0.4175, "wp_string_correct": false}
+{"pid": "pilot_nq_505", "model": "gemma", "cond": "gold", "wp_answer": "Joseph Drake", "wp_first_logprob": -0.8456, "wp_mean_logprob": -0.7466, "wp_string_correct": true}
+{"pid": "pilot_nq_505", "model": "gemma", "cond": "mixed", "wp_answer": "Joseph Drake", "wp_first_logprob": -1.08, "wp_mean_logprob": -0.94, "wp_string_correct": true}
+{"pid": "pilot_nq_5808", "model": "gemma", "cond": "gold", "wp_answer": "1984", "wp_first_logprob": -0.8186, "wp_mean_logprob": -0.2379, "wp_string_correct": true}
+{"pid": "pilot_nq_5808", "model": "gemma", "cond": "mixed", "wp_answer": "1984", "wp_first_logprob": -1.1681, "wp_mean_logprob": -0.5181, "wp_string_correct": true}
+{"pid": "pilot_nq_3058", "model": "gemma", "cond": "gold", "wp_answer": "the laity", "wp_first_logprob": -1.7263, "wp_mean_logprob": -1.0709, "wp_string_correct": false}
+{"pid": "pilot_nq_3058", "model": "gemma", "cond": "mixed", "wp_answer": "The faithful flock of followers is made up of the people who are loyal to the leader and follow his or her teachings.", "wp_first_logprob": -2.1611, "wp_mean_logprob": -0.9179, "wp_string_correct": false}
+{"pid": "pilot_nq_1218", "model": "gemma", "cond": "gold", "wp_answer": "Darius Perkins", "wp_first_logprob": -0.7022, "wp_mean_logprob": -0.3629, "wp_string_correct": true}
+{"pid": "pilot_nq_1218", "model": "gemma", "cond": "mixed", "wp_answer": "Darius Perkins", "wp_first_logprob": -0.7308, "wp_mean_logprob": -0.3772, "wp_string_correct": true}
+{"pid": "pilot_nq_16", "model": "gemma", "cond": "gold", "wp_answer": "1942", "wp_first_logprob": -1.1419, "wp_mean_logprob": -0.5921, "wp_string_correct": false}
+{"pid": "pilot_nq_16", "model": "gemma", "cond": "mixed", "wp_answer": "1957", "wp_first_logprob": -1.4737, "wp_mean_logprob": -0.5559, "wp_string_correct": false}
+{"pid": "pilot_nq_122", "model": "gemma", "cond": "gold", "wp_answer": "Joe Spano", "wp_first_logprob": -0.8116, "wp_mean_logprob": -0.2853, "wp_string_correct": false}
+{"pid": "pilot_nq_122", "model": "gemma", "cond": "mixed", "wp_answer": "Joe Spano", "wp_first_logprob": -0.7425, "wp_mean_logprob": -0.2547, "wp_string_correct": false}
+{"pid": "pilot_nq_5799", "model": "gemma", "cond": "gold", "wp_answer": "Anne Ramsey", "wp_first_logprob": -0.443, "wp_mean_logprob": -0.2837, "wp_string_correct": true}
+{"pid": "pilot_nq_5799", "model": "gemma", "cond": "mixed", "wp_answer": "Anne Ramsey", "wp_first_logprob": -0.4535, "wp_mean_logprob": -0.2837, "wp_string_correct": true}
+{"pid": "pilot_nq_1307", "model": "gemma", "cond": "gold", "wp_answer": "The film was shot in the Black Mountain, North Carolina area.", "wp_first_logprob": -1.6608, "wp_mean_logprob": -0.8739, "wp_string_correct": true}
+{"pid": "pilot_nq_1307", "model": "gemma", "cond": "mixed", "wp_answer": "The film was shot in the town of Black Mountain, North Carolina.", "wp_first_logprob": -1.3977, "wp_mean_logprob": -0.7198, "wp_string_correct": true}
+{"pid": "pilot_nq_4800", "model": "gemma", "cond": "gold", "wp_answer": "The interns become residents at the end of the third year of medical school.", "wp_first_logprob": -2.0993, "wp_mean_logprob": -0.7464, "wp_string_correct": false}
+{"pid": "pilot_nq_4800", "model": "gemma", "cond": "mixed", "wp_answer": "The interns become residents at the end of the first season.", "wp_first_logprob": -1.8576, "wp_mean_logprob": -0.734, "wp_string_correct": false}
+{"pid": "pilot_nq_1017", "model": "gemma", "cond": "gold", "wp_answer": "Kacey Musgraves", "wp_first_logprob": -0.9767, "wp_mean_logprob": -0.238, "wp_string_correct": true}
+{"pid": "pilot_nq_1017", "model": "gemma", "cond": "mixed", "wp_answer": "The song is sung by the band \"The Band Perry\".", "wp_first_logprob": -1.8725, "wp_mean_logprob": -1.1906, "wp_string_correct": false}
+{"pid": "pilot_nq_6159", "model": "gemma", "cond": "gold", "wp_answer": "Braun Strowman", "wp_first_logprob": -0.4777, "wp_mean_logprob": -0.1719, "wp_string_correct": true}
+{"pid": "pilot_nq_6159", "model": "gemma", "cond": "mixed", "wp_answer": "Seth Rollins", "wp_first_logprob": -2.4223, "wp_mean_logprob": -1.2514, "wp_string_correct": false}
+{"pid": "pilot_nq_2258", "model": "gemma", "cond": "gold", "wp_answer": "Tipperary", "wp_first_logprob": -0.7053, "wp_mean_logprob": -0.354, "wp_string_correct": true}
+{"pid": "pilot_nq_2258", "model": "gemma", "cond": "mixed", "wp_answer": "Tipperary", "wp_first_logprob": -0.9673, "wp_mean_logprob": -0.485, "wp_string_correct": true}
+{"pid": "pilot_nq_1089", "model": "gemma", "cond": "gold", "wp_answer": "Erik Jones", "wp_first_logprob": -1.6201, "wp_mean_logprob": -0.8241, "wp_string_correct": true}
+{"pid": "pilot_nq_1089", "model": "gemma", "cond": "mixed", "wp_answer": "William Byron", "wp_first_logprob": -0.6209, "wp_mean_logprob": -0.3345, "wp_string_correct": false}
+{"pid": "pilot_nq_1776", "model": "gemma", "cond": "gold", "wp_answer": "Lexie Grey", "wp_first_logprob": -1.2008, "wp_mean_logprob": -0.6245, "wp_string_correct": false}
+{"pid": "pilot_nq_1776", "model": "gemma", "cond": "mixed", "wp_answer": "Lexie Grey and Mark Sloan", "wp_first_logprob": -1.4533, "wp_mean_logprob": -0.6511, "wp_string_correct": false}
+{"pid": "pilot_nq_1945", "model": "gemma", "cond": "gold", "wp_answer": "La La Anthony", "wp_first_logprob": -1.1399, "wp_mean_logprob": -0.4579, "wp_string_correct": true}
+{"pid": "pilot_nq_1945", "model": "gemma", "cond": "mixed", "wp_answer": "The song features additional vocals by the City Girls, though they are not credited on the official version.", "wp_first_logprob": -1.5091, "wp_mean_logprob": -0.2212, "wp_string_correct": false}
+{"pid": "pilot_nq_3157", "model": "gemma", "cond": "gold", "wp_answer": "Jock", "wp_first_logprob": -1.018, "wp_mean_logprob": -1.018, "wp_string_correct": true}
+{"pid": "pilot_nq_3157", "model": "gemma", "cond": "mixed", "wp_answer": "Jock", "wp_first_logprob": -0.9484, "wp_mean_logprob": -0.9484, "wp_string_correct": true}
+{"pid": "pilot_nq_3607", "model": "gemma", "cond": "gold", "wp_answer": "Alex Bain", "wp_first_logprob": -0.9675, "wp_mean_logprob": -0.5134, "wp_string_correct": true}
+{"pid": "pilot_nq_3607", "model": "gemma", "cond": "mixed", "wp_answer": "Alex Bain", "wp_first_logprob": -1.2895, "wp_mean_logprob": -0.6806, "wp_string_correct": true}
+{"pid": "pilot_nq_3439", "model": "gemma", "cond": "gold", "wp_answer": "The Killers", "wp_first_logprob": -2.3554, "wp_mean_logprob": -1.2443, "wp_string_correct": true}
+{"pid": "pilot_nq_3439", "model": "gemma", "cond": "mixed", "wp_answer": "The Killers", "wp_first_logprob": -2.0537, "wp_mean_logprob": -1.1477, "wp_string_correct": true}
+{"pid": "pilot_nq_5417", "model": "gemma", "cond": "gold", "wp_answer": "The next season of Ink Master will air on Paramount Network on August 28, 2018.", "wp_first_logprob": -2.0772, "wp_mean_logprob": -0.5095, "wp_string_correct": true}
+{"pid": "pilot_nq_5417", "model": "gemma", "cond": "mixed", "wp_answer": "The next season of Ink Master will air on Paramount Network in 2019.", "wp_first_logprob": -1.488, "wp_mean_logprob": -0.5465, "wp_string_correct": false}
+{"pid": "pilot_nq_6412", "model": "gemma", "cond": "gold", "wp_answer": "Cress Williams", "wp_first_logprob": -0.5372, "wp_mean_logprob": -0.3329, "wp_string_correct": true}
+{"pid": "pilot_nq_6412", "model": "gemma", "cond": "mixed", "wp_answer": "Cress Williams", "wp_first_logprob": -1.7198, "wp_mean_logprob": -0.9111, "wp_string_correct": true}
+{"pid": "pilot_nq_2893", "model": "gemma", "cond": "gold", "wp_answer": "1911", "wp_first_logprob": -1.191, "wp_mean_logprob": -0.4325, "wp_string_correct": false}
+{"pid": "pilot_nq_2893", "model": "gemma", "cond": "mixed", "wp_answer": "1911", "wp_first_logprob": -1.5621, "wp_mean_logprob": -0.5636, "wp_string_correct": false}
+{"pid": "pilot_nq_3361", "model": "gemma", "cond": "gold", "wp_answer": "Carson City, Nevada, United States", "wp_first_logprob": -1.0152, "wp_mean_logprob": -0.4095, "wp_string_correct": true}
+{"pid": "pilot_nq_3361", "model": "gemma", "cond": "mixed", "wp_answer": "Carson City, Nevada", "wp_first_logprob": -1.0819, "wp_mean_logprob": -0.3584, "wp_string_correct": true}
+{"pid": "pilot_nq_2885", "model": "gemma", "cond": "gold", "wp_answer": "The Governor", "wp_first_logprob": -1.7816, "wp_mean_logprob": -1.2525, "wp_string_correct": false}
+{"pid": "pilot_nq_2885", "model": "gemma", "cond": "mixed", "wp_answer": "The Governor", "wp_first_logprob": -1.9501, "wp_mean_logprob": -1.6163, "wp_string_correct": false}
+{"pid": "pilot_nq_2363", "model": "gemma", "cond": "gold", "wp_answer": "Judy Nunn", "wp_first_logprob": -2.8953, "wp_mean_logprob": -1.4761, "wp_string_correct": false}
+{"pid": "pilot_nq_2363", "model": "gemma", "cond": "mixed", "wp_answer": "Ruth's mum is played by actress Belinda Giblin.", "wp_first_logprob": -3.2148, "wp_mean_logprob": -0.99, "wp_string_correct": false}
+{"pid": "pilot_nq_3070", "model": "gemma", "cond": "gold", "wp_answer": "2007", "wp_first_logprob": -1.6957, "wp_mean_logprob": -0.513, "wp_string_correct": false}
+{"pid": "pilot_nq_3070", "model": "gemma", "cond": "mixed", "wp_answer": "May 26, 2007", "wp_first_logprob": -1.7722, "wp_mean_logprob": -0.2238, "wp_string_correct": true}
+{"pid": "pilot_nq_218", "model": "gemma", "cond": "gold", "wp_answer": "rhomboid major and minor", "wp_first_logprob": -1.5434, "wp_mean_logprob": -0.6269, "wp_string_correct": true}
+{"pid": "pilot_nq_218", "model": "gemma", "cond": "mixed", "wp_answer": "rhomboid major and minor, levator scapulae, and trapezius", "wp_first_logprob": -1.8936, "wp_mean_logprob": -0.5563, "wp_string_correct": true}
+{"pid": "pilot_nq_4874", "model": "gemma", "cond": "gold", "wp_answer": "April Bowlby", "wp_first_logprob": -0.3587, "wp_mean_logprob": -0.2736, "wp_string_correct": false}
+{"pid": "pilot_nq_4874", "model": "gemma", "cond": "mixed", "wp_answer": "April Bowlby", "wp_first_logprob": -0.6187, "wp_mean_logprob": -0.2971, "wp_string_correct": false}
+{"pid": "pilot_nq_1508", "model": "gemma", "cond": "gold", "wp_answer": "Death Valley, California, USA", "wp_first_logprob": -1.7702, "wp_mean_logprob": -0.8023, "wp_string_correct": false}
+{"pid": "pilot_nq_1508", "model": "gemma", "cond": "mixed", "wp_answer": "Death Valley, California, USA", "wp_first_logprob": -1.7536, "wp_mean_logprob": -0.862, "wp_string_correct": false}
+{"pid": "pilot_nq_3505", "model": "gemma", "cond": "gold", "wp_answer": "Brad Keselowski", "wp_first_logprob": -1.7036, "wp_mean_logprob": -0.4386, "wp_string_correct": false}
+{"pid": "pilot_nq_3505", "model": "gemma", "cond": "mixed", "wp_answer": "Kevin Harvick", "wp_first_logprob": -1.7956, "wp_mean_logprob": -0.6113, "wp_string_correct": false}
+{"pid": "pilot_nq_1611", "model": "gemma", "cond": "gold", "wp_answer": "1970", "wp_first_logprob": -1.0103, "wp_mean_logprob": -0.4183, "wp_string_correct": false}
+{"pid": "pilot_nq_1611", "model": "gemma", "cond": "mixed", "wp_answer": "1970s", "wp_first_logprob": -1.6111, "wp_mean_logprob": -0.7454, "wp_string_correct": false}
+{"pid": "pilot_nq_3404", "model": "gemma", "cond": "gold", "wp_answer": "Argentina", "wp_first_logprob": -2.3509, "wp_mean_logprob": -2.3509, "wp_string_correct": false}
+{"pid": "pilot_nq_3404", "model": "gemma", "cond": "mixed", "wp_answer": "Argentina", "wp_first_logprob": -2.1988, "wp_mean_logprob": -2.1988, "wp_string_correct": false}
+{"pid": "pilot_nq_2066", "model": "gemma", "cond": "gold", "wp_answer": "Robert Conrad, Ross Martin", "wp_first_logprob": -0.668, "wp_mean_logprob": -0.4164, "wp_string_correct": true}
+{"pid": "pilot_nq_2066", "model": "gemma", "cond": "mixed", "wp_answer": "Robert Conrad and Ross Martin", "wp_first_logprob": -0.9754, "wp_mean_logprob": -0.4687, "wp_string_correct": true}
+{"pid": "pilot_nq_4530", "model": "gemma", "cond": "gold", "wp_answer": "David Krumholtz", "wp_first_logprob": -0.4755, "wp_mean_logprob": -0.1859, "wp_string_correct": true}
+{"pid": "pilot_nq_4530", "model": "gemma", "cond": "mixed", "wp_answer": "David Krumholtz", "wp_first_logprob": -0.5211, "wp_mean_logprob": -0.219, "wp_string_correct": true}
+{"pid": "pilot_nq_2337", "model": "gemma", "cond": "gold", "wp_answer": "Dr. Sachchidananda Sinha", "wp_first_logprob": -0.6189, "wp_mean_logprob": -0.2195, "wp_string_correct": true}
+{"pid": "pilot_nq_2337", "model": "gemma", "cond": "mixed", "wp_answer": "Dr. Sachchidananda Sinha", "wp_first_logprob": -0.6643, "wp_mean_logprob": -0.2927, "wp_string_correct": true}
+{"pid": "pilot_nq_3241", "model": "gemma", "cond": "gold", "wp_answer": "Peter Capaldi", "wp_first_logprob": -0.5717, "wp_mean_logprob": -0.246, "wp_string_correct": true}
+{"pid": "pilot_nq_3241", "model": "gemma", "cond": "mixed", "wp_answer": "Peter Capaldi", "wp_first_logprob": -0.6886, "wp_mean_logprob": -0.2549, "wp_string_correct": true}
+{"pid": "pilot_nq_5901", "model": "gemma", "cond": "gold", "wp_answer": "Brooklyn Rae Silzer", "wp_first_logprob": -1.1181, "wp_mean_logprob": -0.3062, "wp_string_correct": true}
+{"pid": "pilot_nq_5901", "model": "gemma", "cond": "mixed", "wp_answer": "Brooklyn Rae Silzer", "wp_first_logprob": -1.0426, "wp_mean_logprob": -0.2894, "wp_string_correct": true}
+{"pid": "pilot_nq_6314", "model": "gemma", "cond": "gold", "wp_answer": "1898", "wp_first_logprob": -1.5634, "wp_mean_logprob": -0.4042, "wp_string_correct": false}
+{"pid": "pilot_nq_6314", "model": "gemma", "cond": "mixed", "wp_answer": "1898", "wp_first_logprob": -1.6472, "wp_mean_logprob": -0.4319, "wp_string_correct": false}
+{"pid": "pilot_nq_5644", "model": "gemma", "cond": "gold", "wp_answer": "4", "wp_first_logprob": -1.3686, "wp_mean_logprob": -1.0484, "wp_string_correct": false}
+{"pid": "pilot_nq_5644", "model": "gemma", "cond": "mixed", "wp_answer": "There are three movies of Ip Man.", "wp_first_logprob": -1.5382, "wp_mean_logprob": -0.7836, "wp_string_correct": true}
+{"pid": "pilot_nq_1269", "model": "gemma", "cond": "gold", "wp_answer": "6", "wp_first_logprob": -0.5634, "wp_mean_logprob": -0.7581, "wp_string_correct": false}
+{"pid": "pilot_nq_1269", "model": "gemma", "cond": "mixed", "wp_answer": "5", "wp_first_logprob": -0.9276, "wp_mean_logprob": -0.9434, "wp_string_correct": false}
+{"pid": "pilot_nq_2776", "model": "gemma", "cond": "gold", "wp_answer": "Sharon Martin", "wp_first_logprob": -0.6909, "wp_mean_logprob": -0.4012, "wp_string_correct": true}
+{"pid": "pilot_nq_2776", "model": "gemma", "cond": "mixed", "wp_answer": "Sharon Martin", "wp_first_logprob": -0.4949, "wp_mean_logprob": -0.2842, "wp_string_correct": true}
+{"pid": "pilot_nq_4407", "model": "gemma", "cond": "gold", "wp_answer": "Charlie is a beat poet.", "wp_first_logprob": -1.4836, "wp_mean_logprob": -0.8655, "wp_string_correct": true}
+{"pid": "pilot_nq_4407", "model": "gemma", "cond": "mixed", "wp_answer": "Charlie is a beat poet.", "wp_first_logprob": -1.3291, "wp_mean_logprob": -0.8542, "wp_string_correct": true}
+{"pid": "pilot_nq_5255", "model": "gemma", "cond": "gold", "wp_answer": "Fremont", "wp_first_logprob": -1.745, "wp_mean_logprob": -1.745, "wp_string_correct": true}
+{"pid": "pilot_nq_5255", "model": "gemma", "cond": "mixed", "wp_answer": "San Jose", "wp_first_logprob": -1.4738, "wp_mean_logprob": -0.9184, "wp_string_correct": false}
+{"pid": "pilot_nq_3741", "model": "gemma", "cond": "gold", "wp_answer": "1951", "wp_first_logprob": -1.8003, "wp_mean_logprob": -0.5505, "wp_string_correct": true}
+{"pid": "pilot_nq_3741", "model": "gemma", "cond": "mixed", "wp_answer": "The Indian Railways was nationalized in 1951.", "wp_first_logprob": -1.7474, "wp_mean_logprob": -0.5566, "wp_string_correct": true}
+{"pid": "pilot_trivia_7137", "model": "gemma", "cond": "gold", "wp_answer": "Titanic Brewery", "wp_first_logprob": -0.1709, "wp_mean_logprob": -0.3112, "wp_string_correct": true}
+{"pid": "pilot_trivia_7137", "model": "gemma", "cond": "mixed", "wp_answer": "Titanic Brewery", "wp_first_logprob": -0.1415, "wp_mean_logprob": -0.2583, "wp_string_correct": true}
+{"pid": "pilot_trivia_4725", "model": "gemma", "cond": "gold", "wp_answer": "Margaret Thatcher", "wp_first_logprob": -0.6861, "wp_mean_logprob": -0.3567, "wp_string_correct": true}
+{"pid": "pilot_trivia_4725", "model": "gemma", "cond": "mixed", "wp_answer": "Margaret Thatcher", "wp_first_logprob": -0.6292, "wp_mean_logprob": -0.3285, "wp_string_correct": true}
+{"pid": "pilot_trivia_679", "model": "gemma", "cond": "gold", "wp_answer": "The supernatural", "wp_first_logprob": -2.2046, "wp_mean_logprob": -2.4108, "wp_string_correct": false}
+{"pid": "pilot_trivia_679", "model": "gemma", "cond": "mixed", "wp_answer": "Film", "wp_first_logprob": -1.806, "wp_mean_logprob": -1.806, "wp_string_correct": true}
+{"pid": "pilot_trivia_5747", "model": "gemma", "cond": "gold", "wp_answer": "\"Suddenly\"", "wp_first_logprob": -0.881, "wp_mean_logprob": -0.4215, "wp_string_correct": true}
+{"pid": "pilot_trivia_5747", "model": "gemma", "cond": "mixed", "wp_answer": "\"Suddenly\"", "wp_first_logprob": -0.9265, "wp_mean_logprob": -0.4221, "wp_string_correct": true}
+{"pid": "pilot_trivia_6719", "model": "gemma", "cond": "gold", "wp_answer": "John Hurt", "wp_first_logprob": -1.0931, "wp_mean_logprob": -0.5547, "wp_string_correct": false}
+{"pid": "pilot_trivia_6719", "model": "gemma", "cond": "mixed", "wp_answer": "John Hurt", "wp_first_logprob": -1.2721, "wp_mean_logprob": -0.6451, "wp_string_correct": false}
+{"pid": "pilot_trivia_1899", "model": "gemma", "cond": "gold", "wp_answer": "\"Feelin' Groovy\"", "wp_first_logprob": -0.7643, "wp_mean_logprob": -0.1728, "wp_string_correct": true}
+{"pid": "pilot_trivia_1899", "model": "gemma", "cond": "mixed", "wp_answer": "\"Feelin' Groovy\"", "wp_first_logprob": -1.0089, "wp_mean_logprob": -0.2339, "wp_string_correct": true}
+{"pid": "pilot_trivia_1816", "model": "gemma", "cond": "gold", "wp_answer": "The recorder", "wp_first_logprob": -1.9865, "wp_mean_logprob": -1.8965, "wp_string_correct": false}
+{"pid": "pilot_trivia_1816", "model": "gemma", "cond": "mixed", "wp_answer": "The duck is represented by the flute.", "wp_first_logprob": -2.1845, "wp_mean_logprob": -1.1896, "wp_string_correct": false}
+{"pid": "pilot_trivia_1561", "model": "gemma", "cond": "gold", "wp_answer": "Kim Jong-il", "wp_first_logprob": -0.8402, "wp_mean_logprob": -0.6497, "wp_string_correct": false}
+{"pid": "pilot_trivia_1561", "model": "gemma", "cond": "mixed", "wp_answer": "Kim Jong-il", "wp_first_logprob": -0.7464, "wp_mean_logprob": -0.6079, "wp_string_correct": false}
+{"pid": "pilot_trivia_6880", "model": "gemma", "cond": "gold", "wp_answer": "Estonia", "wp_first_logprob": -0.2322, "wp_mean_logprob": -0.2322, "wp_string_correct": true}
+{"pid": "pilot_trivia_6880", "model": "gemma", "cond": "mixed", "wp_answer": "Estonia", "wp_first_logprob": -0.3265, "wp_mean_logprob": -0.3265, "wp_string_correct": true}
+{"pid": "pilot_trivia_5613", "model": "gemma", "cond": "gold", "wp_answer": "27", "wp_first_logprob": -0.5181, "wp_mean_logprob": -0.4058, "wp_string_correct": true}
+{"pid": "pilot_trivia_5613", "model": "gemma", "cond": "mixed", "wp_answer": "28", "wp_first_logprob": -0.6591, "wp_mean_logprob": -0.4499, "wp_string_correct": false}
+{"pid": "pilot_trivia_4381", "model": "gemma", "cond": "gold", "wp_answer": "Canadian Bacon", "wp_first_logprob": -0.5996, "wp_mean_logprob": -0.3183, "wp_string_correct": true}
+{"pid": "pilot_trivia_4381", "model": "gemma", "cond": "mixed", "wp_answer": "Canadian Bacon", "wp_first_logprob": -0.7877, "wp_mean_logprob": -0.4059, "wp_string_correct": true}
+{"pid": "pilot_trivia_2403", "model": "gemma", "cond": "gold", "wp_answer": "Boots and Saddles", "wp_first_logprob": -0.7198, "wp_mean_logprob": -0.2479, "wp_string_correct": true}
+{"pid": "pilot_trivia_2403", "model": "gemma", "cond": "mixed", "wp_answer": "Boots and Saddles", "wp_first_logprob": -1.5338, "wp_mean_logprob": -0.479, "wp_string_correct": true}
+{"pid": "pilot_trivia_1485", "model": "gemma", "cond": "gold", "wp_answer": "Lindy Hop", "wp_first_logprob": -0.5121, "wp_mean_logprob": -0.2294, "wp_string_correct": true}
+{"pid": "pilot_trivia_1485", "model": "gemma", "cond": "mixed", "wp_answer": "Lindy Hop", "wp_first_logprob": -0.6111, "wp_mean_logprob": -0.2708, "wp_string_correct": true}
+{"pid": "pilot_trivia_1690", "model": "gemma", "cond": "gold", "wp_answer": "Lancashire", "wp_first_logprob": -0.4376, "wp_mean_logprob": -0.4376, "wp_string_correct": true}
+{"pid": "pilot_trivia_1690", "model": "gemma", "cond": "mixed", "wp_answer": "Lancashire", "wp_first_logprob": -0.3122, "wp_mean_logprob": -0.3122, "wp_string_correct": true}
+{"pid": "pilot_trivia_7945", "model": "gemma", "cond": "gold", "wp_answer": "John Landy", "wp_first_logprob": -0.4297, "wp_mean_logprob": -0.2043, "wp_string_correct": false}
+{"pid": "pilot_trivia_7945", "model": "gemma", "cond": "mixed", "wp_answer": "John Landy", "wp_first_logprob": -0.5102, "wp_mean_logprob": -0.2162, "wp_string_correct": false}
+{"pid": "pilot_trivia_3300", "model": "gemma", "cond": "gold", "wp_answer": "Lesotho", "wp_first_logprob": -0.1516, "wp_mean_logprob": -0.1516, "wp_string_correct": true}
+{"pid": "pilot_trivia_3300", "model": "gemma", "cond": "mixed", "wp_answer": "Lesotho", "wp_first_logprob": -0.2467, "wp_mean_logprob": -0.2467, "wp_string_correct": true}
+{"pid": "pilot_trivia_6668", "model": "gemma", "cond": "gold", "wp_answer": "Jousting", "wp_first_logprob": -0.4905, "wp_mean_logprob": -0.2503, "wp_string_correct": false}
+{"pid": "pilot_trivia_6668", "model": "gemma", "cond": "mixed", "wp_answer": "Jousting", "wp_first_logprob": -0.4063, "wp_mean_logprob": -0.2086, "wp_string_correct": false}
+{"pid": "pilot_trivia_7066", "model": "gemma", "cond": "gold", "wp_answer": "Hudson Bay", "wp_first_logprob": -0.3473, "wp_mean_logprob": -0.2182, "wp_string_correct": true}
+{"pid": "pilot_trivia_7066", "model": "gemma", "cond": "mixed", "wp_answer": "Hudson Bay", "wp_first_logprob": -1.1495, "wp_mean_logprob": -0.6316, "wp_string_correct": true}
+{"pid": "pilot_trivia_8377", "model": "gemma", "cond": "gold", "wp_answer": "Paul Shane", "wp_first_logprob": -0.2553, "wp_mean_logprob": -0.1478, "wp_string_correct": true}
+{"pid": "pilot_trivia_8377", "model": "gemma", "cond": "mixed", "wp_answer": "Paul Shane", "wp_first_logprob": -0.4236, "wp_mean_logprob": -0.2305, "wp_string_correct": true}
+{"pid": "pilot_trivia_3123", "model": "gemma", "cond": "gold", "wp_answer": "Brussels", "wp_first_logprob": -1.9702, "wp_mean_logprob": -1.9702, "wp_string_correct": false}
+{"pid": "pilot_trivia_3123", "model": "gemma", "cond": "mixed", "wp_answer": "New York", "wp_first_logprob": -2.1486, "wp_mean_logprob": -1.096, "wp_string_correct": false}
+{"pid": "pilot_trivia_19", "model": "gemma", "cond": "gold", "wp_answer": "California", "wp_first_logprob": -0.5381, "wp_mean_logprob": -0.5381, "wp_string_correct": false}
+{"pid": "pilot_trivia_19", "model": "gemma", "cond": "mixed", "wp_answer": "California", "wp_first_logprob": -0.5145, "wp_mean_logprob": -0.5145, "wp_string_correct": false}
+{"pid": "pilot_trivia_5078", "model": "gemma", "cond": "gold", "wp_answer": "Edward Chambré Hardman", "wp_first_logprob": -0.1826, "wp_mean_logprob": -0.0826, "wp_string_correct": true}
+{"pid": "pilot_trivia_5078", "model": "gemma", "cond": "mixed", "wp_answer": "Edward Chambré Hardman (1898–1988)", "wp_first_logprob": -0.2928, "wp_mean_logprob": -0.1912, "wp_string_correct": true}
+{"pid": "pilot_trivia_7257", "model": "gemma", "cond": "gold", "wp_answer": "Jude the Obscure", "wp_first_logprob": -1.3746, "wp_mean_logprob": -0.3714, "wp_string_correct": true}
+{"pid": "pilot_trivia_7257", "model": "gemma", "cond": "mixed", "wp_answer": "\"Jude the Obscure\"", "wp_first_logprob": -1.5138, "wp_mean_logprob": -0.4731, "wp_string_correct": true}
+{"pid": "pilot_trivia_2142", "model": "gemma", "cond": "gold", "wp_answer": "Alligator", "wp_first_logprob": -0.5909, "wp_mean_logprob": -0.5909, "wp_string_correct": true}
+{"pid": "pilot_trivia_2142", "model": "gemma", "cond": "mixed", "wp_answer": "Alligator", "wp_first_logprob": -0.7424, "wp_mean_logprob": -0.7424, "wp_string_correct": true}
+{"pid": "pilot_trivia_6103", "model": "gemma", "cond": "gold", "wp_answer": "Algeria", "wp_first_logprob": -0.8032, "wp_mean_logprob": -0.8032, "wp_string_correct": true}
+{"pid": "pilot_trivia_6103", "model": "gemma", "cond": "mixed", "wp_answer": "Algeria", "wp_first_logprob": -0.6667, "wp_mean_logprob": -0.6667, "wp_string_correct": true}
+{"pid": "pilot_trivia_6049", "model": "gemma", "cond": "gold", "wp_answer": "Merlin", "wp_first_logprob": -1.3223, "wp_mean_logprob": -1.3223, "wp_string_correct": false}
+{"pid": "pilot_trivia_6049", "model": "gemma", "cond": "mixed", "wp_answer": "The Rolls Royce Merlin engine was used to power the later makes of Spitfire.", "wp_first_logprob": -1.0409, "wp_mean_logprob": -0.4464, "wp_string_correct": false}
+{"pid": "pilot_trivia_8774", "model": "gemma", "cond": "gold", "wp_answer": "White", "wp_first_logprob": -0.634, "wp_mean_logprob": -0.634, "wp_string_correct": true}
+{"pid": "pilot_trivia_8774", "model": "gemma", "cond": "mixed", "wp_answer": "White", "wp_first_logprob": -0.5658, "wp_mean_logprob": -0.5658, "wp_string_correct": true}
+{"pid": "pilot_trivia_250", "model": "gemma", "cond": "gold", "wp_answer": "7", "wp_first_logprob": -0.63, "wp_mean_logprob": -0.6965, "wp_string_correct": false}
+{"pid": "pilot_trivia_250", "model": "gemma", "cond": "mixed", "wp_answer": "7", "wp_first_logprob": -0.9658, "wp_mean_logprob": -0.7304, "wp_string_correct": false}
+{"pid": "pilot_trivia_3167", "model": "gemma", "cond": "gold", "wp_answer": "Beatrix Potter", "wp_first_logprob": -0.1269, "wp_mean_logprob": -0.0746, "wp_string_correct": true}
+{"pid": "pilot_trivia_3167", "model": "gemma", "cond": "mixed", "wp_answer": "Beatrix Potter", "wp_first_logprob": -0.1665, "wp_mean_logprob": -0.0979, "wp_string_correct": true}
+{"pid": "pilot_trivia_6190", "model": "gemma", "cond": "gold", "wp_answer": "Henry V", "wp_first_logprob": -0.4485, "wp_mean_logprob": -0.293, "wp_string_correct": true}
+{"pid": "pilot_trivia_6190", "model": "gemma", "cond": "mixed", "wp_answer": "Henry V", "wp_first_logprob": -0.5853, "wp_mean_logprob": -0.3908, "wp_string_correct": true}
+{"pid": "pilot_trivia_5515", "model": "gemma", "cond": "gold", "wp_answer": "Don Partridge", "wp_first_logprob": -0.1331, "wp_mean_logprob": -0.0721, "wp_string_correct": true}
+{"pid": "pilot_trivia_5515", "model": "gemma", "cond": "mixed", "wp_answer": "Don Partridge.", "wp_first_logprob": -0.2256, "wp_mean_logprob": -0.4482, "wp_string_correct": true}
+{"pid": "pilot_trivia_5042", "model": "gemma", "cond": "gold", "wp_answer": "Winston Churchill", "wp_first_logprob": -1.8347, "wp_mean_logprob": -0.9416, "wp_string_correct": false}
+{"pid": "pilot_trivia_5042", "model": "gemma", "cond": "mixed", "wp_answer": "George Orwell", "wp_first_logprob": -2.009, "wp_mean_logprob": -1.1398, "wp_string_correct": true}
+{"pid": "pilot_trivia_6738", "model": "gemma", "cond": "gold", "wp_answer": "Bob Hoskins", "wp_first_logprob": -0.1071, "wp_mean_logprob": -0.04, "wp_string_correct": true}
+{"pid": "pilot_trivia_6738", "model": "gemma", "cond": "mixed", "wp_answer": "Bob Hoskins", "wp_first_logprob": -0.1868, "wp_mean_logprob": -0.0667, "wp_string_correct": true}
+{"pid": "pilot_trivia_4107", "model": "gemma", "cond": "gold", "wp_answer": "Drury Lane", "wp_first_logprob": -0.2442, "wp_mean_logprob": -0.1893, "wp_string_correct": true}
+{"pid": "pilot_trivia_4107", "model": "gemma", "cond": "mixed", "wp_answer": "Drury Lane.", "wp_first_logprob": -0.2952, "wp_mean_logprob": -0.4933, "wp_string_correct": true}
+{"pid": "pilot_trivia_97", "model": "gemma", "cond": "gold", "wp_answer": "Greg Louganis", "wp_first_logprob": -0.2412, "wp_mean_logprob": -0.0656, "wp_string_correct": true}
+{"pid": "pilot_trivia_97", "model": "gemma", "cond": "mixed", "wp_answer": "Greg Louganis", "wp_first_logprob": -0.4603, "wp_mean_logprob": -0.1212, "wp_string_correct": true}
+{"pid": "pilot_trivia_7996", "model": "gemma", "cond": "gold", "wp_answer": "Paul Newman", "wp_first_logprob": -1.4723, "wp_mean_logprob": -0.7746, "wp_string_correct": true}
+{"pid": "pilot_trivia_7996", "model": "gemma", "cond": "mixed", "wp_answer": "Paul Newman", "wp_first_logprob": -1.3836, "wp_mean_logprob": -0.8563, "wp_string_correct": true}
+{"pid": "pilot_trivia_4012", "model": "gemma", "cond": "gold", "wp_answer": "United States", "wp_first_logprob": -2.8694, "wp_mean_logprob": -1.5787, "wp_string_correct": true}
+{"pid": "pilot_trivia_4012", "model": "gemma", "cond": "mixed", "wp_answer": "Australia", "wp_first_logprob": -2.6753, "wp_mean_logprob": -2.6753, "wp_string_correct": false}
+{"pid": "pilot_trivia_4003", "model": "gemma", "cond": "gold", "wp_answer": "Toy Story", "wp_first_logprob": -0.4435, "wp_mean_logprob": -0.2282, "wp_string_correct": true}
+{"pid": "pilot_trivia_4003", "model": "gemma", "cond": "mixed", "wp_answer": "Toy Story", "wp_first_logprob": -0.5864, "wp_mean_logprob": -0.3006, "wp_string_correct": true}
+{"pid": "pilot_trivia_3654", "model": "gemma", "cond": "gold", "wp_answer": "1970", "wp_first_logprob": -0.3868, "wp_mean_logprob": -0.223, "wp_string_correct": true}
+{"pid": "pilot_trivia_3654", "model": "gemma", "cond": "mixed", "wp_answer": "1970", "wp_first_logprob": -0.6909, "wp_mean_logprob": -0.4178, "wp_string_correct": true}
+{"pid": "pilot_trivia_2394", "model": "gemma", "cond": "gold", "wp_answer": "The word \"luthier\" is derived from the French word \"luth\", which means \"lute\". The lute is a stringed instrument that was popular", "wp_first_logprob": -1.8413, "wp_mean_logprob": -0.6607, "wp_string_correct": true}
+{"pid": "pilot_trivia_2394", "model": "gemma", "cond": "mixed", "wp_answer": "The word luthier is derived from the French word luth, meaning lute. The word luthier is a combination of the French word luth and the suffix", "wp_first_logprob": -1.8687, "wp_mean_logprob": -0.8741, "wp_string_correct": true}
+{"pid": "pilot_trivia_4643", "model": "gemma", "cond": "gold", "wp_answer": "The Bristol Channel is a major inlet in the island of Great Britain, separating South Wales from Devon and Somerset in South West England. It extends from the lower estuary", "wp_first_logprob": -1.5119, "wp_mean_logprob": -0.2382, "wp_string_correct": false}
+{"pid": "pilot_trivia_4643", "model": "gemma", "cond": "mixed", "wp_answer": "The Bristol Channel is a major inlet in the island of Great Britain, separating South Wales from Devon and Somerset in South West England. It extends from the lower estuary", "wp_first_logprob": -1.555, "wp_mean_logprob": -0.2223, "wp_string_correct": false}
+{"pid": "pilot_trivia_4834", "model": "gemma", "cond": "gold", "wp_answer": "All Gas and Gaiters", "wp_first_logprob": -0.2923, "wp_mean_logprob": -0.1298, "wp_string_correct": true}
+{"pid": "pilot_trivia_4834", "model": "gemma", "cond": "mixed", "wp_answer": "All Gas and Gaiters", "wp_first_logprob": -0.2848, "wp_mean_logprob": -0.1458, "wp_string_correct": true}
+{"pid": "pilot_trivia_2864", "model": "gemma", "cond": "gold", "wp_answer": "IKEA", "wp_first_logprob": -0.7547, "wp_mean_logprob": -0.7547, "wp_string_correct": true}
+{"pid": "pilot_trivia_2864", "model": "gemma", "cond": "mixed", "wp_answer": "IKEA", "wp_first_logprob": -0.8896, "wp_mean_logprob": -0.8896, "wp_string_correct": true}
+{"pid": "pilot_trivia_4231", "model": "gemma", "cond": "gold", "wp_answer": "36", "wp_first_logprob": -0.297, "wp_mean_logprob": -0.1588, "wp_string_correct": true}
+{"pid": "pilot_trivia_4231", "model": "gemma", "cond": "mixed", "wp_answer": "36", "wp_first_logprob": -0.584, "wp_mean_logprob": -0.3098, "wp_string_correct": true}
+{"pid": "pilot_trivia_3765", "model": "gemma", "cond": "gold", "wp_answer": "Thailand", "wp_first_logprob": -1.7576, "wp_mean_logprob": -1.7576, "wp_string_correct": false}
+{"pid": "pilot_trivia_3765", "model": "gemma", "cond": "mixed", "wp_answer": "Nepal", "wp_first_logprob": -1.0469, "wp_mean_logprob": -1.0469, "wp_string_correct": false}
+{"pid": "pilot_trivia_3328", "model": "gemma", "cond": "gold", "wp_answer": "\"Bodysuit\"", "wp_first_logprob": -0.784, "wp_mean_logprob": -0.6206, "wp_string_correct": false}
+{"pid": "pilot_trivia_3328", "model": "gemma", "cond": "mixed", "wp_answer": "\"A wetsuit\"", "wp_first_logprob": -0.9302, "wp_mean_logprob": -1.2024, "wp_string_correct": true}
+{"pid": "pilot_trivia_8027", "model": "gemma", "cond": "gold", "wp_answer": "Roger Bannister", "wp_first_logprob": -0.9448, "wp_mean_logprob": -0.3382, "wp_string_correct": false}
+{"pid": "pilot_trivia_8027", "model": "gemma", "cond": "mixed", "wp_answer": "Roger Bannister", "wp_first_logprob": -1.0803, "wp_mean_logprob": -0.3766, "wp_string_correct": false}
+{"pid": "pilot_trivia_4165", "model": "gemma", "cond": "gold", "wp_answer": "\"Bridget Jones's Diary\"", "wp_first_logprob": -0.7921, "wp_mean_logprob": -0.2826, "wp_string_correct": true}
+{"pid": "pilot_trivia_4165", "model": "gemma", "cond": "mixed", "wp_answer": "\"Bridget Jones's Diary\"", "wp_first_logprob": -0.8962, "wp_mean_logprob": -0.3243, "wp_string_correct": true}
+{"pid": "pilot_trivia_1142", "model": "gemma", "cond": "gold", "wp_answer": "Severus Snape", "wp_first_logprob": -1.7328, "wp_mean_logprob": -0.8697, "wp_string_correct": true}
+{"pid": "pilot_trivia_1142", "model": "gemma", "cond": "mixed", "wp_answer": "Albus Dumbledore", "wp_first_logprob": -2.009, "wp_mean_logprob": -0.6883, "wp_string_correct": false}
+{"pid": "pilot_trivia_6145", "model": "gemma", "cond": "gold", "wp_answer": "HMT Lancastria", "wp_first_logprob": -1.3642, "wp_mean_logprob": -0.3838, "wp_string_correct": true}
+{"pid": "pilot_trivia_6145", "model": "gemma", "cond": "mixed", "wp_answer": "RMS Lancastria", "wp_first_logprob": -1.3028, "wp_mean_logprob": -0.406, "wp_string_correct": true}
+{"pid": "pilot_trivia_5665", "model": "gemma", "cond": "gold", "wp_answer": "Jared", "wp_first_logprob": -0.3706, "wp_mean_logprob": -0.3706, "wp_string_correct": true}
+{"pid": "pilot_trivia_5665", "model": "gemma", "cond": "mixed", "wp_answer": "Jared was the second oldest man in the Bible living to the age of 962.", "wp_first_logprob": -0.9051, "wp_mean_logprob": -0.3404, "wp_string_correct": true}
+{"pid": "pilot_trivia_2584", "model": "gemma", "cond": "gold", "wp_answer": "Greece", "wp_first_logprob": -0.8339, "wp_mean_logprob": -0.8339, "wp_string_correct": true}
+{"pid": "pilot_trivia_2584", "model": "gemma", "cond": "mixed", "wp_answer": "Greece", "wp_first_logprob": -1.0032, "wp_mean_logprob": -1.0032, "wp_string_correct": true}
+{"pid": "pilot_trivia_7348", "model": "gemma", "cond": "gold", "wp_answer": "Wakefield Trinity", "wp_first_logprob": -0.4138, "wp_mean_logprob": -0.2723, "wp_string_correct": true}
+{"pid": "pilot_trivia_7348", "model": "gemma", "cond": "mixed", "wp_answer": "Wakefield Trinity", "wp_first_logprob": -0.5045, "wp_mean_logprob": -0.3198, "wp_string_correct": true}
+{"pid": "pilot_trivia_4762", "model": "gemma", "cond": "gold", "wp_answer": "4", "wp_first_logprob": -0.67, "wp_mean_logprob": -0.8904, "wp_string_correct": false}
+{"pid": "pilot_trivia_4762", "model": "gemma", "cond": "mixed", "wp_answer": "2", "wp_first_logprob": -0.9187, "wp_mean_logprob": -1.0291, "wp_string_correct": true}
+{"pid": "pilot_trivia_5469", "model": "gemma", "cond": "gold", "wp_answer": "Baron of Beef", "wp_first_logprob": -1.107, "wp_mean_logprob": -0.5772, "wp_string_correct": true}
+{"pid": "pilot_trivia_5469", "model": "gemma", "cond": "mixed", "wp_answer": "A baron of beef.", "wp_first_logprob": -1.0796, "wp_mean_logprob": -0.855, "wp_string_correct": true}
+{"pid": "pilot_trivia_2701", "model": "gemma", "cond": "gold", "wp_answer": "Tea", "wp_first_logprob": -0.557, "wp_mean_logprob": -0.557, "wp_string_correct": true}
+{"pid": "pilot_trivia_2701", "model": "gemma", "cond": "mixed", "wp_answer": "Tea", "wp_first_logprob": -0.6447, "wp_mean_logprob": -0.6447, "wp_string_correct": true}
+{"pid": "pilot_trivia_2181", "model": "gemma", "cond": "gold", "wp_answer": "\"Where Do You Go To (My Lovely)\" by Peter Sarstedt.", "wp_first_logprob": -0.5666, "wp_mean_logprob": -0.2691, "wp_string_correct": true}
+{"pid": "pilot_trivia_2181", "model": "gemma", "cond": "mixed", "wp_answer": "\"Where Do You Go To (My Lovely)\" by Peter Sarstedt.", "wp_first_logprob": -0.5718, "wp_mean_logprob": -0.2674, "wp_string_correct": true}
+{"pid": "pilot_trivia_1679", "model": "gemma", "cond": "gold", "wp_answer": "Cherie Lunghi", "wp_first_logprob": -0.2256, "wp_mean_logprob": -0.07, "wp_string_correct": true}
+{"pid": "pilot_trivia_1679", "model": "gemma", "cond": "mixed", "wp_answer": "Cherie Lunghi", "wp_first_logprob": -0.301, "wp_mean_logprob": -0.0862, "wp_string_correct": true}
+{"pid": "pilot_trivia_3634", "model": "gemma", "cond": "gold", "wp_answer": "4", "wp_first_logprob": -0.9569, "wp_mean_logprob": -1.211, "wp_string_correct": false}
+{"pid": "pilot_trivia_3634", "model": "gemma", "cond": "mixed", "wp_answer": "2.", "wp_first_logprob": -1.2689, "wp_mean_logprob": -1.6088, "wp_string_correct": false}
+{"pid": "pilot_trivia_708", "model": "gemma", "cond": "gold", "wp_answer": "Suffolk", "wp_first_logprob": -0.1603, "wp_mean_logprob": -0.1603, "wp_string_correct": true}
+{"pid": "pilot_trivia_708", "model": "gemma", "cond": "mixed", "wp_answer": "Suffolk", "wp_first_logprob": -0.1981, "wp_mean_logprob": -0.1981, "wp_string_correct": true}
+{"pid": "pilot_trivia_8175", "model": "gemma", "cond": "gold", "wp_answer": "Under the Boardwalk", "wp_first_logprob": -0.5094, "wp_mean_logprob": -0.3223, "wp_string_correct": true}
+{"pid": "pilot_trivia_8175", "model": "gemma", "cond": "mixed", "wp_answer": "Under the Boardwalk", "wp_first_logprob": -0.86, "wp_mean_logprob": -0.3942, "wp_string_correct": true}
+{"pid": "pilot_trivia_8231", "model": "gemma", "cond": "gold", "wp_answer": "Thames", "wp_first_logprob": -1.3091, "wp_mean_logprob": -1.3091, "wp_string_correct": true}
+{"pid": "pilot_trivia_8231", "model": "gemma", "cond": "mixed", "wp_answer": "James River", "wp_first_logprob": -0.761, "wp_mean_logprob": -0.5941, "wp_string_correct": false}
+{"pid": "pilot_trivia_5296", "model": "gemma", "cond": "gold", "wp_answer": "Absinthe", "wp_first_logprob": -3.0895, "wp_mean_logprob": -1.5676, "wp_string_correct": false}
+{"pid": "pilot_trivia_5296", "model": "gemma", "cond": "mixed", "wp_answer": "Grenadine", "wp_first_logprob": -2.665, "wp_mean_logprob": -0.8911, "wp_string_correct": false}
+{"pid": "pilot_trivia_1950", "model": "gemma", "cond": "gold", "wp_answer": "Gary Barlow", "wp_first_logprob": -0.2995, "wp_mean_logprob": -0.153, "wp_string_correct": true}
+{"pid": "pilot_trivia_1950", "model": "gemma", "cond": "mixed", "wp_answer": "Gary Barlow", "wp_first_logprob": -0.3756, "wp_mean_logprob": -0.1929, "wp_string_correct": true}
+{"pid": "pilot_trivia_3488", "model": "gemma", "cond": "gold", "wp_answer": "A 200-foot-long container ship, the Cosco Busan, ran aground in the San Francisco Bay, spilling 53,0", "wp_first_logprob": -1.2829, "wp_mean_logprob": -0.7716, "wp_string_correct": false}
+{"pid": "pilot_trivia_3488", "model": "gemma", "cond": "mixed", "wp_answer": "Record-breaking rains caused a 17-hour closure of the canal; this was the first closure since the United States invasion of Panama in 19", "wp_first_logprob": -1.5572, "wp_mean_logprob": -0.1777, "wp_string_correct": false}
+{"pid": "pilot_trivia_7553", "model": "gemma", "cond": "gold", "wp_answer": "John Peel", "wp_first_logprob": -0.1417, "wp_mean_logprob": -0.0835, "wp_string_correct": true}
+{"pid": "pilot_trivia_7553", "model": "gemma", "cond": "mixed", "wp_answer": "John Peel", "wp_first_logprob": -0.1551, "wp_mean_logprob": -0.0841, "wp_string_correct": true}
+{"pid": "pilot_trivia_131", "model": "gemma", "cond": "gold", "wp_answer": "Eduard Shevardnadze", "wp_first_logprob": -0.982, "wp_mean_logprob": -0.2154, "wp_string_correct": true}
+{"pid": "pilot_trivia_131", "model": "gemma", "cond": "mixed", "wp_answer": "Mikhail Gorbachev", "wp_first_logprob": -0.885, "wp_mean_logprob": -0.4754, "wp_string_correct": false}
+{"pid": "pilot_trivia_113", "model": "gemma", "cond": "gold", "wp_answer": "Hubert Green", "wp_first_logprob": -0.2995, "wp_mean_logprob": -0.1657, "wp_string_correct": true}
+{"pid": "pilot_trivia_113", "model": "gemma", "cond": "mixed", "wp_answer": "Hubert Green", "wp_first_logprob": -0.5191, "wp_mean_logprob": -0.2764, "wp_string_correct": true}
+{"pid": "pilot_trivia_247", "model": "gemma", "cond": "gold", "wp_answer": "Uranus", "wp_first_logprob": -0.7594, "wp_mean_logprob": -0.7594, "wp_string_correct": true}
+{"pid": "pilot_trivia_247", "model": "gemma", "cond": "mixed", "wp_answer": "Saturn", "wp_first_logprob": -0.654, "wp_mean_logprob": -0.654, "wp_string_correct": false}
+{"pid": "pilot_trivia_4857", "model": "gemma", "cond": "gold", "wp_answer": "King Lear", "wp_first_logprob": -0.8854, "wp_mean_logprob": -0.4621, "wp_string_correct": true}
+{"pid": "pilot_trivia_4857", "model": "gemma", "cond": "mixed", "wp_answer": "The character who described himself as \"a man more sinned against than sinning\" is King Lear. In Act 1, Scene 2, Lear is speaking", "wp_first_logprob": -1.7193, "wp_mean_logprob": -0.6698, "wp_string_correct": true}
+{"pid": "pilot_trivia_5242", "model": "gemma", "cond": "gold", "wp_answer": "Bjorn Borg", "wp_first_logprob": -2.5789, "wp_mean_logprob": -0.8764, "wp_string_correct": false}
+{"pid": "pilot_trivia_5242", "model": "gemma", "cond": "mixed", "wp_answer": "Bjorn Borg", "wp_first_logprob": -2.7422, "wp_mean_logprob": -0.9323, "wp_string_correct": false}
+{"pid": "pilot_trivia_6282", "model": "gemma", "cond": "gold", "wp_answer": "Cox and Box", "wp_first_logprob": -0.2389, "wp_mean_logprob": -0.1258, "wp_string_correct": true}
+{"pid": "pilot_trivia_6282", "model": "gemma", "cond": "mixed", "wp_answer": "Cox and Box", "wp_first_logprob": -0.2625, "wp_mean_logprob": -0.1319, "wp_string_correct": true}
+{"pid": "pilot_trivia_8394", "model": "gemma", "cond": "gold", "wp_answer": "Zoë Wanamaker", "wp_first_logprob": -0.4878, "wp_mean_logprob": -0.1089, "wp_string_correct": true}
+{"pid": "pilot_trivia_8394", "model": "gemma", "cond": "mixed", "wp_answer": "Zoë Wanamaker", "wp_first_logprob": -0.5665, "wp_mean_logprob": -0.1275, "wp_string_correct": true}
+{"pid": "pilot_trivia_260", "model": "gemma", "cond": "gold", "wp_answer": "\"Do They Know It's Christmas?\" by Band Aid", "wp_first_logprob": -1.3234, "wp_mean_logprob": -0.2909, "wp_string_correct": false}
+{"pid": "pilot_trivia_260", "model": "gemma", "cond": "mixed", "wp_answer": "\"I Believe in Father Christmas\" by Greg Lake.", "wp_first_logprob": -0.7868, "wp_mean_logprob": -0.2701, "wp_string_correct": false}
+{"pid": "pilot_trivia_5455", "model": "gemma", "cond": "gold", "wp_answer": "\"In Dreams\"", "wp_first_logprob": -0.5188, "wp_mean_logprob": -0.2316, "wp_string_correct": true}
+{"pid": "pilot_trivia_5455", "model": "gemma", "cond": "mixed", "wp_answer": "\"In Dreams\"", "wp_first_logprob": -0.426, "wp_mean_logprob": -0.1892, "wp_string_correct": true}
+{"pid": "pilot_trivia_780", "model": "gemma", "cond": "gold", "wp_answer": "Joy Packer", "wp_first_logprob": -0.1466, "wp_mean_logprob": -0.222, "wp_string_correct": true}
+{"pid": "pilot_trivia_780", "model": "gemma", "cond": "mixed", "wp_answer": "Joy Packer", "wp_first_logprob": -0.1686, "wp_mean_logprob": -0.3819, "wp_string_correct": true}
+{"pid": "pilot_trivia_2578", "model": "gemma", "cond": "gold", "wp_answer": "Japan", "wp_first_logprob": -1.7108, "wp_mean_logprob": -1.7108, "wp_string_correct": false}
+{"pid": "pilot_trivia_2578", "model": "gemma", "cond": "mixed", "wp_answer": "Japan", "wp_first_logprob": -1.7785, "wp_mean_logprob": -1.7785, "wp_string_correct": false}
+{"pid": "pilot_trivia_4638", "model": "gemma", "cond": "gold", "wp_answer": "St. Martin's", "wp_first_logprob": -0.8098, "wp_mean_logprob": -0.3981, "wp_string_correct": true}
+{"pid": "pilot_trivia_4638", "model": "gemma", "cond": "mixed", "wp_answer": "St. Martin's", "wp_first_logprob": -0.9448, "wp_mean_logprob": -0.4827, "wp_string_correct": true}
+{"pid": "pilot_trivia_1161", "model": "gemma", "cond": "gold", "wp_answer": "Washington", "wp_first_logprob": -0.6538, "wp_mean_logprob": -0.6538, "wp_string_correct": false}
+{"pid": "pilot_trivia_1161", "model": "gemma", "cond": "mixed", "wp_answer": "Washington", "wp_first_logprob": -0.3681, "wp_mean_logprob": -0.3681, "wp_string_correct": false}
+{"pid": "pilot_trivia_8124", "model": "gemma", "cond": "gold", "wp_answer": "Angus Ogilvy", "wp_first_logprob": -1.4205, "wp_mean_logprob": -0.573, "wp_string_correct": true}
+{"pid": "pilot_trivia_8124", "model": "gemma", "cond": "mixed", "wp_answer": "Prince Alexander of Battenberg", "wp_first_logprob": -1.5165, "wp_mean_logprob": -1.316, "wp_string_correct": false}
+{"pid": "pilot_trivia_8795", "model": "gemma", "cond": "gold", "wp_answer": "11", "wp_first_logprob": -0.3134, "wp_mean_logprob": -0.5909, "wp_string_correct": false}
+{"pid": "pilot_trivia_8795", "model": "gemma", "cond": "mixed", "wp_answer": "42", "wp_first_logprob": -0.548, "wp_mean_logprob": -0.4152, "wp_string_correct": false}
+{"pid": "pilot_trivia_1682", "model": "gemma", "cond": "gold", "wp_answer": "‘Sunset Boulevard’", "wp_first_logprob": -1.5881, "wp_mean_logprob": -0.7002, "wp_string_correct": false}
+{"pid": "pilot_trivia_1682", "model": "gemma", "cond": "mixed", "wp_answer": "‘The Perfect Year’ and ‘Surrender’ are songs from the musical ‘The Last Five Years’.", "wp_first_logprob": -1.1265, "wp_mean_logprob": -0.517, "wp_string_correct": false}
+{"pid": "pilot_trivia_7470", "model": "gemma", "cond": "gold", "wp_answer": "Evita", "wp_first_logprob": -0.312, "wp_mean_logprob": -0.312, "wp_string_correct": true}
+{"pid": "pilot_trivia_7470", "model": "gemma", "cond": "mixed", "wp_answer": "Evita", "wp_first_logprob": -0.3601, "wp_mean_logprob": -0.3601, "wp_string_correct": true}
+{"pid": "pilot_trivia_1031", "model": "gemma", "cond": "gold", "wp_answer": "Stanley Baldwin", "wp_first_logprob": -0.7133, "wp_mean_logprob": -0.3638, "wp_string_correct": true}
+{"pid": "pilot_trivia_1031", "model": "gemma", "cond": "mixed", "wp_answer": "Stanley Baldwin", "wp_first_logprob": -0.5922, "wp_mean_logprob": -0.3003, "wp_string_correct": true}
+{"pid": "pilot_trivia_6152", "model": "gemma", "cond": "gold", "wp_answer": "Peak District National Park", "wp_first_logprob": -0.2839, "wp_mean_logprob": -0.3655, "wp_string_correct": true}
+{"pid": "pilot_trivia_6152", "model": "gemma", "cond": "mixed", "wp_answer": "Peak District National Park", "wp_first_logprob": -0.4009, "wp_mean_logprob": -0.2696, "wp_string_correct": true}
+{"pid": "pilot_trivia_3648", "model": "gemma", "cond": "gold", "wp_answer": "\"The Winter of Discontent\" was a period of industrial unrest in the United Kingdom in 1978–79. It was a period of", "wp_first_logprob": -0.3706, "wp_mean_logprob": -0.6561, "wp_string_correct": false}
+{"pid": "pilot_trivia_3648", "model": "gemma", "cond": "mixed", "wp_answer": "\"The modern British period of history called \"\"The Winter of Discontent\"\" began when the Labour government of James Callaghan was forced to impose a surcharge on the", "wp_first_logprob": -0.8072, "wp_mean_logprob": -0.5831, "wp_string_correct": false}
+{"pid": "pilot_trivia_2229", "model": "gemma", "cond": "gold", "wp_answer": "Pi", "wp_first_logprob": -1.2492, "wp_mean_logprob": -1.2492, "wp_string_correct": true}
+{"pid": "pilot_trivia_2229", "model": "gemma", "cond": "mixed", "wp_answer": "Pi", "wp_first_logprob": -0.9279, "wp_mean_logprob": -0.9279, "wp_string_correct": true}
+{"pid": "pilot_trivia_7009", "model": "gemma", "cond": "gold", "wp_answer": "Glenn Miller", "wp_first_logprob": -0.7943, "wp_mean_logprob": -0.4002, "wp_string_correct": false}
+{"pid": "pilot_trivia_7009", "model": "gemma", "cond": "mixed", "wp_answer": "Glenn Miller", "wp_first_logprob": -0.499, "wp_mean_logprob": -0.2531, "wp_string_correct": false}
+{"pid": "pilot_trivia_1479", "model": "gemma", "cond": "gold", "wp_answer": "Beaver Scouts", "wp_first_logprob": -0.961, "wp_mean_logprob": -0.5148, "wp_string_correct": true}
+{"pid": "pilot_trivia_1479", "model": "gemma", "cond": "mixed", "wp_answer": "Beaver Scouts", "wp_first_logprob": -0.9041, "wp_mean_logprob": -0.491, "wp_string_correct": true}
+{"pid": "pilot_trivia_1729", "model": "gemma", "cond": "gold", "wp_answer": "Kyu Sakamoto", "wp_first_logprob": -0.6784, "wp_mean_logprob": -0.2334, "wp_string_correct": false}
+{"pid": "pilot_trivia_1729", "model": "gemma", "cond": "mixed", "wp_answer": "Kyu Sakamoto.", "wp_first_logprob": -0.1714, "wp_mean_logprob": -0.2946, "wp_string_correct": false}
+{"pid": "pilot_trivia_4727", "model": "gemma", "cond": "gold", "wp_answer": "Don Partridge", "wp_first_logprob": -0.3459, "wp_mean_logprob": -0.1775, "wp_string_correct": true}
+{"pid": "pilot_trivia_4727", "model": "gemma", "cond": "mixed", "wp_answer": "Don Partridge", "wp_first_logprob": -0.3673, "wp_mean_logprob": -0.1875, "wp_string_correct": true}
+{"pid": "pilot_trivia_8109", "model": "gemma", "cond": "gold", "wp_answer": "James Cook", "wp_first_logprob": -2.5656, "wp_mean_logprob": -1.3516, "wp_string_correct": true}
+{"pid": "pilot_trivia_8109", "model": "gemma", "cond": "mixed", "wp_answer": "William Clarke", "wp_first_logprob": -2.5427, "wp_mean_logprob": -2.5105, "wp_string_correct": false}
+{"pid": "pilot_trivia_5939", "model": "gemma", "cond": "gold", "wp_answer": "Dogger", "wp_first_logprob": -1.8077, "wp_mean_logprob": -0.9048, "wp_string_correct": false}
+{"pid": "pilot_trivia_5939", "model": "gemma", "cond": "mixed", "wp_answer": "Dogger", "wp_first_logprob": -1.7373, "wp_mean_logprob": -0.8702, "wp_string_correct": false}
+{"pid": "pilot_trivia_981", "model": "gemma", "cond": "gold", "wp_answer": "An anchor.", "wp_first_logprob": -1.1754, "wp_mean_logprob": -0.7849, "wp_string_correct": true}
+{"pid": "pilot_trivia_981", "model": "gemma", "cond": "mixed", "wp_answer": "The anchor.", "wp_first_logprob": -1.3184, "wp_mean_logprob": -0.9388, "wp_string_correct": true}
+{"pid": "pilot_trivia_576", "model": "gemma", "cond": "gold", "wp_answer": "Arthur Lowe", "wp_first_logprob": -0.4169, "wp_mean_logprob": -0.2182, "wp_string_correct": true}
+{"pid": "pilot_trivia_576", "model": "gemma", "cond": "mixed", "wp_answer": "Arthur Lowe", "wp_first_logprob": -0.5895, "wp_mean_logprob": -0.3038, "wp_string_correct": true}
+{"pid": "pilot_trivia_1909", "model": "gemma", "cond": "gold", "wp_answer": "Paul McCartney", "wp_first_logprob": -0.4755, "wp_mean_logprob": -0.2751, "wp_string_correct": false}
+{"pid": "pilot_trivia_1909", "model": "gemma", "cond": "mixed", "wp_answer": "Paul McCartney", "wp_first_logprob": -0.7005, "wp_mean_logprob": -0.3776, "wp_string_correct": false}
+{"pid": "pilot_trivia_5899", "model": "gemma", "cond": "gold", "wp_answer": "Jack Hobbs", "wp_first_logprob": -0.3241, "wp_mean_logprob": -0.1679, "wp_string_correct": true}
+{"pid": "pilot_trivia_5899", "model": "gemma", "cond": "mixed", "wp_answer": "Jack Hobbs", "wp_first_logprob": -0.3251, "wp_mean_logprob": -0.1662, "wp_string_correct": true}
+{"pid": "pilot_trivia_4281", "model": "gemma", "cond": "gold", "wp_answer": "Mexico", "wp_first_logprob": -1.0697, "wp_mean_logprob": -1.0697, "wp_string_correct": false}
+{"pid": "pilot_trivia_4281", "model": "gemma", "cond": "mixed", "wp_answer": "Mexico", "wp_first_logprob": -1.3824, "wp_mean_logprob": -1.3824, "wp_string_correct": false}
+{"pid": "pilot_trivia_2028", "model": "gemma", "cond": "gold", "wp_answer": "2", "wp_first_logprob": -0.6745, "wp_mean_logprob": -0.6941, "wp_string_correct": false}
+{"pid": "pilot_trivia_2028", "model": "gemma", "cond": "mixed", "wp_answer": "2", "wp_first_logprob": -0.9116, "wp_mean_logprob": -0.8156, "wp_string_correct": false}
+{"pid": "pilot_trivia_4059", "model": "gemma", "cond": "gold", "wp_answer": "Vaud", "wp_first_logprob": -1.1237, "wp_mean_logprob": -0.563, "wp_string_correct": false}
+{"pid": "pilot_trivia_4059", "model": "gemma", "cond": "mixed", "wp_answer": "Switzerland", "wp_first_logprob": -1.2568, "wp_mean_logprob": -1.2568, "wp_string_correct": true}
+{"pid": "pilot_trivia_1238", "model": "gemma", "cond": "gold", "wp_answer": "75", "wp_first_logprob": -0.3636, "wp_mean_logprob": -0.9083, "wp_string_correct": false}
+{"pid": "pilot_trivia_1238", "model": "gemma", "cond": "mixed", "wp_answer": "88", "wp_first_logprob": -0.4761, "wp_mean_logprob": -1.1098, "wp_string_correct": false}
+{"pid": "pilot_trivia_997", "model": "gemma", "cond": "gold", "wp_answer": "25", "wp_first_logprob": -0.3455, "wp_mean_logprob": -1.2021, "wp_string_correct": false}
+{"pid": "pilot_trivia_997", "model": "gemma", "cond": "mixed", "wp_answer": "25", "wp_first_logprob": -0.581, "wp_mean_logprob": -1.3221, "wp_string_correct": false}
+{"pid": "pilot_trivia_1107", "model": "gemma", "cond": "gold", "wp_answer": "Wales", "wp_first_logprob": -1.393, "wp_mean_logprob": -1.393, "wp_string_correct": true}
+{"pid": "pilot_trivia_1107", "model": "gemma", "cond": "mixed", "wp_answer": "Wales", "wp_first_logprob": -1.6784, "wp_mean_logprob": -1.6784, "wp_string_correct": true}
+{"pid": "pilot_trivia_6064", "model": "gemma", "cond": "gold", "wp_answer": "Dancing in the Dark", "wp_first_logprob": -0.4853, "wp_mean_logprob": -0.2127, "wp_string_correct": true}
+{"pid": "pilot_trivia_6064", "model": "gemma", "cond": "mixed", "wp_answer": "\"Dancing in the Dark\"", "wp_first_logprob": -1.0146, "wp_mean_logprob": -0.2418, "wp_string_correct": true}
+{"pid": "pilot_trivia_5081", "model": "gemma", "cond": "gold", "wp_answer": "Chinchilla", "wp_first_logprob": -0.6015, "wp_mean_logprob": -0.3334, "wp_string_correct": true}
+{"pid": "pilot_trivia_5081", "model": "gemma", "cond": "mixed", "wp_answer": "Chinchilla", "wp_first_logprob": -1.2548, "wp_mean_logprob": -0.6339, "wp_string_correct": true}
+{"pid": "pilot_trivia_4417", "model": "gemma", "cond": "gold", "wp_answer": "\"The Brady Bunch\" was a popular American sitcom that aired on ABC from 1969 to 1974. The show followed the lives", "wp_first_logprob": -1.4729, "wp_mean_logprob": -0.5639, "wp_string_correct": false}
+{"pid": "pilot_trivia_4417", "model": "gemma", "cond": "mixed", "wp_answer": "\"The Brady Bunch\" was a popular television show that aired from 1969 to 1974. The show was about a blended family", "wp_first_logprob": -1.2604, "wp_mean_logprob": -0.543, "wp_string_correct": false}
+{"pid": "pilot_trivia_2626", "model": "gemma", "cond": "gold", "wp_answer": "The toes", "wp_first_logprob": -1.5528, "wp_mean_logprob": -1.6279, "wp_string_correct": false}
+{"pid": "pilot_trivia_2626", "model": "gemma", "cond": "mixed", "wp_answer": "Relevé is a ballet term that refers to standing while raising the heels.", "wp_first_logprob": -1.5645, "wp_mean_logprob": -0.8263, "wp_string_correct": true}
+{"pid": "pilot_trivia_3922", "model": "gemma", "cond": "gold", "wp_answer": "Dock leaves.", "wp_first_logprob": -1.151, "wp_mean_logprob": -0.9995, "wp_string_correct": true}
+{"pid": "pilot_trivia_3922", "model": "gemma", "cond": "mixed", "wp_answer": "The leaves of the dock plant (Rumex crispus) are used to relieve the pain caused by stinging nettle. The leaves of the dock plant are", "wp_first_logprob": -1.9862, "wp_mean_logprob": -0.7089, "wp_string_correct": true}
+{"pid": "pilot_trivia_3348", "model": "gemma", "cond": "gold", "wp_answer": "19", "wp_first_logprob": -0.4491, "wp_mean_logprob": -0.6243, "wp_string_correct": true}
+{"pid": "pilot_trivia_3348", "model": "gemma", "cond": "mixed", "wp_answer": "21", "wp_first_logprob": -0.4919, "wp_mean_logprob": -0.4304, "wp_string_correct": false}
+{"pid": "pilot_trivia_2217", "model": "gemma", "cond": "gold", "wp_answer": "Dover", "wp_first_logprob": -0.1034, "wp_mean_logprob": -0.1034, "wp_string_correct": true}
+{"pid": "pilot_trivia_2217", "model": "gemma", "cond": "mixed", "wp_answer": "Dover", "wp_first_logprob": -0.1611, "wp_mean_logprob": -0.1611, "wp_string_correct": true}
+{"pid": "pilot_trivia_7178", "model": "gemma", "cond": "gold", "wp_answer": "The Barefoot Contessa", "wp_first_logprob": -0.3398, "wp_mean_logprob": -0.079, "wp_string_correct": true}
+{"pid": "pilot_trivia_7178", "model": "gemma", "cond": "mixed", "wp_answer": "The Barefoot Contessa", "wp_first_logprob": -0.7608, "wp_mean_logprob": -0.1645, "wp_string_correct": true}
+{"pid": "pilot_trivia_4452", "model": "gemma", "cond": "gold", "wp_answer": "Today", "wp_first_logprob": -0.5673, "wp_mean_logprob": -0.5673, "wp_string_correct": true}
+{"pid": "pilot_trivia_4452", "model": "gemma", "cond": "mixed", "wp_answer": "Today", "wp_first_logprob": -0.5325, "wp_mean_logprob": -0.5325, "wp_string_correct": true}
+{"pid": "pilot_trivia_5171", "model": "gemma", "cond": "gold", "wp_answer": "Arkle", "wp_first_logprob": -0.1662, "wp_mean_logprob": -0.0862, "wp_string_correct": true}
+{"pid": "pilot_trivia_5171", "model": "gemma", "cond": "mixed", "wp_answer": "Arkle", "wp_first_logprob": -0.2612, "wp_mean_logprob": -0.1333, "wp_string_correct": true}
+{"pid": "pilot_trivia_3060", "model": "gemma", "cond": "gold", "wp_answer": "\"Fred Hoyle\"", "wp_first_logprob": -1.0367, "wp_mean_logprob": -0.5522, "wp_string_correct": true}
+{"pid": "pilot_trivia_3060", "model": "gemma", "cond": "mixed", "wp_answer": "The term \"Big Bang\" was coined by Fred Hoyle, who was a proponent of the Steady State theory of the universe. The term was used in a", "wp_first_logprob": -1.1699, "wp_mean_logprob": -0.6705, "wp_string_correct": true}
+{"pid": "pilot_trivia_838", "model": "gemma", "cond": "gold", "wp_answer": "Violin", "wp_first_logprob": -1.6508, "wp_mean_logprob": -1.6508, "wp_string_correct": true}
+{"pid": "pilot_trivia_838", "model": "gemma", "cond": "mixed", "wp_answer": "Guitar", "wp_first_logprob": -1.8257, "wp_mean_logprob": -1.8257, "wp_string_correct": false}
+{"pid": "pilot_trivia_15", "model": "gemma", "cond": "gold", "wp_answer": "Francis Ford Coppola", "wp_first_logprob": -0.9293, "wp_mean_logprob": -0.3572, "wp_string_correct": true}
+{"pid": "pilot_trivia_15", "model": "gemma", "cond": "mixed", "wp_answer": "Francis Ford Coppola", "wp_first_logprob": -0.7214, "wp_mean_logprob": -0.2833, "wp_string_correct": true}
+{"pid": "pilot_trivia_6053", "model": "gemma", "cond": "gold", "wp_answer": "Chippy", "wp_first_logprob": -0.1944, "wp_mean_logprob": -0.1084, "wp_string_correct": true}
+{"pid": "pilot_trivia_6053", "model": "gemma", "cond": "mixed", "wp_answer": "Chippy", "wp_first_logprob": -0.1885, "wp_mean_logprob": -0.0996, "wp_string_correct": true}
+{"pid": "pilot_trivia_1438", "model": "gemma", "cond": "gold", "wp_answer": "Joan Plowright", "wp_first_logprob": -0.1454, "wp_mean_logprob": -0.0991, "wp_string_correct": true}
+{"pid": "pilot_trivia_1438", "model": "gemma", "cond": "mixed", "wp_answer": "Joan Plowright", "wp_first_logprob": -0.1888, "wp_mean_logprob": -0.1321, "wp_string_correct": true}
+{"pid": "pilot_trivia_2172", "model": "gemma", "cond": "gold", "wp_answer": "Mycroft Holmes", "wp_first_logprob": -0.8221, "wp_mean_logprob": -0.3428, "wp_string_correct": true}
+{"pid": "pilot_trivia_2172", "model": "gemma", "cond": "mixed", "wp_answer": "Mark Gattis plays Mycroft Holmes, Sherlock's older brother.", "wp_first_logprob": -0.9845, "wp_mean_logprob": -0.4894, "wp_string_correct": true}
+{"pid": "pilot_trivia_6661", "model": "gemma", "cond": "gold", "wp_answer": "Cyclops", "wp_first_logprob": -0.2197, "wp_mean_logprob": -0.2197, "wp_string_correct": true}
+{"pid": "pilot_trivia_6661", "model": "gemma", "cond": "mixed", "wp_answer": "Cyclops", "wp_first_logprob": -0.2969, "wp_mean_logprob": -0.2969, "wp_string_correct": true}
+{"pid": "pilot_trivia_4729", "model": "gemma", "cond": "gold", "wp_answer": "Whigfield", "wp_first_logprob": -0.2374, "wp_mean_logprob": -0.1212, "wp_string_correct": true}
+{"pid": "pilot_trivia_4729", "model": "gemma", "cond": "mixed", "wp_answer": "Whigfield", "wp_first_logprob": -0.5548, "wp_mean_logprob": -0.2802, "wp_string_correct": true}
+{"pid": "pilot_trivia_1333", "model": "gemma", "cond": "gold", "wp_answer": "Apple", "wp_first_logprob": -0.3244, "wp_mean_logprob": -0.3244, "wp_string_correct": true}
+{"pid": "pilot_trivia_1333", "model": "gemma", "cond": "mixed", "wp_answer": "Apple", "wp_first_logprob": -0.4034, "wp_mean_logprob": -0.4034, "wp_string_correct": true}
+{"pid": "pilot_trivia_2330", "model": "gemma", "cond": "gold", "wp_answer": "Broccoli", "wp_first_logprob": -1.3986, "wp_mean_logprob": -1.3986, "wp_string_correct": false}
+{"pid": "pilot_trivia_2330", "model": "gemma", "cond": "mixed", "wp_answer": "Broccoli", "wp_first_logprob": -1.2983, "wp_mean_logprob": -1.2983, "wp_string_correct": false}
+{"pid": "pilot_trivia_649", "model": "gemma", "cond": "gold", "wp_answer": "The argentine is a type of creature that is found in the game Dungeons & Dragons. It is a type of monster that is often found in dungeons and is", "wp_first_logprob": -1.8475, "wp_mean_logprob": -0.6928, "wp_string_correct": false}
+{"pid": "pilot_trivia_649", "model": "gemma", "cond": "mixed", "wp_answer": "The argentine is a type of creature that is found in the game Dungeons & Dragons. It is a type of monster that is often used in role-playing", "wp_first_logprob": -1.978, "wp_mean_logprob": -0.6423, "wp_string_correct": false}
+{"pid": "pilot_trivia_6751", "model": "gemma", "cond": "gold", "wp_answer": "Tight Fit", "wp_first_logprob": -0.3414, "wp_mean_logprob": -0.1968, "wp_string_correct": true}
+{"pid": "pilot_trivia_6751", "model": "gemma", "cond": "mixed", "wp_answer": "Tight Fit", "wp_first_logprob": -0.3085, "wp_mean_logprob": -0.1814, "wp_string_correct": true}
+{"pid": "pilot_trivia_7340", "model": "gemma", "cond": "gold", "wp_answer": "The Cairngorms National Park", "wp_first_logprob": -0.9797, "wp_mean_logprob": -0.3354, "wp_string_correct": true}
+{"pid": "pilot_trivia_7340", "model": "gemma", "cond": "mixed", "wp_answer": "The Lake District National Park is the largest of Britain's National Parks.", "wp_first_logprob": -0.761, "wp_mean_logprob": -0.4363, "wp_string_correct": false}
+{"pid": "pilot_trivia_3650", "model": "gemma", "cond": "gold", "wp_answer": "Barrister", "wp_first_logprob": -1.5761, "wp_mean_logprob": -0.7882, "wp_string_correct": true}
+{"pid": "pilot_trivia_3650", "model": "gemma", "cond": "mixed", "wp_answer": "She was a chemist.", "wp_first_logprob": -1.6755, "wp_mean_logprob": -0.7926, "wp_string_correct": false}
+{"pid": "pilot_trivia_120", "model": "gemma", "cond": "gold", "wp_answer": "Rugby", "wp_first_logprob": -2.1885, "wp_mean_logprob": -2.1885, "wp_string_correct": false}
+{"pid": "pilot_trivia_120", "model": "gemma", "cond": "mixed", "wp_answer": "Rugby League", "wp_first_logprob": -2.1003, "wp_mean_logprob": -1.6704, "wp_string_correct": false}
+{"pid": "pilot_trivia_4586", "model": "gemma", "cond": "gold", "wp_answer": "\"Peter Sellers\"", "wp_first_logprob": -0.6453, "wp_mean_logprob": -0.2785, "wp_string_correct": true}
+{"pid": "pilot_trivia_4586", "model": "gemma", "cond": "mixed", "wp_answer": "Peter Sellers.", "wp_first_logprob": -0.9976, "wp_mean_logprob": -0.8261, "wp_string_correct": true}
+{"pid": "pilot_trivia_4625", "model": "gemma", "cond": "gold", "wp_answer": "Black.", "wp_first_logprob": -1.2123, "wp_mean_logprob": -1.1838, "wp_string_correct": true}
+{"pid": "pilot_trivia_4625", "model": "gemma", "cond": "mixed", "wp_answer": "Red.", "wp_first_logprob": -1.5528, "wp_mean_logprob": -1.3347, "wp_string_correct": false}
+{"pid": "pilot_trivia_8266", "model": "gemma", "cond": "gold", "wp_answer": "1962", "wp_first_logprob": -0.2608, "wp_mean_logprob": -0.1773, "wp_string_correct": true}
+{"pid": "pilot_trivia_8266", "model": "gemma", "cond": "mixed", "wp_answer": "1962", "wp_first_logprob": -0.2757, "wp_mean_logprob": -0.3389, "wp_string_correct": true}
+{"pid": "pilot_trivia_5287", "model": "gemma", "cond": "gold", "wp_answer": "Peruvian", "wp_first_logprob": -0.5901, "wp_mean_logprob": -0.5901, "wp_string_correct": true}
+{"pid": "pilot_trivia_5287", "model": "gemma", "cond": "mixed", "wp_answer": "Peruvian", "wp_first_logprob": -0.905, "wp_mean_logprob": -0.905, "wp_string_correct": true}
+{"pid": "pilot_trivia_2788", "model": "gemma", "cond": "gold", "wp_answer": "Pentahedron.", "wp_first_logprob": -1.0516, "wp_mean_logprob": -0.6936, "wp_string_correct": true}
+{"pid": "pilot_trivia_2788", "model": "gemma", "cond": "mixed", "wp_answer": "Pentahedron.", "wp_first_logprob": -1.1879, "wp_mean_logprob": -0.7594, "wp_string_correct": true}
+{"pid": "pilot_trivia_5035", "model": "gemma", "cond": "gold", "wp_answer": "Saint Vitus", "wp_first_logprob": -0.8853, "wp_mean_logprob": -0.3301, "wp_string_correct": true}
+{"pid": "pilot_trivia_5035", "model": "gemma", "cond": "mixed", "wp_answer": "St. Vitus.", "wp_first_logprob": -1.0266, "wp_mean_logprob": -0.5661, "wp_string_correct": true}
+{"pid": "pilot_trivia_5464", "model": "gemma", "cond": "gold", "wp_answer": "Len Fairclough", "wp_first_logprob": -0.1349, "wp_mean_logprob": -0.0549, "wp_string_correct": true}
+{"pid": "pilot_trivia_5464", "model": "gemma", "cond": "mixed", "wp_answer": "Len Fairclough", "wp_first_logprob": -0.2331, "wp_mean_logprob": -0.0766, "wp_string_correct": true}
+{"pid": "pilot_trivia_2223", "model": "gemma", "cond": "gold", "wp_answer": "Echo 1", "wp_first_logprob": -1.0509, "wp_mean_logprob": -0.4625, "wp_string_correct": true}
+{"pid": "pilot_trivia_2223", "model": "gemma", "cond": "mixed", "wp_answer": "Scoreboard", "wp_first_logprob": -1.5562, "wp_mean_logprob": -1.1452, "wp_string_correct": false}
+{"pid": "pilot_trivia_3421", "model": "gemma", "cond": "gold", "wp_answer": "Joe Frazier", "wp_first_logprob": -0.5997, "wp_mean_logprob": -0.3101, "wp_string_correct": true}
+{"pid": "pilot_trivia_3421", "model": "gemma", "cond": "mixed", "wp_answer": "Joe Frazier", "wp_first_logprob": -0.7107, "wp_mean_logprob": -0.364, "wp_string_correct": true}
+{"pid": "pilot_trivia_4973", "model": "gemma", "cond": "gold", "wp_answer": "The letter C is used for cars registered in the City of London.", "wp_first_logprob": -2.5314, "wp_mean_logprob": -1.0024, "wp_string_correct": false}
+{"pid": "pilot_trivia_4973", "model": "gemma", "cond": "mixed", "wp_answer": "The letter C is used for cars registered in the county of Cambridgeshire.", "wp_first_logprob": -2.5179, "wp_mean_logprob": -1.0255, "wp_string_correct": false}
+{"pid": "pilot_trivia_7054", "model": "gemma", "cond": "gold", "wp_answer": "Macavity", "wp_first_logprob": -0.7709, "wp_mean_logprob": -0.2597, "wp_string_correct": true}
+{"pid": "pilot_trivia_7054", "model": "gemma", "cond": "mixed", "wp_answer": "Macavity is the mystery cat and Napoleon of Crime.", "wp_first_logprob": -1.3359, "wp_mean_logprob": -0.3933, "wp_string_correct": true}
+{"pid": "pilot_trivia_5176", "model": "gemma", "cond": "gold", "wp_answer": "Edinburgh", "wp_first_logprob": -0.2507, "wp_mean_logprob": -0.2507, "wp_string_correct": true}
+{"pid": "pilot_trivia_5176", "model": "gemma", "cond": "mixed", "wp_answer": "Birmingham", "wp_first_logprob": -1.3023, "wp_mean_logprob": -1.3023, "wp_string_correct": false}
+{"pid": "pilot_trivia_715", "model": "gemma", "cond": "gold", "wp_answer": "Boris Becker", "wp_first_logprob": -0.2091, "wp_mean_logprob": -0.1068, "wp_string_correct": true}
+{"pid": "pilot_trivia_715", "model": "gemma", "cond": "mixed", "wp_answer": "Goran Ivanišević", "wp_first_logprob": -0.9788, "wp_mean_logprob": -0.2816, "wp_string_correct": false}
+{"pid": "pilot_trivia_1323", "model": "gemma", "cond": "gold", "wp_answer": "25", "wp_first_logprob": -0.4458, "wp_mean_logprob": -1.4068, "wp_string_correct": false}
+{"pid": "pilot_trivia_1323", "model": "gemma", "cond": "mixed", "wp_answer": "25", "wp_first_logprob": -0.6394, "wp_mean_logprob": -1.478, "wp_string_correct": false}
+{"pid": "pilot_trivia_4688", "model": "gemma", "cond": "gold", "wp_answer": "Peter Robinson", "wp_first_logprob": -0.6008, "wp_mean_logprob": -0.3333, "wp_string_correct": true}
+{"pid": "pilot_trivia_4688", "model": "gemma", "cond": "mixed", "wp_answer": "Peter Robinson", "wp_first_logprob": -0.6089, "wp_mean_logprob": -0.3353, "wp_string_correct": true}
+{"pid": "pilot_trivia_3956", "model": "gemma", "cond": "gold", "wp_answer": "\"The film was made in New Zealand, and was shot in Wellington, Dunedin, and the Otago Peninsula.\"", "wp_first_logprob": -1.2626, "wp_mean_logprob": -1.0606, "wp_string_correct": false}
+{"pid": "pilot_trivia_3956", "model": "gemma", "cond": "mixed", "wp_answer": "\"Angel at My Table\" was filmed in New Zealand.", "wp_first_logprob": -1.1677, "wp_mean_logprob": -0.5499, "wp_string_correct": false}
+{"pid": "pilot_trivia_3322", "model": "gemma", "cond": "gold", "wp_answer": "1953", "wp_first_logprob": -0.0975, "wp_mean_logprob": -0.0818, "wp_string_correct": true}
+{"pid": "pilot_trivia_3322", "model": "gemma", "cond": "mixed", "wp_answer": "1953", "wp_first_logprob": -0.1805, "wp_mean_logprob": -0.1276, "wp_string_correct": true}
+{"pid": "pilot_trivia_5025", "model": "gemma", "cond": "gold", "wp_answer": "Queen Elizabeth II", "wp_first_logprob": -1.3261, "wp_mean_logprob": -0.5226, "wp_string_correct": false}
+{"pid": "pilot_trivia_5025", "model": "gemma", "cond": "mixed", "wp_answer": "Queen Elizabeth II", "wp_first_logprob": -1.4767, "wp_mean_logprob": -0.5931, "wp_string_correct": false}
+{"pid": "pilot_trivia_2809", "model": "gemma", "cond": "gold", "wp_answer": "John Sergeant", "wp_first_logprob": -0.135, "wp_mean_logprob": -0.1182, "wp_string_correct": true}
+{"pid": "pilot_trivia_2809", "model": "gemma", "cond": "mixed", "wp_answer": "John Sergeant", "wp_first_logprob": -0.2581, "wp_mean_logprob": -0.1767, "wp_string_correct": true}
+{"pid": "pilot_trivia_8167", "model": "gemma", "cond": "gold", "wp_answer": "Venice", "wp_first_logprob": -0.3024, "wp_mean_logprob": -0.3024, "wp_string_correct": true}
+{"pid": "pilot_trivia_8167", "model": "gemma", "cond": "mixed", "wp_answer": "Venice", "wp_first_logprob": -0.387, "wp_mean_logprob": -0.387, "wp_string_correct": true}
+{"pid": "pilot_trivia_3395", "model": "gemma", "cond": "gold", "wp_answer": "North America", "wp_first_logprob": -0.4054, "wp_mean_logprob": -0.2208, "wp_string_correct": true}
+{"pid": "pilot_trivia_3395", "model": "gemma", "cond": "mixed", "wp_answer": "Australia", "wp_first_logprob": -1.6613, "wp_mean_logprob": -1.6613, "wp_string_correct": false}
+{"pid": "pilot_trivia_193", "model": "gemma", "cond": "gold", "wp_answer": "\"Greta Garbo\"", "wp_first_logprob": -0.8378, "wp_mean_logprob": -0.3728, "wp_string_correct": true}
+{"pid": "pilot_trivia_193", "model": "gemma", "cond": "mixed", "wp_answer": "Kenneth Tynan was a British theatre critic and writer. He was known for his wit and his ability to make a point in a few words. In", "wp_first_logprob": -1.0731, "wp_mean_logprob": -1.0115, "wp_string_correct": false}
+{"pid": "pilot_trivia_8153", "model": "gemma", "cond": "gold", "wp_answer": "Angus Deayton", "wp_first_logprob": -0.126, "wp_mean_logprob": -0.0428, "wp_string_correct": true}
+{"pid": "pilot_trivia_8153", "model": "gemma", "cond": "mixed", "wp_answer": "Angus Deayton", "wp_first_logprob": -0.1213, "wp_mean_logprob": -0.0412, "wp_string_correct": true}

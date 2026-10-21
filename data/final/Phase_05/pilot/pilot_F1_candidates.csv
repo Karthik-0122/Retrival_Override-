@@ -1,0 +1,38 @@
+pid,model,cond,source,question,answers,closed_book_answer,cb_mean_logprob,with_passage_answer
+pilot_nq_107,gemma,gold,nq,when did they put warnings on cigarette packs,2003,1965,-0.3983,1965
+pilot_nq_3482,gemma,gold,nq,when did sacramento became the capital of california,1879,1854,-0.2095,1854
+pilot_nq_5012,gemma,gold,nq,when was the office of the vice president created,1787,1789,-0.2324,1789
+pilot_nq_4140,gemma,gold,nq,when did lagos become a colony of britain,5 March 1862,1861,-0.1915,1861
+pilot_nq_3824,gemma,gold,nq,who sang take on me in the 90s,Reel Big Fish,a-ha,-0.4301,a-ha
+pilot_nq_2863,gemma,gold,nq,who has won the world snooker championship the most times,Joe Davis,Stephen Hendry,-0.4171,Stephen Hendry
+pilot_nq_5744,gemma,gold,nq,where is most of the world 's gold mined,China,South Africa,-0.6888,South Africa
+pilot_nq_3238,gemma,gold,nq,what hotel chain is the ritz carlton part of,The Ritz - Carlton,Marriott,-1.0594,Marriott International
+pilot_nq_2893,gemma,gold,nq,when was the first international women 's day celebrated,"February 28 , 1909",1911,-0.3287,1911
+pilot_nq_6314,gemma,gold,nq,when did the puerto rico became a us territory,"April 11 , 1899",1898,-0.1857,1898
+pilot_nq_5644,gemma,gold,nq,how many movies of ip man are there,three,4,-0.6327,4
+pilot_trivia_7945,gemma,gold,trivia,When Roger Bannister broke the four minute mile who came second,Sir Christopher John Chataway | Christopher Chataway | Sir Chris Chataway | Chris Chattaway | Chataway | Christopher John Chataway | Chris Chataway,John Landy,-0.2279,John Landy
+pilot_trivia_1909,gemma,gold,trivia,"In the original Beatles line-up, who was the bass guitarist?",Stu Sutcliffe | STUART SUTCLIFFE | Stuart Sutcliffe | Stuart Fergusson Victor Sutcliffe | Stuart de Staël,Paul McCartney,-0.4464,Paul McCartney
+pilot_nq_1943,gemma,mixed,nq,who is credited with designing and cutting the first roman typefaces,scribe Peter Schöffer,Nicolas Jenson,-0.6364,Nicolas Jenson
+pilot_nq_3940,gemma,mixed,nq,who owns the rights to the power rangers,Hasbro,Saban,-0.6722,Saban Brands
+pilot_nq_5744,gemma,mixed,nq,where is most of the world 's gold mined,China,South Africa,-0.6888,South Africa
+pilot_nq_5046,gemma,mixed,nq,what is the first colour film in india,Kisan Kanya,Alam Ara,-1.3106,Alam Ara
+pilot_nq_4927,gemma,mixed,nq,early native american music features intervals that are,perfect fourths and fifths | melodic | large | major and minor thirds,microtones,-1.3302,microtonal
+pilot_nq_1157,gemma,mixed,nq,when was the first children 's hospital built,1741,1855,-0.4443,1855
+pilot_nq_16,gemma,mixed,nq,when was the first manmade object sent into space,3 October 1942,1957,-0.3294,1957
+pilot_nq_6159,gemma,mixed,nq,who won the mens money in the bank match,Braun Strowman,Seth Rollins,-0.9006,Seth Rollins
+pilot_nq_2893,gemma,mixed,nq,when was the first international women 's day celebrated,"February 28 , 1909",1911,-0.3287,1911
+pilot_nq_5255,gemma,mixed,nq,the convent of the mission de san jose is in what city,Fremont,san jose,-1.0865,San Jose
+pilot_nq_667,llama,gold,nq,when does the elf on a shelf appear,Thanksgiving,The Elf on the Shelf appears on the first day of December.,-0.6725,The elf on a shelf appears on the first day of December
+pilot_nq_2250,llama,gold,nq,when was the last nuclear power plant built in the us,"October 19 , 2016","The last nuclear power plant built in the United States was the Watts Bar Nuclear Generating Station Unit 2 in Spring City, Tennessee, in 1996.",-0.4113,"The last nuclear power plant built in the US was the Watts Bar Nuclear Generating Station, which was completed in 1996."
+pilot_nq_4140,llama,gold,nq,when did lagos become a colony of britain,5 March 1862,Lagos became a British colony in 1861.,-0.4268,Lagos Colony was a British colonial possession centred on the port of Lagos in what is now southern Nigeria. Lagos was annexed on 6 August 1861
+pilot_nq_3824,llama,gold,nq,who sang take on me in the 90s,Reel Big Fish,A-ha,-0.8556,A-ha
+pilot_nq_2863,llama,gold,nq,who has won the world snooker championship the most times,Joe Davis,steve davis,-0.3207,Steve Davis
+pilot_nq_3769,llama,gold,nq,who is considered by many to be the father of soul,James Brown,sam cooke,-0.3712,sam cooke
+pilot_nq_6300,llama,gold,nq,who won oscar de la hoya vs manny pacquiao,Pacquiao,Oscar De La Hoya,-0.4075,Oscar De La Hoya
+pilot_nq_6314,llama,gold,nq,when did the puerto rico became a us territory,"April 11 , 1899",1898,-0.6331,"Puerto Rico became a U.S. territory in 1898, after the Spanish–American War."
+pilot_trivia_1909,llama,gold,trivia,"In the original Beatles line-up, who was the bass guitarist?",Stu Sutcliffe | STUART SUTCLIFFE | Stuart Sutcliffe | Stuart Fergusson Victor Sutcliffe | Stuart de Staël,Paul McCartney,-0.2218,Paul McCartney
+pilot_nq_3759,llama,mixed,nq,what type of party system does mexico have,multi-party system,"Mexico has a two-party system, which means that there are two dominant political parties, the Institutional Revolutionary Party (PRI) and the National Action Party (PAN",-0.2558,"Mexico has a two-party system, meaning that there are two dominant political parties, the Institutional Revolutionary Party (PRI) and the National Action Party (PAN)."
+pilot_nq_2491,llama,mixed,nq,who released the rock opera inspired country album tommy bluegrass opera,The Hillbenders,The Who,-0.7728,The Who
+pilot_nq_454,llama,mixed,nq,who plays the president in house of cards,Michel Gill,Kevin Spacey,-0.2508,Kevin Spacey
+pilot_nq_3834,llama,mixed,nq,which is the oldest sofitel in north america,"Minneapolis , Minnesota",the sofitel in new york city is the oldest sofitel in north america,-0.6941,The Sofitel New York is the oldest Sofitel in North America. It was built in 1927 and is located in the heart of Midtown Manhattan.
+pilot_nq_5808,llama,mixed,nq,when was the vaccine for chicken pox invented,1984,The vaccine for chicken pox was invented in 1995.,-0.4904,The chickenpox vaccine was invented in 1995.

@@ -1,0 +1,228 @@
+
+[06:07:19] ===== 1/8 question pool (1000 per source) =====
+excluding 875 questions already in data/final/Phase_02/analysis_dataset_relabeled.jsonl
+nq: reading /workspace/hf_cache/hub/datasets--Tevatron--wikipedia-nq/snapshots/37a7d5bb286c76f1b406d76a7434e8eeb4385203/nq-dev.jsonl.gz
+nq: 6489 questions, checked 1024, sampled 1000; excluded {'no_answer': 0, 'no_gold_passage': 23, 'few_distractors': 1, 'already_used': 0, 'duplicate': 0}
+trivia: reading /workspace/hf_cache/hub/datasets--Tevatron--wikipedia-trivia/snapshots/e73506da2be3e431b2900ad58f7cb983818e27a4/trivia-dev.jsonl.gz
+trivia: 6751 questions, checked 1007, sampled 1000; excluded {'no_answer': 0, 'no_gold_passage': 6, 'few_distractors': 1, 'already_used': 0, 'duplicate': 0}
+wrote data/final/Phase_05/pilot/pilot_pool.jsonl (2000 questions)
+
+[06:07:25] ===== 2/8 closed-book answers: Gemma =====
+closedbook gemma: 2000 to do (0 done)
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights:   0%|          | 1/464 [00:00<03:34,  2.16it/s]Loading weights:   8%|▊         | 36/464 [00:00<00:05, 82.11it/s]Loading weights:  12%|█▏        | 55/464 [00:00<00:03, 104.26it/s]Loading weights:  16%|█▌        | 73/464 [00:00<00:03, 120.21it/s]Loading weights:  20%|█▉        | 91/464 [00:00<00:02, 132.72it/s]Loading weights:  23%|██▎       | 109/464 [00:01<00:02, 142.47it/s]Loading weights:  27%|██▋       | 126/464 [00:01<00:02, 146.38it/s]Loading weights:  31%|███       | 143/464 [00:01<00:02, 152.16it/s]Loading weights:  35%|███▌      | 164/464 [00:01<00:01, 157.41it/s]Loading weights:  39%|███▉      | 181/464 [00:01<00:01, 156.07it/s]Loading weights:  43%|████▎     | 201/464 [00:01<00:01, 155.95it/s]Loading weights:  48%|████▊     | 223/464 [00:01<00:01, 167.53it/s]Loading weights:  52%|█████▏    | 241/464 [00:01<00:01, 163.92it/s]Loading weights:  57%|█████▋    | 263/464 [00:01<00:01, 168.21it/s]Loading weights:  60%|██████    | 280/464 [00:02<00:01, 166.20it/s]Loading weights:  64%|██████▍   | 297/464 [00:02<00:01, 166.53it/s]Loading weights:  69%|██████▊   | 318/464 [00:02<00:00, 163.85it/s]Loading weights:  73%|███████▎  | 340/464 [00:02<00:00, 161.35it/s]Loading weights:  78%|███████▊  | 362/464 [00:02<00:00, 170.11it/s]Loading weights:  82%|████████▏ | 380/464 [00:02<00:00, 167.27it/s]Loading weights:  86%|████████▌ | 399/464 [00:02<00:00, 167.90it/s]Loading weights:  90%|████████▉ | 417/464 [00:02<00:00, 163.72it/s]Loading weights:  94%|█████████▎| 434/464 [00:02<00:00, 164.82it/s]Loading weights:  97%|█████████▋| 451/464 [00:03<00:00, 162.17it/s]Loading weights: 100%|██████████| 464/464 [00:03<00:00, 148.18it/s]
+loaded google/gemma-2-9b in 4s (torch.bfloat16, GPU)
+  closedbook gemma 256/2000: 256/256 (11s)
+  closedbook gemma 512/2000: 256/256 (13s)
+  closedbook gemma 768/2000: 256/256 (15s)
+  closedbook gemma 1024/2000: 256/256 (14s)
+  closedbook gemma 1280/2000: 256/256 (11s)
+  closedbook gemma 1536/2000: 256/256 (10s)
+  closedbook gemma 1792/2000: 256/256 (12s)
+  closedbook gemma 2000/2000: 208/208 (10s)
+wrote data/final/Phase_05/pilot/pilot_closedbook_gemma.jsonl
+
+[06:09:09] ===== 3/8 closed-book answers: Llama =====
+closedbook llama: 2000 to do (0 done)
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:  10%|▉         | 29/291 [00:00<00:00, 288.31it/s]Loading weights:  20%|█▉        | 58/291 [00:00<00:00, 274.21it/s]Loading weights:  30%|██▉       | 86/291 [00:00<00:00, 268.82it/s]Loading weights:  41%|████      | 118/291 [00:00<00:00, 287.79it/s]Loading weights:  51%|█████     | 149/291 [00:00<00:00, 291.50it/s]Loading weights:  62%|██████▏   | 181/291 [00:00<00:00, 299.50it/s]Loading weights:  73%|███████▎  | 212/291 [00:00<00:00, 295.77it/s]Loading weights:  84%|████████▎ | 243/291 [00:00<00:00, 299.12it/s]Loading weights:  94%|█████████▍| 274/291 [00:00<00:00, 300.35it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 294.97it/s]
+loaded meta-llama/Llama-3.1-8B in 2s (torch.bfloat16, GPU)
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+  closedbook llama 256/2000: 256/256 (12s)
+  closedbook llama 512/2000: 256/256 (11s)
+  closedbook llama 768/2000: 256/256 (12s)
+  closedbook llama 1024/2000: 256/256 (11s)
+  closedbook llama 1280/2000: 256/256 (10s)
+  closedbook llama 1536/2000: 256/256 (8s)
+  closedbook llama 1792/2000: 256/256 (9s)
+  closedbook llama 2000/2000: 208/208 (7s)
+wrote data/final/Phase_05/pilot/pilot_closedbook_llama.jsonl
+
+[06:10:33] ===== 4/8 judge: existing,pilot-closedbook =====
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   1%|          | 2/339 [00:00<00:25, 13.23it/s]Loading weights:  12%|█▏        | 41/339 [00:00<00:01, 191.08it/s]Loading weights:  22%|██▏       | 76/339 [00:00<00:01, 249.75it/s]Loading weights:  35%|███▌      | 120/339 [00:00<00:00, 316.65it/s]Loading weights:  46%|████▌     | 156/339 [00:00<00:00, 330.60it/s]Loading weights:  58%|█████▊    | 196/339 [00:00<00:00, 343.66it/s]Loading weights:  69%|██████▊   | 233/339 [00:00<00:00, 338.44it/s]Loading weights:  83%|████████▎ | 280/339 [00:00<00:00, 368.64it/s]Loading weights:  94%|█████████▍| 318/339 [00:01<00:00, 353.41it/s]Loading weights: 100%|██████████| 339/339 [00:01<00:00, 322.88it/s]
+loaded Qwen/Qwen2.5-7B-Instruct in 1s (torch.bfloat16, GPU)
+existing: 566 apparent failures -> 3168 judge prompts
+  existing [yes/no] 512/2036: 175/512 (25s)
+  existing [yes/no] 512/2036: 512/512 (41s)
+  existing [yes/no] 1024/2036: 176/512 (25s)
+  existing [yes/no] 1024/2036: 512/512 (40s)
+  existing [yes/no] 1536/2036: 174/512 (25s)
+  existing [yes/no] 1536/2036: 512/512 (35s)
+  existing [yes/no] 2036/2036: 177/500 (25s)
+  existing [yes/no] 2036/2036: 500/500 (34s)
+  existing [yes/partial/no] 512/1132: 512/512 (15s)
+  existing [yes/partial/no] 1024/1132: 512/512 (15s)
+  existing [yes/partial/no] 1132/1132: 108/108 (3s)
+pilot-closedbook: 4000 closed-book answers
+  pilot-closedbook [yes/partial/no] 512/4000: 512/512 (14s)
+  pilot-closedbook [yes/partial/no] 1024/4000: 512/512 (15s)
+  pilot-closedbook [yes/partial/no] 1536/4000: 512/512 (18s)
+  pilot-closedbook [yes/partial/no] 2048/4000: 512/512 (18s)
+  pilot-closedbook [yes/partial/no] 2560/4000: 512/512 (15s)
+  pilot-closedbook [yes/partial/no] 3072/4000: 512/512 (15s)
+  pilot-closedbook [yes/partial/no] 3584/4000: 512/512 (18s)
+  pilot-closedbook [yes/partial/no] 4000/4000: 416/416 (15s)
+done in 312s
+
+[06:15:49] ===== 5/8 with-passage answers: Gemma =====
+withpassage gemma: 516 of 2000 closed-book answers judged wrong
+  1032 generations to do (0 done)
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights:   0%|          | 1/464 [00:00<03:44,  2.07it/s]Loading weights:   8%|▊         | 36/464 [00:00<00:05, 78.23it/s]Loading weights:  12%|█▏        | 54/464 [00:00<00:04, 101.58it/s]Loading weights:  16%|█▌        | 72/464 [00:00<00:03, 112.75it/s]Loading weights:  20%|█▉        | 91/464 [00:00<00:02, 124.47it/s]Loading weights:  24%|██▍       | 113/464 [00:01<00:02, 133.30it/s]Loading weights:  29%|██▉       | 135/464 [00:01<00:02, 139.30it/s]Loading weights:  34%|███▍      | 157/464 [00:01<00:02, 144.06it/s]Loading weights:  39%|███▊      | 179/464 [00:01<00:01, 156.11it/s]Loading weights:  42%|████▏     | 196/464 [00:01<00:01, 159.01it/s]Loading weights:  46%|████▌     | 213/464 [00:01<00:01, 146.11it/s]Loading weights:  50%|█████     | 234/464 [00:01<00:01, 149.43it/s]Loading weights:  55%|█████▌    | 256/464 [00:02<00:01, 144.96it/s]Loading weights:  60%|█████▉    | 278/464 [00:02<00:01, 146.83it/s]Loading weights:  65%|██████▍   | 300/464 [00:02<00:01, 156.53it/s]Loading weights:  69%|██████▉   | 322/464 [00:02<00:00, 150.46it/s]Loading weights:  74%|███████▍  | 344/464 [00:02<00:00, 150.96it/s]Loading weights:  79%|███████▉  | 366/464 [00:02<00:00, 164.07it/s]Loading weights:  84%|████████▎ | 388/464 [00:02<00:00, 151.38it/s]Loading weights:  88%|████████▊ | 410/464 [00:03<00:00, 159.46it/s]Loading weights:  93%|█████████▎| 432/464 [00:03<00:00, 160.11it/s]Loading weights:  98%|█████████▊| 454/464 [00:03<00:00, 156.81it/s]Loading weights: 100%|██████████| 464/464 [00:03<00:00, 140.50it/s]
+loaded google/gemma-2-9b in 4s (torch.bfloat16, GPU)
+  withpassage gemma 256/1032: 42/256 (30s)
+  withpassage gemma 256/1032: 92/256 (59s)
+  withpassage gemma 256/1032: 170/256 (89s)
+  withpassage gemma 256/1032: 256/256 (102s)
+  withpassage gemma 512/1032: 42/256 (25s)
+  withpassage gemma 512/1032: 92/256 (54s)
+  withpassage gemma 512/1032: 170/256 (83s)
+  withpassage gemma 512/1032: 256/256 (96s)
+  withpassage gemma 768/1032: 43/256 (25s)
+  withpassage gemma 768/1032: 93/256 (51s)
+  withpassage gemma 768/1032: 181/256 (78s)
+  withpassage gemma 768/1032: 256/256 (90s)
+  withpassage gemma 1024/1032: 40/256 (20s)
+  withpassage gemma 1024/1032: 89/256 (44s)
+  withpassage gemma 1024/1032: 163/256 (72s)
+  withpassage gemma 1024/1032: 256/256 (86s)
+  withpassage gemma 1032/1032: 8/8 (4s)
+wrote data/final/Phase_05/pilot/pilot_withpassage_gemma.jsonl
+
+[06:22:14] ===== 6/8 with-passage answers: Llama =====
+withpassage llama: 595 of 2000 closed-book answers judged wrong
+  1190 generations to do (0 done)
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<00:37,  7.72it/s]Loading weights:  11%|█         | 31/291 [00:00<00:01, 154.06it/s]Loading weights:  20%|█▉        | 58/291 [00:00<00:01, 202.14it/s]Loading weights:  30%|██▉       | 86/291 [00:00<00:00, 225.77it/s]Loading weights:  40%|███▉      | 115/291 [00:00<00:00, 247.64it/s]Loading weights:  51%|█████     | 148/291 [00:00<00:00, 270.87it/s]Loading weights:  61%|██████    | 177/291 [00:00<00:00, 273.30it/s]Loading weights:  73%|███████▎  | 211/291 [00:00<00:00, 291.18it/s]Loading weights:  83%|████████▎ | 241/291 [00:00<00:00, 289.27it/s]Loading weights:  94%|█████████▍| 274/291 [00:01<00:00, 297.64it/s]Loading weights: 100%|██████████| 291/291 [00:01<00:00, 260.23it/s]
+loaded meta-llama/Llama-3.1-8B in 2s (torch.bfloat16, GPU)
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+  withpassage llama 256/1190: 45/256 (20s)
+  withpassage llama 256/1190: 95/256 (41s)
+  withpassage llama 256/1190: 188/256 (62s)
+  withpassage llama 256/1190: 256/256 (70s)
+  withpassage llama 512/1190: 43/256 (20s)
+  withpassage llama 512/1190: 93/256 (41s)
+  withpassage llama 512/1190: 182/256 (61s)
+  withpassage llama 512/1190: 256/256 (69s)
+  withpassage llama 768/1190: 45/256 (20s)
+  withpassage llama 768/1190: 95/256 (41s)
+  withpassage llama 768/1190: 187/256 (62s)
+  withpassage llama 768/1190: 256/256 (70s)
+  withpassage llama 1024/1190: 43/256 (16s)
+  withpassage llama 1024/1190: 93/256 (36s)
+  withpassage llama 1024/1190: 180/256 (55s)
+  withpassage llama 1024/1190: 256/256 (62s)
+  withpassage llama 1190/1190: 46/166 (17s)
+  withpassage llama 1190/1190: 122/166 (33s)
+  withpassage llama 1190/1190: 166/166 (36s)
+wrote data/final/Phase_05/pilot/pilot_withpassage_llama.jsonl
+
+[06:27:26] ===== 7/8 judge: pilot-withpassage =====
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   1%|          | 2/339 [00:00<00:24, 13.80it/s]Loading weights:  12%|█▏        | 40/339 [00:00<00:01, 190.87it/s]Loading weights:  23%|██▎       | 77/339 [00:00<00:01, 259.36it/s]Loading weights:  34%|███▎      | 114/339 [00:00<00:00, 294.37it/s]Loading weights:  45%|████▌     | 154/339 [00:00<00:00, 328.57it/s]Loading weights:  57%|█████▋    | 192/339 [00:00<00:00, 344.37it/s]Loading weights:  68%|██████▊   | 232/339 [00:00<00:00, 358.61it/s]Loading weights:  79%|███████▉  | 269/339 [00:00<00:00, 357.92it/s]Loading weights:  90%|█████████ | 306/339 [00:00<00:00, 355.46it/s]Loading weights: 100%|██████████| 339/339 [00:01<00:00, 324.19it/s]
+loaded Qwen/Qwen2.5-7B-Instruct in 1s (torch.bfloat16, GPU)
+pilot-withpassage: 2222 with-passage answers
+  pilot-withpassage pass 1 [yes/partial/no] 512/2222: 512/512 (15s)
+  pilot-withpassage pass 1 [yes/partial/no] 1024/2222: 512/512 (16s)
+  pilot-withpassage pass 1 [yes/partial/no] 1536/2222: 512/512 (16s)
+  pilot-withpassage pass 1 [yes/partial/no] 2048/2222: 512/512 (16s)
+  pilot-withpassage pass 1 [yes/partial/no] 2222/2222: 174/174 (6s)
+pilot-withpassage pass 2: 2358 prompts for answers judged wrong
+  pilot-withpassage pass 2 [yes/no] 512/2358: 240/512 (25s)
+  pilot-withpassage pass 2 [yes/no] 512/2358: 512/512 (31s)
+  pilot-withpassage pass 2 [yes/no] 1024/2358: 232/512 (25s)
+  pilot-withpassage pass 2 [yes/no] 1024/2358: 512/512 (31s)
+  pilot-withpassage pass 2 [yes/no] 1536/2358: 257/512 (25s)
+  pilot-withpassage pass 2 [yes/no] 1536/2358: 512/512 (30s)
+  pilot-withpassage pass 2 [yes/no] 2048/2358: 275/512 (25s)
+  pilot-withpassage pass 2 [yes/no] 2048/2358: 512/512 (29s)
+  pilot-withpassage pass 2 [yes/no] 2358/2358: 310/310 (17s)
+done in 208s
+
+[06:30:59] ===== 8/8 classifier =====
+==============================================================================
+ANALYSIS 3 -- rebuilt classifier vs the 200 human labels
+==============================================================================
+  all 246 gemma apparent failures, rebuilt types: F1=3, F2=9, F3=43, F4=116, F5=63, F6=12
+  all 320 llama apparent failures, rebuilt types: F1=1, F2=6, F3=40, F4=168, F5=88, F6=17
+
+  HELD-OUT FOLD (primary): n = 104, accuracy 0.41   (old classifier on the same cases: 0.31)
+    type   prec         95% CI  recall         95% CI  n_human  n_pred   old prec / recall
+    F1     0.33  [0.06,0.79]    0.25  [0.05,0.70]        4       3   0.12 / 0.75
+    F2     0.00  [0.00,0.79]    0.00  [0.00,0.18]       18       1   0.55 / 0.33
+    F3     0.59  [0.39,0.77]    0.72  [0.49,0.88]       18      22   0.50 / 0.39
+    F4     0.16  [0.08,0.28]    0.80  [0.49,0.94]       10      51   0.33 / 0.30
+    F5     0.91  [0.73,0.98]    0.42  [0.29,0.56]       50      23   0.92 / 0.24
+    F6     0.00  [0.00,0.49]    0.00  [0.00,0.49]        4       4   0.03 / 0.25
+
+  dev fold: n = 96, accuracy 0.35   (old classifier on the same cases: 0.21)
+    type   prec         95% CI  recall         95% CI  n_human  n_pred   old prec / recall
+    F1     0.00  [0.00,0.79]    0.00  [0.00,0.56]        3       1   0.04 / 0.33
+    F2     0.25  [0.05,0.70]    0.06  [0.01,0.28]       16       4   0.45 / 0.31
+    F3     0.56  [0.34,0.75]    0.59  [0.36,0.78]       17      18   0.25 / 0.12
+    F4     0.14  [0.07,0.27]    0.88  [0.53,0.98]        8      49   0.15 / 0.25
+    F5     0.94  [0.73,0.99]    0.33  [0.22,0.47]       48      17   1.00 / 0.19
+    F6     0.00  [0.00,0.35]    0.00  [0.00,0.49]        4       7   0.03 / 0.25
+
+  all 200: n = 200, accuracy 0.39   (old classifier on the same cases: 0.26)
+    type   prec         95% CI  recall         95% CI  n_human  n_pred   old prec / recall
+    F1     0.25  [0.05,0.70]    0.14  [0.03,0.51]        7       4   0.08 / 0.57
+    F2     0.20  [0.04,0.62]    0.03  [0.01,0.15]       34       5   0.50 / 0.32
+    F3     0.57  [0.42,0.71]    0.66  [0.49,0.79]       35      40   0.41 / 0.26
+    F4     0.15  [0.09,0.23]    0.83  [0.61,0.94]       18     100   0.23 / 0.28
+    F5     0.93  [0.80,0.97]    0.38  [0.29,0.48]       98      40   0.95 / 0.21
+    F6     0.00  [0.00,0.26]    0.00  [0.00,0.32]        8      11   0.03 / 0.25
+
+  Confusion, all 200 (rows human, columns rebuilt):
+    human/pred    F1   F2   F3   F4   F5   F6
+    F1             1    0    0    1    0    5
+    F2             0    1    7   23    1    2
+    F3             2    2   23    6    0    2
+    F4             0    0    0   15    2    1
+    F5             0    2    5   53   37    1
+    F6             1    0    5    2    0    0
+
+  >> F1 on the held-out fold: precision 0.33 [0.06,0.79], recall 0.25 [0.05,0.70] (human F1 cases in fold: 4); old classifier: precision 0.12, recall 0.75
+
+  Judge vs annotators, question by question (items where all three gave an allowed value):
+    passage_contains_answer        n=174  A-B 0.88 (k +0.69)   judge-A 0.80 (k +0.50)   judge-B 0.81 (k +0.54)
+    answer_correct                 n=169  A-B 0.75 (k +0.58)   judge-A 0.60 (k +0.43)   judge-B 0.52 (k +0.34)
+    answer_supported_by_passage    n=139  A-B 0.94 (k +0.86)   judge-A 0.91 (k +0.80)   judge-B 0.86 (k +0.69)
+
+  Same-answer check, judge vs corrected word measure: agree on 84% of 566 cases
+
+  Unlabelled cases predicted F3 (candidates for the extra F3 labelling): {'gemma': 24, 'llama': 19}
+
+Wrote data/final/Phase_05/judge/rebuilt_predictions_all.csv, rebuilt_split.csv, rebuilt_judge_vs_annotators.csv, rebuilt_classifier_report.json
+==============================================================================
+ENRICHMENT PILOT -- yield of genuine-override (F1) candidates
+==============================================================================
+
+GEMMA: 2000 questions, closed-book judged 2000, wrong 516 (26%)
+  [gold] with-passage outcome for the 516 wrong-closed-book questions: F1=13, F2=4, F3=93, F6=17, fixed_by_passage=333, partial=56
+    all wrong            selected  516  F1 candidates  13  (0.025)  per 1,000 questions   6.5  questions for 40 candidates: 6154
+    top 75% confidence   selected  388  F1 candidates  13  (0.034)  per 1,000 questions   6.5  questions for 40 candidates: 6154
+    top 50%              selected  259  F1 candidates  12  (0.046)  per 1,000 questions   6.0  questions for 40 candidates: 6667
+    top 25%              selected  130  F1 candidates  11  (0.085)  per 1,000 questions   5.5  questions for 40 candidates: 7273
+    F1 candidates by source: {'nq': 11, 'trivia': 2}
+  [mixed] with-passage outcome for the 516 wrong-closed-book questions: F1=10, F2=13, F3=114, F6=38, fixed_by_passage=279, partial=62
+    all wrong            selected  516  F1 candidates  10  (0.019)  per 1,000 questions   5.0  questions for 40 candidates: 8000
+    top 75% confidence   selected  388  F1 candidates   9  (0.023)  per 1,000 questions   4.5  questions for 40 candidates: 8889
+    top 50%              selected  259  F1 candidates   7  (0.027)  per 1,000 questions   3.5  questions for 40 candidates: 11429
+    top 25%              selected  130  F1 candidates   3  (0.023)  per 1,000 questions   1.5  questions for 40 candidates: 26667
+    F1 candidates by source: {'nq': 10}
+
+LLAMA: 2000 questions, closed-book judged 2000, wrong 595 (30%)
+  [gold] with-passage outcome for the 595 wrong-closed-book questions: F1=9, F2=3, F3=93, F6=29, fixed_by_passage=389, partial=72
+    all wrong            selected  595  F1 candidates   9  (0.015)  per 1,000 questions   4.5  questions for 40 candidates: 8889
+    top 75% confidence   selected  447  F1 candidates   9  (0.02)  per 1,000 questions   4.5  questions for 40 candidates: 8889
+    top 50%              selected  298  F1 candidates   8  (0.027)  per 1,000 questions   4.0  questions for 40 candidates: 10000
+    top 25%              selected  151  F1 candidates   6  (0.04)  per 1,000 questions   3.0  questions for 40 candidates: 13333
+    F1 candidates by source: {'nq': 8, 'trivia': 1}
+  [mixed] with-passage outcome for the 595 wrong-closed-book questions: F1=5, F2=8, F3=125, F6=41, fixed_by_passage=296, partial=120
+    all wrong            selected  595  F1 candidates   5  (0.008)  per 1,000 questions   2.5  questions for 40 candidates: 16000
+    top 75% confidence   selected  447  F1 candidates   5  (0.011)  per 1,000 questions   2.5  questions for 40 candidates: 16000
+    top 50%              selected  298  F1 candidates   5  (0.017)  per 1,000 questions   2.5  questions for 40 candidates: 16000
+    top 25%              selected  151  F1 candidates   3  (0.02)  per 1,000 questions   1.5  questions for 40 candidates: 26667
+    F1 candidates by source: {'nq': 5}
+
+  ('validated' projections assume the F1 precision measured on the 200 human labels, 0.25; the real figure comes from human-checking these candidates)
+
+Wrote data/final/Phase_05/pilot/pilot_yield_summary.json and pilot_F1_candidates.csv (37 candidate rows)
+
+[06:31:00] ===== finished in 23 minutes =====
