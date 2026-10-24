@@ -1,0 +1,21 @@
+ADJUDICATION RULES -- fixed BEFORE any disagreement is resolved.
+Adjudicator: a third person (not annotator A or B) with the passage open.
+Apply the checks in this order; the first that fits decides the final type.
+
+  1. F5  The answer is correct for the question: the same entity or fact in different
+         words or an alias ("Jack Lord" = John Joseph Patrick Ryan, "Arthur" = King Arthur),
+         including when the gold answer itself is demonstrably wrong.
+  2. F4  The answer is right but less specific than required: only the year of a full
+         date ("1967" for "July 1, 1967"), a broader category ("Football" for "American
+         football"), or only part of a multi-part answer.
+  3. F3  The passage does not state the gold answer (or any valid answer).
+  4. F6  The model gives no answer: repeats the question, placeholder text, or a
+         truncated fragment with no answer in it.
+  5. F2  The model's wrong answer, or the fact it states, is taken from the passage --
+         including copying a general description that does not answer the question.
+  6. F1  The passage states the gold answer AND the model's wrong answer does not appear
+         in the passage.
+  7. F6  Still undecidable.
+
+If the adjudicator cannot decide with these rules, the guide decides.
+Write the result in final_type and 'adjudicated' in how. Do not change agreed rows.

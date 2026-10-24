@@ -1,0 +1,178 @@
+item_id,group,question_id,model,cond,source,dataset,selection,auto_type,rebuilt_type,p_contains_no,sampling_weight,noctx_answer,closed_book_answer,cb_mean_logprob
+b2_001,faithful,nq_03120,llama,,nq,natural_rag_other,random_stratified,faithful,,,6.8,,,
+b2_002,faithful,popqa_13789,gemma,,popqa,popqa,random_stratified,faithful,,,9.1429,,,
+b2_003,pilot,pilot_nq_4140,gemma,gold,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,1861,-0.1915
+b2_004,pilot,pilot_nq_2863,llama,gold,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,steve davis,-0.3207
+b2_005,faithful,triviaqa_06515,gemma,,triviaqa,natural_rag_other,random_stratified,faithful,,,10.2667,,,
+b2_006,faithful,triviaqa_13879,gemma,,triviaqa,natural_rag_other,random_stratified,faithful,,,10.2667,,,
+b2_007,probe,pilot_trivia_3488,gemma,mixed,trivia,pilot_trivia,probe_partial,partial,,,31.0,,"A ship ran aground in the canal, blocking the waterway.",-1.0234
+b2_008,faithful,triviaqa_13879,llama,,triviaqa,natural_rag_other,random_stratified,faithful,,,7.4737,,,
+b2_009,f3,nq_02494,gemma,,nq,natural_rag_other,predicted_F3,F2,F3,0.9914,,granite,,
+b2_010,f3,nq_02199,llama,,nq,natural_rag_other,top_up_p_contains_no,F5,F4,1.0,,"The film was shot in Germany, Poland, and Morocco.",,
+b2_011,faithful,popqa_09007,gemma,,popqa,popqa,random_stratified,faithful,,,9.1429,,,
+b2_012,probe,pilot_trivia_1062,llama,gold,trivia,pilot_trivia,probe_F3,F3,,,93.0,,The wrist,-1.7231
+b2_013,f3,triviaqa_06865,gemma,,triviaqa,natural_rag_other,predicted_F3,F5,F3,1.0,,Catherine of Aragon,,
+b2_014,f3,nq_00899,gemma,,nq,natural_rag_other,predicted_F3,F3,F3,1.0,,Mark Ruffalo,,
+b2_015,f3,nq_00666,llama,,nq,natural_rag_other,predicted_F3,F3,F3,1.0,,Dharmendra,,
+b2_016,f3,nq_03213,gemma,,nq,natural_rag_other,predicted_F3,F2,F3,1.0,,Buddy Holly,,
+b2_017,f3,nq_01259,llama,,nq,natural_rag_other,top_up_p_contains_no,F3,F4,1.0,,"The original voices of the Flintstones were Alan Reed as Fred, Bea Benaderet as Wilma, Mel Blanc as Barney, and June Foray as Betty",,
+b2_018,faithful,popqa_06252,gemma,,popqa,popqa,random_stratified,faithful,,,9.1429,,,
+b2_019,f3,nq_00895,gemma,,nq,natural_rag_other,top_up_p_contains_no,F3,F4,1.0,,,,
+b2_020,faithful,nq_02196,llama,,nq,natural_rag_other,random_stratified,faithful,,,6.8,,,
+b2_021,f3,nq_03178,llama,,nq,natural_rag_other,predicted_F3,F3,F3,1.0,,"Caroline Forbes is a fictional character from the television series The Vampire Diaries, based on the book series of the same name by L. J. Smith. She",,
+b2_022,f3,nq_02372,llama,,nq,natural_rag_other,predicted_F3,F2,F3,0.9999,,"The three elves who got rings were Goldberry, Goldberry's mother, and Goldberry's father.",,
+b2_023,pilot,pilot_nq_5046,gemma,mixed,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,Alam Ara,-1.3106
+b2_024,probe,pilot_nq_4734,llama,gold,nq,pilot_nq,probe_F2,F2,,,3.0,,It Had to Be You Lyrics: Frank Sinatra. It Had to Be You Lyrics: Frank Sinatra. It Had to Be You Lyrics: Frank Sinatra. It Had,-0.5669
+b2_025,pilot,pilot_nq_3940,gemma,mixed,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,Saban,-0.6722
+b2_026,pilot,pilot_nq_107,gemma,gold,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,1965,-0.3983
+b2_027,f3,nq_00864,llama,,nq,natural_rag_other,predicted_F3,F6,F3,0.9999,,"The most successful curler in the history of the sport is David Murdoch, who has won a total of 10 medals at the World Championships and the Winter Olympics",,
+b2_028,faithful,triviaqa_10336,gemma,,triviaqa,natural_rag_other,random_stratified,faithful,,,10.2667,,,
+b2_029,f3,nq_02364,llama,,nq,natural_rag_other,predicted_F3,F3,F3,1.0,,"Maryland is a state in the United States of America. It is bordered by Delaware to the northeast, Pennsylvania to the north, West Virginia to the west, and",,
+b2_030,probe,pilot_nq_4409,gemma,gold,nq,pilot_nq,probe_F2,F2,,,4.0,,,-2.9571
+b2_031,faithful,triviaqa_15913,gemma,,triviaqa,natural_rag_other,random_stratified,faithful,,,10.2667,,,
+b2_032,faithful,triviaqa_03928,gemma,,triviaqa,natural_rag_other,random_stratified,faithful,,,10.2667,,,
+b2_033,pilot,pilot_nq_2893,gemma,mixed,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,1911,-0.3287
+b2_034,f3,nq_02942,llama,,nq,natural_rag_other,predicted_F3,F4,F3,0.9986,,Thomas Obediah Chisholm,,
+b2_035,pilot,pilot_nq_1943,gemma,mixed,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,Nicolas Jenson,-0.6364
+b2_036,faithful,popqa_06209,llama,,popqa,popqa,random_stratified,faithful,,,8.1667,,,
+b2_037,pilot,pilot_nq_3238,gemma,gold,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,Marriott,-1.0594
+b2_038,f3,nq_01952,llama,,nq,natural_rag_other,predicted_F3,F2,F3,0.9859,,Henry,,
+b2_039,f3,triviaqa_17800,gemma,,triviaqa,natural_rag_other,predicted_F3,F2,F3,1.0,,Jerry Seinfeld,,
+b2_040,faithful,triviaqa_07362,gemma,,triviaqa,natural_rag_other,random_stratified,faithful,,,10.2667,,,
+b2_041,f3,nq_00953,llama,,nq,natural_rag_other,top_up_p_contains_no,F6,F4,1.0,,The NFL decides where the Super Bowl is played.,,
+b2_042,faithful,triviaqa_12504,llama,,triviaqa,natural_rag_other,random_stratified,faithful,,,7.4737,,,
+b2_043,f3,popqa_08837,llama,,popqa,popqa,predicted_F3,F5,F3,0.94,,Albert Maltz,,
+b2_044,faithful,nq_00249,gemma,,nq,natural_rag_other,random_stratified,faithful,,,10.25,,,
+b2_045,f3,nq_01952,gemma,,nq,natural_rag_other,predicted_F3,F2,F3,0.9859,,Sir Francis Galton,,
+b2_046,f3,nq_00895,llama,,nq,natural_rag_other,top_up_p_contains_no,F6,F4,1.0,,Osmosis,,
+b2_047,f3,nq_02364,gemma,,nq,natural_rag_other,predicted_F3,F3,F3,1.0,,the eastern shore,,
+b2_048,f3,nq_03127,llama,,nq,natural_rag_other,predicted_F3,F3,F3,1.0,,"The answer is (a) - The Road March is a song competition held annually in Trinidad and Tobago. The competition is held in the month of September,",,
+b2_049,pilot,pilot_nq_5744,gemma,gold,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,South Africa,-0.6888
+b2_050,faithful,triviaqa_05182,gemma,,triviaqa,natural_rag_other,random_stratified,faithful,,,10.2667,,,
+b2_051,faithful,nq_02992,gemma,,nq,natural_rag_other,random_stratified,faithful,,,10.25,,,
+b2_052,f3,nq_00130,llama,,nq,natural_rag_other,predicted_F3,F3,F3,1.0,,0.5%,,
+b2_053,pilot,pilot_nq_16,gemma,mixed,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,1957,-0.3294
+b2_054,f3,nq_03526,gemma,,nq,natural_rag_other,predicted_F3,F4,F3,1.0,,private,,
+b2_055,f3,nq_00192,gemma,,nq,natural_rag_other,predicted_F3,F2,F3,1.0,,I think it will be a tie between the two.,,
+b2_056,f3,nq_00086,gemma,,nq,natural_rag_other,predicted_F3,F3,F3,1.0,,12,,
+b2_057,f3,nq_01634,llama,,nq,natural_rag_other,top_up_p_contains_no,F5,F4,1.0,,India,,
+b2_058,pilot,pilot_nq_5255,gemma,mixed,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,san jose,-1.0865
+b2_059,pilot,pilot_nq_4140,llama,gold,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,Lagos became a British colony in 1861.,-0.4268
+b2_060,faithful,nq_00700,llama,,nq,natural_rag_other,random_stratified,faithful,,,6.8,,,
+b2_061,faithful,popqa_06252,llama,,popqa,popqa,random_stratified,faithful,,,8.1667,,,
+b2_062,pilot,pilot_nq_2491,llama,mixed,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,The Who,-0.7728
+b2_063,probe,pilot_nq_678,llama,mixed,nq,pilot_nq,probe_F3,F3,,,125.0,,"The world's tallest cantilevered observation wheel is the Singapore Flyer, which is 165 metres (541 ft) tall. It is located in Singapore",-0.5121
+b2_064,f3,triviaqa_11146,gemma,,triviaqa,natural_rag_other,top_up_p_contains_no,F3,F5,1.0,,4,,
+b2_065,pilot,pilot_nq_3482,gemma,gold,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,1854,-0.2095
+b2_066,faithful,triviaqa_00689,gemma,,triviaqa,natural_rag_other,random_stratified,faithful,,,10.2667,,,
+b2_067,faithful,triviaqa_02279,gemma,,triviaqa,natural_rag_other,random_stratified,faithful,,,10.2667,,,
+b2_068,faithful,popqa_05155,gemma,,popqa,popqa,random_stratified,faithful,,,9.1429,,,
+b2_069,faithful,nq_00447,gemma,,nq,natural_rag_other,random_stratified,faithful,,,10.25,,,
+b2_070,probe,pilot_nq_297,llama,mixed,nq,pilot_nq,probe_F2,F2,,,8.0,,"The Huntsman's Hut was filmed at the Pinewood Studios in Buckinghamshire, England. The forest scenes were filmed in the Black Forest in Germany.",-1.0833
+b2_071,probe,pilot_nq_5867,gemma,mixed,nq,pilot_nq,probe_F2,F2,,,13.0,,Scott Grainger was played by actor Peter Bergman.,-1.0615
+b2_072,pilot,pilot_nq_2893,gemma,gold,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,1911,-0.3287
+b2_073,pilot,pilot_nq_6159,gemma,mixed,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,Seth Rollins,-0.9006
+b2_074,faithful,popqa_09016,llama,,popqa,popqa,random_stratified,faithful,,,8.1667,,,
+b2_075,pilot,pilot_nq_1157,gemma,mixed,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,1855,-0.4443
+b2_076,faithful,nq_03584,llama,,nq,natural_rag_other,random_stratified,faithful,,,6.8,,,
+b2_077,f3,nq_03361,llama,,nq,natural_rag_other,predicted_F3,F2,F3,0.5859,,Lady Gaga,,
+b2_078,faithful,triviaqa_17800,llama,,triviaqa,natural_rag_other,random_stratified,faithful,,,7.4737,,,
+b2_079,faithful,popqa_12461,gemma,,popqa,popqa,random_stratified,faithful,,,9.1429,,,
+b2_080,faithful,nq_02059,gemma,,nq,natural_rag_other,random_stratified,faithful,,,10.25,,,
+b2_081,f3,nq_02232,llama,,nq,natural_rag_other,top_up_p_contains_no,F3,F4,1.0,,5,,
+b2_082,f3,nq_02232,gemma,,nq,natural_rag_other,predicted_F3,F3,F3,1.0,,7,,
+b2_083,faithful,popqa_07953,llama,,popqa,popqa,random_stratified,faithful,,,8.1667,,,
+b2_084,probe,pilot_nq_4094,llama,mixed,nq,pilot_nq,probe_partial,partial,,,60.0,,plateau phase,-1.0951
+b2_085,f3,nq_00418,llama,,nq,natural_rag_other,top_up_p_contains_no,F3,F4,1.0,,"Criminal Minds Season 1 Episode 10 ""Somebody's Watching""",,
+b2_086,faithful,nq_02079,gemma,,nq,natural_rag_other,random_stratified,faithful,,,10.25,,,
+b2_087,probe,pilot_nq_1713,gemma,mixed,nq,pilot_nq,probe_F3,F3,,,114.0,,Mary Hopkin,-0.2584
+b2_088,faithful,triviaqa_13825,llama,,triviaqa,natural_rag_other,random_stratified,faithful,,,7.4737,,,
+b2_089,pilot,pilot_nq_6300,llama,gold,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,Oscar De La Hoya,-0.4075
+b2_090,f3,nq_01168,llama,,nq,natural_rag_other,predicted_F3,F3,F3,1.0,,The Last Ship Season 4 Episode 1,,
+b2_091,f3,nq_00130,gemma,,nq,natural_rag_other,predicted_F3,F3,F3,1.0,,1%,,
+b2_092,faithful,nq_00013,llama,,nq,natural_rag_other,random_stratified,faithful,,,6.8,,,
+b2_093,faithful,triviaqa_05169,llama,,triviaqa,natural_rag_other,random_stratified,faithful,,,7.4737,,,
+b2_094,faithful,triviaqa_08024,llama,,triviaqa,natural_rag_other,random_stratified,faithful,,,7.4737,,,
+b2_095,f3,nq_03315,llama,,nq,natural_rag_other,predicted_F3,F3,F3,0.9987,,The five compulsory prayers in Islam are:,,
+b2_096,faithful,nq_00248,gemma,,nq,natural_rag_other,random_stratified,faithful,,,10.25,,,
+b2_097,faithful,triviaqa_03224,llama,,triviaqa,natural_rag_other,random_stratified,faithful,,,7.4737,,,
+b2_098,probe,pilot_nq_4741,llama,gold,nq,pilot_nq,probe_F6,F6,,,29.0,,"The first horror movie was made in 1896. It was called ""The Execution of Mary Stuart.""",-0.6437
+b2_099,f3,nq_02942,gemma,,nq,natural_rag_other,predicted_F3,F2,F3,0.9986,,Thomas Chisholm,,
+b2_100,pilot,pilot_nq_3834,llama,mixed,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,the sofitel in new york city is the oldest sofitel in north america,-0.6941
+b2_101,pilot,pilot_nq_4927,gemma,mixed,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,microtones,-1.3302
+b2_102,probe,pilot_nq_5157,gemma,mixed,nq,pilot_nq,probe_F6,F6,,,38.0,,1994,-0.2389
+b2_103,f3,nq_02199,gemma,,nq,natural_rag_other,top_up_p_contains_no,F5,F5,1.0,,in the studio,,
+b2_104,f3,nq_01653,llama,,nq,natural_rag_other,predicted_F3,F3,F3,1.0,,France,,
+b2_105,faithful,triviaqa_08690,llama,,triviaqa,natural_rag_other,random_stratified,faithful,,,7.4737,,,
+b2_106,pilot,pilot_nq_454,llama,mixed,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,Kevin Spacey,-0.2508
+b2_107,faithful,triviaqa_17290,llama,,triviaqa,natural_rag_other,random_stratified,faithful,,,7.4737,,,
+b2_108,faithful,popqa_01104,gemma,,popqa,popqa,random_stratified,faithful,,,9.1429,,,
+b2_109,f3,nq_01259,gemma,,nq,natural_rag_other,top_up_p_contains_no,F3,F4,1.0,,,,
+b2_110,faithful,triviaqa_17671,llama,,triviaqa,natural_rag_other,random_stratified,faithful,,,7.4737,,,
+b2_111,f3,popqa_08837,gemma,,popqa,popqa,predicted_F3,F5,F3,0.94,,Thomas Thompson,,
+b2_112,pilot,pilot_nq_6314,llama,gold,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,1898,-0.6331
+b2_113,probe,pilot_nq_209,llama,gold,nq,pilot_nq,probe_partial,partial,,,36.0,,Keanu Reeves,-0.654
+b2_114,faithful,triviaqa_15947,llama,,triviaqa,natural_rag_other,random_stratified,faithful,,,7.4737,,,
+b2_115,f3,triviaqa_15498,gemma,,triviaqa,natural_rag_other,predicted_F3,F3,F3,1.0,,Tesco,,
+b2_116,faithful,triviaqa_15488,llama,,triviaqa,natural_rag_other,random_stratified,faithful,,,7.4737,,,
+b2_117,pilot,pilot_nq_2250,llama,gold,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,"The last nuclear power plant built in the United States was the Watts Bar Nuclear Generating Station Unit 2 in Spring City, Tennessee, in 1996.",-0.4113
+b2_118,f3,nq_00418,gemma,,nq,natural_rag_other,top_up_p_contains_no,F3,F4,1.0,,10.10,,
+b2_119,faithful,triviaqa_16477,gemma,,triviaqa,natural_rag_other,random_stratified,faithful,,,10.2667,,,
+b2_120,pilot,pilot_trivia_7945,gemma,gold,trivia,pilot_trivia,all_F1_candidates,F1,,,1.0,,John Landy,-0.2279
+b2_121,pilot,pilot_nq_5644,gemma,gold,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,4,-0.6327
+b2_122,probe,pilot_nq_1780,gemma,mixed,nq,pilot_nq,probe_partial,partial,,,31.0,,Bill Cosby and his wife,-1.2705
+b2_123,faithful,popqa_07177,llama,,popqa,popqa,random_stratified,faithful,,,8.1667,,,
+b2_124,probe,pilot_nq_5555,llama,mixed,nq,pilot_nq,probe_F6,F6,,,41.0,,"The Isley Brothers were an American musical group from Cincinnati, Ohio, originally formed in 1954 by brothers O'Kelly Isley, Jr., Rudolph",-0.3956
+b2_125,probe,pilot_nq_3238,llama,mixed,nq,pilot_nq,probe_partial,partial,,,60.0,,Marriott International,-1.1489
+b2_126,pilot,pilot_nq_2863,gemma,gold,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,Stephen Hendry,-0.4171
+b2_127,f3,popqa_02621,gemma,,popqa,popqa,predicted_F3,F4,F3,1.0,,"Something Happens is a genre-bending, genre-defying, genre-creating, genre-destroying, genre-redefining, genre-recreating,",,
+b2_128,faithful,triviaqa_03665,llama,,triviaqa,natural_rag_other,random_stratified,faithful,,,7.4737,,,
+b2_129,faithful,nq_02574,gemma,,nq,natural_rag_other,random_stratified,faithful,,,10.25,,,
+b2_130,f3,nq_00823,gemma,,nq,natural_rag_other,predicted_F3,F3,F3,1.0,,,,
+b2_131,faithful,triviaqa_17502,gemma,,triviaqa,natural_rag_other,random_stratified,faithful,,,10.2667,,,
+b2_132,pilot,pilot_nq_3769,llama,gold,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,sam cooke,-0.3712
+b2_133,probe,pilot_nq_5805,gemma,gold,nq,pilot_nq,probe_partial,partial,,,28.0,,2015,-0.932
+b2_134,pilot,pilot_nq_667,llama,gold,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,The Elf on the Shelf appears on the first day of December.,-0.6725
+b2_135,pilot,pilot_nq_3759,llama,mixed,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,"Mexico has a two-party system, which means that there are two dominant political parties, the Institutional Revolutionary Party (PRI) and the National Action Party (PAN",-0.2558
+b2_136,f3,nq_00192,llama,,nq,natural_rag_other,predicted_F3,F2,F3,1.0,,The next Iron Chef Super Chefs will be announced soon. Stay tuned for more information!,,
+b2_137,faithful,triviaqa_07501,llama,,triviaqa,natural_rag_other,random_stratified,faithful,,,7.4737,,,
+b2_138,f3,nq_00899,llama,,nq,natural_rag_other,top_up_p_contains_no,F3,F4,1.0,,Mark Ruffalo,,
+b2_139,faithful,triviaqa_02267,llama,,triviaqa,natural_rag_other,random_stratified,faithful,,,7.4737,,,
+b2_140,probe,pilot_nq_3786,llama,gold,nq,pilot_nq,probe_partial,partial,,,36.0,,Samantha ends up with Mark Sloan.,-1.3463
+b2_141,probe,pilot_nq_6053,gemma,gold,nq,pilot_nq,probe_F3,F3,,,93.0,,2018,-0.442
+b2_142,f3,nq_03366,gemma,,nq,natural_rag_other,predicted_F3,F6,F3,1.0,,Marie Antoinette,,
+b2_143,f3,nq_02021,llama,,nq,natural_rag_other,top_up_p_contains_no,F6,F4,1.0,,"The last name Edwards comes from the Old English word ""eðweorð"" which means ""rich in wealth.""",,
+b2_144,pilot,pilot_nq_6314,gemma,gold,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,1898,-0.1857
+b2_145,probe,pilot_nq_1611,gemma,gold,nq,pilot_nq,probe_F6,F6,,,17.0,,1980s,-0.4257
+b2_146,pilot,pilot_nq_5012,gemma,gold,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,1789,-0.2324
+b2_147,faithful,popqa_09075,gemma,,popqa,popqa,random_stratified,faithful,,,9.1429,,,
+b2_148,f3,nq_00870,gemma,,nq,natural_rag_other,predicted_F3,F2,F3,1.0,,Sal,,
+b2_149,f3,triviaqa_09127,llama,,triviaqa,natural_rag_other,predicted_F3,F3,F3,0.8523,,USA,,
+b2_150,pilot,pilot_nq_3824,llama,gold,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,A-ha,-0.8556
+b2_151,faithful,triviaqa_16171,llama,,triviaqa,natural_rag_other,random_stratified,faithful,,,7.4737,,,
+b2_152,pilot,pilot_nq_3824,gemma,gold,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,a-ha,-0.4301
+b2_153,faithful,triviaqa_07314,llama,,triviaqa,natural_rag_other,random_stratified,faithful,,,7.4737,,,
+b2_154,f3,triviaqa_05293,gemma,,triviaqa,natural_rag_other,predicted_F3,F2,F3,0.9988,,"""Christina Onassis""",,
+b2_155,pilot,pilot_nq_5808,llama,mixed,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,The vaccine for chicken pox was invented in 1995.,-0.4904
+b2_156,f3,nq_00177,llama,,nq,natural_rag_other,top_up_p_contains_no,F3,F4,1.0,,Collagen and elastin are the two fibres which are made of proteins.,,
+b2_157,f3,triviaqa_10366,gemma,,triviaqa,natural_rag_other,predicted_F3,F3,F3,1.0,,The Red Dwarf Corporation,,
+b2_158,f3,nq_01653,gemma,,nq,natural_rag_other,predicted_F3,F3,F3,1.0,,France,,
+b2_159,probe,pilot_nq_676,gemma,gold,nq,pilot_nq,probe_partial,partial,,,28.0,,2002,-0.4914
+b2_160,pilot,pilot_nq_5744,gemma,mixed,nq,pilot_nq,all_F1_candidates,F1,,,1.0,,South Africa,-0.6888
+b2_161,faithful,triviaqa_03056,gemma,,triviaqa,natural_rag_other,random_stratified,faithful,,,10.2667,,,
+b2_162,f3,nq_03366,llama,,nq,natural_rag_other,predicted_F3,F6,F3,1.0,,Marie Antoinette,,
+b2_163,faithful,triviaqa_08743,gemma,,triviaqa,natural_rag_other,random_stratified,faithful,,,10.2667,,,
+b2_164,f3,nq_00823,llama,,nq,natural_rag_other,predicted_F3,F3,F3,1.0,,The song was written by Ian Dury and Chaz Jankel.,,
+b2_165,faithful,triviaqa_05354,llama,,triviaqa,natural_rag_other,random_stratified,faithful,,,7.4737,,,
+b2_166,faithful,triviaqa_01501,gemma,,triviaqa,natural_rag_other,random_stratified,faithful,,,10.2667,,,
+b2_167,f3,nq_00870,llama,,nq,natural_rag_other,top_up_p_contains_no,F2,F4,1.0,,Joe Gatto,,
+b2_168,f3,nq_01168,gemma,,nq,natural_rag_other,predicted_F3,F3,F3,1.0,,13,,
+b2_169,f3,triviaqa_00976,gemma,,triviaqa,natural_rag_other,predicted_F3,F3,F3,1.0,,1000000000000000000000000000000,,
+b2_170,pilot,pilot_trivia_1909,llama,gold,trivia,pilot_trivia,all_F1_candidates,F1,,,1.0,,Paul McCartney,-0.2218
+b2_171,pilot,pilot_trivia_1909,gemma,gold,trivia,pilot_trivia,all_F1_candidates,F1,,,1.0,,Paul McCartney,-0.4464
+b2_172,faithful,popqa_12509,llama,,popqa,popqa,random_stratified,faithful,,,8.1667,,,
+b2_173,faithful,nq_02654,gemma,,nq,natural_rag_other,random_stratified,faithful,,,10.25,,,
+b2_174,faithful,triviaqa_17455,llama,,triviaqa,natural_rag_other,random_stratified,faithful,,,7.4737,,,
+b2_175,f3,nq_01642,gemma,,nq,natural_rag_other,top_up_p_contains_no,F6,F4,0.9999,,80%,,
+b2_176,faithful,triviaqa_07004,gemma,,triviaqa,natural_rag_other,random_stratified,faithful,,,10.2667,,,
+b2_177,f3,triviaqa_11850,llama,,triviaqa,natural_rag_other,predicted_F3,F6,F3,1.0,,Lady Bracknell,,

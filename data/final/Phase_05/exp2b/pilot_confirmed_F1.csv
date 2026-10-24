@@ -1,0 +1,13 @@
+item_id,pid,model,cond,question,gold_answers,closed_book_answer,with_passage_answer,same_answer_without_passage
+b2_049,pilot_nq_5744,gemma,gold,where is most of the world 's gold mined,China,South Africa,South Africa,CHECK
+b2_152,pilot_nq_3824,gemma,gold,who sang take on me in the 90s,Reel Big Fish,a-ha,a-ha,CHECK
+b2_126,pilot_nq_2863,gemma,gold,who has won the world snooker championship the most times,Joe Davis,Stephen Hendry,Stephen Hendry,CHECK
+b2_053,pilot_nq_16,gemma,mixed,when was the first manmade object sent into space,3 October 1942,1957,1957,CHECK
+b2_075,pilot_nq_1157,gemma,mixed,when was the first children 's hospital built,1741,1855,1855,CHECK
+b2_025,pilot_nq_3940,gemma,mixed,who owns the rights to the power rangers,Hasbro,Saban,Saban Brands,CHECK
+b2_004,pilot_nq_2863,llama,gold,who has won the world snooker championship the most times,Joe Davis,steve davis,Steve Davis,CHECK
+b2_134,pilot_nq_667,llama,gold,when does the elf on a shelf appear,Thanksgiving,The Elf on the Shelf appears on the first day of December.,The elf on a shelf appears on the first day of December,CHECK
+b2_150,pilot_nq_3824,llama,gold,who sang take on me in the 90s,Reel Big Fish,A-ha,A-ha,CHECK
+b2_100,pilot_nq_3834,llama,mixed,which is the oldest sofitel in north america,"Minneapolis , Minnesota",the sofitel in new york city is the oldest sofitel in north america,The Sofitel New York is the oldest Sofitel in North America. It was built in 1927 and is located in the heart of Midtown Manhattan.,CHECK
+b2_135,pilot_nq_3759,llama,mixed,what type of party system does mexico have,multi-party system,"Mexico has a two-party system, which means that there are two dominant political parties, the Institutional Revolutionary Party (PRI) and the National Action Party (PAN","Mexico has a two-party system, meaning that there are two dominant political parties, the Institutional Revolutionary Party (PRI) and the National Action Party (PAN).",CHECK
+b2_155,pilot_nq_5808,llama,mixed,when was the vaccine for chicken pox invented,1984,The vaccine for chicken pox was invented in 1995.,The chickenpox vaccine was invented in 1995.,CHECK

@@ -1,0 +1,8 @@
+{
+  "seed": 2026,
+  "n_pool_pilot": {
+    "gemma": 2000,
+    "llama": 2000
+  },
+  "n_items": 177
+}

@@ -1,0 +1,131 @@
+{
+  "agreement_faithful": {
+    "n": 60,
+    "A_equals_B": 53,
+    "final_equals_A": 54,
+    "final_equals_B": 59
+  },
+  "agreement_f3": {
+    "n": 60,
+    "A_equals_B": 30,
+    "final_equals_A": 33,
+    "final_equals_B": 51
+  },
+  "agreement_pilot": {
+    "n": 37,
+    "A_equals_B": 8,
+    "final_equals_A": 10,
+    "final_equals_B": 32
+  },
+  "agreement_probe": {
+    "n": 20,
+    "A_equals_B": 7,
+    "final_equals_A": 10,
+    "final_equals_B": 17
+  },
+  "adjudication_suggestions": {
+    "n": 79,
+    "accepted": 79,
+    "changed": 0
+  },
+  "rule_check_F2_A": {
+    "short_answer_F2": 32,
+    "answer_not_in_passage": 14
+  },
+  "rule_check_F2_B": {
+    "short_answer_F2": 9,
+    "answer_not_in_passage": 0
+  },
+  "faithful_gemma": {
+    "n": 30,
+    "confirmed": 30,
+    "types": {
+      "F5": 30
+    }
+  },
+  "faithful_llama": {
+    "n": 30,
+    "confirmed": 29,
+    "types": {
+      "F5": 29,
+      "F4": 1
+    }
+  },
+  "f3_gemma_predicted_F3": {
+    "n": 24,
+    "human_F3": 13,
+    "types": {
+      "F3": 13,
+      "F4": 1,
+      "F5": 6,
+      "F6": 1,
+      "F2": 3
+    }
+  },
+  "f3_gemma_top_up_p_contains_no": {
+    "n": 6,
+    "human_F3": 1,
+    "types": {
+      "F5": 3,
+      "F2": 1,
+      "F3": 1,
+      "F4": 1
+    }
+  },
+  "f3_llama_predicted_F3": {
+    "n": 19,
+    "human_F3": 9,
+    "types": {
+      "F2": 3,
+      "F3": 9,
+      "F4": 1,
+      "F5": 5,
+      "F6": 1
+    }
+  },
+  "f3_llama_top_up_p_contains_no": {
+    "n": 11,
+    "human_F3": 2,
+    "types": {
+      "F5": 7,
+      "F3": 2,
+      "F4": 2
+    }
+  },
+  "pilot_gemma_gold": {
+    "candidates": 13,
+    "confirmed": 3,
+    "per_1000": 1.5,
+    "questions_for_40_validated": 26667,
+    "probe_n": 5,
+    "probe_F1": 0,
+    "estimated_missed": 0
+  },
+  "pilot_gemma_mixed": {
+    "candidates": 10,
+    "confirmed": 3,
+    "per_1000": 1.5,
+    "questions_for_40_validated": 26667,
+    "probe_n": 5,
+    "probe_F1": 0,
+    "estimated_missed": 0
+  },
+  "pilot_llama_gold": {
+    "candidates": 9,
+    "confirmed": 3,
+    "per_1000": 1.5,
+    "questions_for_40_validated": 26667,
+    "probe_n": 5,
+    "probe_F1": 0,
+    "estimated_missed": 0
+  },
+  "pilot_llama_mixed": {
+    "candidates": 5,
+    "confirmed": 3,
+    "per_1000": 1.5,
+    "questions_for_40_validated": 26667,
+    "probe_n": 5,
+    "probe_F1": 0,
+    "estimated_missed": 0
+  }
+}
