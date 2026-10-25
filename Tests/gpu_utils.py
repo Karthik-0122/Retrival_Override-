@@ -133,7 +133,8 @@ def pick_dtype(path, use_4bit):
                      "Use an Ampere or newer GPU (A5000, A6000, A40, L40S, A100, RTX 3090/4090).")
 
 
-def load_model(path, use_4bit=False):
+def load_model(path, use_4bit=False, attn_impl=None):
+    """attn_impl="eager" for scripts that read attention weights (exp4_collect.py features)."""
     from transformers import AutoModelForCausalLM, AutoTokenizer
     tok = AutoTokenizer.from_pretrained(path)
     tok.padding_side = "left"
@@ -151,6 +152,8 @@ def load_model(path, use_4bit=False):
         kw["dtype" if Version(transformers.__version__) >= Version("4.56") else "torch_dtype"] = dtype
     if "gemma" in str(path).lower():
         kw["attn_implementation"] = "eager"        # Gemma-2 attention soft-capping; same as earlier phases
+    if attn_impl:
+        kw["attn_implementation"] = attn_impl
     t0 = time.time()
     try:
         model = AutoModelForCausalLM.from_pretrained(path, **kw).eval()
