@@ -1,0 +1,22 @@
+ADJUDICATION RULES (batch 3) -- fixed BEFORE any disagreement is resolved.
+Adjudicator: a third person (not annotator A or B) with all passages open.
+Apply the checks in this order; the first that fits decides the final type.
+
+  1. F5   The answer is correct for the question (alias, other wording, or the gold is demonstrably wrong).
+  2. F4   Right but less specific than required (year only, broader category, part of a multi-part answer).
+  3. F3   No passage states the gold answer (or any valid answer).
+  4. F6   The gold itself does not answer the question as asked (C2), or the model gives no answer.
+  5. F2   The wrong answer, or the fact it states, is taken from a passage (any of the passages, A4),
+          or the answer addresses a different reading of the question (C2).
+  6. F1-M The passage states the gold, the wrong answer is not taken from a passage, but it (or the
+          fact it states) is MENTIONED in some passage in any role, incl. a negation or related role (C1).
+  7. F1   The passage states the gold and the wrong answer does not appear in any passage.
+  8. F6   Still undecidable.
+C3 (same answer without the passage) is checked from the data, not by the adjudicator: every candidate
+passes it by construction. If the adjudicator cannot decide with these rules, the guide decides.
+
+HOW TO USE THE ADJUDICATION SHEET (A5)
+  1. For every yellow row write first_decision BEFORE looking at any AI-drafted suggestion.
+  2. Only then, if suggestions are provided, you may read them and write final_type. Leave final_type
+     empty to keep first_decision. The report counts how often final_type differs from first_decision.
+  3. Do not change agreed rows. Do not open HIDDEN_key.csv before adjudication is finished.

@@ -1,0 +1,218 @@
+{
+  "gemma": {
+    "n_pool": 10000,
+    "n_wrong": 3773,
+    "conditions": {
+      "gold": {
+        "distribution": {
+          "fixed_by_passage": 2232,
+          "F3": 507,
+          "partial": 555,
+          "F1": 133,
+          "F2": 82,
+          "F6": 264
+        },
+        "yield": [
+          {
+            "selection": "all wrong",
+            "n_selected": 3773,
+            "n_F1_candidates": 133,
+            "F1_share_of_selected": 0.035,
+            "F1_candidates_per_1000_questions": 13.3,
+            "questions_for_40_candidates": 3008,
+            "questions_for_40_validated_if_precision_holds": 12030
+          },
+          {
+            "selection": "top 75% confidence",
+            "n_selected": 2830,
+            "n_F1_candidates": 128,
+            "F1_share_of_selected": 0.045,
+            "F1_candidates_per_1000_questions": 12.8,
+            "questions_for_40_candidates": 3125,
+            "questions_for_40_validated_if_precision_holds": 12500
+          },
+          {
+            "selection": "top 50%",
+            "n_selected": 1887,
+            "n_F1_candidates": 117,
+            "F1_share_of_selected": 0.062,
+            "F1_candidates_per_1000_questions": 11.7,
+            "questions_for_40_candidates": 3419,
+            "questions_for_40_validated_if_precision_holds": 13675
+          },
+          {
+            "selection": "top 25%",
+            "n_selected": 944,
+            "n_F1_candidates": 90,
+            "F1_share_of_selected": 0.095,
+            "F1_candidates_per_1000_questions": 9.0,
+            "questions_for_40_candidates": 4444,
+            "questions_for_40_validated_if_precision_holds": 17778
+          }
+        ],
+        "by_source": {
+          "nq": 133
+        }
+      },
+      "mixed": {
+        "distribution": {
+          "fixed_by_passage": 1709,
+          "partial": 689,
+          "F1": 129,
+          "F3": 697,
+          "F2": 165,
+          "F6": 384
+        },
+        "yield": [
+          {
+            "selection": "all wrong",
+            "n_selected": 3773,
+            "n_F1_candidates": 129,
+            "F1_share_of_selected": 0.034,
+            "F1_candidates_per_1000_questions": 12.9,
+            "questions_for_40_candidates": 3101,
+            "questions_for_40_validated_if_precision_holds": 12403
+          },
+          {
+            "selection": "top 75% confidence",
+            "n_selected": 2830,
+            "n_F1_candidates": 123,
+            "F1_share_of_selected": 0.043,
+            "F1_candidates_per_1000_questions": 12.3,
+            "questions_for_40_candidates": 3252,
+            "questions_for_40_validated_if_precision_holds": 13008
+          },
+          {
+            "selection": "top 50%",
+            "n_selected": 1887,
+            "n_F1_candidates": 106,
+            "F1_share_of_selected": 0.056,
+            "F1_candidates_per_1000_questions": 10.6,
+            "questions_for_40_candidates": 3774,
+            "questions_for_40_validated_if_precision_holds": 15094
+          },
+          {
+            "selection": "top 25%",
+            "n_selected": 944,
+            "n_F1_candidates": 77,
+            "F1_share_of_selected": 0.082,
+            "F1_candidates_per_1000_questions": 7.7,
+            "questions_for_40_candidates": 5195,
+            "questions_for_40_validated_if_precision_holds": 20779
+          }
+        ],
+        "by_source": {
+          "nq": 129
+        }
+      }
+    }
+  },
+  "llama": {
+    "n_pool": 10000,
+    "n_wrong": 3926,
+    "conditions": {
+      "gold": {
+        "distribution": {
+          "F1": 66,
+          "fixed_by_passage": 2368,
+          "F3": 443,
+          "partial": 678,
+          "F6": 326,
+          "F2": 45
+        },
+        "yield": [
+          {
+            "selection": "all wrong",
+            "n_selected": 3926,
+            "n_F1_candidates": 66,
+            "F1_share_of_selected": 0.017,
+            "F1_candidates_per_1000_questions": 6.6,
+            "questions_for_40_candidates": 6061,
+            "questions_for_40_validated_if_precision_holds": 24242
+          },
+          {
+            "selection": "top 75% confidence",
+            "n_selected": 2945,
+            "n_F1_candidates": 60,
+            "F1_share_of_selected": 0.02,
+            "F1_candidates_per_1000_questions": 6.0,
+            "questions_for_40_candidates": 6667,
+            "questions_for_40_validated_if_precision_holds": 26667
+          },
+          {
+            "selection": "top 50%",
+            "n_selected": 1964,
+            "n_F1_candidates": 51,
+            "F1_share_of_selected": 0.026,
+            "F1_candidates_per_1000_questions": 5.1,
+            "questions_for_40_candidates": 7843,
+            "questions_for_40_validated_if_precision_holds": 31373
+          },
+          {
+            "selection": "top 25%",
+            "n_selected": 983,
+            "n_F1_candidates": 30,
+            "F1_share_of_selected": 0.031,
+            "F1_candidates_per_1000_questions": 3.0,
+            "questions_for_40_candidates": 13333,
+            "questions_for_40_validated_if_precision_holds": 53333
+          }
+        ],
+        "by_source": {
+          "nq": 66
+        }
+      },
+      "mixed": {
+        "distribution": {
+          "F1": 69,
+          "fixed_by_passage": 1813,
+          "partial": 917,
+          "F6": 448,
+          "F3": 600,
+          "F2": 79
+        },
+        "yield": [
+          {
+            "selection": "all wrong",
+            "n_selected": 3926,
+            "n_F1_candidates": 69,
+            "F1_share_of_selected": 0.018,
+            "F1_candidates_per_1000_questions": 6.9,
+            "questions_for_40_candidates": 5797,
+            "questions_for_40_validated_if_precision_holds": 23188
+          },
+          {
+            "selection": "top 75% confidence",
+            "n_selected": 2945,
+            "n_F1_candidates": 65,
+            "F1_share_of_selected": 0.022,
+            "F1_candidates_per_1000_questions": 6.5,
+            "questions_for_40_candidates": 6154,
+            "questions_for_40_validated_if_precision_holds": 24615
+          },
+          {
+            "selection": "top 50%",
+            "n_selected": 1964,
+            "n_F1_candidates": 58,
+            "F1_share_of_selected": 0.03,
+            "F1_candidates_per_1000_questions": 5.8,
+            "questions_for_40_candidates": 6897,
+            "questions_for_40_validated_if_precision_holds": 27586
+          },
+          {
+            "selection": "top 25%",
+            "n_selected": 983,
+            "n_F1_candidates": 39,
+            "F1_share_of_selected": 0.04,
+            "F1_candidates_per_1000_questions": 3.9,
+            "questions_for_40_candidates": 10256,
+            "questions_for_40_validated_if_precision_holds": 41026
+          }
+        ],
+        "by_source": {
+          "nq": 69
+        }
+      }
+    }
+  }
+}

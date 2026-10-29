@@ -1,0 +1,398 @@
+pid,model,cond,source,question,answers,closed_book_answer,cb_mean_logprob,with_passage_answer
+main_nq_7712,gemma,gold,nq,what did the cowardly lion want in the wizard of oz,courage,a heart,-0.7412,the cowardly lion wanted a heart
+main_nq_3286,gemma,gold,nq,when did the liberals take power in canada,2015,1993,-0.3789,1993
+main_nq_55055,gemma,gold,nq,who sang circle of life in lion king,Carmen Twillie | Lebo M.,Elton John,-0.3383,Elton John
+main_nq_42558,gemma,gold,nq,how many types of spiders are in australia,around 836 species,"10,000",-0.3015,"10,000"
+main_nq_21408,gemma,gold,nq,when was the last time the canadian anthem was changed,2018,1980,-0.2717,1980
+main_nq_24912,gemma,gold,nq,how much did fry have in his bank account,$4.3 billion,1000000000000000000000000000000,-0.3175,"1,000,000,000,000,000,000,000,0"
+main_nq_38080,gemma,gold,nq,when was the first fully automatic gun made,1900,1884,-0.5579,1884
+main_nq_45263,gemma,gold,nq,us imperialism in the late 19th century was supported by which theory,Manifest Destiny,Social Darwinism,-0.4262,Social Darwinism
+main_nq_48449,gemma,gold,nq,christianity became the official religion of rome under,Emperor Theodosius I,constantine,-0.5427,Constantine
+main_nq_34188,gemma,gold,nq,one method of choreography that merce cunningham is known for is,non-representational,chance,-0.8398,chance
+main_nq_49257,gemma,gold,nq,what is the name of the shark in finding dory,Destiny,Bruce,-0.8639,Bruce
+main_nq_57589,gemma,gold,nq,when did the first talking movie come out,1923 .,1927,-0.1918,1927
+main_nq_54180,gemma,gold,nq,when did the united farm workers union start,August 1966,1962,-0.1931,1962
+main_nq_18082,gemma,gold,nq,how many vietnamese immigrants are in the united states,"2,067,527",1.5 million,-0.5981,1.5 million
+main_nq_55150,gemma,gold,nq,who sang the original try a little tenderness,Ray Noble Orchestra | Val Rosing,Otis Redding,-0.5291,Otis Redding
+main_nq_25317,gemma,gold,nq,when did food stamps become part of the farm bill,1996,1977,-0.3018,1977
+main_nq_30565,gemma,gold,nq,how long is a day on the equator,12 hours,24 hours,-0.2776,24 hours
+main_nq_19332,gemma,gold,nq,who had you 'll never walk alone first,Nettie Fowler,Gerry and the pacemakers,-0.6452,Gerry and the pacemakers
+main_nq_57544,gemma,gold,nq,who governed the kingdom of naples and sicily 1815,Ferdinand IV,Ferdinand I,-1.1026,Ferdinand I
+main_nq_17916,gemma,gold,nq,when did civil partnerships become legal in the uk,2004,2005,-0.196,5 December 2005
+main_nq_11444,gemma,gold,nq,who played the boy in pete 's dragon,Oakes Fegley,Sean Marshall,-1.6843,Sean Marshall
+main_nq_31963,gemma,gold,nq,when did they start putting odometers in cars,1925,1912,-0.7812,1912
+main_nq_38131,gemma,gold,nq,when was the first open heart bypass surgery performed,25 February 1960,1967,-0.1761,1967
+main_nq_40712,gemma,gold,nq,how many times have the spurs made the playoffs,27,22,-0.7888,22
+main_nq_12823,gemma,gold,nq,where can the empire windrush be found today,the Mediterranean Sea,in the museum of london docklands,-0.7742,the empire windrush is now a museum in the UK
+main_nq_44692,gemma,gold,nq,who was the first explorer in north america,Erik the Red,Leif Erikson,-0.8667,Leif Eriksson
+main_nq_50273,gemma,gold,nq,when did the round pound come into circulation,1984,1983,-0.2521,1983
+main_nq_41426,gemma,gold,nq,who holds the power in a representative democracy,the hands of the representatives,the people,-0.5743,the people
+main_nq_2233,gemma,gold,nq,when did the us start building the panama canal,"January 1 , 1881",1904,-0.2262,1904
+main_nq_32534,gemma,gold,nq,who played jesus in the life of brian,Kenneth Colley,Graham Chapman,-0.5847,Graham Chapman
+main_nq_34237,gemma,gold,nq,when did marriage become a sacrament in the roman catholic church,1184,1215,-0.5854,1215
+main_nq_40659,gemma,gold,nq,who hit the first homerun in minute maid park,Hunter Pence,Lance Berkman,-0.6908,Lance Berkman
+main_nq_56036,gemma,gold,nq,who won the fight in the first rocky movie,Creed,Rocky,-0.9616,Rocky Balboa
+main_nq_30429,gemma,gold,nq,when did shout by tears for fears come out,23 November 1984,1985,-0.2684,1985
+main_nq_30836,gemma,gold,nq,in which year 6 major commercial banks were nationalised in india,1980,1969,-0.0981,1969
+main_nq_27517,gemma,gold,nq,who is fizz married to in coronation street,John Stape,Fiz is married to Tyrone Dobbs.,-1.0271,Fiz is married to Tyrone Dobbs (Alan Halsall) in Coronation Street.
+main_nq_9071,gemma,gold,nq,australia 's great barrier reef as well as low coral islands in the pacific are vulnerable to,thermal stress,rising sea levels,-0.4539,rising sea levels
+main_nq_24667,gemma,gold,nq,where did british east india company set up its first factory in india,Bantam,Surat,-1.5277,Surat
+main_nq_9521,gemma,gold,nq,when was the first standing army created in the united states,began in 1775 .,1789,-0.4074,1789
+main_nq_7817,gemma,gold,nq,how many times csk play final in ipl,seven,9 times,-1.1185,9 times
+main_nq_12305,gemma,gold,nq,what contestant won the most money on jeopardy,Brad Rutter,Ken Jennings,-0.5556,Ken Jennings
+main_nq_44315,gemma,gold,nq,when did the care act 2014 came into force,"January 1 , 2014",1st April 2015,-0.2257,The Care Act 2014 came into force on 1 April 2015.
+main_nq_8241,gemma,gold,nq,how much of india is living in poverty,12.4 %,21.9%,-0.8389,21.9% of the population of India is living in poverty.
+main_nq_4568,gemma,gold,nq,when did the cleveland browns move to baltimore,1995,1996,-0.2378,1996
+main_nq_43912,gemma,gold,nq,when did the us stop the gold standard,October 1976,1971,-0.2106,The United States abandoned the gold standard in 1971.
+main_nq_35336,gemma,gold,nq,when was the gestalt school of psychology founded,1890,1912,-0.1885,1912
+main_nq_4901,gemma,gold,nq,how many times did the us women 's soccer team win the world cup,three,4,-0.5553,4 times
+main_nq_8304,gemma,gold,nq,when was little red riding hood originally written,the 10th century,1697,-0.4453,1697
+main_nq_44718,gemma,gold,nq,when did federal income tax came into being,"August 5 , 1861",1913,-0.2122,1913
+main_nq_3546,gemma,gold,nq,who has made it to the nba finals the most,The Los Angeles Lakers,Boston Celtics,-1.112,Boston Celtics
+main_nq_42892,gemma,gold,nq,when was the red cross symbol first used,1864,1863,-0.3967,1863
+main_nq_24728,gemma,gold,nq,where was the original location of the national ffa convention,Virginia Polytechnic Institute,"Kansas City, Missouri",-0.4362,"Kansas City, Missouri"
+main_nq_9132,gemma,gold,nq,when did should i stay or should i go come out,in 1981,1982,-0.219,1982
+main_nq_35148,gemma,gold,nq,when was new hampshire made a seperate colony,1629,1679,-0.2672,1679
+main_nq_31559,gemma,gold,nq,when was the three point shot added to basketball,1961,1979,-0.1232,1979
+main_nq_28827,gemma,gold,nq,when did rabbits become a problem in australia,by 1867,1859,-0.366,1859
+main_nq_43548,gemma,gold,nq,what type of government does thailand have today,military dictatorship,constitutional monarchy,-0.6681,"Thailand is a constitutional monarchy with a parliamentary system of government. The King is the head of state, and the Prime Minister is the head of government. The King"
+main_nq_9003,gemma,gold,nq,who founded the first early childhood education program,Jule sugarman,Friedrich Froebel,-0.4804,Friedrich Froebel
+main_nq_54944,gemma,gold,nq,who argued that every person was born with a tabula rasa,Aristotle,John Locke,-0.2438,John Locke
+main_nq_26840,gemma,gold,nq,who sings house of the rising sun original,Clarence `` Tom '' Ashley | Gwen Foster,The Animals,-0.9692,The Animals
+main_nq_38239,gemma,gold,nq,when was one love by bob marley written,1965,1977,-0.3039,1977
+main_nq_51190,gemma,gold,nq,when did the song wind beneath my wings come out,1982,1988,-0.2205,1988
+main_nq_11320,gemma,gold,nq,who sang it 's my party and i 'll cry if i want to in the eighties,Barbara Gaskin | Dave Stewart,Lesley Gore,-0.5604,Lesley Gore
+main_nq_45594,gemma,gold,nq,who developed the first classification system for living things,Swedish botanist Carl Linnaeus,Aristotle,-0.9925,Aristotle
+main_nq_44213,gemma,gold,nq,how much voltage does an electric eel have,up to 860 volts,600 volts,-0.4731,600 volts
+main_nq_28291,gemma,gold,nq,when did the trans saharan trade routes begin,at least 7000 BC,1000 BCE,-0.8576,1000 BC
+main_nq_33503,gemma,gold,nq,what year did the ls engines come into production,January 1995,1997,-0.1222,1997
+main_nq_52021,gemma,gold,nq,under which emperor did rome adopt christianity as its official religion,Theodosius I,Constantine,-0.7376,Constantine
+main_nq_22475,gemma,gold,nq,who became the main director for the american international pictures company,Edward L. Cahn,Roger Corman,-0.4831,Roger Corman
+main_nq_57770,gemma,gold,nq,how old was messi when he started his career,17,13,-0.4949,13 years old
+main_nq_7563,gemma,gold,nq,when was the first year athletic trainers organized into a profession,1991,1950,-0.0967,1950
+main_nq_34184,gemma,gold,nq,out of the 50 states what number is georgia,fourth,13,-0.6573,13
+main_nq_22291,gemma,gold,nq,who was the first person buried in westminster abbey,Admiral Robert Blake,Edward the confessor,-0.4763,Edward the Confessor
+main_nq_48909,gemma,gold,nq,when did the first colonists settle in america,5 December 1492,1607,-0.3849,1607
+main_nq_9301,gemma,gold,nq,when did the french last win the world cup,2018,1998,-0.2044,1998
+main_nq_28711,gemma,gold,nq,who invented the process to remove impurities by blasts of cold air blown through heated iron,Song Dynasty,Henry Bessemer,-0.1777,Henry Bessemer
+main_nq_43422,gemma,gold,nq,when was the first successful open heart surgery performed,1956,1953,-0.2001,1953
+main_nq_41733,gemma,gold,nq,when did the consumer protection act came into effect,"July 21 , 2010",1986,-0.3427,1986
+main_nq_26929,gemma,gold,nq,when was birth control made legal in the us,"March 22 , 1972",1965,-0.1814,1965
+main_nq_27762,gemma,gold,nq,when was the three point line invented in college basketball,1945,1986,-0.1652,1986
+main_nq_44702,gemma,gold,nq,where did they film the movie safe haven,Louisiana,"Wilmington, North Carolina",-0.8527,"The movie was filmed in Wilmington, North Carolina."
+main_nq_43571,gemma,gold,nq,when did north sea oil first come ashore,1851,1975,-0.1807,1975
+main_nq_57782,gemma,gold,nq,when did sound become a regular part of the motion picture viewing experience,1929,1927,-0.3105,1927
+main_nq_45513,gemma,gold,nq,who is holding a knife in the last supper,Peter,Judas,-1.1055,Judas
+main_nq_41667,gemma,gold,nq,who is considered to be the founder of modern day schools of social work,Octavia Hill,Mary Richmond,-0.5215,Mary Richmond
+main_nq_39168,gemma,gold,nq,when did puerto rico become apart of the united states of america,"April 11 , 1899",1898,-0.241,1898
+main_nq_42021,gemma,gold,nq,when did the body style change on the chevy tahoe,1994,1995,-0.4275,1995
+main_nq_22111,gemma,gold,nq,what does p.g.a . stand for after a name,Producers Guild of America,professional golfer association,-0.9119,PGA stands for Professional Golfers Association.
+main_nq_30584,gemma,gold,nq,who is katherine 's one true love weathering heights,Hareton Earnshaw,Heathcliff,-1.0256,Heathcliff
+main_nq_29741,gemma,gold,nq,who has won the most snooker world championships,Joe Davis,Stephen Hendry,-0.373,Stephen Hendry
+main_nq_51878,gemma,gold,nq,when did the poor people 's campaign start,"December 4 , 1967",1968,-0.2232,1968
+main_nq_2413,gemma,gold,nq,mexican leader who was supported by the united states during mexican civil war,Benito Juárez,Porfirio Diaz,-0.457,Porfirio Diaz
+main_nq_5026,gemma,gold,nq,when did daylight savings time begin in indiana,2005,1966,-0.4192,1966
+main_nq_29591,gemma,gold,nq,maximum effective range of a 12 gauge slug,under 400 yards,100 yards,-0.4004,100 yards
+main_nq_32466,gemma,gold,nq,how many seasons are there of ray donovan,sixth,7,-0.6179,7
+main_nq_24338,gemma,gold,nq,when was the x ray first used in medicine,11 January 1896,1895,-0.1464,1895
+main_nq_2108,gemma,gold,nq,how many seasons did david tennant play doctor who,three,4,-0.4951,4
+main_nq_40141,gemma,gold,nq,who plays the chairman of the bank in mary poppins,Dick Van Dyke,David Tomlinson,-0.8342,David Tomlinson
+main_nq_52325,gemma,gold,nq,when was the first ever zumba instructor training conducted,2005,2001,-0.448,2001
+main_nq_7348,gemma,gold,nq,who came up with the affordable care act,United States House of Representatives,Obama,-1.7262,President Obama
+main_nq_57758,gemma,gold,nq,when was the first cabbage patch kid made,1982,1978,-0.2128,1978
+main_nq_36868,gemma,gold,nq,when did nba go to 7 game first round,2014,1984,-0.3306,1984
+main_nq_12604,gemma,gold,nq,who used the first poison gas in ww1,the French army,Germany,-1.4444,"The first use of poison gas in World War I was by the Germans on April 22, 1915, at the Second Battle of Y"
+main_nq_2446,gemma,gold,nq,who propounded the theory of division of labour,Plato,Adam Smith,-0.2912,Adam Smith
+main_nq_30208,gemma,gold,nq,who invented the assembly line method of production,Ransom Olds,Henry Ford,-0.2379,Henry Ford
+main_nq_15731,gemma,gold,nq,when did the first ipod video come out,"September 12 , 2006",2005,-0.1989,2005
+main_nq_24287,gemma,gold,nq,who sang the original what a difference a day makes,María Grever,Dinah Washington,-0.2271,Dinah Washington
+main_nq_37222,gemma,gold,nq,who sang fooled around and fell in love lyrics,Mickey Thomas,Elvin Bishop,-0.4244,Elvin Bishop
+main_nq_3562,gemma,gold,nq,operant condition is an example of what type of learning,instrumental,associative,-0.6523,associative learning
+main_nq_49454,gemma,gold,nq,when did the broklyn dodgers move to la,1957,1958,-0.1869,1958
+main_nq_48652,gemma,gold,nq,many rock and soul acts of the late 1960s first reached a large audience at,The Ed Sullivan Show,Woodstock,-0.7934,Woodstock
+main_nq_49215,gemma,gold,nq,in which year did the british shift india 's capital from calcutta to delhi,13 February 1931,1911,-0.0905,1911
+main_nq_8587,gemma,gold,nq,when did the carolina panthers become a team,"October 26 , 1993",1995,-0.149,1995
+main_nq_43553,gemma,gold,nq,when was the book of mormon divided into chapters and verses,1879,1830,-0.2907,The Book of Mormon was divided into chapters and verses in 1830.
+main_nq_57749,gemma,gold,nq,what is group 7 on the periodic table called,transition metals,halogens,-0.4586,Group 7 is called the halogens.
+main_nq_29705,gemma,gold,nq,who bats first in baseball home or visitor,The visiting team,the home team always bats first,-0.6934,The home team bats first in baseball.
+main_nq_18420,gemma,gold,nq,who said the greatest good for the greatest number,Peter Singer,Jeremy Bentham,-0.336,Jeremy Bentham
+main_nq_8081,gemma,gold,nq,who has the most tripple doubles in the nba,Oscar Robertson,Russell Westbrook,-1.0302,Russell Westbrook
+main_nq_44533,gemma,gold,nq,which aspect of the roman catholic church established in the 300s remains today quizlet,The doctrine of the Trinity,the pope,-1.6123,the pope
+main_nq_21253,gemma,gold,nq,when was education made mandatory in the us,1918,1852,-0.3347,1852
+main_nq_627,gemma,gold,nq,the spleen is part of what system in the human body,immune system,lymphatic system,-0.7954,lymphatic system
+main_nq_22809,gemma,gold,nq,who inspired berlioz to compose his symphonie fantastique,opium,his love for harriet smithson,-0.7672,his love for harriet smithson
+main_nq_9608,gemma,gold,nq,when did the vietnam war start for the us,1950,1964,-0.399,1964
+main_nq_1230,gemma,gold,nq,when did the world 's population increased the fastest,1989,1950-1970,-0.6893,1960s
+main_nq_58028,gemma,gold,nq,who declared the state of emergency in kenya in 1952,Governor Baring,Sir Philip Mitchell,-1.1106,Sir Philip E. Mitchell
+main_nq_43505,gemma,gold,nq,when was the drinking age changed to 21 in the us,mid-1988,1984,-0.1215,1984
+main_nq_24607,gemma,gold,nq,who produced the first motor that run on ac,Walter Baily,Nikola Tesla,-0.6914,Nikola Tesla
+main_nq_36554,gemma,gold,nq,when was the first women 's day celebrated,"February 28 , 1909",1911,-0.4881,1911
+main_nq_52426,gemma,gold,nq,how many times has liverpool won champions league,five,6,-0.5801,6 times
+main_nq_22473,gemma,gold,nq,when did the movie endless love come out,"February 14 , 2014",1981,-0.0849,1981
+main_nq_13013,gemma,gold,nq,when did the taco bell dog come out,September 1993,1997,-0.2738,1997
+main_nq_11792,gemma,gold,nq,what is a graduated cylinder made out of,polypropylene,glass,-0.6103,graduated cylinder is made of glass
+main_nq_4852,gemma,gold,nq,who was the strategic thinker and naval war college professor who developed the theory of sea power,Sir Julian Stafford Corbett,Alfred Thayer Mahan,-0.3118,Alfred Thayer Mahan
+main_nq_7754,gemma,mixed,nq,what is the next rank after captain in the air force,Air commodore,major,-1.0881,The next rank after captain in the air force is major.
+main_nq_51428,gemma,mixed,nq,when does its a wonderful life take place,1945,1946,-0.3366,1946
+main_nq_7712,gemma,mixed,nq,what did the cowardly lion want in the wizard of oz,courage,a heart,-0.7412,a heart
+main_nq_21301,gemma,mixed,nq,who was the winner of the women 's singles at wimbledon,Garbiñe Muguruza,Serena Williams,-0.789,Serena Williams
+main_nq_24837,gemma,mixed,nq,who is going to be on the 10 dollar bill,Hamilton,Harriet Tubman,-0.4191,Harriet Tubman
+main_nq_42558,gemma,mixed,nq,how many types of spiders are in australia,around 836 species,"10,000",-0.3015,"10,000"
+main_nq_16067,gemma,mixed,nq,when was charlie and the chocolate factory released,"July 15 , 2005",1971,-0.1305,1971
+main_nq_53077,gemma,mixed,nq,what is considered to be the first musical in western musical theatre,The Siege of Rhodes,The Black Crook,-0.6032,The Black Crook
+main_nq_37580,gemma,mixed,nq,when did england last reach a world cup semi final,2018,1990,-0.1151,1990
+main_nq_55664,gemma,mixed,nq,who won the oscar for best actress in 1987,Marlee Matlin,Cher,-0.7682,Cher
+main_nq_1427,gemma,mixed,nq,when was the first version of minecraft created,18 November 2011,2009,-0.2536,2009
+main_nq_7724,gemma,mixed,nq,what president is mentioned in all in the family song,Herbert Hoover,Richard Nixon,-1.0216,Richard Nixon
+main_nq_46231,gemma,mixed,nq,who led troops to remove the french from ft. duquesne,General John Forbes,George Washington,-0.8001,George Washington
+main_nq_4950,gemma,mixed,nq,which of the following is the designation for bedrock a. o b. a c. r d. c,R,c,-1.0894,c
+main_nq_45943,gemma,mixed,nq,the oldest expression in art is found in caves in the south of what country,Indonesian,France,-0.5243,France
+main_nq_7963,gemma,mixed,nq,when did penn st join the big ten,1990,1993,-0.2483,1993
+main_nq_18082,gemma,mixed,nq,how many vietnamese immigrants are in the united states,"2,067,527",1.5 million,-0.5981,"1,778,726"
+main_nq_30565,gemma,mixed,nq,how long is a day on the equator,12 hours,24 hours,-0.2776,24 hours
+main_nq_40131,gemma,mixed,nq,who pays for most of the scientific research done in the united states,The private sector,the federal government,-0.6403,the federal government
+main_nq_17916,gemma,mixed,nq,when did civil partnerships become legal in the uk,2004,2005,-0.196,5 December 2005
+main_nq_23177,gemma,mixed,nq,who is the big guy in happy gilmore,Richard Dawson Kiel,Adam Sandler,-1.4707,Adam Sandler
+main_nq_11444,gemma,mixed,nq,who played the boy in pete 's dragon,Oakes Fegley,Sean Marshall,-1.6843,Sean Marshall
+main_nq_40712,gemma,mixed,nq,how many times have the spurs made the playoffs,27,22,-0.7888,22 times
+main_nq_23011,gemma,mixed,nq,when did in god we trust get put on our money,1864,1956,-0.3513,"In 1956, Congress passed a joint resolution that made ""In God We Trust"" the official motto of the United States. The motto first appeared"
+main_nq_14806,gemma,mixed,nq,how many seasons of teenage mutant ninja turtles nickelodeon,5,10,-0.6082,10
+main_nq_41426,gemma,mixed,nq,who holds the power in a representative democracy,the hands of the representatives,the people,-0.5743,the people
+main_nq_2233,gemma,mixed,nq,when did the us start building the panama canal,"January 1 , 1881",1904,-0.2262,The United States began construction of the Panama Canal in 1904. The canal was completed in 1914.
+main_nq_33660,gemma,mixed,nq,when did the five day work week begin,1929,1926,-0.5166,The five-day work week was first introduced in the United States in 1926 by Henry Ford.
+main_nq_24492,gemma,mixed,nq,when did wizarding world of harry potter open,"July 3 , 2014",2010,-0.3448,"The Wizarding World of Harry Potter opened on June 18, 2010."
+main_nq_26552,gemma,mixed,nq,when did bottled water start being sold in the uk,1621,1970s,-0.5729,1970s
+main_nq_20312,gemma,mixed,nq,what was the first practical and affordable home computer,the Altair 8800,Apple II,-1.0,"The first practical and affordable home computer was the Apple II, which was released in 1977. It was designed by Steve Wozniak and Steve"
+main_nq_23377,gemma,mixed,nq,when did they start building the london underground,March 1860,1863,-0.2787,"The first underground railway in the world was the Metropolitan Railway, which opened in 1863. The first underground railway in the world was the Metropolitan Railway"
+main_nq_56036,gemma,mixed,nq,who won the fight in the first rocky movie,Creed,Rocky,-0.9616,Rocky Balboa
+main_nq_53671,gemma,mixed,nq,who has won the 2017 formula monaco grand prixs world championship,Sebastian Vettel,Lewis Hamilton,-0.5795,Lewis Hamilton
+main_nq_9071,gemma,mixed,nq,australia 's great barrier reef as well as low coral islands in the pacific are vulnerable to,thermal stress,rising sea levels,-0.4539,sea level rise
+main_nq_9521,gemma,mixed,nq,when was the first standing army created in the united states,began in 1775 .,1789,-0.4074,The first standing army was created in 1789.
+main_nq_9736,gemma,mixed,nq,when did the children 's act came into force,2005,1989,-0.3565,The Children Act 1989 came into force on 16 October 1989.
+main_nq_16231,gemma,mixed,nq,who led the red army and made it an effective fighting force,Marshal Mikhail Tukhachevsky,Leon Trotsky,-0.517,Leon Trotsky
+main_nq_4568,gemma,mixed,nq,when did the cleveland browns move to baltimore,1995,1996,-0.2378,1996
+main_nq_23571,gemma,mixed,nq,where was the first st patrick 's day parade held,"St. Augustine , Florida",New York City,-0.9874,The first St. Patrick's Day parade was held in New York City in 1762.
+main_nq_48805,gemma,mixed,nq,what three offices made up virginia 's representative government,lieutenant governor and attorney general,"governor, council, and house of burgesses",-0.4821,"House of Burgesses, Governor, and Council"
+main_nq_56808,gemma,mixed,nq,where is the biggest pyramid in the world located,"Cholula , Puebla , Mexico",Egypt,-1.2819,"The Great Pyramid of Giza is the oldest and largest of the three pyramids in the Giza pyramid complex bordering present-day Giza in Greater Cairo, Egypt"
+main_nq_3546,gemma,mixed,nq,who has made it to the nba finals the most,The Los Angeles Lakers,Boston Celtics,-1.112,"The Boston Celtics have made it to the NBA Finals the most times, with 21 appearances."
+main_nq_35345,gemma,mixed,nq,who stated that all plants are made of cells,Robert Hooke,Schleiden,-0.7483,Matthias Schleiden
+main_nq_9132,gemma,mixed,nq,when did should i stay or should i go come out,in 1981,1982,-0.219,1982
+main_nq_29417,gemma,mixed,nq,who has the most wins in boxing without a loss,Chávez,Floyd Mayweather,-0.625,Floyd Mayweather Jr.
+main_nq_56250,gemma,mixed,nq,who was the first to describe that species is the unit of classification,Aristotle,Linnaeus,-1.5916,Linnaeus
+main_nq_31559,gemma,mixed,nq,when was the three point shot added to basketball,1961,1979,-0.1232,1979
+main_nq_12028,gemma,mixed,nq,who wrote the song death cab for cutie,Vivian Stanshall | Neil Innes,Ben Gibbard,-0.3777,Ben Gibbard
+main_nq_43548,gemma,mixed,nq,what type of government does thailand have today,military dictatorship,constitutional monarchy,-0.6681,"Thailand is a constitutional monarchy. The king is the head of state, but the prime minister is the head of government. The prime minister is the leader of the"
+main_nq_12160,gemma,mixed,nq,when did led tv 's first come out,1977,2009,-0.3611,The first LED TV was introduced in 2009 by Samsung.
+main_nq_19853,gemma,mixed,nq,how many scenes are on the bayeux tapestry,fifty,58,-0.6297,58
+main_nq_54944,gemma,mixed,nq,who argued that every person was born with a tabula rasa,Aristotle,John Locke,-0.2438,John Locke
+main_nq_26840,gemma,mixed,nq,who sings house of the rising sun original,Clarence `` Tom '' Ashley | Gwen Foster,The Animals,-0.9692,The Animals
+main_nq_16865,gemma,mixed,nq,when did the statue of liberty arrive in new york,"June 17 , 1885",1886,-0.2034,1886
+main_nq_55771,gemma,mixed,nq,when did australia go off the gold standard,1925,1931,-0.3503,1931
+main_nq_38239,gemma,mixed,nq,when was one love by bob marley written,1965,1977,-0.3039,1977
+main_nq_51190,gemma,mixed,nq,when did the song wind beneath my wings come out,1982,1988,-0.2205,1988
+main_nq_45594,gemma,mixed,nq,who developed the first classification system for living things,Swedish botanist Carl Linnaeus,Aristotle,-0.9925,Aristotle
+main_nq_44213,gemma,mixed,nq,how much voltage does an electric eel have,up to 860 volts,600 volts,-0.4731,600 volts
+main_nq_3610,gemma,mixed,nq,when was the television introduced to the public,"July 2 , 1928",1927,-0.3535,1927
+main_nq_28014,gemma,mixed,nq,when was the new york stock exchange created,1817,1792,-0.0957,The New York Stock Exchange was created in 1792.
+main_nq_27367,gemma,mixed,nq,when did the french arrived in the american revolution,1775,1778,-0.2383,1778
+main_nq_9533,gemma,mixed,nq,who plays phyllis on the young and the restless,Gina Tognoni,Michelle Stafford,-0.3676,Michelle Stafford
+main_nq_33503,gemma,mixed,nq,what year did the ls engines come into production,January 1995,1997,-0.1222,1997
+main_nq_52021,gemma,mixed,nq,under which emperor did rome adopt christianity as its official religion,Theodosius I,Constantine,-0.7376,Constantine
+main_nq_7373,gemma,mixed,nq,when was the united states pledge of allegiance adopted,in 1942,1892,-0.2254,The Pledge of Allegiance was adopted in 1892.
+main_nq_57770,gemma,mixed,nq,how old was messi when he started his career,17,13,-0.4949,13 years old
+main_nq_23818,gemma,mixed,nq,when was nuclear energy first commercially used in the united states,1958,1957,-0.2439,1957
+main_nq_48909,gemma,mixed,nq,when did the first colonists settle in america,5 December 1492,1607,-0.3849,1607
+main_nq_32960,gemma,mixed,nq,which country ( s ) did germany take prior to the onset of world war ii in 1939,Poland,austria and czechoslovakia,-0.543,Germany took Austria and Czechoslovakia prior to the onset of World War II in 1939.
+main_nq_20815,gemma,mixed,nq,who are the hosts of great british baking show,Noel Fielding | Sandi Toksvig,Mel Giedroyc and Sue Perkins,-0.3886,Mel Giedroyc and Sue Perkins
+main_nq_14642,gemma,mixed,nq,when did england last get into the semifinals of the world cup,2018,1990,-0.1397,1990
+main_nq_9301,gemma,mixed,nq,when did the french last win the world cup,2018,1998,-0.2044,1998
+main_nq_26929,gemma,mixed,nq,when was birth control made legal in the us,"March 22 , 1972",1965,-0.1814,1965
+main_nq_27762,gemma,mixed,nq,when was the three point line invented in college basketball,1945,1986,-0.1652,The three-point line was first used in college basketball in 1986.
+main_nq_45513,gemma,mixed,nq,who is holding a knife in the last supper,Peter,Judas,-1.1055,Judas
+main_nq_11450,gemma,mixed,nq,girl who plays in guardians of the galaxy,Pom Klementieff,Zoe Saldana,-0.4986,Zoe Saldana
+main_nq_41667,gemma,mixed,nq,who is considered to be the founder of modern day schools of social work,Octavia Hill,Mary Richmond,-0.5215,Mary Richmond
+main_nq_4777,gemma,mixed,nq,when did the term weekend come into use,1879,1930s,-0.7147,The term weekend came into use in the 1930s.
+main_nq_2406,gemma,mixed,nq,who issued the coin rupee for the first time,Ancient India,Sher Shah Suri,-0.6351,Sher Shah Suri
+main_nq_22286,gemma,mixed,nq,where did they meet to write the constitution,New York City,Philadelphia,-0.9107,Philadelphia
+main_nq_22111,gemma,mixed,nq,what does p.g.a . stand for after a name,Producers Guild of America,professional golfer association,-0.9119,PGA stands for Professional Golfers Association.
+main_nq_103,gemma,mixed,nq,when did they come out with color photos,1861,1935,-0.673,1935
+main_nq_30367,gemma,mixed,nq,how many medals did finland win in 2014,5,13,-0.4716,13
+main_nq_38529,gemma,mixed,nq,when did in god we trust go on money,1864,1956,-0.3552,"In 1956, Congress passed a joint resolution declaring ""In God We Trust"" to be the national motto of the United States. The resolution was"
+main_nq_30435,gemma,mixed,nq,how many points does jake guentzel have in the playoffs,21,10,-1.1771,10
+main_nq_29741,gemma,mixed,nq,who has won the most snooker world championships,Joe Davis,Stephen Hendry,-0.373,Stephen Hendry
+main_nq_29591,gemma,mixed,nq,maximum effective range of a 12 gauge slug,under 400 yards,100 yards,-0.4004,100 yards
+main_nq_3578,gemma,mixed,nq,what type of dog is bosco from marmaduke,Beauceron,Great Dane,-0.6218,Bosco is a Great Dane.
+main_nq_34682,gemma,mixed,nq,what is the most common crime committed in australia,illicit drug offences,theft,-1.7109,theft
+main_nq_52325,gemma,mixed,nq,when was the first ever zumba instructor training conducted,2005,2001,-0.448,2001
+main_nq_12604,gemma,mixed,nq,who used the first poison gas in ww1,the French army,Germany,-1.4444,"The first use of poison gas in World War I was by the Germans on April 22, 1915, at the Second Battle of Y"
+main_nq_2446,gemma,mixed,nq,who propounded the theory of division of labour,Plato,Adam Smith,-0.2912,Adam Smith
+main_nq_4419,gemma,mixed,nq,when was the last time egypt qualified for the world cup,2018,1990,-0.2101,1990
+main_nq_22664,gemma,mixed,nq,who sang the song new york new york first,Liza Minnelli,Frank Sinatra,-0.4842,Frank Sinatra
+main_nq_11849,gemma,mixed,nq,what year is the girl with the dragon tattoo set in,2002,2005,-0.3688,2005
+main_nq_29617,gemma,mixed,nq,when did the slave trade end in britain,1833,1807,-0.132,1807
+main_nq_50023,gemma,mixed,nq,who won the most recent season of hell 's kitchen,Michelle Tribble,Christina Wilson,-1.4658,Christina Wilson
+main_nq_7539,gemma,mixed,nq,distance of earth orbit around the sun in miles,584 million,93 million,-0.3419,"93,000,000 miles"
+main_nq_11297,gemma,mixed,nq,who killed the girl in mystic river movie,his friend John O'Shea,Sean Devine,-1.3887,The girl in the movie Mystic River was killed by a man named Sean Devine.
+main_nq_24287,gemma,mixed,nq,who sang the original what a difference a day makes,María Grever,Dinah Washington,-0.2271,Dinah Washington
+main_nq_1372,gemma,mixed,nq,who is the youngest captain in nhl history,Brian Bellows,Sidney Crosby,-0.601,Sidney Crosby
+main_nq_38058,gemma,mixed,nq,when did the original charlotte 's web come out,"February 22 , 1973",1952,-0.1185,1952
+main_nq_51902,gemma,mixed,nq,when did the first video games come out,1952,1972,-0.4808,1972
+main_nq_41686,gemma,mixed,nq,when did tim hortons open in the us,1981,1984,-0.5804,Tim Hortons opened in the US in 1984.
+main_nq_49454,gemma,mixed,nq,when did the broklyn dodgers move to la,1957,1958,-0.1869,1958
+main_nq_7591,gemma,mixed,nq,how much money did the new transformers movies make,$4.3 billion,1.1 billion,-1.0477,$1.1 billion
+main_nq_48652,gemma,mixed,nq,many rock and soul acts of the late 1960s first reached a large audience at,The Ed Sullivan Show,Woodstock,-0.7934,Woodstock
+main_nq_39264,gemma,mixed,nq,who sings the circle of life at the beginning of the lion king,Carmen Twillie | Lebo M.,Elton John,-0.5068,Elton John
+main_nq_57749,gemma,mixed,nq,what is group 7 on the periodic table called,transition metals,halogens,-0.4586,Group 7 is called the halogens.
+main_nq_11990,gemma,mixed,nq,how far is santa monica from venice ca,adjoined,10 miles,-1.1672,10.2 miles
+main_nq_12434,gemma,mixed,nq,how many games did the oakland raiders win last year,12,10,-0.9047,10
+main_nq_15666,gemma,mixed,nq,what is the opposite of the justice league,The Legion of Doom,the injustice league,-0.6818,the injustice league
+main_nq_21253,gemma,mixed,nq,when was education made mandatory in the us,1918,1852,-0.3347,1852
+main_nq_40081,gemma,mixed,nq,when does the new it movie take place,1988,1989,-0.3423,The movie takes place in 1989.
+main_nq_22870,gemma,mixed,nq,what year did they stop making the saturn vue,2009,2007,-0.2477,2007
+main_nq_18656,gemma,mixed,nq,who presents national film award traditionally in india,Directorate of Film Festivals,president of india,-0.5819,President of India
+main_nq_42245,gemma,mixed,nq,who found a route to india by sailing around the horn of africa,Bartolomeu Dias,Vasco da Gama,-0.6909,Vasco da Gama
+main_nq_36427,gemma,mixed,nq,where does the final stage of carbohydrate digestion occur,the large intestine,small intestine,-0.4264,in the small intestine
+main_nq_1230,gemma,mixed,nq,when did the world 's population increased the fastest,1989,1950-1970,-0.6893,The world 's population increased the fastest in the 1960s.
+main_nq_19018,gemma,mixed,nq,who led the challenger expedition from 1872 to 1876,Captain George Nares,Sir Charles Wyville Thomson,-0.5227,Charles Wyville Thomson
+main_nq_43063,gemma,mixed,nq,who has the longest championship drought in sports,San Diego,the Chicago Cubs,-1.359,The Chicago Cubs have the longest championship drought in sports. The Cubs have not won a World Series since 1908.
+main_nq_39443,gemma,mixed,nq,who wrote the song i 've got friends in low places,Earl Bud Lee | Dewayne Blackwell,Garth Brooks,-0.9937,Garth Brooks
+main_nq_24607,gemma,mixed,nq,who produced the first motor that run on ac,Walter Baily,Nikola Tesla,-0.6914,Nikola Tesla
+main_nq_31092,gemma,mixed,nq,who does the voice of branch on trolls,Skylar Astin,Justin Timberlake,-0.4737,Justin Timberlake
+main_nq_13485,gemma,mixed,nq,what theory is used to explain the behavior of particles in gases,Brownian motion,kinetic molecular theory,-0.4979,kinetic theory
+main_nq_14402,gemma,mixed,nq,who is the chief justice of meghalaya high court,Mohammad Yaqoob Mir,Justice T. Meena Kumari,-0.6779,Justice T. Meena Kumari
+main_nq_11792,gemma,mixed,nq,what is a graduated cylinder made out of,polypropylene,glass,-0.6103,glass
+main_nq_14950,llama,gold,nq,who came out first iron man or batman,Batman,Iron man,-0.9975,"Iron Man came out first. Iron Man was created by Stan Lee, Larry Lieber, Don Heck, and Jack Kirby and first appeared in Tales of Suspense"
+main_nq_52856,llama,gold,nq,when were residential schools first established in canada,the 1820s,Residential schools were first established in Canada in the 1870s.,-0.4616,The first residential schools were established in Canada in the 1870s.
+main_nq_42558,llama,gold,nq,how many types of spiders are in australia,around 836 species,"There are over 2,000 species of spiders in Australia.",-0.6532,"There are over 2,000 species of spiders in Australia."
+main_nq_31009,llama,gold,nq,who won the national championship in football last year,Clemson Tigers,Alabama,-1.8489,The Alabama Crimson Tide won the national championship in football last year.
+main_nq_48449,llama,gold,nq,christianity became the official religion of rome under,Emperor Theodosius I,Constantine,-0.4745,Constantine
+main_nq_7678,llama,gold,nq,who sang the theme song from the movie love story,Henry Mancini,Andy Williams,-0.3663,Andy Williams
+main_nq_31840,llama,gold,nq,who did nemo 's voice in finding nemo,Alexander Gould,Albert Brooks,-0.956,Albert Brooks
+main_nq_30930,llama,gold,nq,who has had the most uk number one singles,Elvis Presley,the beatles,-0.492,The Beatles
+main_nq_204,llama,gold,nq,who is the killer in the book ordeal by innocence,Kirsten Lindstrom,The killer in the book Ordeal by Innocence is Jacko Argyle.,-0.43,The killer in the book Ordeal by Innocence is Jacko Argyle. He is the adopted son of the Argyle family and the prime suspect in the
+main_nq_42113,llama,gold,nq,who owns the rights to little shop of horrors,David Geffen,the rights to the musical are owned by Warner Bros.,-1.2014,Warner Bros.
+main_nq_28155,llama,gold,nq,who played the wardrobe in beauty and the beast live action,Audra McDonald,Emma Thompson,-0.2764,Emma Thompson
+main_nq_2233,llama,gold,nq,when did the us start building the panama canal,"January 1 , 1881",The United States began building the Panama Canal in 1904. The canal was completed in 1914.,-0.5003,The United States began building the Panama Canal in 1904. The canal was completed in 1914.
+main_nq_18194,llama,gold,nq,when was the first election held in pakistan,1954,The first general election in Pakistan was held in 1970.,-0.5328,Pakistan's first general election was held in 1970. The Pakistan Peoples Party (PPP) won the election and Zulfikar Ali Bhutto became the
+main_nq_38261,llama,gold,nq,when did the first zoo in the world open,ca . 3500 BCE,"The first zoo in the world was opened in 1752 in Paris, France.",-0.6829,"The first zoo in the world was opened in 1752 in Paris, France."
+main_nq_21755,llama,gold,nq,who is the longest serving mp in the uk,Winston Churchill,Sir Peter Tapsell,-0.5379,"The longest-serving MP in the UK is Sir Peter Tapsell, who has been a member of the House of Commons since 1959."
+main_nq_23377,llama,gold,nq,when did they start building the london underground,March 1860,"The first section of the London Underground opened in 1863. The Metropolitan Railway, which ran between Paddington and Farringdon, was the world's first",-0.5533,The first section of the London Underground opened in 1863.
+main_nq_56036,llama,gold,nq,who won the fight in the first rocky movie,Creed,Rocky won the fight in the first Rocky movie.,-0.431,Rocky won the fight in the first Rocky movie.
+main_nq_30836,llama,gold,nq,in which year 6 major commercial banks were nationalised in india,1980,1969,-0.243,1969
+main_nq_9071,llama,gold,nq,australia 's great barrier reef as well as low coral islands in the pacific are vulnerable to,thermal stress,sea level rise,-0.744,sea level rise
+main_nq_24667,llama,gold,nq,where did british east india company set up its first factory in india,Bantam,The British East India Company set up its first factory in India in Surat in 1612.,-0.4232,Surat
+main_nq_23941,llama,gold,nq,when was the first ever mcdonald 's opened,"April 15 , 1955","The first McDonald's restaurant was opened in 1940 by Richard and Maurice McDonald in San Bernardino, California.",-0.4947,"The first McDonald's restaurant opened in 1940 in San Bernardino, California."
+main_nq_12305,llama,gold,nq,what contestant won the most money on jeopardy,Brad Rutter,Ken Jennings,-0.6395,Ken Jennings
+main_nq_4683,llama,gold,nq,how long did the bombing of pearl harbor last,Ninety minutes,The attack lasted 110 minutes.,-0.84,The attack lasted 110 minutes.
+main_nq_23571,llama,gold,nq,where was the first st patrick 's day parade held,"St. Augustine , Florida",New York City,-0.7509,The first St. Patrick's Day parade was held in New York City in 1762. The parade was organized by Irish soldiers serving in the British Army.
+main_nq_30589,llama,gold,nq,when was the first child car seat made,the early 1930s,The first child car seat was made in 1962.,-0.4679,The first child car seat was made in 1962.
+main_nq_8304,llama,gold,nq,when was little red riding hood originally written,the 10th century,1697,-0.862,Little Red Riding Hood was originally written in 1697 by Charles Perrault.
+main_nq_37925,llama,gold,nq,where was a major strike held in poland,Stalowa Wola Steelworks,Gdansk,-0.5759,The major strike held in Poland was in the city of Gdansk.
+main_nq_3546,llama,gold,nq,who has made it to the nba finals the most,The Los Angeles Lakers,the boston celtics,-0.6124,"The Boston Celtics hold the record for the most victories, having won the competition 17 times, as well as winning the competition the most times in a row,"
+main_nq_26484,llama,gold,nq,when did 10 downing street became the prime minister 's residence,1905,10 Downing Street became the official residence of the Prime Minister in 1735.,-0.5345,10 Downing Street became the Prime Minister's residence in 1735.
+main_nq_12631,llama,gold,nq,when was the british broadcasting corporation ( bbc ) founded,1 January 1927,1922,-0.6822,The British Broadcasting Corporation (BBC) was founded in 1922.
+main_nq_54944,llama,gold,nq,who argued that every person was born with a tabula rasa,Aristotle,John Locke,-0.4904,John Locke
+main_nq_26840,llama,gold,nq,who sings house of the rising sun original,Clarence `` Tom '' Ashley | Gwen Foster,The Animals,-0.7555,The Animals
+main_nq_34219,llama,gold,nq,is the original name for the field which involves the study of the physiology of behavior,Neuroscience,psychology,-0.9274,Psychology
+main_nq_3089,llama,gold,nq,when did the volcano in santorini last erupt,1950,The last major eruption of Santorini occurred in 1650 BC.,-0.7286,"The last major eruption of Santorini occurred in 1650 BC, and was one of the largest volcanic events on Earth in recorded history. The eruption was"
+main_nq_11320,llama,gold,nq,who sang it 's my party and i 'll cry if i want to in the eighties,Barbara Gaskin | Dave Stewart,lesley gore,-0.9013,Lesley Gore
+main_nq_38010,llama,gold,nq,when did the government get involved in healthcare,After the Civil War,The government got involved in healthcare in the 1960s.,-0.7802,The government got involved in healthcare in the 1960s.
+main_nq_26993,llama,gold,nq,what was the last nfl team to go undefeated,1972 Miami Dolphins,"The 2007 New England Patriots went 16-0 in the regular season, but lost to the New York Giants in Super Bowl XLII.",-0.4215,"The last NFL team to go undefeated was the 2007 New England Patriots. The Patriots finished the regular season with a record of 16-0, and"
+main_nq_26002,llama,gold,nq,who was the lead singer of lyin eyes,Glenn Frey,Don Henley,-0.4717,Don Henley
+main_nq_7563,llama,gold,nq,when was the first year athletic trainers organized into a profession,1991,1950,-0.4705,1950
+main_nq_22291,llama,gold,nq,who was the first person buried in westminster abbey,Admiral Robert Blake,King Edward the Confessor,-0.4605,"The first person buried in Westminster Abbey was Edward the Confessor, who died in 1066. He was buried in the abbey's Chapter House, which"
+main_nq_48909,llama,gold,nq,when did the first colonists settle in america,5 December 1492,The first colonists settled in America in 1607.,-0.5246,"The first colonists settled in America in 1607. The first permanent English settlement in North America was Jamestown, Virginia. The first permanent English settlement in"
+main_nq_23782,llama,gold,nq,in an electric power plant turbines are turned using which type of energy from steam,heat,mechanical,-1.2059,Mechanical
+main_nq_18574,llama,gold,nq,when was the first time poison gas was used in ww1,August 1914,"The first time poison gas was used in WW1 was on April 22, 1915, when the Germans released chlorine gas on the French and Algerian",-0.5546,"The first use of poison gas in World War I was by the Germans on April 22, 1915, at Ypres, Belgium. The Germans released"
+main_nq_9641,llama,gold,nq,who is the girl in the video cry me a river,Lauren Hastings,The girl in the video Cry Me a River is Britney Spears.,-0.6081,The girl in the video is Britney Spears.
+main_nq_36646,llama,gold,nq,when was the first gun control law passed in america,1813,The first gun control law in America was passed in 1927. It was called the National Firearms Act and it regulated the sale and possession of certain types of,-0.4639,The first gun control law in America was passed in 1927.
+main_nq_37402,llama,gold,nq,which branch of government creates federal agencies answers.com,Congress,The executive branch of the federal government creates federal agencies. The executive branch is responsible for carrying out the laws of the United States. The executive branch is headed by,-0.7095,The executive branch of the government creates federal agencies.
+main_nq_57782,llama,gold,nq,when did sound become a regular part of the motion picture viewing experience,1929,1927,-0.6219,1927
+main_nq_17608,llama,gold,nq,which came first battlestar galactica or star wars,Star Wars,Battlestar Galactica,-0.2201,Battlestar Galactica came first. The original Battlestar Galactica series was created by Glen A. Larson and aired on ABC in 1978.
+main_nq_41667,llama,gold,nq,who is considered to be the founder of modern day schools of social work,Octavia Hill,Mary Richmond,-0.8699,Mary Richmond
+main_nq_33234,llama,gold,nq,avatar the last airbender where is zuko 's mother,Forgetful Valley,Zuko's mother is Ursa. She was the Fire Lord's daughter and Zuko's mother. She was the one who was banished from the Fire,-0.946,"Zuko's mother is Ursa, who is the wife of Fire Lord Ozai. She is the mother of Zuko and Azula. Ursa is"
+main_nq_52325,llama,gold,nq,when was the first ever zumba instructor training conducted,2005,2001,-0.6706,The first Zumba Instructor Training was conducted in 2001.
+main_nq_54590,llama,gold,nq,as established by the articles of confederation the national government could,make war and peace | resolve disputes between the states,not tax individuals,-2.0167,not tax the people directly
+main_nq_7348,llama,gold,nq,who came up with the affordable care act,United States House of Representatives,barack obama,-0.363,"The Affordable Care Act was signed into law by President Barack Obama on March 23, 2010. The law was a major component of the Democratic Party's"
+main_nq_2446,llama,gold,nq,who propounded the theory of division of labour,Plato,Adam Smith,-0.9027,Adam Smith
+main_nq_6715,llama,gold,nq,when was the last time the white house was renovated,1952,The White House was last renovated in 2010. The renovation was done to update the building’s infrastructure and to make it more energy efficient. The renovation cost,-0.627,The White House was renovated in 2010.
+main_nq_30208,llama,gold,nq,who invented the assembly line method of production,Ransom Olds,Henry Ford,-0.6934,The assembly line was invented by Henry Ford in 1913.
+main_nq_15731,llama,gold,nq,when did the first ipod video come out,"September 12 , 2006",The first iPod video was released in September 2005. It was the first iPod to feature a widescreen display and support for video playback. The iPod video,-0.5343,The first iPod video was released in September 2005. It was the first iPod to have a video screen and the ability to play video files.
+main_nq_24287,llama,gold,nq,who sang the original what a difference a day makes,María Grever,Dinah Washington,-0.6876,Dinah Washington
+main_nq_3562,llama,gold,nq,operant condition is an example of what type of learning,instrumental,associative,-2.068,A. associative
+main_nq_57749,llama,gold,nq,what is group 7 on the periodic table called,transition metals,halogens,-0.7694,Group 7 is also known as the halogens. The halogens are a group of nonmetals that are found in the rightmost column of the periodic
+main_nq_18420,llama,gold,nq,who said the greatest good for the greatest number,Peter Singer,Jeremy Bentham,-0.5989,Jeremy Bentham
+main_nq_55125,llama,gold,nq,when did penn state entered the big 10,in 1993,Penn State joined the Big Ten Conference in 1990.,-0.4961,Penn State joined the Big Ten Conference in 1990.
+main_nq_47984,llama,gold,nq,where do the vampires in 30 days of night come from,a virus,vampires in 30 days of night come from the arctic,-0.7407,The vampires in 30 Days of Night come from the Arctic.
+main_nq_11271,llama,gold,nq,when did the church of the nazarene start,October 1895,"The Church of the Nazarene was founded in 1908 in Los Angeles, California, by Phineas F. Bresee and Joseph P. Wid",-0.322,The Church of the Nazarene was founded in 1908 by Dr. Phineas F. Bresee and Dr. J. H. Ingram.
+main_nq_39443,llama,gold,nq,who wrote the song i 've got friends in low places,Earl Bud Lee | Dewayne Blackwell,Garth Brooks,-0.4742,Garth Brooks
+main_nq_50833,llama,gold,nq,who sang four strong winds with neil young,Nicolette Larson,John Denver,-1.2851,The Hep Stars
+main_nq_14950,llama,mixed,nq,who came out first iron man or batman,Batman,Iron man,-0.9975,"Iron Man came out first. Iron Man was created by Stan Lee, Larry Lieber, Don Heck, and Jack Kirby and first appeared in Tales of Suspense"
+main_nq_7754,llama,mixed,nq,what is the next rank after captain in the air force,Air commodore,Major,-0.6891,The next rank after captain in the air force is major.
+main_nq_21301,llama,mixed,nq,who was the winner of the women 's singles at wimbledon,Garbiñe Muguruza,Serena Williams,-0.7576,Serena Williams
+main_nq_12852,llama,mixed,nq,who made the american flag and what year was it,Francis Hopkinson | 1777,The American flag was designed by Betsy Ross in 1776.,-0.4994,The first American flag was made by Betsy Ross in 1776. The flag was made by Betsy Ross in 1776. The flag was made
+main_nq_52250,llama,mixed,nq,copán is a mayan archaeological site located on the western border of,"Honduras ,",Guatemala,-1.8109,Guatemala
+main_nq_20782,llama,mixed,nq,who has won the ballon d'or most times,Lionel Messi,cristiano ronaldo,-0.3333,Cristiano Ronaldo
+main_nq_55664,llama,mixed,nq,who won the oscar for best actress in 1987,Marlee Matlin,Cher,-1.0072,"Cher won the Oscar for Best Actress in 1987 for her role in the film ""Moonstruck"". She played Loretta Castorini, a"
+main_nq_45943,llama,mixed,nq,the oldest expression in art is found in caves in the south of what country,Indonesian,france,-0.4448,france
+main_nq_31840,llama,mixed,nq,who did nemo 's voice in finding nemo,Alexander Gould,Albert Brooks,-0.956,Albert Brooks
+main_nq_30930,llama,mixed,nq,who has had the most uk number one singles,Elvis Presley,the beatles,-0.492,The Beatles
+main_nq_204,llama,mixed,nq,who is the killer in the book ordeal by innocence,Kirsten Lindstrom,The killer in the book Ordeal by Innocence is Jacko Argyle.,-0.43,"The killer in the book ordeal by innocence is Jacko Argyle. He is the adopted son of Rachel Argyle, who was murdered. He is also the"
+main_nq_48539,llama,mixed,nq,who played arthur in the movie king arthur,Charlie Hunnam,Clive Owen,-0.5297,The movie King Arthur was released in 2004 and starred Clive Owen as Arthur. The film was directed by Antoine Fuqua and was based on the legend
+main_nq_40564,llama,mixed,nq,when does the 2018 mn legislative session end,"January 7 , 2019","May 21, 2018",-0.346,"The 2018 Minnesota legislative session ended on May 21, 2018. The 2018 Minnesota legislative session was the 91st session of the"
+main_nq_42703,llama,mixed,nq,when did the first ever mcdonald 's open,"December 12 , 1948","The first McDonald's opened in 1940 in San Bernardino, California.",-0.5251,The first McDonald's restaurant opened in 1940. The first McDonald's restaurant opened in 1940. The first McDonald's restaurant opened in 1940
+main_nq_2233,llama,mixed,nq,when did the us start building the panama canal,"January 1 , 1881",The United States began building the Panama Canal in 1904. The canal was completed in 1914.,-0.5003,The United States began building the Panama Canal in 1904. The canal was completed in 1914.
+main_nq_53427,llama,mixed,nq,when did sheffield wednesday get promoted to championship,29 May 2005,Sheffield Wednesday were promoted to the Championship after winning the League One play-off final against Charlton Athletic on 27 May 2012.,-0.6534,"Sheffield Wednesday were promoted to the Championship in the 2011–12 season after finishing second in League One. They were managed by Gary Megson, while the"
+main_nq_24492,llama,mixed,nq,when did wizarding world of harry potter open,"July 3 , 2014",The Wizarding World of Harry Potter opened in 2010.,-0.4782,"The Wizarding World of Harry Potter opened at Universal Studios Florida on June 18, 2010. The Wizarding World of Harry Potter is a themed area"
+main_nq_38261,llama,mixed,nq,when did the first zoo in the world open,ca . 3500 BCE,"The first zoo in the world was opened in 1752 in Paris, France.",-0.6829,"The first zoo in the world was opened in 1752 in Paris, France. It was called the Jardin des Plantes and was created by the French"
+main_nq_21755,llama,mixed,nq,who is the longest serving mp in the uk,Winston Churchill,Sir Peter Tapsell,-0.5379,"Sir Peter Tapsell, who was first elected in 1959, is the longest serving MP in the UK. He is a Conservative MP for Louth"
+main_nq_23377,llama,mixed,nq,when did they start building the london underground,March 1860,"The first section of the London Underground opened in 1863. The Metropolitan Railway, which ran between Paddington and Farringdon, was the world's first",-0.5533,The first section of the London Underground opened in 1863. The first section of the London Underground opened in 1863. The first section of the London
+main_nq_56036,llama,mixed,nq,who won the fight in the first rocky movie,Creed,Rocky won the fight in the first Rocky movie.,-0.431,Rocky won the fight in the first Rocky movie.
+main_nq_9071,llama,mixed,nq,australia 's great barrier reef as well as low coral islands in the pacific are vulnerable to,thermal stress,sea level rise,-0.744,rising sea levels
+main_nq_24667,llama,mixed,nq,where did british east india company set up its first factory in india,Bantam,The British East India Company set up its first factory in India in Surat in 1612.,-0.4232,The British East India Company set up its first factory in India in Surat in 1612. The company was granted a charter by King James I in
+main_nq_16231,llama,mixed,nq,who led the red army and made it an effective fighting force,Marshal Mikhail Tukhachevsky,Leon Trotsky,-0.8945,"The Red Army was led by Leon Trotsky, who was a key figure in the Bolshevik Revolution and the early years of the Soviet Union. He was responsible for organizing"
+main_nq_43912,llama,mixed,nq,when did the us stop the gold standard,October 1976,"The United States abandoned the gold standard in 1933, when President Franklin D. Roosevelt issued an executive order that made it illegal for Americans to own gold.",-0.5732,"The United States abandoned the gold standard in 1933, when President Franklin D. Roosevelt issued an executive order that prohibited the “hoarding” of gold by"
+main_nq_23571,llama,mixed,nq,where was the first st patrick 's day parade held,"St. Augustine , Florida",New York City,-0.7509,The first St. Patrick's Day parade was held in New York City in 1762. The parade was organized by Irish soldiers in the British Army. The
+main_nq_30589,llama,mixed,nq,when was the first child car seat made,the early 1930s,The first child car seat was made in 1962.,-0.4679,The first child car seat was made in 1962.
+main_nq_31858,llama,mixed,nq,who is the current secretary of homeland security for the united states,Kirstjen Nielsen,"The current Secretary of Homeland Security is Alejandro Mayorkas. He was appointed by President Joe Biden and confirmed by the Senate on February 2, 2021",-0.4112,"The current Secretary of Homeland Security is Alejandro Mayorkas. He was sworn in on February 2, 2021, and is the first Latino and first"
+main_nq_26484,llama,mixed,nq,when did 10 downing street became the prime minister 's residence,1905,10 Downing Street became the official residence of the Prime Minister in 1735.,-0.5345,"10 Downing Street became the Prime Minister's residence in 1735, when Sir Robert Walpole moved in."
+main_nq_26784,llama,mixed,nq,where was the movie dirty dancing filmed at,"Lake Lure , North Carolina","Dirty Dancing was filmed at the Mountain Lake Hotel in Pembroke, Virginia.",-0.577,"The movie was filmed at the Mountain Lake Hotel in Pembroke, Virginia."
+main_nq_56250,llama,mixed,nq,who was the first to describe that species is the unit of classification,Aristotle,Linnaeus,-0.5435,Linnaeus
+main_nq_54944,llama,mixed,nq,who argued that every person was born with a tabula rasa,Aristotle,John Locke,-0.4904,John Locke
+main_nq_26840,llama,mixed,nq,who sings house of the rising sun original,Clarence `` Tom '' Ashley | Gwen Foster,The Animals,-0.7555,The Animals
+main_nq_55771,llama,mixed,nq,when did australia go off the gold standard,1925,Australia went off the gold standard in 1931.,-0.4011,Australia went off the gold standard in 1931.
+main_nq_48600,llama,mixed,nq,the guy who plays josh in girl meets world,Uriah Shelton,Corey Fogelmanis,-0.3564,Corey Fogelmanis
+main_nq_48909,llama,mixed,nq,when did the first colonists settle in america,5 December 1492,The first colonists settled in America in 1607.,-0.5246,"The first colonists settled in America in 1607. The first permanent English settlement in America was Jamestown, Virginia. The first permanent English settlement in America"
+main_nq_14642,llama,mixed,nq,when did england last get into the semifinals of the world cup,2018,1990,-0.6854,"The last time England reached the semi-finals of the World Cup was in 1990, when they finished in fourth place. They have also reached the quarter-finals"
+main_nq_18574,llama,mixed,nq,when was the first time poison gas was used in ww1,August 1914,"The first time poison gas was used in WW1 was on April 22, 1915, when the Germans released chlorine gas on the French and Algerian",-0.5546,"The first use of poison gas in World War I was by the German Army on 22 April 1915, at Ypres, Belgium, when 168"
+main_nq_9641,llama,mixed,nq,who is the girl in the video cry me a river,Lauren Hastings,The girl in the video Cry Me a River is Britney Spears.,-0.6081,The girl in the video is Britney Spears.
+main_nq_38041,llama,mixed,nq,aretha franklin 's first record contract was with which label,J.V.B. Records,Columbia,-1.3031,Columbia Records
+main_nq_17608,llama,mixed,nq,which came first battlestar galactica or star wars,Star Wars,Battlestar Galactica,-0.2201,Battlestar Galactica was first. Battlestar Galactica was first. Battlestar Galactica was first. Battlestar Galactica was first.
+main_nq_11450,llama,mixed,nq,girl who plays in guardians of the galaxy,Pom Klementieff,Zoe Saldana,-0.6111,Zoe Saldana
+main_nq_29813,llama,mixed,nq,who is the present defense minister of india,Nirmala Sitharaman,Rajnath Singh,-0.5721,Rajnath Singh
+main_nq_55569,llama,mixed,nq,when was the last time michigan made it to the final 4,2018,2013,-0.9772,The last time Michigan made it to the Final 4 was in 2013. The team was led by head coach John Beilein and featured players like
+main_nq_45156,llama,mixed,nq,govt of india flagship programme for secondary education is,Rashtriya Uchchattar Shiksha Abhiyan,Sarva Shiksha Abhiyan,-0.165,(1) sarva shiksha abhiyan
+main_nq_51864,llama,mixed,nq,who plays the voice of joe on family guy,Patrick John Warburton,Seth MacFarlane,-0.366,Seth MacFarlane
+main_nq_33801,llama,mixed,nq,where does flight of the conchords take place,New York City,New Zealand,-0.7611,New Zealand
+main_nq_52325,llama,mixed,nq,when was the first ever zumba instructor training conducted,2005,2001,-0.6706,The first ever Zumba Instructor Training was conducted in 2001.
+main_nq_9361,llama,mixed,nq,who sang lead on the song drive by the cars,bassist Benjamin Orr,ric ocasek,-0.7704,Ric Ocasek
+main_nq_12604,llama,mixed,nq,who used the first poison gas in ww1,the French army,Germany,-1.5492,"The first use of poison gas in World War I was by the Germans on 22 April 1915, at Ypres, Belgium, when they fired chlorine"
+main_nq_2446,llama,mixed,nq,who propounded the theory of division of labour,Plato,Adam Smith,-0.9027,Adam Smith
+main_nq_22664,llama,mixed,nq,who sang the song new york new york first,Liza Minnelli,Frank Sinatra,-0.3921,Frank Sinatra
+main_nq_1295,llama,mixed,nq,in which volume tristam shandy finally recount his birth,Volume III,9,-1.2385,"Tristram Shandy, Volume 9"
+main_nq_11849,llama,mixed,nq,what year is the girl with the dragon tattoo set in,2002,The Girl with the Dragon Tattoo is set in 1991.,-0.4085,The Girl with the Dragon Tattoo is set in 1991. The Girl with the Dragon Tattoo is set in 1991. The Girl with the Dragon Tattoo
+main_nq_44457,llama,mixed,nq,who wants to be a millionaire tv show first episode date,"August 16 , 1999",16 August 1998,-0.7444,1998-09-04
+main_nq_2906,llama,mixed,nq,who voices hi five in the emoji movie,James Corden,T.J. Miller,-0.398,Hi-5 is voiced by T.J. Miller.
+main_nq_24287,llama,mixed,nq,who sang the original what a difference a day makes,María Grever,Dinah Washington,-0.6876,Dinah Washington
+main_nq_38058,llama,mixed,nq,when did the original charlotte 's web come out,"February 22 , 1973",The original Charlotte's Web was published in 1952.,-0.5267,The original Charlotte's Web was published in 1952. The book was written by E.B. White and illustrated by Garth Williams. The book tells the
+main_nq_5123,llama,mixed,nq,where was the first mardi gras parade held,"Mobile , Alabama",New Orleans,-0.4058,"The first Mardi Gras parade was held in New Orleans, Louisiana, in 1857. The parade was organized by a group of businessmen who wanted to"
+main_nq_5076,llama,mixed,nq,when did the drink drive law come in,1906,1967,-0.95,The drink drive law came in 1967.
+main_nq_11948,llama,mixed,nq,who sings the theme song for license to kill,Michael Kamen,Gladys Knight,-0.3002,"The theme song for the 1989 James Bond film ""Licence to Kill"" was performed by Gladys Knight. The song, titled ""Licence to"
+main_nq_37397,llama,mixed,nq,who was the band in back to the future,Marvin Berry and The Starlighters,Huey Lewis and the News,-0.1852,"The band in Back to the Future is Huey Lewis and the News. They perform the songs ""The Power of Love"" and ""Back in Time"" in"
+main_nq_55125,llama,mixed,nq,when did penn state entered the big 10,in 1993,Penn State joined the Big Ten Conference in 1990.,-0.4961,Penn State entered the Big Ten Conference in 1990. The Nittany Lions were the first team to join the conference since its formation in 1896
+main_nq_42245,llama,mixed,nq,who found a route to india by sailing around the horn of africa,Bartolomeu Dias,Vasco da Gama,-0.2947,The Portuguese explorer Vasco da Gama was the first European to reach India by sailing around the horn of Africa. He set sail from Lisbon in 1497
+main_nq_36427,llama,mixed,nq,where does the final stage of carbohydrate digestion occur,the large intestine,small intestine,-0.6457,the small intestine
+main_nq_11271,llama,mixed,nq,when did the church of the nazarene start,October 1895,"The Church of the Nazarene was founded in 1908 in Los Angeles, California, by Phineas F. Bresee and Joseph P. Wid",-0.322,"The Church of the Nazarene was founded in 1908 in Los Angeles, California, USA. The Church of the Nazarene was founded in"
+main_nq_24607,llama,mixed,nq,who produced the first motor that run on ac,Walter Baily,nikola tesla,-0.398,The first AC motor was invented by Nikola Tesla in 1882. Tesla's AC motor was a polyphase induction motor. The first commercial AC motor was built
+main_nq_43016,llama,mixed,nq,who played beth on mary tyler moore show,Lisa Gerritsen,Valerie Harper,-0.509,Valerie Harper
+main_nq_9147,llama,mixed,nq,when was the last time a volcano erupted in california,"May 22 , 1915","The last time a volcano erupted in California was in 1914, when Mount Lassen erupted. The eruption lasted for several days and caused significant damage to nearby",-0.4859,"The last time a volcano erupted in California was in 1914 at Lassen Peak. Lassen Peak is located in the Cascade Range, which is a chain"

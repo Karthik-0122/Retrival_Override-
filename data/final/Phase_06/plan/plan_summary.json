@@ -1,0 +1,69 @@
+{
+  "seed": 2026,
+  "main_gemma_outcomes": {
+    "followed": 3941,
+    "partial": 1244,
+    "F3": 1204,
+    "F1": 262,
+    "F2": 247,
+    "F6": 648
+  },
+  "pilot_gemma_outcomes": {
+    "followed": 612,
+    "partial": 118,
+    "F3": 207,
+    "F1": 23,
+    "F6": 55,
+    "F2": 17
+  },
+  "confiqa_gemma_classes": {
+    "parametric_dominance": 150,
+    "no_answer": 47,
+    "follows_passage": 87,
+    "other": 41,
+    "no_conflict": 3
+  },
+  "main_llama_outcomes": {
+    "F1": 135,
+    "followed": 4181,
+    "partial": 1595,
+    "F3": 1043,
+    "F6": 774,
+    "F2": 124
+  },
+  "pilot_llama_outcomes": {
+    "F3": 218,
+    "followed": 685,
+    "partial": 192,
+    "F6": 70,
+    "F2": 11,
+    "F1": 14
+  },
+  "confiqa_llama_classes": {
+    "parametric_dominance": 83,
+    "follows_passage": 152,
+    "no_answer": 61,
+    "other": 30,
+    "no_conflict": 2
+  },
+  "cases": {
+    "gemma:B_candidate": 285,
+    "gemma:B_followed": 300,
+    "gemma:B_probe": 10,
+    "gemma:A_confiqa": 328,
+    "llama:B_candidate": 149,
+    "llama:B_followed": 300,
+    "llama:B_probe": 10,
+    "llama:A_confiqa": 328
+  },
+  "batch3": {
+    "gemma:candidate": 194,
+    "gemma:candidate_reserve": 68,
+    "gemma:followed": 20,
+    "gemma:probe": 10,
+    "llama:candidate": 102,
+    "llama:candidate_reserve": 33,
+    "llama:followed": 20,
+    "llama:probe": 10
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "seed": 2026,
+  "file": "nq-train.jsonl.gz",
+  "rows_read": 58622,
+  "eligible": 57057,
+  "selected": 10000,
+  "block_size": 2500,
+  "blocks": {
+    "1": 2500,
+    "2": 2500,
+    "3": 2500,
+    "4": 2500
+  },
+  "excluded": {
+    "no_gold_passage": 1070,
+    "few_distractors": 64,
+    "already_used": 24,
+    "no_answer": 8,
+    "duplicate": 399
+  },
+  "excluded_sources": {
+    "phase2_questions": 875,
+    "pilot_questions": 2000
+  }
+}
