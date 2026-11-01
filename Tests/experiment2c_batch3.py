@@ -168,7 +168,7 @@ def cmd_sample(a):
     want = ("candidate_reserve",) if a.reserve else GROUPS
     items = []
     for r in plan:
-        if r.get("batch3_group") not in want:
+        if r.get("batch3_group") not in want or (a.model and r["model"] != a.model):
             continue
         items.append({"group": "candidate" if r["batch3_group"] == "candidate_reserve" else r["batch3_group"],
                       "case_id": r["case_id"], "pid": r["pid"], "model": r["model"], "cond": r["cond"],
@@ -428,6 +428,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("step", choices=["calibration", "sample", "agreement", "report"])
     ap.add_argument("--reserve", action="store_true", help="block-4 reserve candidates (separate folder)")
+    ap.add_argument("--model", choices=["gemma", "llama"], default=None, help="only this model's items (reserve: guide 1 Nov, Llama only)")
     ap.add_argument("--plan-dir", default="data/final/Phase_06/plan")
     ap.add_argument("--batch2", default="data/final/Phase_05/exp2b/validated_labels_batch2.jsonl")
     ap.add_argument("--batch2-dir", default="data/final/Phase_05/exp2b")

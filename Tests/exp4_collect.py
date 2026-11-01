@@ -571,18 +571,9 @@ def dla_position(model, probe, tok, ids, first_state, target):
     return st, gold[j], (top2[1] if top2[0] == gold[j] else top2[0]), j, "agree"
 
 
-def stage_features(a):
-    plan = [r for r in load_jsonl(Path(a.plan_dir) / "feature_cases.jsonl") if r["model"] == a.model]
-    plan.sort(key=lambda r: (r["pid"], r["cond"]))                # gold and mixed of a question together
-    if a.limit:
-        plan = plan[:a.limit]
-    out = Path(a.feat_dir) / f"features_{a.model}.jsonl"
-    done = done_keys(out, lambda r: r["case_id"])
-    todo = [r for r in plan if r["case_id"] not in done]
-    print(f"features {a.model}: {len(plan)} planned cases, {len(todo)} to do")
-    if not todo:
-        return
-    model, tok = load_model(a.model_path or MODEL_PATHS[a.model], a.use_4bit, attn_impl="eager")
+def features_loop(model, tok, todo, out, model_key):
+    """ROI + corrected DLA for each case in todo (plan-format rows), appended to out. The model must use
+    eager attention. Shared by the collection run and the steering session (original faithful set)."""
     dev = model.device
     probe = Probe(model)
     L, H = len(model.model.layers), model.config.num_attention_heads
@@ -591,7 +582,7 @@ def stage_features(a):
     notes = Counter()
     for k, r in enumerate(todo, 1):
         q = r["question"]
-        rec = {"case_id": r["case_id"], "model": a.model, "kind": r["kind"]}
+        rec = {"case_id": r["case_id"], "model": model_key, "kind": r["kind"]}
         # no-passage pass (shared by the gold and mixed versions of a question)
         if r["pid"] not in noctx_cache:
             p0 = cb_prompt(q)
@@ -652,11 +643,28 @@ def stage_features(a):
         if len(buf) >= 50 or k == len(todo):
             append_jsonl(out, buf)
             buf = []
-            print(f"  features {a.model}: {k}/{len(todo)} ({time.time() - t0:.0f}s)", flush=True)
+            print(f"  features {model_key}: {k}/{len(todo)} ({time.time() - t0:.0f}s)", flush=True)
     probe.remove()
     if notes:
         print(f"  notes: {dict(notes)}")
     print(f"wrote {out}  (layers {L}, heads {H})")
+
+
+def stage_features(a):
+    plan = [r for r in load_jsonl(Path(a.plan_dir) / "feature_cases.jsonl") if r["model"] == a.model]
+    plan.sort(key=lambda r: (r["pid"], r["cond"]))                # gold and mixed of a question together
+    if a.limit:
+        plan = plan[:a.limit]
+    out = Path(a.feat_dir) / f"features_{a.model}.jsonl"
+    done = done_keys(out, lambda r: r["case_id"])
+    todo = [r for r in plan if r["case_id"] not in done]
+    print(f"features {a.model}: {len(plan)} planned cases, {len(todo)} to do")
+    if not todo:
+        return
+    model, tok = load_model(a.model_path or MODEL_PATHS[a.model], a.use_4bit, attn_impl="eager")
+    features_loop(model, tok, todo, out, a.model)
+
+
 
 
 # ================================================================== summary (CPU)
