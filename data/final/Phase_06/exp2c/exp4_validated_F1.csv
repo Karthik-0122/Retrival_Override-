@@ -79,6 +79,13 @@ main_nq_12631|gold,llama,gold,main,b3_173,yes
 main_nq_21755|gold,llama,gold,main,b3_245,yes
 main_nq_23571|gold,llama,gold,main,b3_283,yes
 main_nq_26840|gold,llama,gold,main,b3_333,yes
+main_nq_6715|gold,llama,gold,main,b3r_010,no
+main_nq_57749|gold,llama,gold,main,b3r_031,no
+main_nq_3562|gold,llama,gold,main,b3r_030,no
+main_nq_11271|gold,llama,gold,main,b3r_001,yes
+main_nq_55125|gold,llama,gold,main,b3r_002,yes
+main_nq_2446|gold,llama,gold,main,b3r_006,yes
+main_nq_47984|gold,llama,gold,main,b3r_014,yes
 main_nq_23377|mixed,llama,mixed,main,b3_015,no
 main_nq_26484|mixed,llama,mixed,main,b3_212,no
 main_nq_38261|mixed,llama,mixed,main,b3_302,no
@@ -86,3 +93,12 @@ main_nq_55569|mixed,llama,mixed,main,b3_112,yes
 main_nq_9071|mixed,llama,mixed,main,b3_129,yes
 main_nq_52325|mixed,llama,mixed,main,b3_270,yes
 main_nq_48600|mixed,llama,mixed,main,b3_285,yes
+main_nq_11849|mixed,llama,mixed,main,b3r_008,no
+main_nq_38058|mixed,llama,mixed,main,b3r_025,no
+main_nq_11271|mixed,llama,mixed,main,b3r_007,yes
+main_nq_24607|mixed,llama,mixed,main,b3r_017,yes
+main_nq_44457|mixed,llama,mixed,main,b3r_018,yes
+main_nq_5076|mixed,llama,mixed,main,b3r_019,yes
+main_nq_1295|mixed,llama,mixed,main,b3r_021,yes
+main_nq_2446|mixed,llama,mixed,main,b3r_027,yes
+main_nq_42245|mixed,llama,mixed,main,b3r_029,yes

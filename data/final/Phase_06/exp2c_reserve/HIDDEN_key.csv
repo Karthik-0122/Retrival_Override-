@@ -1,0 +1,34 @@
+item_id,group,case_id,pid,model,cond,block,auto_type,sampling_weight,closed_book_answer,cb_mean_logprob
+b3r_001,candidate,main_nq_11271|gold,main_nq_11271,llama,gold,4,F1,1.0,"The Church of the Nazarene was founded in 1908 in Los Angeles, California, by Phineas F. Bresee and Joseph P. Wid",-0.322
+b3r_002,candidate,main_nq_55125|gold,main_nq_55125,llama,gold,4,F1,1.0,Penn State joined the Big Ten Conference in 1990.,-0.4961
+b3r_003,candidate,main_nq_39443|gold,main_nq_39443,llama,gold,4,F1,1.0,Garth Brooks,-0.4742
+b3r_004,candidate,main_nq_24287|mixed,main_nq_24287,llama,mixed,4,F1,1.0,Dinah Washington,-0.6876
+b3r_005,candidate,main_nq_43016|mixed,main_nq_43016,llama,mixed,4,F1,1.0,Valerie Harper,-0.509
+b3r_006,candidate,main_nq_2446|gold,main_nq_2446,llama,gold,4,F1,1.0,Adam Smith,-0.9027
+b3r_007,candidate,main_nq_11271|mixed,main_nq_11271,llama,mixed,4,F1,1.0,"The Church of the Nazarene was founded in 1908 in Los Angeles, California, by Phineas F. Bresee and Joseph P. Wid",-0.322
+b3r_008,candidate,main_nq_11849|mixed,main_nq_11849,llama,mixed,4,F1,1.0,The Girl with the Dragon Tattoo is set in 1991.,-0.4085
+b3r_009,candidate,main_nq_18420|gold,main_nq_18420,llama,gold,4,F1,1.0,Jeremy Bentham,-0.5989
+b3r_010,candidate,main_nq_6715|gold,main_nq_6715,llama,gold,4,F1,1.0,The White House was last renovated in 2010. The renovation was done to update the building’s infrastructure and to make it more energy efficient. The renovation cost,-0.627
+b3r_011,candidate,main_nq_50833|gold,main_nq_50833,llama,gold,4,F1,1.0,John Denver,-1.2851
+b3r_012,candidate,main_nq_2906|mixed,main_nq_2906,llama,mixed,4,F1,1.0,T.J. Miller,-0.398
+b3r_013,candidate,main_nq_36427|mixed,main_nq_36427,llama,mixed,4,F1,1.0,small intestine,-0.6457
+b3r_014,candidate,main_nq_47984|gold,main_nq_47984,llama,gold,4,F1,1.0,vampires in 30 days of night come from the arctic,-0.7407
+b3r_015,candidate,main_nq_24287|gold,main_nq_24287,llama,gold,4,F1,1.0,Dinah Washington,-0.6876
+b3r_016,candidate,main_nq_12604|mixed,main_nq_12604,llama,mixed,4,F1,1.0,Germany,-1.5492
+b3r_017,candidate,main_nq_24607|mixed,main_nq_24607,llama,mixed,4,F1,1.0,nikola tesla,-0.398
+b3r_018,candidate,main_nq_44457|mixed,main_nq_44457,llama,mixed,4,F1,1.0,16 August 1998,-0.7444
+b3r_019,candidate,main_nq_5076|mixed,main_nq_5076,llama,mixed,4,F1,1.0,1967,-0.95
+b3r_020,candidate,main_nq_37397|mixed,main_nq_37397,llama,mixed,4,F1,1.0,Huey Lewis and the News,-0.1852
+b3r_021,candidate,main_nq_1295|mixed,main_nq_1295,llama,mixed,4,F1,1.0,9,-1.2385
+b3r_022,candidate,main_nq_9147|mixed,main_nq_9147,llama,mixed,4,F1,1.0,"The last time a volcano erupted in California was in 1914, when Mount Lassen erupted. The eruption lasted for several days and caused significant damage to nearby",-0.4859
+b3r_023,candidate,main_nq_5123|mixed,main_nq_5123,llama,mixed,4,F1,1.0,New Orleans,-0.4058
+b3r_024,candidate,main_nq_11948|mixed,main_nq_11948,llama,mixed,4,F1,1.0,Gladys Knight,-0.3002
+b3r_025,candidate,main_nq_38058|mixed,main_nq_38058,llama,mixed,4,F1,1.0,The original Charlotte's Web was published in 1952.,-0.5267
+b3r_026,candidate,main_nq_55125|mixed,main_nq_55125,llama,mixed,4,F1,1.0,Penn State joined the Big Ten Conference in 1990.,-0.4961
+b3r_027,candidate,main_nq_2446|mixed,main_nq_2446,llama,mixed,4,F1,1.0,Adam Smith,-0.9027
+b3r_028,candidate,main_nq_22664|mixed,main_nq_22664,llama,mixed,4,F1,1.0,Frank Sinatra,-0.3921
+b3r_029,candidate,main_nq_42245|mixed,main_nq_42245,llama,mixed,4,F1,1.0,Vasco da Gama,-0.2947
+b3r_030,candidate,main_nq_3562|gold,main_nq_3562,llama,gold,4,F1,1.0,associative,-2.068
+b3r_031,candidate,main_nq_57749|gold,main_nq_57749,llama,gold,4,F1,1.0,halogens,-0.7694
+b3r_032,candidate,main_nq_15731|gold,main_nq_15731,llama,gold,4,F1,1.0,The first iPod video was released in September 2005. It was the first iPod to feature a widescreen display and support for video playback. The iPod video,-0.5343
+b3r_033,candidate,main_nq_30208|gold,main_nq_30208,llama,gold,4,F1,1.0,Henry Ford,-0.6934

@@ -1,0 +1,46 @@
+{
+  "model": "llama",
+  "F1_cases": 43,
+  "F1_questions": 37,
+  "F1_by_condition": {
+    "gold": 24,
+    "mixed": 19
+  },
+  "F1_both_agreed_cases": 23,
+  "F1_both_agreed_questions": 21,
+  "halves": {
+    "F1": {
+      "test": 22,
+      "selection": 21
+    },
+    "F2": {
+      "selection": 25,
+      "test": 17
+    },
+    "F3": {
+      "test": 5,
+      "selection": 5
+    },
+    "dominance": {
+      "selection": 42,
+      "test": 41
+    },
+    "faithful": {
+      "selection": 147,
+      "test": 150
+    },
+    "follows": {
+      "selection": 76,
+      "test": 76
+    }
+  },
+  "labels": {
+    "F1": 43,
+    "F2": 43,
+    "F5": 37,
+    "F6": 24,
+    "F3": 10,
+    "F1-M": 20,
+    "F4": 2
+  }
+}

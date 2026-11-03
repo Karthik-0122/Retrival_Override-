@@ -1,0 +1,357 @@
+item_id,group,case_id,pid,model,cond,block,auto_type,sampling_weight,closed_book_answer,cb_mean_logprob
+b3_001,followed,main_nq_19254|gold,main_nq_19254,gemma,gold,3,followed,168.6,3,-0.4655
+b3_002,candidate,main_nq_22111|gold,main_nq_22111,gemma,gold,3,F1,1.0,professional golfer association,-0.9119
+b3_003,probe,main_nq_53230|mixed,main_nq_53230,llama,mixed,3,F3,219.5,MGM,-1.0576
+b3_004,candidate,main_nq_16231|mixed,main_nq_16231,llama,mixed,2,F1,1.0,Leon Trotsky,-0.8945
+b3_005,candidate,main_nq_30836|gold,main_nq_30836,gemma,gold,2,F1,1.0,1969,-0.0981
+b3_006,candidate,main_nq_51190|gold,main_nq_51190,gemma,gold,2,F1,1.0,1988,-0.2205
+b3_007,candidate,main_nq_43571|gold,main_nq_43571,gemma,gold,3,F1,1.0,1975,-0.1807
+b3_008,candidate,main_nq_32466|gold,main_nq_32466,gemma,gold,3,F1,1.0,7,-0.6179
+b3_009,followed,main_nq_33142|mixed,main_nq_33142,llama,mixed,3,followed,136.6,Tiger Woods,-1.1497
+b3_010,candidate,main_nq_30367|mixed,main_nq_30367,gemma,mixed,3,F1,1.0,13,-0.4716
+b3_011,candidate,main_nq_38239|gold,main_nq_38239,gemma,gold,2,F1,1.0,1977,-0.3039
+b3_012,candidate,main_nq_26784|mixed,main_nq_26784,llama,mixed,2,F1,1.0,"Dirty Dancing was filmed at the Mountain Lake Hotel in Pembroke, Virginia.",-0.577
+b3_013,candidate,main_nq_19332|gold,main_nq_19332,gemma,gold,1,F1,1.0,Gerry and the pacemakers,-0.6452
+b3_014,followed,main_nq_20782|gold,main_nq_20782,llama,gold,1,followed,177.1,cristiano ronaldo,-0.3333
+b3_015,candidate,main_nq_23377|mixed,main_nq_23377,llama,mixed,2,F1,1.0,"The first section of the London Underground opened in 1863. The Metropolitan Railway, which ran between Paddington and Farringdon, was the world's first",-0.5533
+b3_016,candidate,main_nq_24667|gold,main_nq_24667,llama,gold,2,F1,1.0,The British East India Company set up its first factory in India in Surat in 1612.,-0.4232
+b3_017,candidate,main_nq_43548|gold,main_nq_43548,gemma,gold,2,F1,1.0,constitutional monarchy,-0.6681
+b3_018,probe,main_nq_7426|mixed,main_nq_7426,llama,mixed,2,partial,350.0,leonard keith,-1.0338
+b3_019,followed,main_nq_47368|mixed,main_nq_47368,llama,mixed,2,followed,136.6,Jasmyn Wilkins,-0.9798
+b3_020,candidate,main_nq_1427|mixed,main_nq_1427,gemma,mixed,1,F1,1.0,2009,-0.2536
+b3_021,candidate,main_nq_22286|mixed,main_nq_22286,gemma,mixed,3,F1,1.0,Philadelphia,-0.9107
+b3_022,candidate,main_nq_12305|gold,main_nq_12305,gemma,gold,2,F1,1.0,Ken Jennings,-0.5556
+b3_023,candidate,main_nq_26552|mixed,main_nq_26552,gemma,mixed,2,F1,1.0,1970s,-0.5729
+b3_024,followed,main_nq_11866|gold,main_nq_11866,llama,gold,1,followed,177.1,Matt Czuchry,-0.6009
+b3_025,candidate,main_nq_42703|mixed,main_nq_42703,llama,mixed,1,F1,1.0,"The first McDonald's opened in 1940 in San Bernardino, California.",-0.5251
+b3_026,candidate,main_nq_57758|gold,main_nq_57758,gemma,gold,3,F1,1.0,1978,-0.2128
+b3_027,candidate,main_nq_34682|mixed,main_nq_34682,gemma,mixed,3,F1,1.0,theft,-1.7109
+b3_028,candidate,main_nq_44692|gold,main_nq_44692,gemma,gold,1,F1,1.0,Leif Erikson,-0.8667
+b3_029,candidate,main_nq_26929|mixed,main_nq_26929,gemma,mixed,3,F1,1.0,1965,-0.1814
+b3_030,candidate,main_nq_30930|gold,main_nq_30930,llama,gold,1,F1,1.0,the beatles,-0.492
+b3_031,candidate,main_nq_20782|mixed,main_nq_20782,llama,mixed,1,F1,1.0,cristiano ronaldo,-0.3333
+b3_032,candidate,main_nq_56250|mixed,main_nq_56250,gemma,mixed,2,F1,1.0,Linnaeus,-1.5916
+b3_033,candidate,main_nq_38080|gold,main_nq_38080,gemma,gold,1,F1,1.0,1884,-0.5579
+b3_034,candidate,main_nq_3610|mixed,main_nq_3610,gemma,mixed,3,F1,1.0,1927,-0.3535
+b3_035,candidate,main_nq_40712|gold,main_nq_40712,gemma,gold,1,F1,1.0,22,-0.7888
+b3_036,candidate,main_nq_26840|gold,main_nq_26840,gemma,gold,2,F1,1.0,The Animals,-0.9692
+b3_037,candidate,main_nq_44213|gold,main_nq_44213,gemma,gold,3,F1,1.0,600 volts,-0.4731
+b3_038,candidate,main_nq_4683|gold,main_nq_4683,llama,gold,2,F1,1.0,The attack lasted 110 minutes.,-0.84
+b3_039,followed,main_nq_29495|mixed,main_nq_29495,gemma,mixed,3,followed,127.8,Eleanor Bron,-1.7804
+b3_040,candidate,main_nq_53671|mixed,main_nq_53671,gemma,mixed,2,F1,1.0,Lewis Hamilton,-0.5795
+b3_041,probe,main_nq_1407|gold,main_nq_1407,llama,gold,3,F3,165.0,Octavia Spencer,-0.6553
+b3_042,candidate,main_nq_22475|gold,main_nq_22475,gemma,gold,3,F1,1.0,Roger Corman,-0.4831
+b3_043,candidate,main_nq_42558|mixed,main_nq_42558,gemma,mixed,1,F1,1.0,"10,000",-0.3015
+b3_044,candidate,main_nq_7348|gold,main_nq_7348,gemma,gold,3,F1,1.0,Obama,-1.7262
+b3_045,candidate,main_nq_54180|gold,main_nq_54180,gemma,gold,1,F1,1.0,1962,-0.1931
+b3_046,candidate,main_nq_8304|gold,main_nq_8304,llama,gold,2,F1,1.0,1697,-0.862
+b3_047,candidate,main_nq_3546|gold,main_nq_3546,gemma,gold,2,F1,1.0,Boston Celtics,-1.112
+b3_048,candidate,main_nq_30584|gold,main_nq_30584,gemma,gold,3,F1,1.0,Heathcliff,-1.0256
+b3_049,candidate,main_nq_52250|mixed,main_nq_52250,llama,mixed,1,F1,1.0,Guatemala,-1.8109
+b3_050,candidate,main_nq_31559|mixed,main_nq_31559,gemma,mixed,2,F1,1.0,1979,-0.1232
+b3_051,candidate,main_nq_40131|mixed,main_nq_40131,gemma,mixed,1,F1,1.0,the federal government,-0.6403
+b3_052,candidate,main_nq_36868|gold,main_nq_36868,gemma,gold,3,F1,1.0,1984,-0.3306
+b3_053,candidate,main_nq_27762|mixed,main_nq_27762,gemma,mixed,3,F1,1.0,1986,-0.1652
+b3_054,candidate,main_nq_48449|gold,main_nq_48449,gemma,gold,1,F1,1.0,constantine,-0.5427
+b3_055,candidate,main_nq_54590|gold,main_nq_54590,llama,gold,3,F1,1.0,not tax individuals,-2.0167
+b3_056,candidate,main_nq_52325|mixed,main_nq_52325,gemma,mixed,3,F1,1.0,2001,-0.448
+b3_057,candidate,main_nq_9641|gold,main_nq_9641,llama,gold,3,F1,1.0,The girl in the video Cry Me a River is Britney Spears.,-0.6081
+b3_058,candidate,main_nq_29741|mixed,main_nq_29741,gemma,mixed,3,F1,1.0,Stephen Hendry,-0.373
+b3_059,candidate,main_nq_7712|gold,main_nq_7712,gemma,gold,1,F1,1.0,a heart,-0.7412
+b3_060,candidate,main_nq_41733|gold,main_nq_41733,gemma,gold,3,F1,1.0,1986,-0.3427
+b3_061,candidate,main_nq_54944|gold,main_nq_54944,llama,gold,2,F1,1.0,John Locke,-0.4904
+b3_062,candidate,main_nq_52325|gold,main_nq_52325,llama,gold,3,F1,1.0,2001,-0.6706
+b3_063,candidate,main_nq_34219|gold,main_nq_34219,llama,gold,2,F1,1.0,psychology,-0.9274
+b3_064,candidate,main_nq_35336|gold,main_nq_35336,gemma,gold,2,F1,1.0,1912,-0.1885
+b3_065,candidate,main_nq_31840|gold,main_nq_31840,llama,gold,1,F1,1.0,Albert Brooks,-0.956
+b3_066,candidate,main_nq_16865|mixed,main_nq_16865,gemma,mixed,2,F1,1.0,1886,-0.2034
+b3_067,candidate,main_nq_33503|gold,main_nq_33503,gemma,gold,3,F1,1.0,1997,-0.1222
+b3_068,probe,main_nq_58058|mixed,main_nq_58058,gemma,mixed,2,F6,294.0,,-3.0172
+b3_069,candidate,main_nq_41667|mixed,main_nq_41667,gemma,mixed,3,F1,1.0,Mary Richmond,-0.5215
+b3_070,followed,main_nq_19296|gold,main_nq_19296,llama,gold,1,followed,177.1,4,-1.0508
+b3_071,followed,main_nq_46160|mixed,main_nq_46160,llama,mixed,2,followed,136.6,Burt Reynolds,-0.4601
+b3_072,candidate,main_nq_38239|mixed,main_nq_38239,gemma,mixed,2,F1,1.0,1977,-0.3039
+b3_073,candidate,main_nq_30565|mixed,main_nq_30565,gemma,mixed,1,F1,1.0,24 hours,-0.2776
+b3_074,candidate,main_nq_30589|gold,main_nq_30589,llama,gold,2,F1,1.0,The first child car seat was made in 1962.,-0.4679
+b3_075,candidate,main_nq_24667|gold,main_nq_24667,gemma,gold,2,F1,1.0,Surat,-1.5277
+b3_076,candidate,main_nq_28711|gold,main_nq_28711,gemma,gold,3,F1,1.0,Henry Bessemer,-0.1777
+b3_077,candidate,main_nq_57589|gold,main_nq_57589,gemma,gold,1,F1,1.0,1927,-0.1918
+b3_078,candidate,main_nq_31858|mixed,main_nq_31858,llama,mixed,2,F1,1.0,"The current Secretary of Homeland Security is Alejandro Mayorkas. He was appointed by President Joe Biden and confirmed by the Senate on February 2, 2021",-0.4112
+b3_079,candidate,main_nq_22291|gold,main_nq_22291,gemma,gold,3,F1,1.0,Edward the confessor,-0.4763
+b3_080,candidate,main_nq_7563|gold,main_nq_7563,llama,gold,3,F1,1.0,1950,-0.4705
+b3_081,candidate,main_nq_52856|gold,main_nq_52856,llama,gold,1,F1,1.0,Residential schools were first established in Canada in the 1870s.,-0.4616
+b3_082,candidate,main_nq_23377|mixed,main_nq_23377,gemma,mixed,2,F1,1.0,1863,-0.2787
+b3_083,candidate,main_nq_51190|mixed,main_nq_51190,gemma,mixed,2,F1,1.0,1988,-0.2205
+b3_084,candidate,main_nq_50273|gold,main_nq_50273,gemma,gold,1,F1,1.0,1983,-0.2521
+b3_085,candidate,main_nq_17916|gold,main_nq_17916,gemma,gold,1,F1,1.0,2005,-0.196
+b3_086,followed,main_nq_55784|mixed,main_nq_55784,llama,mixed,3,followed,136.6,The New York Rangers,-1.1957
+b3_087,candidate,main_nq_26002|gold,main_nq_26002,llama,gold,3,F1,1.0,Don Henley,-0.4717
+b3_088,candidate,main_nq_45263|gold,main_nq_45263,gemma,gold,1,F1,1.0,Social Darwinism,-0.4262
+b3_089,probe,main_nq_1599|gold,main_nq_1599,gemma,gold,3,F3,181.0,Andrew Jackson,-0.8268
+b3_090,candidate,main_nq_9132|mixed,main_nq_9132,gemma,mixed,2,F1,1.0,1982,-0.219
+b3_091,followed,main_nq_47683|mixed,main_nq_47683,gemma,mixed,3,followed,127.8,"the mac in fleetwood mac comes from the name of the drummer, Mick Fleetwood.",-0.8461
+b3_092,candidate,main_nq_23571|mixed,main_nq_23571,gemma,mixed,2,F1,1.0,New York City,-0.9874
+b3_093,candidate,main_nq_4901|gold,main_nq_4901,gemma,gold,2,F1,1.0,4,-0.5553
+b3_094,followed,main_nq_26490|gold,main_nq_26490,gemma,gold,3,followed,168.6,Hyderabad,-1.2475
+b3_095,candidate,main_nq_4777|mixed,main_nq_4777,gemma,mixed,3,F1,1.0,1930s,-0.7147
+b3_096,candidate,main_nq_7817|gold,main_nq_7817,gemma,gold,2,F1,1.0,9 times,-1.1185
+b3_097,candidate,main_nq_20815|mixed,main_nq_20815,gemma,mixed,3,F1,1.0,Mel Giedroyc and Sue Perkins,-0.3886
+b3_098,candidate,main_nq_52325|gold,main_nq_52325,gemma,gold,3,F1,1.0,2001,-0.448
+b3_099,followed,main_nq_42072|mixed,main_nq_42072,llama,mixed,1,followed,136.6,The drinking age in New York was raised to 19 in 1976.,-0.6706
+b3_100,candidate,main_nq_49257|gold,main_nq_49257,gemma,gold,1,F1,1.0,Bruce,-0.8639
+b3_101,candidate,main_nq_7373|mixed,main_nq_7373,gemma,mixed,3,F1,1.0,1892,-0.2254
+b3_102,candidate,main_nq_14642|mixed,main_nq_14642,gemma,mixed,3,F1,1.0,1990,-0.1397
+b3_103,candidate,main_nq_27517|gold,main_nq_27517,gemma,gold,2,F1,1.0,Fiz is married to Tyrone Dobbs.,-1.0271
+b3_104,candidate,main_nq_12852|mixed,main_nq_12852,llama,mixed,1,F1,1.0,The American flag was designed by Betsy Ross in 1776.,-0.4994
+b3_105,candidate,main_nq_27762|gold,main_nq_27762,gemma,gold,3,F1,1.0,1986,-0.1652
+b3_106,candidate,main_nq_9521|gold,main_nq_9521,gemma,gold,2,F1,1.0,1789,-0.4074
+b3_107,candidate,main_nq_56036|gold,main_nq_56036,llama,gold,2,F1,1.0,Rocky won the fight in the first Rocky movie.,-0.431
+b3_108,candidate,main_nq_21755|mixed,main_nq_21755,llama,mixed,2,F1,1.0,Sir Peter Tapsell,-0.5379
+b3_109,candidate,main_nq_34237|gold,main_nq_34237,gemma,gold,2,F1,1.0,1215,-0.5854
+b3_110,candidate,main_nq_19853|mixed,main_nq_19853,gemma,mixed,2,F1,1.0,58,-0.6297
+b3_111,candidate,main_nq_46231|mixed,main_nq_46231,gemma,mixed,1,F1,1.0,George Washington,-0.8001
+b3_112,candidate,main_nq_55569|mixed,main_nq_55569,llama,mixed,3,F1,1.0,2013,-0.9772
+b3_113,candidate,main_nq_5026|gold,main_nq_5026,gemma,gold,3,F1,1.0,1966,-0.4192
+b3_114,candidate,main_nq_39168|gold,main_nq_39168,gemma,gold,3,F1,1.0,1898,-0.241
+b3_115,candidate,main_nq_55150|gold,main_nq_55150,gemma,gold,1,F1,1.0,Otis Redding,-0.5291
+b3_116,candidate,main_nq_30435|mixed,main_nq_30435,gemma,mixed,3,F1,1.0,10,-1.1771
+b3_117,candidate,main_nq_44702|gold,main_nq_44702,gemma,gold,3,F1,1.0,"Wilmington, North Carolina",-0.8527
+b3_118,probe,main_nq_41921|gold,main_nq_41921,gemma,gold,3,partial,212.0,,-2.8643
+b3_119,candidate,main_nq_11444|gold,main_nq_11444,gemma,gold,1,F1,1.0,Sean Marshall,-1.6843
+b3_120,candidate,main_nq_30836|gold,main_nq_30836,llama,gold,2,F1,1.0,1969,-0.243
+b3_121,candidate,main_nq_7754|mixed,main_nq_7754,llama,mixed,1,F1,1.0,Major,-0.6891
+b3_122,candidate,main_nq_11320|gold,main_nq_11320,llama,gold,3,F1,1.0,lesley gore,-0.9013
+b3_123,candidate,main_nq_29591|gold,main_nq_29591,gemma,gold,3,F1,1.0,100 yards,-0.4004
+b3_124,candidate,main_nq_23571|mixed,main_nq_23571,llama,mixed,2,F1,1.0,New York City,-0.7509
+b3_125,candidate,main_nq_34184|gold,main_nq_34184,gemma,gold,3,F1,1.0,13,-0.6573
+b3_126,candidate,main_nq_55771|mixed,main_nq_55771,gemma,mixed,2,F1,1.0,1931,-0.3503
+b3_127,candidate,main_nq_48909|gold,main_nq_48909,gemma,gold,3,F1,1.0,1607,-0.3849
+b3_128,followed,main_nq_38325|mixed,main_nq_38325,gemma,mixed,3,followed,127.8,1998,-0.6912
+b3_129,candidate,main_nq_9071|mixed,main_nq_9071,llama,mixed,2,F1,1.0,sea level rise,-0.744
+b3_130,candidate,main_nq_14950|mixed,main_nq_14950,llama,mixed,1,F1,1.0,Iron man,-0.9975
+b3_131,candidate,main_nq_24837|mixed,main_nq_24837,gemma,mixed,1,F1,1.0,Harriet Tubman,-0.4191
+b3_132,candidate,main_nq_11450|mixed,main_nq_11450,llama,mixed,3,F1,1.0,Zoe Saldana,-0.6111
+b3_133,candidate,main_nq_51864|mixed,main_nq_51864,llama,mixed,3,F1,1.0,Seth MacFarlane,-0.366
+b3_134,candidate,main_nq_42113|gold,main_nq_42113,llama,gold,1,F1,1.0,the rights to the musical are owned by Warner Bros.,-1.2014
+b3_135,candidate,main_nq_18082|gold,main_nq_18082,gemma,gold,1,F1,1.0,1.5 million,-0.5981
+b3_136,probe,main_nq_47220|mixed,main_nq_47220,gemma,mixed,3,F3,254.0,United States,-1.2373
+b3_137,candidate,main_nq_31009|gold,main_nq_31009,llama,gold,1,F1,1.0,Alabama,-1.8489
+b3_138,candidate,main_nq_35148|gold,main_nq_35148,gemma,gold,2,F1,1.0,1679,-0.2672
+b3_139,candidate,main_nq_36646|gold,main_nq_36646,llama,gold,3,F1,1.0,The first gun control law in America was passed in 1927. It was called the National Firearms Act and it regulated the sale and possession of certain types of,-0.4639
+b3_140,followed,main_nq_20709|mixed,main_nq_20709,gemma,mixed,3,followed,127.8,Juan N. Cortina,-0.6677
+b3_141,probe,main_nq_69|mixed,main_nq_69,llama,mixed,2,partial,350.0,1940,-0.2764
+b3_142,candidate,main_nq_38041|mixed,main_nq_38041,llama,mixed,3,F1,1.0,Columbia,-1.3031
+b3_143,candidate,main_nq_24728|gold,main_nq_24728,gemma,gold,2,F1,1.0,"Kansas City, Missouri",-0.4362
+b3_144,candidate,main_nq_43912|gold,main_nq_43912,gemma,gold,2,F1,1.0,1971,-0.2106
+b3_145,candidate,main_nq_23941|gold,main_nq_23941,llama,gold,2,F1,1.0,"The first McDonald's restaurant was opened in 1940 by Richard and Maurice McDonald in San Bernardino, California.",-0.4947
+b3_146,candidate,main_nq_2233|mixed,main_nq_2233,gemma,mixed,1,F1,1.0,1904,-0.2262
+b3_147,candidate,main_nq_9301|mixed,main_nq_9301,gemma,mixed,3,F1,1.0,1998,-0.2044
+b3_148,candidate,main_nq_38010|gold,main_nq_38010,llama,gold,3,F1,1.0,The government got involved in healthcare in the 1960s.,-0.7802
+b3_149,candidate,main_nq_3286|gold,main_nq_3286,gemma,gold,1,F1,1.0,1993,-0.3789
+b3_150,candidate,main_nq_34188|gold,main_nq_34188,gemma,gold,1,F1,1.0,chance,-0.8398
+b3_151,candidate,main_nq_8241|gold,main_nq_8241,gemma,gold,2,F1,1.0,21.9%,-0.8389
+b3_152,candidate,main_nq_38261|gold,main_nq_38261,llama,gold,2,F1,1.0,"The first zoo in the world was opened in 1752 in Paris, France.",-0.6829
+b3_153,followed,main_nq_34256|gold,main_nq_34256,llama,gold,1,followed,177.1,"The song was written by Jimmy Kennedy and Jack Mahoney in 1939. It was first recorded by the British band, The Goons, in 195",-0.9953
+b3_154,candidate,main_nq_12160|mixed,main_nq_12160,gemma,mixed,2,F1,1.0,2009,-0.3611
+b3_155,candidate,main_nq_3546|mixed,main_nq_3546,gemma,mixed,2,F1,1.0,Boston Celtics,-1.112
+b3_156,candidate,main_nq_35345|mixed,main_nq_35345,gemma,mixed,2,F1,1.0,Schleiden,-0.7483
+b3_157,candidate,main_nq_16231|mixed,main_nq_16231,gemma,mixed,2,F1,1.0,Leon Trotsky,-0.517
+b3_158,candidate,main_nq_18082|mixed,main_nq_18082,gemma,mixed,1,F1,1.0,1.5 million,-0.5981
+b3_159,candidate,main_nq_56808|mixed,main_nq_56808,gemma,mixed,2,F1,1.0,Egypt,-1.2819
+b3_160,candidate,main_nq_22111|mixed,main_nq_22111,gemma,mixed,3,F1,1.0,professional golfer association,-0.9119
+b3_161,candidate,main_nq_22291|gold,main_nq_22291,llama,gold,3,F1,1.0,King Edward the Confessor,-0.4605
+b3_162,candidate,main_nq_38131|gold,main_nq_38131,gemma,gold,1,F1,1.0,1967,-0.1761
+b3_163,candidate,main_nq_48909|mixed,main_nq_48909,llama,mixed,3,F1,1.0,The first colonists settled in America in 1607.,-0.5246
+b3_164,probe,main_nq_57454|mixed,main_nq_57454,llama,mixed,3,F3,219.5,"The highest sales tax in the United States is in the state of Tennessee, where the sales tax rate is 9.75%. This is followed by the state",-0.6971
+b3_165,candidate,main_nq_2406|mixed,main_nq_2406,gemma,mixed,3,F1,1.0,Sher Shah Suri,-0.6351
+b3_166,candidate,main_nq_38529|mixed,main_nq_38529,gemma,mixed,3,F1,1.0,1956,-0.3552
+b3_167,followed,main_nq_2613|mixed,main_nq_2613,gemma,mixed,1,followed,127.8,The theme song is sung by the band The Presidents of the United States of America.,-0.8381
+b3_168,candidate,main_nq_26484|gold,main_nq_26484,llama,gold,2,F1,1.0,10 Downing Street became the official residence of the Prime Minister in 1735.,-0.5345
+b3_169,candidate,main_nq_32960|mixed,main_nq_32960,gemma,mixed,3,F1,1.0,austria and czechoslovakia,-0.543
+b3_170,candidate,main_nq_7963|mixed,main_nq_7963,gemma,mixed,1,F1,1.0,1993,-0.2483
+b3_171,candidate,main_nq_9071|mixed,main_nq_9071,gemma,mixed,2,F1,1.0,rising sea levels,-0.4539
+b3_172,candidate,main_nq_24338|gold,main_nq_24338,gemma,gold,3,F1,1.0,1895,-0.1464
+b3_173,candidate,main_nq_12631|gold,main_nq_12631,llama,gold,2,F1,1.0,1922,-0.6822
+b3_174,candidate,main_nq_41426|gold,main_nq_41426,gemma,gold,1,F1,1.0,the people,-0.5743
+b3_175,candidate,main_nq_204|gold,main_nq_204,llama,gold,1,F1,1.0,The killer in the book Ordeal by Innocence is Jacko Argyle.,-0.43
+b3_176,candidate,main_nq_31840|mixed,main_nq_31840,llama,mixed,1,F1,1.0,Albert Brooks,-0.956
+b3_177,candidate,main_nq_45594|gold,main_nq_45594,gemma,gold,3,F1,1.0,Aristotle,-0.9925
+b3_178,candidate,main_nq_7724|mixed,main_nq_7724,gemma,mixed,1,F1,1.0,Richard Nixon,-1.0216
+b3_179,candidate,main_nq_53077|mixed,main_nq_53077,gemma,mixed,1,F1,1.0,The Black Crook,-0.6032
+b3_180,candidate,main_nq_23011|mixed,main_nq_23011,gemma,mixed,1,F1,1.0,1956,-0.3513
+b3_181,candidate,main_nq_48539|mixed,main_nq_48539,llama,mixed,1,F1,1.0,Clive Owen,-0.5297
+b3_182,candidate,main_nq_44213|mixed,main_nq_44213,gemma,mixed,3,F1,1.0,600 volts,-0.4731
+b3_183,candidate,main_nq_28291|gold,main_nq_28291,gemma,gold,3,F1,1.0,1000 BCE,-0.8576
+b3_184,candidate,main_nq_14642|mixed,main_nq_14642,llama,mixed,3,F1,1.0,1990,-0.6854
+b3_185,candidate,main_nq_23177|mixed,main_nq_23177,gemma,mixed,1,F1,1.0,Adam Sandler,-1.4707
+b3_186,followed,main_nq_17605|mixed,main_nq_17605,gemma,mixed,1,followed,127.8,,-2.8923
+b3_187,probe,main_nq_29255|gold,main_nq_29255,llama,gold,1,F3,165.0,Heihei,-0.705
+b3_188,candidate,main_nq_44718|gold,main_nq_44718,gemma,gold,2,F1,1.0,1913,-0.2122
+b3_189,followed,main_nq_57993|mixed,main_nq_57993,gemma,mixed,3,followed,127.8,the song was sung by the slaves in the movie uncle tom 's cabin,-1.1689
+b3_190,followed,main_nq_10207|gold,main_nq_10207,llama,gold,2,followed,177.1,Brian Baumgartner,-0.6741
+b3_191,candidate,main_nq_57770|mixed,main_nq_57770,gemma,mixed,3,F1,1.0,13,-0.4949
+b3_192,candidate,main_nq_33503|mixed,main_nq_33503,gemma,mixed,3,F1,1.0,1997,-0.1222
+b3_193,probe,main_nq_25807|mixed,main_nq_25807,gemma,mixed,2,partial,265.5,Rocky Balboa,-1.4403
+b3_194,followed,main_nq_28505|gold,main_nq_28505,llama,gold,3,followed,177.1,jayaprakash narayan,-0.4131
+b3_195,candidate,main_nq_3578|mixed,main_nq_3578,gemma,mixed,3,F1,1.0,Great Dane,-0.6218
+b3_196,candidate,main_nq_56036|gold,main_nq_56036,gemma,gold,2,F1,1.0,Rocky,-0.9616
+b3_197,candidate,main_nq_9736|mixed,main_nq_9736,gemma,mixed,2,F1,1.0,1989,-0.3565
+b3_198,candidate,main_nq_57782|gold,main_nq_57782,gemma,gold,3,F1,1.0,1927,-0.3105
+b3_199,candidate,main_nq_24492|mixed,main_nq_24492,llama,mixed,1,F1,1.0,The Wizarding World of Harry Potter opened in 2010.,-0.4782
+b3_200,candidate,main_nq_204|mixed,main_nq_204,llama,mixed,1,F1,1.0,The killer in the book Ordeal by Innocence is Jacko Argyle.,-0.43
+b3_201,followed,main_nq_32146|mixed,main_nq_32146,llama,mixed,3,followed,136.6,Ona Munson,-0.4409
+b3_202,candidate,main_nq_14806|mixed,main_nq_14806,gemma,mixed,1,F1,1.0,10,-0.6082
+b3_203,followed,main_nq_43595|gold,main_nq_43595,gemma,gold,1,followed,168.6,300,-1.541
+b3_204,candidate,main_nq_2233|gold,main_nq_2233,gemma,gold,1,F1,1.0,1904,-0.2262
+b3_205,candidate,main_nq_29741|gold,main_nq_29741,gemma,gold,3,F1,1.0,Stephen Hendry,-0.373
+b3_206,followed,main_nq_48838|mixed,main_nq_48838,llama,mixed,1,followed,136.6,1991,-1.4618
+b3_207,followed,main_nq_16304|gold,main_nq_16304,gemma,gold,3,followed,168.6,2018,-0.2863
+b3_208,candidate,main_nq_54944|gold,main_nq_54944,gemma,gold,2,F1,1.0,John Locke,-0.2438
+b3_209,candidate,main_nq_20312|mixed,main_nq_20312,gemma,mixed,2,F1,1.0,Apple II,-1.0
+b3_210,candidate,main_nq_48909|mixed,main_nq_48909,gemma,mixed,3,F1,1.0,1607,-0.3849
+b3_211,candidate,main_nq_51878|gold,main_nq_51878,gemma,gold,3,F1,1.0,1968,-0.2232
+b3_212,candidate,main_nq_26484|mixed,main_nq_26484,llama,mixed,2,F1,1.0,10 Downing Street became the official residence of the Prime Minister in 1735.,-0.5345
+b3_213,candidate,main_nq_103|mixed,main_nq_103,gemma,mixed,3,F1,1.0,1935,-0.673
+b3_214,candidate,main_nq_2108|gold,main_nq_2108,gemma,gold,3,F1,1.0,4,-0.4951
+b3_215,candidate,main_nq_11444|mixed,main_nq_11444,gemma,mixed,1,F1,1.0,Sean Marshall,-1.6843
+b3_216,candidate,main_nq_26840|mixed,main_nq_26840,llama,mixed,2,F1,1.0,The Animals,-0.7555
+b3_217,candidate,main_nq_23818|mixed,main_nq_23818,gemma,mixed,3,F1,1.0,1957,-0.2439
+b3_218,candidate,main_nq_40712|mixed,main_nq_40712,gemma,mixed,1,F1,1.0,22,-0.7888
+b3_219,candidate,main_nq_9521|mixed,main_nq_9521,gemma,mixed,2,F1,1.0,1789,-0.4074
+b3_220,candidate,main_nq_26840|mixed,main_nq_26840,gemma,mixed,2,F1,1.0,The Animals,-0.9692
+b3_221,candidate,main_nq_21301|mixed,main_nq_21301,gemma,mixed,1,F1,1.0,Serena Williams,-0.789
+b3_222,candidate,main_nq_37580|mixed,main_nq_37580,gemma,mixed,1,F1,1.0,1990,-0.1151
+b3_223,followed,main_nq_16601|gold,main_nq_16601,gemma,gold,2,followed,168.6,Billy Joel,-2.0171
+b3_224,candidate,main_nq_30565|gold,main_nq_30565,gemma,gold,1,F1,1.0,24 hours,-0.2776
+b3_225,candidate,main_nq_57544|gold,main_nq_57544,gemma,gold,1,F1,1.0,Ferdinand I,-1.1026
+b3_226,candidate,main_nq_45943|mixed,main_nq_45943,llama,mixed,1,F1,1.0,france,-0.4448
+b3_227,probe,main_nq_28311|mixed,main_nq_28311,gemma,mixed,1,partial,265.5,1963,-0.7884
+b3_228,followed,main_nq_37947|gold,main_nq_37947,gemma,gold,3,followed,168.6,22,-0.3452
+b3_229,probe,main_nq_58107|mixed,main_nq_58107,gemma,mixed,3,F3,254.0,Rohit Sharma,-1.2862
+b3_230,candidate,main_nq_41667|gold,main_nq_41667,gemma,gold,3,F1,1.0,Mary Richmond,-0.5215
+b3_231,followed,main_nq_29373|mixed,main_nq_29373,gemma,mixed,2,followed,127.8,,-3.0759
+b3_232,candidate,main_nq_43422|gold,main_nq_43422,gemma,gold,3,F1,1.0,1953,-0.2001
+b3_233,candidate,main_nq_7348|gold,main_nq_7348,llama,gold,3,F1,1.0,barack obama,-0.363
+b3_234,candidate,main_nq_4568|gold,main_nq_4568,gemma,gold,2,F1,1.0,1996,-0.2378
+b3_235,candidate,main_nq_14950|gold,main_nq_14950,llama,gold,1,F1,1.0,Iron man,-0.9975
+b3_236,candidate,main_nq_9003|gold,main_nq_9003,gemma,gold,2,F1,1.0,Friedrich Froebel,-0.4804
+b3_237,candidate,main_nq_7712|mixed,main_nq_7712,gemma,mixed,1,F1,1.0,a heart,-0.7412
+b3_238,candidate,main_nq_42558|gold,main_nq_42558,gemma,gold,1,F1,1.0,"10,000",-0.3015
+b3_239,probe,main_nq_23531|gold,main_nq_23531,llama,gold,3,partial,257.5,Dr. John H. Watson,-1.0544
+b3_240,candidate,main_nq_18574|mixed,main_nq_18574,llama,mixed,3,F1,1.0,"The first time poison gas was used in WW1 was on April 22, 1915, when the Germans released chlorine gas on the French and Algerian",-0.5546
+b3_241,candidate,main_nq_43912|mixed,main_nq_43912,llama,mixed,2,F1,1.0,"The United States abandoned the gold standard in 1933, when President Franklin D. Roosevelt issued an executive order that made it illegal for Americans to own gold.",-0.5732
+b3_242,candidate,main_nq_54944|mixed,main_nq_54944,llama,mixed,2,F1,1.0,John Locke,-0.4904
+b3_243,candidate,main_nq_33660|mixed,main_nq_33660,gemma,mixed,1,F1,1.0,1926,-0.5166
+b3_244,candidate,main_nq_31963|gold,main_nq_31963,gemma,gold,1,F1,1.0,1912,-0.7812
+b3_245,candidate,main_nq_21755|gold,main_nq_21755,llama,gold,2,F1,1.0,Sir Peter Tapsell,-0.5379
+b3_246,candidate,main_nq_12823|gold,main_nq_12823,gemma,gold,1,F1,1.0,in the museum of london docklands,-0.7742
+b3_247,candidate,main_nq_26993|gold,main_nq_26993,llama,gold,3,F1,1.0,"The 2007 New England Patriots went 16-0 in the regular season, but lost to the New York Giants in Super Bowl XLII.",-0.4215
+b3_248,candidate,main_nq_57770|gold,main_nq_57770,gemma,gold,3,F1,1.0,13,-0.4949
+b3_249,candidate,main_nq_4950|mixed,main_nq_4950,gemma,mixed,1,F1,1.0,c,-1.0894
+b3_250,candidate,main_nq_42021|gold,main_nq_42021,gemma,gold,3,F1,1.0,1995,-0.4275
+b3_251,candidate,main_nq_18574|gold,main_nq_18574,llama,gold,3,F1,1.0,"The first time poison gas was used in WW1 was on April 22, 1915, when the Germans released chlorine gas on the French and Algerian",-0.5546
+b3_252,candidate,main_nq_45513|gold,main_nq_45513,gemma,gold,3,F1,1.0,Judas,-1.1055
+b3_253,candidate,main_nq_21301|mixed,main_nq_21301,llama,mixed,1,F1,1.0,Serena Williams,-0.7576
+b3_254,candidate,main_nq_12305|gold,main_nq_12305,llama,gold,2,F1,1.0,Ken Jennings,-0.6395
+b3_255,candidate,main_nq_45594|mixed,main_nq_45594,gemma,mixed,3,F1,1.0,Aristotle,-0.9925
+b3_256,candidate,main_nq_3089|gold,main_nq_3089,llama,gold,3,F1,1.0,The last major eruption of Santorini occurred in 1650 BC.,-0.7286
+b3_257,candidate,main_nq_3546|gold,main_nq_3546,llama,gold,2,F1,1.0,the boston celtics,-0.6124
+b3_258,candidate,main_nq_45943|mixed,main_nq_45943,gemma,mixed,1,F1,1.0,France,-0.5243
+b3_259,candidate,main_nq_40141|gold,main_nq_40141,gemma,gold,3,F1,1.0,David Tomlinson,-0.8342
+b3_260,candidate,main_nq_9071|gold,main_nq_9071,gemma,gold,2,F1,1.0,rising sea levels,-0.4539
+b3_261,candidate,main_nq_37402|gold,main_nq_37402,llama,gold,3,F1,1.0,The executive branch of the federal government creates federal agencies. The executive branch is responsible for carrying out the laws of the United States. The executive branch is headed by,-0.7095
+b3_262,probe,main_nq_17045|gold,main_nq_17045,gemma,gold,1,F6,196.0,,-2.6615
+b3_263,candidate,main_nq_32534|gold,main_nq_32534,gemma,gold,1,F1,1.0,Graham Chapman,-0.5847
+b3_264,candidate,main_nq_17916|mixed,main_nq_17916,gemma,mixed,1,F1,1.0,2005,-0.196
+b3_265,candidate,main_nq_11450|mixed,main_nq_11450,gemma,mixed,3,F1,1.0,Zoe Saldana,-0.4986
+b3_266,candidate,main_nq_48805|mixed,main_nq_48805,gemma,mixed,2,F1,1.0,"governor, council, and house of burgesses",-0.4821
+b3_267,candidate,main_nq_52021|mixed,main_nq_52021,gemma,mixed,3,F1,1.0,Constantine,-0.7376
+b3_268,candidate,main_nq_40659|gold,main_nq_40659,gemma,gold,2,F1,1.0,Lance Berkman,-0.6908
+b3_269,candidate,main_nq_23782|gold,main_nq_23782,llama,gold,3,F1,1.0,mechanical,-1.2059
+b3_270,candidate,main_nq_52325|mixed,main_nq_52325,llama,mixed,3,F1,1.0,2001,-0.6706
+b3_271,candidate,main_nq_9071|gold,main_nq_9071,llama,gold,2,F1,1.0,sea level rise,-0.744
+b3_272,candidate,main_nq_40564|mixed,main_nq_40564,llama,mixed,1,F1,1.0,"May 21, 2018",-0.346
+b3_273,candidate,main_nq_54944|mixed,main_nq_54944,gemma,mixed,2,F1,1.0,John Locke,-0.2438
+b3_274,candidate,main_nq_18194|gold,main_nq_18194,llama,gold,1,F1,1.0,The first general election in Pakistan was held in 1970.,-0.5328
+b3_275,followed,main_nq_40352|mixed,main_nq_40352,llama,mixed,2,followed,136.6,5,-1.756
+b3_276,candidate,main_nq_55771|mixed,main_nq_55771,llama,mixed,2,F1,1.0,Australia went off the gold standard in 1931.,-0.4011
+b3_277,candidate,main_nq_28155|gold,main_nq_28155,llama,gold,1,F1,1.0,Emma Thompson,-0.2764
+b3_278,candidate,main_nq_29591|mixed,main_nq_29591,gemma,mixed,3,F1,1.0,100 yards,-0.4004
+b3_279,candidate,main_nq_43548|mixed,main_nq_43548,gemma,mixed,2,F1,1.0,constitutional monarchy,-0.6681
+b3_280,candidate,main_nq_33801|mixed,main_nq_33801,llama,mixed,3,F1,1.0,New Zealand,-0.7611
+b3_281,followed,main_nq_48539|mixed,main_nq_48539,gemma,mixed,1,followed,127.8,Clive Owen,-0.7871
+b3_282,candidate,main_nq_30930|mixed,main_nq_30930,llama,mixed,1,F1,1.0,the beatles,-0.492
+b3_283,candidate,main_nq_23571|gold,main_nq_23571,llama,gold,2,F1,1.0,New York City,-0.7509
+b3_284,probe,main_nq_53026|gold,main_nq_53026,llama,gold,1,F6,260.0,1971,-1.321
+b3_285,candidate,main_nq_48600|mixed,main_nq_48600,llama,mixed,3,F1,1.0,Corey Fogelmanis,-0.3564
+b3_286,candidate,main_nq_21408|gold,main_nq_21408,gemma,gold,1,F1,1.0,1980,-0.2717
+b3_287,candidate,main_nq_30429|gold,main_nq_30429,gemma,gold,2,F1,1.0,1985,-0.2684
+b3_288,probe,main_nq_38041|gold,main_nq_38041,llama,gold,3,partial,257.5,Columbia,-1.3031
+b3_289,followed,main_nq_39660|mixed,main_nq_39660,gemma,mixed,1,followed,127.8,the first of the month is about a man who is in love with a woman who is a prostitute. He is in love with her and wants to be with,-0.9917
+b3_290,candidate,main_nq_48449|gold,main_nq_48449,llama,gold,1,F1,1.0,Constantine,-0.4745
+b3_291,followed,main_nq_31532|mixed,main_nq_31532,llama,mixed,1,followed,136.6,don,-2.5491
+b3_292,candidate,main_nq_33234|gold,main_nq_33234,llama,gold,3,F1,1.0,Zuko's mother is Ursa. She was the Fire Lord's daughter and Zuko's mother. She was the one who was banished from the Fire,-0.946
+b3_293,candidate,main_nq_7678|gold,main_nq_7678,llama,gold,1,F1,1.0,Andy Williams,-0.3663
+b3_294,probe,main_nq_8655|gold,main_nq_8655,gemma,gold,3,F3,181.0,Seth Rogen,-0.8106
+b3_295,candidate,main_nq_4568|mixed,main_nq_4568,gemma,mixed,2,F1,1.0,1996,-0.2378
+b3_296,candidate,main_nq_48909|gold,main_nq_48909,llama,gold,3,F1,1.0,The first colonists settled in America in 1607.,-0.5246
+b3_297,followed,main_nq_40623|gold,main_nq_40623,llama,gold,1,followed,177.1,Pedro Pierluisi,-0.4459
+b3_298,followed,main_nq_46730|gold,main_nq_46730,llama,gold,3,followed,177.1,"The opening song in the last boy scout is sung by the band ""The Ramones""",-1.2336
+b3_299,candidate,main_nq_42558|gold,main_nq_42558,llama,gold,1,F1,1.0,"There are over 2,000 species of spiders in Australia.",-0.6532
+b3_300,candidate,main_nq_23377|gold,main_nq_23377,llama,gold,2,F1,1.0,"The first section of the London Underground opened in 1863. The Metropolitan Railway, which ran between Paddington and Farringdon, was the world's first",-0.5533
+b3_301,candidate,main_nq_28827|gold,main_nq_28827,gemma,gold,2,F1,1.0,1859,-0.366
+b3_302,candidate,main_nq_38261|mixed,main_nq_38261,llama,mixed,2,F1,1.0,"The first zoo in the world was opened in 1752 in Paris, France.",-0.6829
+b3_303,candidate,main_nq_56036|mixed,main_nq_56036,llama,mixed,2,F1,1.0,Rocky won the fight in the first Rocky movie.,-0.431
+b3_304,followed,main_nq_18050|gold,main_nq_18050,gemma,gold,3,followed,168.6,Inés Sastre,-1.0432
+b3_305,candidate,main_nq_17608|mixed,main_nq_17608,llama,mixed,3,F1,1.0,Battlestar Galactica,-0.2201
+b3_306,candidate,main_nq_25317|gold,main_nq_25317,gemma,gold,1,F1,1.0,1977,-0.3018
+b3_307,candidate,main_nq_2233|mixed,main_nq_2233,llama,mixed,1,F1,1.0,The United States began building the Panama Canal in 1904. The canal was completed in 1914.,-0.5003
+b3_308,candidate,main_nq_30589|mixed,main_nq_30589,llama,mixed,2,F1,1.0,The first child car seat was made in 1962.,-0.4679
+b3_309,candidate,main_nq_9132|gold,main_nq_9132,gemma,gold,2,F1,1.0,1982,-0.219
+b3_310,candidate,main_nq_9301|gold,main_nq_9301,gemma,gold,3,F1,1.0,1998,-0.2044
+b3_311,candidate,main_nq_16067|mixed,main_nq_16067,gemma,mixed,1,F1,1.0,1971,-0.1305
+b3_312,candidate,main_nq_55055|gold,main_nq_55055,gemma,gold,1,F1,1.0,Elton John,-0.3383
+b3_313,candidate,main_nq_9641|mixed,main_nq_9641,llama,mixed,3,F1,1.0,The girl in the video Cry Me a River is Britney Spears.,-0.6081
+b3_314,candidate,main_nq_31559|gold,main_nq_31559,gemma,gold,2,F1,1.0,1979,-0.1232
+b3_315,candidate,main_nq_29813|mixed,main_nq_29813,llama,mixed,3,F1,1.0,Rajnath Singh,-0.5721
+b3_316,followed,main_nq_55719|gold,main_nq_55719,llama,gold,3,followed,177.1,Billy joel,-0.6885
+b3_317,candidate,main_nq_52021|gold,main_nq_52021,gemma,gold,3,F1,1.0,Constantine,-0.7376
+b3_318,candidate,main_nq_53427|mixed,main_nq_53427,llama,mixed,1,F1,1.0,Sheffield Wednesday were promoted to the Championship after winning the League One play-off final against Charlton Athletic on 27 May 2012.,-0.6534
+b3_319,candidate,main_nq_57782|gold,main_nq_57782,llama,gold,3,F1,1.0,1927,-0.6219
+b3_320,candidate,main_nq_24912|gold,main_nq_24912,gemma,gold,1,F1,1.0,1000000000000000000000000000000,-0.3175
+b3_321,candidate,main_nq_7563|gold,main_nq_7563,gemma,gold,3,F1,1.0,1950,-0.0967
+b3_322,candidate,main_nq_2413|gold,main_nq_2413,gemma,gold,3,F1,1.0,Porfirio Diaz,-0.457
+b3_323,probe,main_nq_53508|mixed,main_nq_53508,llama,mixed,3,F6,347.0,paul simon,-1.4453
+b3_324,candidate,main_nq_9533|mixed,main_nq_9533,gemma,mixed,3,F1,1.0,Michelle Stafford,-0.3676
+b3_325,candidate,main_nq_8304|gold,main_nq_8304,gemma,gold,2,F1,1.0,1697,-0.4453
+b3_326,candidate,main_nq_7754|mixed,main_nq_7754,gemma,mixed,1,F1,1.0,major,-1.0881
+b3_327,candidate,main_nq_45513|mixed,main_nq_45513,gemma,mixed,3,F1,1.0,Judas,-1.1055
+b3_328,candidate,main_nq_17608|gold,main_nq_17608,llama,gold,3,F1,1.0,Battlestar Galactica,-0.2201
+b3_329,candidate,main_nq_41426|mixed,main_nq_41426,gemma,mixed,1,F1,1.0,the people,-0.5743
+b3_330,candidate,main_nq_55664|mixed,main_nq_55664,gemma,mixed,1,F1,1.0,Cher,-0.7682
+b3_331,probe,main_nq_49830|gold,main_nq_49830,gemma,gold,1,partial,212.0,the gaslight cafe,-1.1512
+b3_332,candidate,main_nq_12028|mixed,main_nq_12028,gemma,mixed,2,F1,1.0,Ben Gibbard,-0.3777
+b3_333,candidate,main_nq_26840|gold,main_nq_26840,llama,gold,2,F1,1.0,The Animals,-0.7555
+b3_334,candidate,main_nq_26929|gold,main_nq_26929,gemma,gold,3,F1,1.0,1965,-0.1814
+b3_335,candidate,main_nq_51428|mixed,main_nq_51428,gemma,mixed,1,F1,1.0,1946,-0.3366
+b3_336,candidate,main_nq_28014|mixed,main_nq_28014,gemma,mixed,3,F1,1.0,1792,-0.0957
+b3_337,candidate,main_nq_24492|mixed,main_nq_24492,gemma,mixed,1,F1,1.0,2010,-0.3448
+b3_338,followed,main_nq_56475|gold,main_nq_56475,gemma,gold,3,followed,168.6,Haley Bennett,-1.2266
+b3_339,candidate,main_nq_11320|gold,main_nq_11320,gemma,gold,3,F1,1.0,Lesley Gore,-0.5604
+b3_340,candidate,main_nq_44315|gold,main_nq_44315,gemma,gold,2,F1,1.0,1st April 2015,-0.2257
+b3_341,candidate,main_nq_24667|mixed,main_nq_24667,llama,mixed,2,F1,1.0,The British East India Company set up its first factory in India in Surat in 1612.,-0.4232
+b3_342,followed,main_nq_18955|gold,main_nq_18955,gemma,gold,1,followed,168.6,,-2.4289
+b3_343,candidate,main_nq_37925|gold,main_nq_37925,llama,gold,2,F1,1.0,Gdansk,-0.5759
+b3_344,candidate,main_nq_55664|mixed,main_nq_55664,llama,mixed,1,F1,1.0,Cher,-1.0072
+b3_345,candidate,main_nq_9361|mixed,main_nq_9361,llama,mixed,3,F1,1.0,ric ocasek,-0.7704
+b3_346,candidate,main_nq_2233|gold,main_nq_2233,llama,gold,1,F1,1.0,The United States began building the Panama Canal in 1904. The canal was completed in 1914.,-0.5003
+b3_347,candidate,main_nq_56250|mixed,main_nq_56250,llama,mixed,2,F1,1.0,Linnaeus,-0.5435
+b3_348,followed,main_nq_11901|mixed,main_nq_11901,llama,mixed,3,followed,136.6,"The lyrics to the song ""The Prayer"" were written by David Foster and Carole Bayer Sager. The song was originally recorded by Celine Dion and Andrea",-0.3612
+b3_349,followed,main_nq_33071|gold,main_nq_33071,gemma,gold,2,followed,168.6,1900,-0.7037
+b3_350,candidate,main_nq_42892|gold,main_nq_42892,gemma,gold,2,F1,1.0,1863,-0.3967
+b3_351,candidate,main_nq_27367|mixed,main_nq_27367,gemma,mixed,3,F1,1.0,1778,-0.2383
+b3_352,followed,main_nq_47085|gold,main_nq_47085,llama,gold,2,followed,177.1,who won the most money in the bank,-0.5356
+b3_353,candidate,main_nq_45156|mixed,main_nq_45156,llama,mixed,3,F1,1.0,Sarva Shiksha Abhiyan,-0.165
+b3_354,candidate,main_nq_41667|gold,main_nq_41667,llama,gold,3,F1,1.0,Mary Richmond,-0.8699
+b3_355,candidate,main_nq_56036|mixed,main_nq_56036,gemma,mixed,2,F1,1.0,Rocky,-0.9616
+b3_356,candidate,main_nq_29417|mixed,main_nq_29417,gemma,mixed,2,F1,1.0,Floyd Mayweather,-0.625

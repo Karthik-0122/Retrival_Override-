@@ -1,0 +1,352 @@
+{
+  "n": 40,
+  "first_pass": {
+    "agreement": 0.85,
+    "by_model": {
+      "gemma": {
+        "n": 20,
+        "agree": 19
+      },
+      "llama": {
+        "n": 20,
+        "agree": 15
+      }
+    }
+  },
+  "final": {
+    "agreement": 1.0,
+    "by_model": {
+      "gemma": {
+        "n": 20,
+        "agree": 20
+      },
+      "llama": {
+        "n": 20,
+        "agree": 20
+      }
+    }
+  },
+  "note": "First pass agreed on 34/40. Six rows (cq_005, 007, 009, 015, 017, 024) were flagged after review as possible misreadings of the instructions and returned to the annotator for a re-check; all six were changed, giving 40/40. The re-check was not blind to the flag, so both figures are reported.",
+  "items": [
+    {
+      "item_id": "cq_001",
+      "model": "gemma",
+      "case_id": "confiqa_00741",
+      "auto_outcome": "follows_passage",
+      "human_outcome": "follows_passage",
+      "agree": true
+    },
+    {
+      "item_id": "cq_002",
+      "model": "llama",
+      "case_id": "confiqa_00275",
+      "auto_outcome": "parametric_dominance",
+      "human_outcome": "parametric_dominance",
+      "agree": true
+    },
+    {
+      "item_id": "cq_003",
+      "model": "llama",
+      "case_id": "confiqa_01043",
+      "auto_outcome": "parametric_dominance",
+      "human_outcome": "parametric_dominance",
+      "agree": true
+    },
+    {
+      "item_id": "cq_004",
+      "model": "llama",
+      "case_id": "confiqa_00164",
+      "auto_outcome": "follows_passage",
+      "human_outcome": "follows_passage",
+      "agree": true
+    },
+    {
+      "item_id": "cq_005",
+      "model": "llama",
+      "case_id": "confiqa_00546",
+      "auto_outcome": "parametric_dominance",
+      "human_outcome": "parametric_dominance",
+      "agree": true
+    },
+    {
+      "item_id": "cq_006",
+      "model": "gemma",
+      "case_id": "confiqa_01486",
+      "auto_outcome": "parametric_dominance",
+      "human_outcome": "parametric_dominance",
+      "agree": true
+    },
+    {
+      "item_id": "cq_007",
+      "model": "gemma",
+      "case_id": "confiqa_00004",
+      "auto_outcome": "follows_passage",
+      "human_outcome": "follows_passage",
+      "agree": true
+    },
+    {
+      "item_id": "cq_008",
+      "model": "llama",
+      "case_id": "confiqa_00061",
+      "auto_outcome": "follows_passage",
+      "human_outcome": "follows_passage",
+      "agree": true
+    },
+    {
+      "item_id": "cq_009",
+      "model": "llama",
+      "case_id": "confiqa_00866",
+      "auto_outcome": "parametric_dominance",
+      "human_outcome": "parametric_dominance",
+      "agree": true
+    },
+    {
+      "item_id": "cq_010",
+      "model": "llama",
+      "case_id": "confiqa_00583",
+      "auto_outcome": "follows_passage",
+      "human_outcome": "follows_passage",
+      "agree": true
+    },
+    {
+      "item_id": "cq_011",
+      "model": "gemma",
+      "case_id": "confiqa_00163",
+      "auto_outcome": "follows_passage",
+      "human_outcome": "follows_passage",
+      "agree": true
+    },
+    {
+      "item_id": "cq_012",
+      "model": "llama",
+      "case_id": "confiqa_00247",
+      "auto_outcome": "parametric_dominance",
+      "human_outcome": "parametric_dominance",
+      "agree": true
+    },
+    {
+      "item_id": "cq_013",
+      "model": "gemma",
+      "case_id": "confiqa_00928",
+      "auto_outcome": "parametric_dominance",
+      "human_outcome": "parametric_dominance",
+      "agree": true
+    },
+    {
+      "item_id": "cq_014",
+      "model": "llama",
+      "case_id": "confiqa_00507",
+      "auto_outcome": "follows_passage",
+      "human_outcome": "follows_passage",
+      "agree": true
+    },
+    {
+      "item_id": "cq_015",
+      "model": "llama",
+      "case_id": "confiqa_01150",
+      "auto_outcome": "follows_passage",
+      "human_outcome": "follows_passage",
+      "agree": true
+    },
+    {
+      "item_id": "cq_016",
+      "model": "gemma",
+      "case_id": "confiqa_00141",
+      "auto_outcome": "follows_passage",
+      "human_outcome": "follows_passage",
+      "agree": true
+    },
+    {
+      "item_id": "cq_017",
+      "model": "llama",
+      "case_id": "confiqa_01493",
+      "auto_outcome": "parametric_dominance",
+      "human_outcome": "parametric_dominance",
+      "agree": true
+    },
+    {
+      "item_id": "cq_018",
+      "model": "gemma",
+      "case_id": "confiqa_01436",
+      "auto_outcome": "parametric_dominance",
+      "human_outcome": "parametric_dominance",
+      "agree": true
+    },
+    {
+      "item_id": "cq_019",
+      "model": "gemma",
+      "case_id": "confiqa_01125",
+      "auto_outcome": "follows_passage",
+      "human_outcome": "follows_passage",
+      "agree": true
+    },
+    {
+      "item_id": "cq_020",
+      "model": "gemma",
+      "case_id": "confiqa_01309",
+      "auto_outcome": "follows_passage",
+      "human_outcome": "follows_passage",
+      "agree": true
+    },
+    {
+      "item_id": "cq_021",
+      "model": "gemma",
+      "case_id": "confiqa_00880",
+      "auto_outcome": "parametric_dominance",
+      "human_outcome": "parametric_dominance",
+      "agree": true
+    },
+    {
+      "item_id": "cq_022",
+      "model": "llama",
+      "case_id": "confiqa_00468",
+      "auto_outcome": "follows_passage",
+      "human_outcome": "follows_passage",
+      "agree": true
+    },
+    {
+      "item_id": "cq_023",
+      "model": "gemma",
+      "case_id": "confiqa_00570",
+      "auto_outcome": "parametric_dominance",
+      "human_outcome": "parametric_dominance",
+      "agree": true
+    },
+    {
+      "item_id": "cq_024",
+      "model": "llama",
+      "case_id": "confiqa_00440",
+      "auto_outcome": "follows_passage",
+      "human_outcome": "follows_passage",
+      "agree": true
+    },
+    {
+      "item_id": "cq_025",
+      "model": "llama",
+      "case_id": "confiqa_01471",
+      "auto_outcome": "parametric_dominance",
+      "human_outcome": "parametric_dominance",
+      "agree": true
+    },
+    {
+      "item_id": "cq_026",
+      "model": "gemma",
+      "case_id": "confiqa_00255",
+      "auto_outcome": "parametric_dominance",
+      "human_outcome": "parametric_dominance",
+      "agree": true
+    },
+    {
+      "item_id": "cq_027",
+      "model": "gemma",
+      "case_id": "confiqa_00085",
+      "auto_outcome": "follows_passage",
+      "human_outcome": "follows_passage",
+      "agree": true
+    },
+    {
+      "item_id": "cq_028",
+      "model": "gemma",
+      "case_id": "confiqa_01110",
+      "auto_outcome": "parametric_dominance",
+      "human_outcome": "parametric_dominance",
+      "agree": true
+    },
+    {
+      "item_id": "cq_029",
+      "model": "llama",
+      "case_id": "confiqa_01205",
+      "auto_outcome": "parametric_dominance",
+      "human_outcome": "parametric_dominance",
+      "agree": true
+    },
+    {
+      "item_id": "cq_030",
+      "model": "gemma",
+      "case_id": "confiqa_00435",
+      "auto_outcome": "parametric_dominance",
+      "human_outcome": "parametric_dominance",
+      "agree": true
+    },
+    {
+      "item_id": "cq_031",
+      "model": "gemma",
+      "case_id": "confiqa_00103",
+      "auto_outcome": "parametric_dominance",
+      "human_outcome": "parametric_dominance",
+      "agree": true
+    },
+    {
+      "item_id": "cq_032",
+      "model": "gemma",
+      "case_id": "confiqa_00375",
+      "auto_outcome": "follows_passage",
+      "human_outcome": "follows_passage",
+      "agree": true
+    },
+    {
+      "item_id": "cq_033",
+      "model": "llama",
+      "case_id": "confiqa_01052",
+      "auto_outcome": "follows_passage",
+      "human_outcome": "follows_passage",
+      "agree": true
+    },
+    {
+      "item_id": "cq_034",
+      "model": "gemma",
+      "case_id": "confiqa_00175",
+      "auto_outcome": "parametric_dominance",
+      "human_outcome": "parametric_dominance",
+      "agree": true
+    },
+    {
+      "item_id": "cq_035",
+      "model": "llama",
+      "case_id": "confiqa_00375",
+      "auto_outcome": "follows_passage",
+      "human_outcome": "follows_passage",
+      "agree": true
+    },
+    {
+      "item_id": "cq_036",
+      "model": "gemma",
+      "case_id": "confiqa_00490",
+      "auto_outcome": "follows_passage",
+      "human_outcome": "follows_passage",
+      "agree": true
+    },
+    {
+      "item_id": "cq_037",
+      "model": "gemma",
+      "case_id": "confiqa_00142",
+      "auto_outcome": "follows_passage",
+      "human_outcome": "follows_passage",
+      "agree": true
+    },
+    {
+      "item_id": "cq_038",
+      "model": "llama",
+      "case_id": "confiqa_00826",
+      "auto_outcome": "parametric_dominance",
+      "human_outcome": "parametric_dominance",
+      "agree": true
+    },
+    {
+      "item_id": "cq_039",
+      "model": "llama",
+      "case_id": "confiqa_01149",
+      "auto_outcome": "parametric_dominance",
+      "human_outcome": "parametric_dominance",
+      "agree": true
+    },
+    {
+      "item_id": "cq_040",
+      "model": "llama",
+      "case_id": "confiqa_01029",
+      "auto_outcome": "follows_passage",
+      "human_outcome": "follows_passage",
+      "agree": true
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+item_id,old_label,new_label,reason,decided_by
+b3_316,F1,F4,Guide's review of 1 Nov 2026: relabel F1 -> F4 (song-writer case),Dr. Kayarvizhy N. (guide)
+b3_058,F1,F6,"Guide's review of 1 Nov 2026: relabel F1 -> F6 to match the twin case (same question, other condition)",Dr. Kayarvizhy N. (guide)
+b3_171,F1,F6,"Guide's review of 1 Nov 2026: relabel F1 -> F6 to match the twin case (same question, other condition)",Dr. Kayarvizhy N. (guide)
+b3_069,F1,F6,"Guide's review of 1 Nov 2026: relabel F1 -> F6 to match the twin case (same question, other condition)",Dr. Kayarvizhy N. (guide)
+b3_213,F1,F1,Re-checked 1 Nov 2026: stays F1. The passage gives 1861; the model's 1935 is not mentioned anywhere in the passages and matches its closed-book answer.,Karthik
+b3_055,F1,F1,"Re-checked 1 Nov 2026: stays F1. The passage states the powers (make war and peace, resolve disputes between states); the model's answer, not taxing the people directly, is not mentioned anywhere in the passage and matches its closed-book answer.",Karthik

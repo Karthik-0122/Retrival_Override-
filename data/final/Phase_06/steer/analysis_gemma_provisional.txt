@@ -1,0 +1,23 @@
+==============================================================================
+EXPERIMENT 4 STEERING -- GEMMA (PROVISIONAL, judge only)
+==============================================================================
+
+OPTION B (natural override)
+  primary strength (selection set): 20.0   selection diffs {2.0: 0.0, 5.0: -0.043478260869565216, 10.0: 0.0, 20.0: 0.08695652173913043}
+  primary test, 23 questions: candidate 3 (0.13) vs random 1 (0.04); discordant [2, 0]; McNemar p = 0.5000; h = 0.32
+  robustness p = 0.238; faithful damage cand 0.12 vs rand 0.12 (p 1.000)
+  interaction (Experiment 5): {'coef': 0.8365979629647301, 'p': 0.42848540958941683, 'n_obs': 102}
+  A6 both-agreed subset: {'n': 16, 'cand_corrected': 2, 'rand_corrected': 1, 'cand_rate': 0.125, 'rand_rate': 0.0625, 'cand_ci': (0.034976749337057134, 0.3602333143674828), 'rand_ci': (0.01111905730833121, 0.2832926836802987), 'diff': 0.0625, 'diff_ci': (-0.06, 0.185), 'cohens_h': 0.21737373752925837, 'discordant': [1, 0], 'mcnemar_p': 1.0}
+  A2 secondary set: cand 5 vs rand 3 (p 0.625); overlap [[39, 0], [39, 7], [39, 13], [40, 5], [41, 5], [41, 6]]
+  baseline: 28/28 wrong at strength 0; text changed for 1
+  CONCLUSION: D no reproducible effect
+
+OPTION A (ConFiQA: dominance over conflicting evidence)
+  primary strength (selection set): 20.0   selection diffs {2.0: 0.0, 5.0: -0.02666666666666667, 10.0: 0.013333333333333334, 20.0: 0.02666666666666667}
+  primary test, 75 questions: candidate 2 (0.03) vs random 1 (0.01); discordant [2, 1]; McNemar p = 1.0000; h = 0.10
+  robustness p = 0.429; faithful damage cand 0.55 vs rand 0.29 (p 0.007)
+  A2 secondary set: cand 5 vs rand 1 (p 0.219); overlap [[37, 12]]
+  baseline: 75/75 wrong at strength 0; text changed for 4
+  CONCLUSION: C correlational / localisation only
+
+wrote data/final/Phase_06/steer/analysis_gemma_provisional.json

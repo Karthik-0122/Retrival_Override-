@@ -11,8 +11,20 @@
       0.5147941237326713
     ]
   },
+  "kappa_exp2c_reserve": {
+    "kappa": 0.3935860058309038,
+    "kappa_ci": [
+      0.17615176151761516,
+      0.6067588325652842
+    ],
+    "kappa_F1_vs_rest": 0.4980392156862745,
+    "ci": [
+      0.18110236220472442,
+      0.75
+    ]
+  },
   "adjudication": {
-    "n": 180,
+    "n": 194,
     "changed_after_suggestion": 0
   },
   "candidates_gemma_gold": {
@@ -39,27 +51,27 @@
     }
   },
   "candidates_llama_gold": {
-    "n": 53,
-    "F1": 14,
+    "n": 66,
+    "F1": 21,
     "types": {
-      "F1-M": 8,
-      "F6": 12,
+      "F1-M": 10,
+      "F6": 13,
       "F5": 3,
-      "F1": 14,
-      "F3": 4,
-      "F2": 12
+      "F1": 21,
+      "F3": 6,
+      "F2": 13
     }
   },
   "candidates_llama_mixed": {
-    "n": 49,
-    "F1": 7,
+    "n": 69,
+    "F1": 16,
     "types": {
-      "F2": 15,
-      "F1-M": 7,
-      "F5": 11,
-      "F1": 7,
+      "F2": 22,
+      "F1-M": 9,
+      "F5": 12,
+      "F1": 16,
       "F6": 8,
-      "F3": 1
+      "F3": 2
     }
   },
   "validated_F1_gemma": {
@@ -73,13 +85,13 @@
     "floor": 40
   },
   "validated_F1_llama": {
-    "cases": 27,
-    "questions": 23,
+    "cases": 43,
+    "questions": 37,
     "by_condition": {
-      "gold": 17,
-      "mixed": 10
+      "gold": 24,
+      "mixed": 19
     },
-    "main_both_agreed": 12,
+    "main_both_agreed": 23,
     "floor": 30
   },
   "probe_gemma_gold": {

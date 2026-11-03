@@ -1,0 +1,23 @@
+==============================================================================
+EXPERIMENT 4 STEERING -- LLAMA (FINAL, human-checked)
+==============================================================================
+
+OPTION B (natural override)
+  primary strength (selection set): 10.0   selection diffs {2.0: 0.0, 5.0: 0.0, 10.0: 0.15789473684210525, 20.0: 0.05263157894736842}
+  primary test, 18 questions: candidate 1 (0.06) vs random 1 (0.06); discordant [0, 0]; McNemar p = 1.0000; h = 0.00
+  robustness p = 0.810; faithful damage cand 0.16 vs rand 0.06 (p 0.016)
+  interaction (Experiment 5): {'coef': -2.0636931847116964, 'p': 0.09111329206528532, 'n_obs': 88}
+  A6 both-agreed subset: {'n': 9, 'cand_corrected': 1, 'rand_corrected': 1, 'cand_rate': 0.1111111111111111, 'rand_rate': 0.1111111111111111, 'cand_ci': (0.019890371327130535, 0.4350062147680601), 'rand_ci': (0.019890371327130535, 0.4350062147680601), 'diff': 0.0, 'diff_ci': (0.0, 0.0), 'cohens_h': 0.0, 'discordant': [0, 0], 'mcnemar_p': 1.0}
+  A2 secondary set: cand 2 vs rand 2 (p 1.000); overlap [[26, 29], [27, 23], [30, 27]]
+  baseline: 22/22 wrong at strength 0; text changed for 1
+  CONCLUSION: D no reproducible effect
+
+OPTION A (ConFiQA: dominance over conflicting evidence)
+  primary strength (selection set): 10.0   selection diffs {2.0: 0.023809523809523808, 5.0: 0.023809523809523808, 10.0: 0.07142857142857142, 20.0: 0.047619047619047616}
+  primary test, 41 questions: candidate 5 (0.12) vs random 4 (0.10); discordant [3, 2]; McNemar p = 1.0000; h = 0.08
+  robustness p = 0.381; faithful damage cand 0.20 vs rand 0.21 (p 1.000)
+  A2 secondary set: cand 3 vs rand 4 (p 1.000); overlap [[27, 20], [30, 21]]
+  baseline: 40/41 wrong at strength 0; text changed for 2
+  CONCLUSION: C correlational / localisation only
+
+wrote ../a1final_llama/steer/analysis_llama_final.json

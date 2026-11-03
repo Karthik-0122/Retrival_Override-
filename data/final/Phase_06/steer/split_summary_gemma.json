@@ -1,0 +1,45 @@
+{
+  "model": "gemma",
+  "F1_cases": 57,
+  "F1_questions": 46,
+  "F1_by_condition": {
+    "mixed": 23,
+    "gold": 34
+  },
+  "F1_both_agreed_cases": 38,
+  "F1_both_agreed_questions": 32,
+  "halves": {
+    "F1": {
+      "selection": 29,
+      "test": 28
+    },
+    "F2": {
+      "selection": 24,
+      "test": 20
+    },
+    "F3": {
+      "selection": 3,
+      "test": 3
+    },
+    "dominance": {
+      "selection": 75,
+      "test": 75
+    },
+    "faithful": {
+      "test": 148,
+      "selection": 152
+    },
+    "follows": {
+      "selection": 44,
+      "test": 43
+    }
+  },
+  "labels": {
+    "F2": 44,
+    "F1-M": 22,
+    "F5": 64,
+    "F1": 57,
+    "F3": 6,
+    "F6": 54
+  }
+}
